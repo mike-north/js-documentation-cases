@@ -1,0 +1,13 @@
+{
+  "name": "js-documentation-cases",
+  "version": "0.0.0-development",
+  "description": "Test cases for JavaScript & TypeScript library documentation solutions",
+  "main": "index.js",
+  "repository": "https://github.com/mike-north/js-documentation-cases",
+  "author": "Mike North <michael.l.north@gmail.com> (https://mike.works)",
+  "license": "BSD-2-Clause",
+  "private": false,
+  "devDependencies": {
+    "@types/lodash": "^4.14.116"
+  }
+}
