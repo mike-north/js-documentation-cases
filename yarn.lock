@@ -604,7 +604,18 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@microsoft/api-extractor@^6.0.2":
+"@microsoft/api-documenter@^1.5.33":
+  version "1.5.33"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-1.5.33.tgz#2616655683655715a5feba4f6b821862db36a965"
+  integrity sha512-KhkUG5igm/ShcljdjJ90+q02HXTBdCoR+pnHR6b/JMhBa5DAm+zeb2gJ4qKqmpBbMRhJJRgUphM17cFhUkzwKA==
+  dependencies:
+    "@microsoft/api-extractor" "6.0.2"
+    "@microsoft/node-core-library" "3.3.0"
+    "@microsoft/ts-command-line" "4.2.2"
+    colors "~1.2.1"
+    js-yaml "~3.9.1"
+
+"@microsoft/api-extractor@6.0.2", "@microsoft/api-extractor@^6.0.2":
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/@microsoft/api-extractor/-/api-extractor-6.0.2.tgz#34e64a77eacef0ad87e43721b5a34abf3c45e1f6"
   integrity sha512-LBSQzRM4BD+9gpkQP86M4q2oYmB+aLu7ji5WU6lroIycOsWF9L3N7+ruMcRaLuee5L1ICRIZgkoz+cKT+NjpbQ==
@@ -3802,6 +3813,14 @@ js-yaml@^3.9.0:
   version "3.12.0"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.12.0.tgz#eaed656ec8344f10f527c6bfa1b6e2244de167d1"
   integrity sha512-PIt2cnwmPfL4hKNwqeiuz4bKfnzHTBv6HyVgjahA6mPLwPDzjDWrplJBMjHUFxku/N3FlmrbyPclad+I+4mJ3A==
+  dependencies:
+    argparse "^1.0.7"
+    esprima "^4.0.0"
+
+js-yaml@~3.9.1:
+  version "3.9.1"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.9.1.tgz#08775cebdfdd359209f0d2acd383c8f86a6904a0"
+  integrity sha512-CbcG379L1e+mWBnLvHWWeLs8GyV/EMw862uLI3c+GxVyDHWZcjZinwuBd3iW2pgxgIlksW/1vNJa4to+RvDOww==
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"

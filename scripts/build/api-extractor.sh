@@ -10,6 +10,7 @@ api_extractor_for_example() {
     ../../node_modules/.bin/tsc --allowJs false --checkJs false --declaration --outDir decl
     yarn build:api-extractor:create-config $1
     ../../node_modules/.bin/api-extractor run -c api-extractor.json
+    ../../node_modules/.bin/api-documenter markdown --input-folder ./dist --output-folder ../../docs/api-extractor/$1
     rm api-extractor.json
   else
     echo "SKIPPING API EXTRACTOR - no src/index.ts found"
