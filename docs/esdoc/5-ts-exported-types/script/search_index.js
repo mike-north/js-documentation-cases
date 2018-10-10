@@ -282,111 +282,111 @@ window.esdocSearchIndex = [
     "external"
   ],
   [
-    "5-ts-exported-types/car.ts",
-    "file/5-ts-exported-types/car.ts.html",
-    "5-ts-exported-types/car.ts",
+    "5-ts-exported-types/src/car.ts",
+    "file/5-ts-exported-types/src/car.ts.html",
+    "5-ts-exported-types/src/car.ts",
     "file"
   ],
   [
-    "5-ts-exported-types/car.ts~car#constructor",
-    "class/5-ts-exported-types/car.ts~Car.html#instance-constructor-constructor",
-    "5-ts-exported-types/car.ts~Car#constructor",
+    "5-ts-exported-types/src/car.ts~car#constructor",
+    "class/5-ts-exported-types/src/car.ts~Car.html#instance-constructor-constructor",
+    "5-ts-exported-types/src/car.ts~Car#constructor",
     "method"
   ],
   [
-    "5-ts-exported-types/cycles.ts",
-    "file/5-ts-exported-types/cycles.ts.html",
-    "5-ts-exported-types/cycles.ts",
+    "5-ts-exported-types/src/cycles.ts",
+    "file/5-ts-exported-types/src/cycles.ts.html",
+    "5-ts-exported-types/src/cycles.ts",
     "file"
   ],
   [
-    "5-ts-exported-types/cycles.ts~bike#constructor",
-    "class/5-ts-exported-types/cycles.ts~Bike.html#instance-constructor-constructor",
-    "5-ts-exported-types/cycles.ts~Bike#constructor",
+    "5-ts-exported-types/src/cycles.ts~bike#constructor",
+    "class/5-ts-exported-types/src/cycles.ts~Bike.html#instance-constructor-constructor",
+    "5-ts-exported-types/src/cycles.ts~Bike#constructor",
     "method"
   ],
   [
-    "5-ts-exported-types/cycles.ts~unicycle#constructor",
-    "class/5-ts-exported-types/cycles.ts~Unicycle.html#instance-constructor-constructor",
-    "5-ts-exported-types/cycles.ts~Unicycle#constructor",
+    "5-ts-exported-types/src/cycles.ts~unicycle#constructor",
+    "class/5-ts-exported-types/src/cycles.ts~Unicycle.html#instance-constructor-constructor",
+    "5-ts-exported-types/src/cycles.ts~Unicycle#constructor",
     "method"
   ],
   [
-    "5-ts-exported-types/index.ts",
-    "file/5-ts-exported-types/index.ts.html",
-    "5-ts-exported-types/index.ts",
+    "5-ts-exported-types/src/index.ts",
+    "file/5-ts-exported-types/src/index.ts.html",
+    "5-ts-exported-types/src/index.ts",
     "file"
   ],
   [
-    "5-ts-exported-types/types.ts",
-    "file/5-ts-exported-types/types.ts.html",
-    "5-ts-exported-types/types.ts",
+    "5-ts-exported-types/src/types.ts",
+    "file/5-ts-exported-types/src/types.ts.html",
+    "5-ts-exported-types/src/types.ts",
     "file"
   ],
   [
-    "5-ts-exported-types/vehicle.ts",
-    "file/5-ts-exported-types/vehicle.ts.html",
-    "5-ts-exported-types/vehicle.ts",
+    "5-ts-exported-types/src/vehicle.ts",
+    "file/5-ts-exported-types/src/vehicle.ts.html",
+    "5-ts-exported-types/src/vehicle.ts",
     "file"
   ],
   [
-    "5-ts-exported-types/vehicle.ts~vehicle#constructor",
-    "class/5-ts-exported-types/vehicle.ts~Vehicle.html#instance-constructor-constructor",
-    "5-ts-exported-types/vehicle.ts~Vehicle#constructor",
+    "5-ts-exported-types/src/vehicle.ts~vehicle#constructor",
+    "class/5-ts-exported-types/src/vehicle.ts~Vehicle.html#instance-constructor-constructor",
+    "5-ts-exported-types/src/vehicle.ts~Vehicle#constructor",
     "method"
   ],
   [
-    "5-ts-exported-types/vehicle.ts~vehicle#drive",
-    "class/5-ts-exported-types/vehicle.ts~Vehicle.html#instance-method-drive",
-    "5-ts-exported-types/vehicle.ts~Vehicle#drive",
+    "5-ts-exported-types/src/vehicle.ts~vehicle#drive",
+    "class/5-ts-exported-types/src/vehicle.ts~Vehicle.html#instance-method-drive",
+    "5-ts-exported-types/src/vehicle.ts~Vehicle#drive",
     "method"
   ],
   [
-    "5-ts-exported-types/vehicle.ts~vehicle#numwheels",
-    "class/5-ts-exported-types/vehicle.ts~Vehicle.html#instance-member-numWheels",
-    "5-ts-exported-types/vehicle.ts~Vehicle#numWheels",
+    "5-ts-exported-types/src/vehicle.ts~vehicle#numwheels",
+    "class/5-ts-exported-types/src/vehicle.ts~Vehicle.html#instance-member-numWheels",
+    "5-ts-exported-types/src/vehicle.ts~Vehicle#numWheels",
     "member"
   ],
   [
-    "js-documentation-cases/5-ts-exported-types/cycles.ts~bike",
-    "class/5-ts-exported-types/cycles.ts~Bike.html",
-    "<span>Bike</span> <span class=\"search-result-import-path\">js-documentation-cases/5-ts-exported-types/cycles.ts</span>",
+    "js-documentation-cases/5-ts-exported-types/src/cycles.ts~bike",
+    "class/5-ts-exported-types/src/cycles.ts~Bike.html",
+    "<span>Bike</span> <span class=\"search-result-import-path\">js-documentation-cases/5-ts-exported-types/src/cycles.ts</span>",
     "class"
   ],
   [
-    "js-documentation-cases/5-ts-exported-types/car.ts~car",
-    "class/5-ts-exported-types/car.ts~Car.html",
-    "<span>Car</span> <span class=\"search-result-import-path\">js-documentation-cases/5-ts-exported-types/car.ts</span>",
+    "js-documentation-cases/5-ts-exported-types/src/car.ts~car",
+    "class/5-ts-exported-types/src/car.ts~Car.html",
+    "<span>Car</span> <span class=\"search-result-import-path\">js-documentation-cases/5-ts-exported-types/src/car.ts</span>",
     "class"
   ],
   [
-    "js-documentation-cases/5-ts-exported-types/vehicle.ts~factory4",
+    "js-documentation-cases/5-ts-exported-types/src/vehicle.ts~factory4",
     "variable/index.html#static-variable-Factory4",
-    "<span>Factory4</span> <span class=\"search-result-import-path\">js-documentation-cases/5-ts-exported-types/vehicle.ts</span>",
+    "<span>Factory4</span> <span class=\"search-result-import-path\">js-documentation-cases/5-ts-exported-types/src/vehicle.ts</span>",
     "variable"
   ],
   [
-    "js-documentation-cases/5-ts-exported-types/index.ts~secret_string",
+    "js-documentation-cases/5-ts-exported-types/src/index.ts~secret_string",
     "variable/index.html#static-variable-SECRET_STRING",
-    "<span>SECRET_STRING</span> <span class=\"search-result-import-path\">js-documentation-cases/5-ts-exported-types/index.ts</span>",
+    "<span>SECRET_STRING</span> <span class=\"search-result-import-path\">js-documentation-cases/5-ts-exported-types/src/index.ts</span>",
     "variable"
   ],
   [
-    "js-documentation-cases/5-ts-exported-types/cycles.ts~unicycle",
-    "class/5-ts-exported-types/cycles.ts~Unicycle.html",
-    "<span>Unicycle</span> <span class=\"search-result-import-path\">js-documentation-cases/5-ts-exported-types/cycles.ts</span>",
+    "js-documentation-cases/5-ts-exported-types/src/cycles.ts~unicycle",
+    "class/5-ts-exported-types/src/cycles.ts~Unicycle.html",
+    "<span>Unicycle</span> <span class=\"search-result-import-path\">js-documentation-cases/5-ts-exported-types/src/cycles.ts</span>",
     "class"
   ],
   [
-    "js-documentation-cases/5-ts-exported-types/vehicle.ts~vehicle",
-    "class/5-ts-exported-types/vehicle.ts~Vehicle.html",
-    "<span>Vehicle</span> <span class=\"search-result-import-path\">js-documentation-cases/5-ts-exported-types/vehicle.ts</span>",
+    "js-documentation-cases/5-ts-exported-types/src/vehicle.ts~vehicle",
+    "class/5-ts-exported-types/src/vehicle.ts~Vehicle.html",
+    "<span>Vehicle</span> <span class=\"search-result-import-path\">js-documentation-cases/5-ts-exported-types/src/vehicle.ts</span>",
     "class"
   ],
   [
-    "js-documentation-cases/5-ts-exported-types/index.ts~add",
+    "js-documentation-cases/5-ts-exported-types/src/index.ts~add",
     "function/index.html#static-function-add",
-    "<span>add</span> <span class=\"search-result-import-path\">js-documentation-cases/5-ts-exported-types/index.ts</span>",
+    "<span>add</span> <span class=\"search-result-import-path\">js-documentation-cases/5-ts-exported-types/src/index.ts</span>",
     "function"
   ]
 ]

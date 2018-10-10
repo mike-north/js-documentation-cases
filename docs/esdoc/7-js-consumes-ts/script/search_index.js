@@ -282,105 +282,105 @@ window.esdocSearchIndex = [
     "external"
   ],
   [
-    "7-js-consumes-ts/car.js",
-    "file/7-js-consumes-ts/car.js.html",
-    "7-js-consumes-ts/car.js",
+    "7-js-consumes-ts/src/car.js",
+    "file/7-js-consumes-ts/src/car.js.html",
+    "7-js-consumes-ts/src/car.js",
     "file"
   ],
   [
-    "7-js-consumes-ts/car.js~car#constructor",
-    "class/7-js-consumes-ts/car.js~Car.html#instance-constructor-constructor",
-    "7-js-consumes-ts/car.js~Car#constructor",
+    "7-js-consumes-ts/src/car.js~car#constructor",
+    "class/7-js-consumes-ts/src/car.js~Car.html#instance-constructor-constructor",
+    "7-js-consumes-ts/src/car.js~Car#constructor",
     "method"
   ],
   [
-    "7-js-consumes-ts/cycles.js",
-    "file/7-js-consumes-ts/cycles.js.html",
-    "7-js-consumes-ts/cycles.js",
+    "7-js-consumes-ts/src/cycles.js",
+    "file/7-js-consumes-ts/src/cycles.js.html",
+    "7-js-consumes-ts/src/cycles.js",
     "file"
   ],
   [
-    "7-js-consumes-ts/cycles.js~bike#constructor",
-    "class/7-js-consumes-ts/cycles.js~Bike.html#instance-constructor-constructor",
-    "7-js-consumes-ts/cycles.js~Bike#constructor",
+    "7-js-consumes-ts/src/cycles.js~bike#constructor",
+    "class/7-js-consumes-ts/src/cycles.js~Bike.html#instance-constructor-constructor",
+    "7-js-consumes-ts/src/cycles.js~Bike#constructor",
     "method"
   ],
   [
-    "7-js-consumes-ts/cycles.js~unicycle#constructor",
-    "class/7-js-consumes-ts/cycles.js~Unicycle.html#instance-constructor-constructor",
-    "7-js-consumes-ts/cycles.js~Unicycle#constructor",
+    "7-js-consumes-ts/src/cycles.js~unicycle#constructor",
+    "class/7-js-consumes-ts/src/cycles.js~Unicycle.html#instance-constructor-constructor",
+    "7-js-consumes-ts/src/cycles.js~Unicycle#constructor",
     "method"
   ],
   [
-    "7-js-consumes-ts/cycles.js~unicycle#name",
-    "class/7-js-consumes-ts/cycles.js~Unicycle.html#instance-member-name",
-    "7-js-consumes-ts/cycles.js~Unicycle#name",
+    "7-js-consumes-ts/src/cycles.js~unicycle#name",
+    "class/7-js-consumes-ts/src/cycles.js~Unicycle.html#instance-member-name",
+    "7-js-consumes-ts/src/cycles.js~Unicycle#name",
     "member"
   ],
   [
-    "7-js-consumes-ts/index.ts",
-    "file/7-js-consumes-ts/index.ts.html",
-    "7-js-consumes-ts/index.ts",
+    "7-js-consumes-ts/src/index.ts",
+    "file/7-js-consumes-ts/src/index.ts.html",
+    "7-js-consumes-ts/src/index.ts",
     "file"
   ],
   [
-    "7-js-consumes-ts/vehicle.ts",
-    "file/7-js-consumes-ts/vehicle.ts.html",
-    "7-js-consumes-ts/vehicle.ts",
+    "7-js-consumes-ts/src/vehicle.ts",
+    "file/7-js-consumes-ts/src/vehicle.ts.html",
+    "7-js-consumes-ts/src/vehicle.ts",
     "file"
   ],
   [
-    "7-js-consumes-ts/vehicle.ts~vehicle#constructor",
-    "class/7-js-consumes-ts/vehicle.ts~Vehicle.html#instance-constructor-constructor",
-    "7-js-consumes-ts/vehicle.ts~Vehicle#constructor",
+    "7-js-consumes-ts/src/vehicle.ts~vehicle#constructor",
+    "class/7-js-consumes-ts/src/vehicle.ts~Vehicle.html#instance-constructor-constructor",
+    "7-js-consumes-ts/src/vehicle.ts~Vehicle#constructor",
     "method"
   ],
   [
-    "7-js-consumes-ts/vehicle.ts~vehicle#drive",
-    "class/7-js-consumes-ts/vehicle.ts~Vehicle.html#instance-method-drive",
-    "7-js-consumes-ts/vehicle.ts~Vehicle#drive",
+    "7-js-consumes-ts/src/vehicle.ts~vehicle#drive",
+    "class/7-js-consumes-ts/src/vehicle.ts~Vehicle.html#instance-method-drive",
+    "7-js-consumes-ts/src/vehicle.ts~Vehicle#drive",
     "method"
   ],
   [
-    "7-js-consumes-ts/vehicle.ts~vehicle#numwheels",
-    "class/7-js-consumes-ts/vehicle.ts~Vehicle.html#instance-member-numWheels",
-    "7-js-consumes-ts/vehicle.ts~Vehicle#numWheels",
+    "7-js-consumes-ts/src/vehicle.ts~vehicle#numwheels",
+    "class/7-js-consumes-ts/src/vehicle.ts~Vehicle.html#instance-member-numWheels",
+    "7-js-consumes-ts/src/vehicle.ts~Vehicle#numWheels",
     "member"
   ],
   [
-    "js-documentation-cases/7-js-consumes-ts/cycles.js~bike",
-    "class/7-js-consumes-ts/cycles.js~Bike.html",
-    "<span>Bike</span> <span class=\"search-result-import-path\">js-documentation-cases/7-js-consumes-ts/cycles.js</span>",
+    "js-documentation-cases/7-js-consumes-ts/src/cycles.js~bike",
+    "class/7-js-consumes-ts/src/cycles.js~Bike.html",
+    "<span>Bike</span> <span class=\"search-result-import-path\">js-documentation-cases/7-js-consumes-ts/src/cycles.js</span>",
     "class"
   ],
   [
-    "js-documentation-cases/7-js-consumes-ts/car.js~car",
-    "class/7-js-consumes-ts/car.js~Car.html",
-    "<span>Car</span> <span class=\"search-result-import-path\">js-documentation-cases/7-js-consumes-ts/car.js</span>",
+    "js-documentation-cases/7-js-consumes-ts/src/car.js~car",
+    "class/7-js-consumes-ts/src/car.js~Car.html",
+    "<span>Car</span> <span class=\"search-result-import-path\">js-documentation-cases/7-js-consumes-ts/src/car.js</span>",
     "class"
   ],
   [
-    "js-documentation-cases/7-js-consumes-ts/index.ts~secret_string",
+    "js-documentation-cases/7-js-consumes-ts/src/index.ts~secret_string",
     "variable/index.html#static-variable-SECRET_STRING",
-    "<span>SECRET_STRING</span> <span class=\"search-result-import-path\">js-documentation-cases/7-js-consumes-ts/index.ts</span>",
+    "<span>SECRET_STRING</span> <span class=\"search-result-import-path\">js-documentation-cases/7-js-consumes-ts/src/index.ts</span>",
     "variable"
   ],
   [
-    "js-documentation-cases/7-js-consumes-ts/cycles.js~unicycle",
-    "class/7-js-consumes-ts/cycles.js~Unicycle.html",
-    "<span>Unicycle</span> <span class=\"search-result-import-path\">js-documentation-cases/7-js-consumes-ts/cycles.js</span>",
+    "js-documentation-cases/7-js-consumes-ts/src/cycles.js~unicycle",
+    "class/7-js-consumes-ts/src/cycles.js~Unicycle.html",
+    "<span>Unicycle</span> <span class=\"search-result-import-path\">js-documentation-cases/7-js-consumes-ts/src/cycles.js</span>",
     "class"
   ],
   [
-    "js-documentation-cases/7-js-consumes-ts/vehicle.ts~vehicle",
-    "class/7-js-consumes-ts/vehicle.ts~Vehicle.html",
-    "<span>Vehicle</span> <span class=\"search-result-import-path\">js-documentation-cases/7-js-consumes-ts/vehicle.ts</span>",
+    "js-documentation-cases/7-js-consumes-ts/src/vehicle.ts~vehicle",
+    "class/7-js-consumes-ts/src/vehicle.ts~Vehicle.html",
+    "<span>Vehicle</span> <span class=\"search-result-import-path\">js-documentation-cases/7-js-consumes-ts/src/vehicle.ts</span>",
     "class"
   ],
   [
-    "js-documentation-cases/7-js-consumes-ts/index.ts~add",
+    "js-documentation-cases/7-js-consumes-ts/src/index.ts~add",
     "function/index.html#static-function-add",
-    "<span>add</span> <span class=\"search-result-import-path\">js-documentation-cases/7-js-consumes-ts/index.ts</span>",
+    "<span>add</span> <span class=\"search-result-import-path\">js-documentation-cases/7-js-consumes-ts/src/index.ts</span>",
     "function"
   ]
 ]

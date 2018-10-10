@@ -282,81 +282,81 @@ window.esdocSearchIndex = [
     "external"
   ],
   [
-    "1-single-file-js/index.js",
-    "file/1-single-file-js/index.js.html",
-    "1-single-file-js/index.js",
+    "1-single-file-js/src/index.js",
+    "file/1-single-file-js/src/index.js.html",
+    "1-single-file-js/src/index.js",
     "file"
   ],
   [
-    "1-single-file-js/index.js~bike#constructor",
-    "class/1-single-file-js/index.js~Bike.html#instance-constructor-constructor",
-    "1-single-file-js/index.js~Bike#constructor",
+    "1-single-file-js/src/index.js~bike#constructor",
+    "class/1-single-file-js/src/index.js~Bike.html#instance-constructor-constructor",
+    "1-single-file-js/src/index.js~Bike#constructor",
     "method"
   ],
   [
-    "1-single-file-js/index.js~car#constructor",
-    "class/1-single-file-js/index.js~Car.html#instance-constructor-constructor",
-    "1-single-file-js/index.js~Car#constructor",
+    "1-single-file-js/src/index.js~car#constructor",
+    "class/1-single-file-js/src/index.js~Car.html#instance-constructor-constructor",
+    "1-single-file-js/src/index.js~Car#constructor",
     "method"
   ],
   [
-    "1-single-file-js/index.js~unicycle#constructor",
-    "class/1-single-file-js/index.js~Unicycle.html#instance-constructor-constructor",
-    "1-single-file-js/index.js~Unicycle#constructor",
+    "1-single-file-js/src/index.js~unicycle#constructor",
+    "class/1-single-file-js/src/index.js~Unicycle.html#instance-constructor-constructor",
+    "1-single-file-js/src/index.js~Unicycle#constructor",
     "method"
   ],
   [
-    "1-single-file-js/index.js~vehicle#constructor",
-    "class/1-single-file-js/index.js~Vehicle.html#instance-constructor-constructor",
-    "1-single-file-js/index.js~Vehicle#constructor",
+    "1-single-file-js/src/index.js~vehicle#constructor",
+    "class/1-single-file-js/src/index.js~Vehicle.html#instance-constructor-constructor",
+    "1-single-file-js/src/index.js~Vehicle#constructor",
     "method"
   ],
   [
-    "1-single-file-js/index.js~vehicle#drive",
-    "class/1-single-file-js/index.js~Vehicle.html#instance-method-drive",
-    "1-single-file-js/index.js~Vehicle#drive",
+    "1-single-file-js/src/index.js~vehicle#drive",
+    "class/1-single-file-js/src/index.js~Vehicle.html#instance-method-drive",
+    "1-single-file-js/src/index.js~Vehicle#drive",
     "method"
   ],
   [
-    "1-single-file-js/index.js~vehicle#numwheels",
-    "class/1-single-file-js/index.js~Vehicle.html#instance-member-numWheels",
-    "1-single-file-js/index.js~Vehicle#numWheels",
+    "1-single-file-js/src/index.js~vehicle#numwheels",
+    "class/1-single-file-js/src/index.js~Vehicle.html#instance-member-numWheels",
+    "1-single-file-js/src/index.js~Vehicle#numWheels",
     "member"
   ],
   [
-    "js-documentation-cases/1-single-file-js/index.js~bike",
-    "class/1-single-file-js/index.js~Bike.html",
-    "<span>Bike</span> <span class=\"search-result-import-path\">js-documentation-cases/1-single-file-js/index.js</span>",
+    "js-documentation-cases/1-single-file-js/src/index.js~bike",
+    "class/1-single-file-js/src/index.js~Bike.html",
+    "<span>Bike</span> <span class=\"search-result-import-path\">js-documentation-cases/1-single-file-js/src/index.js</span>",
     "class"
   ],
   [
-    "js-documentation-cases/1-single-file-js/index.js~car",
-    "class/1-single-file-js/index.js~Car.html",
-    "<span>Car</span> <span class=\"search-result-import-path\">js-documentation-cases/1-single-file-js/index.js</span>",
+    "js-documentation-cases/1-single-file-js/src/index.js~car",
+    "class/1-single-file-js/src/index.js~Car.html",
+    "<span>Car</span> <span class=\"search-result-import-path\">js-documentation-cases/1-single-file-js/src/index.js</span>",
     "class"
   ],
   [
-    "js-documentation-cases/1-single-file-js/index.js~secret_string",
+    "js-documentation-cases/1-single-file-js/src/index.js~secret_string",
     "variable/index.html#static-variable-SECRET_STRING",
-    "<span>SECRET_STRING</span> <span class=\"search-result-import-path\">js-documentation-cases/1-single-file-js/index.js</span>",
+    "<span>SECRET_STRING</span> <span class=\"search-result-import-path\">js-documentation-cases/1-single-file-js/src/index.js</span>",
     "variable"
   ],
   [
-    "js-documentation-cases/1-single-file-js/index.js~unicycle",
-    "class/1-single-file-js/index.js~Unicycle.html",
-    "<span>Unicycle</span> <span class=\"search-result-import-path\">js-documentation-cases/1-single-file-js/index.js</span>",
+    "js-documentation-cases/1-single-file-js/src/index.js~unicycle",
+    "class/1-single-file-js/src/index.js~Unicycle.html",
+    "<span>Unicycle</span> <span class=\"search-result-import-path\">js-documentation-cases/1-single-file-js/src/index.js</span>",
     "class"
   ],
   [
-    "js-documentation-cases/1-single-file-js/index.js~vehicle",
-    "class/1-single-file-js/index.js~Vehicle.html",
-    "<span>Vehicle</span> <span class=\"search-result-import-path\">js-documentation-cases/1-single-file-js/index.js</span>",
+    "js-documentation-cases/1-single-file-js/src/index.js~vehicle",
+    "class/1-single-file-js/src/index.js~Vehicle.html",
+    "<span>Vehicle</span> <span class=\"search-result-import-path\">js-documentation-cases/1-single-file-js/src/index.js</span>",
     "class"
   ],
   [
-    "js-documentation-cases/1-single-file-js/index.js~add",
+    "js-documentation-cases/1-single-file-js/src/index.js~add",
     "function/index.html#static-function-add",
-    "<span>add</span> <span class=\"search-result-import-path\">js-documentation-cases/1-single-file-js/index.js</span>",
+    "<span>add</span> <span class=\"search-result-import-path\">js-documentation-cases/1-single-file-js/src/index.js</span>",
     "function"
   ]
 ]

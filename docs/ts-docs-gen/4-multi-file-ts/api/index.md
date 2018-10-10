@@ -13,19 +13,19 @@
 ### add
 
 ```typescript
-function add(a: any, b: any): any;
+function add(a: number, b: number): number;
 ```
 
 **Parameters**
 
-| Name | Type |
-| ---- | ---- |
-| a    | any  |
-| b    | any  |
+| Name | Type   |
+| ---- | ------ |
+| a    | number |
+| b    | number |
 
 **Return type**
 
-any
+number
 
 ## Classes
 

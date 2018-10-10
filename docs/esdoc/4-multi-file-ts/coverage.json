@@ -3,12 +3,12 @@
   "expectCount": 12,
   "actualCount": 8,
   "files": {
-    "4-multi-file-ts/car.ts": {
+    "4-multi-file-ts/src/car.ts": {
       "expectCount": 2,
       "actualCount": 2,
       "undocumentLines": []
     },
-    "4-multi-file-ts/cycles.ts": {
+    "4-multi-file-ts/src/cycles.ts": {
       "expectCount": 4,
       "actualCount": 2,
       "undocumentLines": [
@@ -16,14 +16,14 @@
         20
       ]
     },
-    "4-multi-file-ts/index.ts": {
+    "4-multi-file-ts/src/index.ts": {
       "expectCount": 2,
       "actualCount": 1,
       "undocumentLines": [
         14
       ]
     },
-    "4-multi-file-ts/vehicle.ts": {
+    "4-multi-file-ts/src/vehicle.ts": {
       "expectCount": 4,
       "actualCount": 3,
       "undocumentLines": [
