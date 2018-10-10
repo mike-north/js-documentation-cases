@@ -282,6 +282,12 @@ window.esdocSearchIndex = [
     "external"
   ],
   [
+    "5-ts-exported-types/etc/js-documentation-cases.api.ts",
+    "file/5-ts-exported-types/etc/js-documentation-cases.api.ts.html",
+    "5-ts-exported-types/etc/js-documentation-cases.api.ts",
+    "file"
+  ],
+  [
     "5-ts-exported-types/src/car.ts",
     "file/5-ts-exported-types/src/car.ts.html",
     "5-ts-exported-types/src/car.ts",
@@ -346,6 +352,12 @@ window.esdocSearchIndex = [
     "class/5-ts-exported-types/src/vehicle.ts~Vehicle.html#instance-member-numWheels",
     "5-ts-exported-types/src/vehicle.ts~Vehicle#numWheels",
     "member"
+  ],
+  [
+    "5-ts-exported-types/temp/js-documentation-cases.api.ts",
+    "file/5-ts-exported-types/temp/js-documentation-cases.api.ts.html",
+    "5-ts-exported-types/temp/js-documentation-cases.api.ts",
+    "file"
   ],
   [
     "js-documentation-cases/5-ts-exported-types/src/cycles.ts~bike",

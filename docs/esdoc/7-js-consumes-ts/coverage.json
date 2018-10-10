@@ -20,7 +20,7 @@
       "expectCount": 2,
       "actualCount": 1,
       "undocumentLines": [
-        19
+        31
       ]
     },
     "7-js-consumes-ts/src/vehicle.ts": {

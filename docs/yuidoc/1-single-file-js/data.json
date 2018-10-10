@@ -20,6 +20,7 @@
         {
             "file": "src/index.js",
             "line": 1,
+            "description": "Add two numbers",
             "params": [
                 {
                     "name": "a",
@@ -94,7 +95,7 @@
             "line": " src/index.js:23"
         },
         {
-            "message": "Missing item type",
+            "message": "Missing item type\nAdd two numbers",
             "line": " src/index.js:1"
         },
         {

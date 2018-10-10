@@ -566,6 +566,74 @@
   {
     "__docId__": 48,
     "kind": "file",
+    "name": "4-multi-file-ts/etc/js-documentation-cases.api.ts",
+    "content": "// @public (undocumented)\r\nexport function add(a: number, b: number): number;\r\n\r\n// @public\r\nclass Bike extends Vehicle {\r\n  constructor();\r\n}\r\n\r\n// @public\r\nclass Car extends Vehicle {\r\n  constructor();\r\n}\r\n\r\n// @public\r\nclass Unicycle extends Vehicle {\r\n  constructor();\r\n}\r\n\r\n// WARNING: Unsupported export: SECRET_STRING\r\n// (No @packagedocumentation comment for this package)\r\n",
+    "static": true,
+    "longname": "/home/travis/build/mike-north/js-documentation-cases/cases/4-multi-file-ts/etc/js-documentation-cases.api.ts",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "class",
+    "name": "Bike",
+    "memberof": "4-multi-file-ts/etc/js-documentation-cases.api.ts",
+    "static": true,
+    "longname": "4-multi-file-ts/etc/js-documentation-cases.api.ts~Bike",
+    "access": "public",
+    "export": false,
+    "importPath": "js-documentation-cases/4-multi-file-ts/etc/js-documentation-cases.api.ts",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 5,
+    "interface": false,
+    "extends": [
+      "Vehicle"
+    ],
+    "ignore": true
+  },
+  {
+    "__docId__": 50,
+    "kind": "class",
+    "name": "Car",
+    "memberof": "4-multi-file-ts/etc/js-documentation-cases.api.ts",
+    "static": true,
+    "longname": "4-multi-file-ts/etc/js-documentation-cases.api.ts~Car",
+    "access": "public",
+    "export": false,
+    "importPath": "js-documentation-cases/4-multi-file-ts/etc/js-documentation-cases.api.ts",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 10,
+    "interface": false,
+    "extends": [
+      "Vehicle"
+    ],
+    "ignore": true
+  },
+  {
+    "__docId__": 51,
+    "kind": "class",
+    "name": "Unicycle",
+    "memberof": "4-multi-file-ts/etc/js-documentation-cases.api.ts",
+    "static": true,
+    "longname": "4-multi-file-ts/etc/js-documentation-cases.api.ts~Unicycle",
+    "access": "public",
+    "export": false,
+    "importPath": "js-documentation-cases/4-multi-file-ts/etc/js-documentation-cases.api.ts",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 15,
+    "interface": false,
+    "extends": [
+      "Vehicle"
+    ],
+    "ignore": true
+  },
+  {
+    "__docId__": 52,
+    "kind": "file",
     "name": "4-multi-file-ts/src/car.ts",
     "content": "import Vehicle from './vehicle';\n\n/**\n * A car is a 4-wheeled vehicle\n */\nexport default class Car extends Vehicle {\n  /**\n   * Create a new car\n   */\n  constructor() {\n    super(4);\n  }\n}\n",
     "static": true,
@@ -575,7 +643,7 @@
     "lineNumber": 1
   },
   {
-    "__docId__": 49,
+    "__docId__": 53,
     "kind": "class",
     "name": "Car",
     "memberof": "4-multi-file-ts/src/car.ts",
@@ -593,7 +661,7 @@
     ]
   },
   {
-    "__docId__": 50,
+    "__docId__": 54,
     "kind": "constructor",
     "name": "constructor",
     "memberof": "4-multi-file-ts/src/car.ts~Car",
@@ -606,7 +674,7 @@
     "lineNumber": 12
   },
   {
-    "__docId__": 51,
+    "__docId__": 55,
     "kind": "file",
     "name": "4-multi-file-ts/src/cycles.ts",
     "content": "import Vehicle from './vehicle';\n\n/**\n * A bike is a 2-wheeled vehicle\n */\nexport class Bike extends Vehicle {\n  constructor() {\n    super(2);\n  }\n}\n\n/**\n * A Unicycle is a 1-wheeled vehicle\n */\nexport class Unicycle extends Vehicle {\n  constructor() {\n    super(1);\n  }\n}\n",
@@ -617,7 +685,7 @@
     "lineNumber": 1
   },
   {
-    "__docId__": 52,
+    "__docId__": 56,
     "kind": "class",
     "name": "Bike",
     "memberof": "4-multi-file-ts/src/cycles.ts",
@@ -635,7 +703,7 @@
     ]
   },
   {
-    "__docId__": 53,
+    "__docId__": 57,
     "kind": "constructor",
     "name": "constructor",
     "memberof": "4-multi-file-ts/src/cycles.ts~Bike",
@@ -649,7 +717,7 @@
     "undocument": true
   },
   {
-    "__docId__": 54,
+    "__docId__": 58,
     "kind": "class",
     "name": "Unicycle",
     "memberof": "4-multi-file-ts/src/cycles.ts",
@@ -667,7 +735,7 @@
     ]
   },
   {
-    "__docId__": 55,
+    "__docId__": 59,
     "kind": "constructor",
     "name": "constructor",
     "memberof": "4-multi-file-ts/src/cycles.ts~Unicycle",
@@ -681,7 +749,7 @@
     "undocument": true
   },
   {
-    "__docId__": 56,
+    "__docId__": 60,
     "kind": "file",
     "name": "4-multi-file-ts/src/index.ts",
     "content": "export function add(a: number, b: number) {\n  return a + b;\n}\n\nexport const SECRET_STRING = 'shhhhh!';\n\nexport { default as Car } from './car';\nexport { Unicycle, Bike } from './cycles';\n",
@@ -692,7 +760,7 @@
     "lineNumber": 1
   },
   {
-    "__docId__": 57,
+    "__docId__": 61,
     "kind": "function",
     "name": "add",
     "memberof": "4-multi-file-ts/src/index.ts",
@@ -735,7 +803,7 @@
     }
   },
   {
-    "__docId__": 58,
+    "__docId__": 62,
     "kind": "variable",
     "name": "SECRET_STRING",
     "memberof": "4-multi-file-ts/src/index.ts",
@@ -755,7 +823,7 @@
     }
   },
   {
-    "__docId__": 59,
+    "__docId__": 63,
     "kind": "file",
     "name": "4-multi-file-ts/src/vehicle.ts",
     "content": "/**\n * A vehicle is a thing that goes places\n */\nexport default class Vehicle {\n  /**\n   * Create a new vehicle\n   * @param {number} numWheels Number of wheels\n   */\n  constructor(protected numWheels: number) {}\n  /**\n   * Drive the vehicle\n   * @returns {string}\n   */\n  drive() {\n    return `Driving with all ${this.numWheels} wheels`;\n  }\n}\n",
@@ -766,7 +834,7 @@
     "lineNumber": 1
   },
   {
-    "__docId__": 60,
+    "__docId__": 64,
     "kind": "class",
     "name": "Vehicle",
     "memberof": "4-multi-file-ts/src/vehicle.ts",
@@ -781,7 +849,7 @@
     "interface": false
   },
   {
-    "__docId__": 61,
+    "__docId__": 65,
     "kind": "constructor",
     "name": "constructor",
     "memberof": "4-multi-file-ts/src/vehicle.ts~Vehicle",
@@ -806,7 +874,7 @@
     ]
   },
   {
-    "__docId__": 62,
+    "__docId__": 66,
     "kind": "member",
     "name": "numWheels",
     "memberof": "4-multi-file-ts/src/vehicle.ts~Vehicle",
@@ -823,7 +891,7 @@
     }
   },
   {
-    "__docId__": 63,
+    "__docId__": 67,
     "kind": "method",
     "name": "drive",
     "memberof": "4-multi-file-ts/src/vehicle.ts~Vehicle",
@@ -842,6 +910,74 @@
     }
   },
   {
+    "__docId__": 68,
+    "kind": "file",
+    "name": "4-multi-file-ts/temp/js-documentation-cases.api.ts",
+    "content": "// @public (undocumented)\r\nexport function add(a: number, b: number): number;\r\n\r\n// @public\r\nclass Bike extends Vehicle {\r\n  constructor();\r\n}\r\n\r\n// @public\r\nclass Car extends Vehicle {\r\n  constructor();\r\n}\r\n\r\n// @public\r\nclass Unicycle extends Vehicle {\r\n  constructor();\r\n}\r\n\r\n// WARNING: Unsupported export: SECRET_STRING\r\n// (No @packagedocumentation comment for this package)\r\n",
+    "static": true,
+    "longname": "/home/travis/build/mike-north/js-documentation-cases/cases/4-multi-file-ts/temp/js-documentation-cases.api.ts",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 69,
+    "kind": "class",
+    "name": "Bike",
+    "memberof": "4-multi-file-ts/temp/js-documentation-cases.api.ts",
+    "static": true,
+    "longname": "4-multi-file-ts/temp/js-documentation-cases.api.ts~Bike",
+    "access": "public",
+    "export": false,
+    "importPath": "js-documentation-cases/4-multi-file-ts/temp/js-documentation-cases.api.ts",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 5,
+    "interface": false,
+    "extends": [
+      "Vehicle"
+    ],
+    "ignore": true
+  },
+  {
+    "__docId__": 70,
+    "kind": "class",
+    "name": "Car",
+    "memberof": "4-multi-file-ts/temp/js-documentation-cases.api.ts",
+    "static": true,
+    "longname": "4-multi-file-ts/temp/js-documentation-cases.api.ts~Car",
+    "access": "public",
+    "export": false,
+    "importPath": "js-documentation-cases/4-multi-file-ts/temp/js-documentation-cases.api.ts",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 10,
+    "interface": false,
+    "extends": [
+      "Vehicle"
+    ],
+    "ignore": true
+  },
+  {
+    "__docId__": 71,
+    "kind": "class",
+    "name": "Unicycle",
+    "memberof": "4-multi-file-ts/temp/js-documentation-cases.api.ts",
+    "static": true,
+    "longname": "4-multi-file-ts/temp/js-documentation-cases.api.ts~Unicycle",
+    "access": "public",
+    "export": false,
+    "importPath": "js-documentation-cases/4-multi-file-ts/temp/js-documentation-cases.api.ts",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 15,
+    "interface": false,
+    "extends": [
+      "Vehicle"
+    ],
+    "ignore": true
+  },
+  {
     "kind": "index",
     "content": "# JS/TS Library Documentation Test Cases\n\n[![Build Status](https://travis-ci.org/mike-north/js-documentation-cases.svg?branch=master)](https://travis-ci.org/mike-north/js-documentation-cases)\n\nA set of test cases for evaluating the capabilities and support of documentation generation tools.\n\n## The Cases\n\nThe subfolders of `./cases` represent meaningful scenarios that are important for library doc generation. In theory, these are ordered in increasing level of difficulty for doc tooling to handle.\n\n### `1. Single-File JavaScript`\n\nA single JavaScript file, with some module-private (non-exported) values, and some exported ones\n\n### `2. Single-File TypeScript`\n\nA single TypeScript file, with some module-private (non-exported) values, and some exported ones\n\n### `3. Multi-File JavaScript`\n\nA single \"entry\" file, that consumes from multiple other JS files (which are not available directly to consumers for consumption).\n\n### `4. Multi-File TypeScript`\n\nA single \"entry\" file, that consumes from multiple other TS files (which are not available directly to consumers for consumption).\n\n### `5. TypeScript Exported Types`\n\nTypeScript code that exports Interfaces and Type Aliases in addition to values\n\n### `6. TypeScript Advanced Types`\n\nA couple of tricky TypeScript scenarios, including the merge of a `class` and `namespace`.\n\n### `7. JavaScript consumes TypeScript`\n\nA scenario involving a mix of JS and TS files, where the types provided by TS are consumed and used in JSDoc comments\n\n### `8. No TSConfig`\n\nA scenario where no local `tsconfig.json` is found, and a default one must be used for doc generation instead\n\n---\n\n(c) 2018 LinkedIn\n",
     "longname": "/home/travis/build/mike-north/js-documentation-cases/README.md",
@@ -851,7 +987,7 @@
   },
   {
     "kind": "packageJSON",
-    "content": "{\n  \"name\": \"js-documentation-cases\",\n  \"version\": \"0.0.0-development\",\n  \"description\": \"Test cases for JavaScript & TypeScript library documentation solutions\",\n  \"main\": \"index.js\",\n  \"repository\": \"https://github.com/mike-north/js-documentation-cases\",\n  \"author\": \"Mike North <michael.l.north@gmail.com> (https://mike.works)\",\n  \"license\": \"BSD-2-Clause\",\n  \"private\": false,\n  \"scripts\": {\n    \"test\": \"yarn build\",\n    \"run_for_each\": \"scripty\",\n    \"build:typedoc\": \"scripty\",\n    \"build:esdoc\": \"scripty\",\n    \"build:jsdoc\": \"scripty\",\n    \"build:ts-docs-gen\": \"scripty\",\n    \"build:docco\": \"scripty\",\n    \"build:yuidoc\": \"scripty\",\n    \"build:yuidoc:create-config\": \"SCRIPTY_SILENT=true scripty\",\n    \"build:index\": \"scripty\",\n    \"build:ts\": \"scripty\",\n    \"build:docs\": \"scripty\",\n    \"build\": \"scripty\",\n    \"postinstall\": \"scripty\",\n    \"travis-deploy-once\": \"travis-deploy-once\",\n    \"semantic-release\": \"semantic-release\"\n  },\n  \"devDependencies\": {\n    \"@semantic-release/git\": \"^7.0.4\",\n    \"@types/handlebars\": \"^4.0.39\",\n    \"@types/lodash\": \"^4.14.116\",\n    \"@types/node\": \"^10.11.7\",\n    \"docco\": \"^0.8.0\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"esdoc-typescript-plugin\": \"^1.0.1\",\n    \"handlebars\": \"^4.0.12\",\n    \"jsdoc\": \"^3.5.5\",\n    \"scripty\": \"^1.7.2\",\n    \"semantic-release\": \"^15.9.17\",\n    \"travis-deploy-once\": \"^5.0.9\",\n    \"ts-docs-gen\": \"^0.2.0\",\n    \"ts-jsdoc\": \"^3.0.1\",\n    \"typedoc\": \"^0.12.0\",\n    \"typescript\": \"^3.1.2\",\n    \"yuidocjs\": \"^0.10.2\"\n  },\n  \"release\": {\n    \"verifyConditions\": [\n      \"@semantic-release/github\"\n    ],\n    \"analyzeCommits\": [\n      \"@semantic-release/commit-analyzer\"\n    ],\n    \"prepare\": [\n      {\n        \"path\": \"@semantic-release/git\",\n        \"assets\": [\n          \"docs\"\n        ],\n        \"message\": \"chore(release): ${nextRelease.version} [skip ci]\\n\\n${nextRelease.notes}\"\n      }\n    ],\n    \"publish\": [\n      \"@semantic-release/github\"\n    ],\n    \"success\": [\n      \"@semantic-release/github\"\n    ],\n    \"fail\": [\n      \"@semantic-release/github\"\n    ]\n  }\n}\n",
+    "content": "{\n  \"name\": \"js-documentation-cases\",\n  \"version\": \"0.0.0-development\",\n  \"description\": \"Test cases for JavaScript & TypeScript library documentation solutions\",\n  \"main\": \"index.js\",\n  \"repository\": \"https://github.com/mike-north/js-documentation-cases\",\n  \"author\": \"Mike North <michael.l.north@gmail.com> (https://mike.works)\",\n  \"license\": \"BSD-2-Clause\",\n  \"private\": false,\n  \"scripts\": {\n    \"test\": \"yarn build\",\n    \"run_for_each\": \"scripty\",\n    \"build:typedoc\": \"scripty\",\n    \"build:esdoc\": \"scripty\",\n    \"build:jsdoc\": \"scripty\",\n    \"build:ts-docs-gen\": \"scripty\",\n    \"build:docco\": \"scripty\",\n    \"build:yuidoc\": \"scripty\",\n    \"build:api-extractor\": \"scripty\",\n    \"build:api-extractor:create-config\": \"scripty\",\n    \"build:yuidoc:create-config\": \"SCRIPTY_SILENT=true scripty\",\n    \"build:index\": \"scripty\",\n    \"build:ts\": \"scripty\",\n    \"build:docs\": \"scripty\",\n    \"build\": \"scripty\",\n    \"postinstall\": \"scripty\",\n    \"travis-deploy-once\": \"travis-deploy-once\",\n    \"semantic-release\": \"semantic-release\"\n  },\n  \"devDependencies\": {\n    \"@microsoft/api-extractor\": \"^6.0.2\",\n    \"@semantic-release/git\": \"^7.0.4\",\n    \"@types/handlebars\": \"^4.0.39\",\n    \"@types/lodash\": \"^4.14.116\",\n    \"@types/node\": \"^10.11.7\",\n    \"docco\": \"^0.8.0\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"esdoc-typescript-plugin\": \"^1.0.1\",\n    \"handlebars\": \"^4.0.12\",\n    \"jsdoc\": \"^3.5.5\",\n    \"scripty\": \"^1.7.2\",\n    \"semantic-release\": \"^15.9.17\",\n    \"travis-deploy-once\": \"^5.0.9\",\n    \"ts-docs-gen\": \"^0.2.0\",\n    \"ts-jsdoc\": \"^3.0.1\",\n    \"typedoc\": \"^0.12.0\",\n    \"typescript\": \"^3.1.2\",\n    \"yuidocjs\": \"^0.10.2\"\n  },\n  \"release\": {\n    \"verifyConditions\": [\n      \"@semantic-release/github\"\n    ],\n    \"analyzeCommits\": [\n      \"@semantic-release/commit-analyzer\"\n    ],\n    \"prepare\": [\n      {\n        \"path\": \"@semantic-release/git\",\n        \"assets\": [\n          \"docs\"\n        ],\n        \"message\": \"chore(release): ${nextRelease.version} [skip ci]\\n\\n${nextRelease.notes}\"\n      }\n    ],\n    \"publish\": [\n      \"@semantic-release/github\"\n    ],\n    \"success\": [\n      \"@semantic-release/github\"\n    ],\n    \"fail\": [\n      \"@semantic-release/github\"\n    ]\n  }\n}\n",
     "longname": "/home/travis/build/mike-north/js-documentation-cases/package.json",
     "name": "package.json",
     "static": true,
