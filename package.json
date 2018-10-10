@@ -13,6 +13,8 @@
     "build:esdoc": "scripty",
     "build:jsdoc": "scripty",
     "build:ts-docs-gen": "scripty",
+    "build:yuidoc": "scripty",
+    "build:yuidoc:create-config": "SCRIPTY_SILENT=true scripty",
     "build:index": "scripty",
     "build:ts": "scripty",
     "build:docs": "scripty",
@@ -38,7 +40,8 @@
     "ts-docs-gen": "^0.2.0",
     "ts-jsdoc": "^3.0.1",
     "typedoc": "^0.12.0",
-    "typescript": "^3.1.2"
+    "typescript": "^3.1.2",
+    "yuidocjs": "^0.10.2"
   },
   "release": {
     "verifyConditions": [
