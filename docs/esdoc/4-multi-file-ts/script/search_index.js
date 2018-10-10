@@ -282,6 +282,12 @@ window.esdocSearchIndex = [
     "external"
   ],
   [
+    "4-multi-file-ts/etc/js-documentation-cases.api.ts",
+    "file/4-multi-file-ts/etc/js-documentation-cases.api.ts.html",
+    "4-multi-file-ts/etc/js-documentation-cases.api.ts",
+    "file"
+  ],
+  [
     "4-multi-file-ts/src/car.ts",
     "file/4-multi-file-ts/src/car.ts.html",
     "4-multi-file-ts/src/car.ts",
@@ -340,6 +346,12 @@ window.esdocSearchIndex = [
     "class/4-multi-file-ts/src/vehicle.ts~Vehicle.html#instance-member-numWheels",
     "4-multi-file-ts/src/vehicle.ts~Vehicle#numWheels",
     "member"
+  ],
+  [
+    "4-multi-file-ts/temp/js-documentation-cases.api.ts",
+    "file/4-multi-file-ts/temp/js-documentation-cases.api.ts.html",
+    "4-multi-file-ts/temp/js-documentation-cases.api.ts",
+    "file"
   ],
   [
     "js-documentation-cases/4-multi-file-ts/src/cycles.ts~bike",

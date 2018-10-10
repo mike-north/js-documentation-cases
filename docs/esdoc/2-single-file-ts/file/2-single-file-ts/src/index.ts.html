@@ -40,7 +40,14 @@
 </nav>
 
 <div class="content" data-ice="content"><h1 data-ice="title">2-single-file-ts/src/index.ts</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">export function add(a: number, b: number): number;
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">/**
+ * Add two numbers
+ * @param a a number
+ * @param b a number
+ *
+ * @public
+ */
+export function add(a: number, b: number): number;
 export function add(a: string, b: string): string;
 export function add(a: number | string, b: number | string): number | string {
   if (typeof a === &apos;number&apos; &amp;&amp; typeof b === &apos;number&apos;) {

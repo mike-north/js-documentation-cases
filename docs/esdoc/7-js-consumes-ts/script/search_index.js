@@ -282,6 +282,12 @@ window.esdocSearchIndex = [
     "external"
   ],
   [
+    "7-js-consumes-ts/etc/js-documentation-cases.api.ts",
+    "file/7-js-consumes-ts/etc/js-documentation-cases.api.ts.html",
+    "7-js-consumes-ts/etc/js-documentation-cases.api.ts",
+    "file"
+  ],
+  [
     "7-js-consumes-ts/src/car.js",
     "file/7-js-consumes-ts/src/car.js.html",
     "7-js-consumes-ts/src/car.js",
@@ -346,6 +352,12 @@ window.esdocSearchIndex = [
     "class/7-js-consumes-ts/src/vehicle.ts~Vehicle.html#instance-member-numWheels",
     "7-js-consumes-ts/src/vehicle.ts~Vehicle#numWheels",
     "member"
+  ],
+  [
+    "7-js-consumes-ts/temp/js-documentation-cases.api.ts",
+    "file/7-js-consumes-ts/temp/js-documentation-cases.api.ts.html",
+    "7-js-consumes-ts/temp/js-documentation-cases.api.ts",
+    "file"
   ],
   [
     "js-documentation-cases/7-js-consumes-ts/src/cycles.js~bike",

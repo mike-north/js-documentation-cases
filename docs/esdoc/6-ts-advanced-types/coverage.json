@@ -1,8 +1,13 @@
 {
-  "coverage": "66.66%",
-  "expectCount": 18,
-  "actualCount": 12,
+  "coverage": "75%",
+  "expectCount": 24,
+  "actualCount": 18,
   "files": {
+    "6-ts-advanced-types/etc/js-documentation-cases.api.ts": {
+      "expectCount": 3,
+      "actualCount": 3,
+      "undocumentLines": []
+    },
     "6-ts-advanced-types/src/car.ts": {
       "expectCount": 2,
       "actualCount": 2,
@@ -31,6 +36,11 @@
         13,
         25
       ]
+    },
+    "6-ts-advanced-types/temp/js-documentation-cases.api.ts": {
+      "expectCount": 3,
+      "actualCount": 3,
+      "undocumentLines": []
     }
   }
 }

@@ -19,6 +19,13 @@
             "fors": {},
             "namespaces": {}
         },
+        "src/index.ts": {
+            "name": "src/index.ts",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
         "src/vehicle.ts": {
             "name": "src/vehicle.ts",
             "modules": {},
@@ -66,6 +73,24 @@
                     "type": "String"
                 }
             ],
+            "class": ""
+        },
+        {
+            "file": "src/index.ts",
+            "line": 1,
+            "description": "Concat two things",
+            "params": [
+                {
+                    "name": "a",
+                    "description": "a thing"
+                },
+                {
+                    "name": "b",
+                    "description": "another thing"
+                }
+            ],
+            "access": "public",
+            "tagname": "",
             "class": ""
         },
         {
@@ -122,6 +147,10 @@
         {
             "message": "Missing item type\nCreate a new unicycle",
             "line": " src/cycles.js:16"
+        },
+        {
+            "message": "Missing item type\nConcat two things",
+            "line": " src/index.ts:1"
         },
         {
             "message": "Missing item type\nA vehicle is a thing that goes places",

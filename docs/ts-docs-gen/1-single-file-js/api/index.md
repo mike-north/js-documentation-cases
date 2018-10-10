@@ -12,6 +12,8 @@
 
 ### add
 
+Add two numbers
+
 ```typescript
 function add(a: number, b: number): number;
 ```

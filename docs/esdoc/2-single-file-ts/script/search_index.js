@@ -282,6 +282,12 @@ window.esdocSearchIndex = [
     "external"
   ],
   [
+    "2-single-file-ts/etc/js-documentation-cases.api.ts",
+    "file/2-single-file-ts/etc/js-documentation-cases.api.ts.html",
+    "2-single-file-ts/etc/js-documentation-cases.api.ts",
+    "file"
+  ],
+  [
     "2-single-file-ts/src/index.ts",
     "file/2-single-file-ts/src/index.ts.html",
     "2-single-file-ts/src/index.ts",
@@ -322,6 +328,12 @@ window.esdocSearchIndex = [
     "class/2-single-file-ts/src/index.ts~Vehicle.html#instance-member-numWheels",
     "2-single-file-ts/src/index.ts~Vehicle#numWheels",
     "member"
+  ],
+  [
+    "2-single-file-ts/temp/js-documentation-cases.api.ts",
+    "file/2-single-file-ts/temp/js-documentation-cases.api.ts.html",
+    "2-single-file-ts/temp/js-documentation-cases.api.ts",
+    "file"
   ],
   [
     "js-documentation-cases/2-single-file-ts/src/index.ts~bike",

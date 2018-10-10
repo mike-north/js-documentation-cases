@@ -19,13 +19,31 @@
     "classitems": [
         {
             "file": "src/index.ts",
-            "line": 13,
+            "line": 1,
+            "description": "Add two numbers",
+            "params": [
+                {
+                    "name": "a",
+                    "description": "a number"
+                },
+                {
+                    "name": "b",
+                    "description": "a number"
+                }
+            ],
+            "access": "public",
+            "tagname": "",
+            "class": ""
+        },
+        {
+            "file": "src/index.ts",
+            "line": 20,
             "description": "A vehicle is a thing that goes places",
             "class": ""
         },
         {
             "file": "src/index.ts",
-            "line": 17,
+            "line": 24,
             "description": "Create a new vehicle",
             "params": [
                 {
@@ -38,7 +56,7 @@
         },
         {
             "file": "src/index.ts",
-            "line": 22,
+            "line": 29,
             "description": "Drive the vehicle",
             "return": {
                 "description": "",
@@ -48,25 +66,25 @@
         },
         {
             "file": "src/index.ts",
-            "line": 31,
+            "line": 38,
             "description": "A car is a 4-wheeled vehicle",
             "class": ""
         },
         {
             "file": "src/index.ts",
-            "line": 35,
+            "line": 42,
             "description": "Create a new car",
             "class": ""
         },
         {
             "file": "src/index.ts",
-            "line": 43,
+            "line": 50,
             "description": "A bike is a 2-wheeled vehicle",
             "class": ""
         },
         {
             "file": "src/index.ts",
-            "line": 52,
+            "line": 59,
             "description": "A Unicycle is a 1-wheeled vehicle",
             "class": ""
         }
@@ -74,35 +92,39 @@
     "warnings": [
         {
             "message": "replacing incorrect tag: returns with return",
-            "line": " src/index.ts:22"
+            "line": " src/index.ts:29"
+        },
+        {
+            "message": "Missing item type\nAdd two numbers",
+            "line": " src/index.ts:1"
         },
         {
             "message": "Missing item type\nA vehicle is a thing that goes places",
-            "line": " src/index.ts:13"
+            "line": " src/index.ts:20"
         },
         {
             "message": "Missing item type\nCreate a new vehicle",
-            "line": " src/index.ts:17"
+            "line": " src/index.ts:24"
         },
         {
             "message": "Missing item type\nDrive the vehicle",
-            "line": " src/index.ts:22"
+            "line": " src/index.ts:29"
         },
         {
             "message": "Missing item type\nA car is a 4-wheeled vehicle",
-            "line": " src/index.ts:31"
+            "line": " src/index.ts:38"
         },
         {
             "message": "Missing item type\nCreate a new car",
-            "line": " src/index.ts:35"
+            "line": " src/index.ts:42"
         },
         {
             "message": "Missing item type\nA bike is a 2-wheeled vehicle",
-            "line": " src/index.ts:43"
+            "line": " src/index.ts:50"
         },
         {
             "message": "Missing item type\nA Unicycle is a 1-wheeled vehicle",
-            "line": " src/index.ts:52"
+            "line": " src/index.ts:59"
         }
     ]
 }
