@@ -10,10 +10,14 @@
     {{#each examples as |ex|}}
     <li>
       <h4>{{ex.name}}</h4>
-      <a href="./typedoc/{{ex.name}}/">TypeDoc</a> |
-      <a href="./esdoc/{{ex.name}}/">ESdoc</a> |
-      <a href="./jsdoc/{{ex.name}}/">JSDoc</a> |
-      <a href="https://github.com/mike-north/js-documentation-cases/blob/master/docs/ts-docs-gen/{{ex.name}}/api/index.md">ts-docs-gen</a>
+      <a href="https://github.com/mike-north/js-documentation-cases/tree/master/cases/{{ex.name}}">Source</a> |
+      <b>Docs</b>
+      <ul>
+        <li><a href="./typedoc/{{ex.name}}/">TypeDoc</a></li>
+        <li><a href="./esdoc/{{ex.name}}/">ESdoc</a></li>
+        <li><a href="./jsdoc/{{ex.name}}/">JSDoc</a></li>
+        <li><a href="https://github.com/mike-north/js-documentation-cases/blob/master/docs/ts-docs-gen/{{ex.name}}/api/index.md">ts-docs-gen</a></li>
+      </ul>
     </li>
     {{/each}}
   </ul>
