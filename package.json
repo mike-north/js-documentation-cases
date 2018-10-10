@@ -9,6 +9,7 @@
   "private": false,
   "scripts": {
     "test": "yarn build",
+    "run_for_each": "scripty",
     "build:typedoc": "scripty",
     "build:esdoc": "scripty",
     "build:jsdoc": "scripty",

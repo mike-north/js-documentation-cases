@@ -1,5 +1,6 @@
 #!/bin/sh
-source scripts/run_for_each.sh
+
+./node_modules/.bin/yarn run_for_each
 
 tsdocsgen_for_example() {
   if [ -e cases/$1/src/index.ts ]

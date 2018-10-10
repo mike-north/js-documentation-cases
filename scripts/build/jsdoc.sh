@@ -1,5 +1,6 @@
 #!/bin/sh
-source scripts/run_for_each.sh
+
+./node_modules/.bin/yarn run_for_each
 
 jsdoc_for_example() {
   cd cases/$1
