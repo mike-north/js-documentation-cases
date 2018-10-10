@@ -7,7 +7,12 @@
   "author": "Mike North <michael.l.north@gmail.com> (https://mike.works)",
   "license": "BSD-2-Clause",
   "private": false,
+  "scripts": {
+    "build:typedoc": "scripty"
+  },
   "devDependencies": {
-    "@types/lodash": "^4.14.116"
+    "@types/lodash": "^4.14.116",
+    "scripty": "^1.7.2",
+    "typedoc": "^0.12.0"
   }
 }
