@@ -1,5 +1,4 @@
 #!/bin/sh
-echo "hello"
 source ./scripts/run_for_each.sh
 
 jsdoc_for_example() {

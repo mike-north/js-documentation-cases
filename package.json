@@ -11,7 +11,10 @@
     "build:typedoc": "scripty",
     "build:esdoc": "scripty",
     "build:jsdoc": "scripty",
-    "build:index": "scripty"
+    "build:ts-docs-gen": "scripty",
+    "build:index": "scripty",
+    "build": "scripty",
+    "postinstall": "scripty"
   },
   "devDependencies": {
     "@types/handlebars": "^4.0.39",
@@ -22,6 +25,7 @@
     "handlebars": "^4.0.12",
     "jsdoc": "^3.5.5",
     "scripty": "^1.7.2",
+    "ts-docs-gen": "^0.2.0",
     "typedoc": "^0.12.0"
   }
 }

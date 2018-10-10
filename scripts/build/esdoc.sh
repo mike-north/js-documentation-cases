@@ -1,5 +1,5 @@
 #!/bin/sh
-echo "hello"
+
 source ./scripts/run_for_each.sh
 
 esdoc_for_example() {
