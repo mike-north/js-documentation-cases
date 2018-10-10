@@ -1,5 +1,7 @@
 # JS/TS Library Documentation Test Cases
 
+[![Build Status](https://travis-ci.org/mike-north/js-documentation-cases.svg?branch=master)](https://travis-ci.org/mike-north/js-documentation-cases)
+
 A set of test cases for evaluating the capabilities and support of documentation generation tools.
 
 ## The Cases
