@@ -1,0 +1,17 @@
+{
+  "coverage": "66.66%",
+  "expectCount": 12,
+  "actualCount": 8,
+  "files": {
+    "2-single-file-ts/index.ts": {
+      "expectCount": 12,
+      "actualCount": 8,
+      "undocumentLines": [
+        19,
+        32,
+        65,
+        76
+      ]
+    }
+  }
+}

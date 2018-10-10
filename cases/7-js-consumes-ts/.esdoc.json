@@ -1,0 +1,10 @@
+{
+  "source": ".",
+  "destination": "../../docs/esdoc/7-js-consumes-ts",
+  "index": "../../README.md",
+  "package": "../../package.json",
+  "plugins": [
+    { "name": "esdoc-typescript-plugin" },
+    { "name": "esdoc-standard-plugin" }
+  ]
+}

@@ -6,7 +6,7 @@ const DOCS_PATH = path.join(__dirname, '..', '..', 'docs');
 const CASES_PATH = path.join(__dirname, '..', '..', 'cases');
 const isDirectory = source => fs.lstatSync(source).isDirectory();
 
-const GENERATORS = ['typedoc'];
+const GENERATORS = ['typedoc', 'esdoc'];
 const getDirectories = source =>
   fs
     .readdirSync(source)

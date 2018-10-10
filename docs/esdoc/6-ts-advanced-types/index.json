@@ -1,0 +1,999 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "6-ts-advanced-types/.external-ecmascript.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "6-ts-advanced-types/car.ts",
+    "content": "import Vehicle from './vehicle';\n\n/**\n * A car is a 4-wheeled vehicle\n */\nexport default class Car extends Vehicle {\n  /**\n   * Create a new car\n   */\n  constructor() {\n    super(4);\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/mnorth/Development/oss/js-documentation-cases/cases/6-ts-advanced-types/car.ts",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "class",
+    "name": "Car",
+    "memberof": "6-ts-advanced-types/car.ts",
+    "static": true,
+    "longname": "6-ts-advanced-types/car.ts~Car",
+    "access": "public",
+    "export": true,
+    "importPath": "js-documentation-cases/6-ts-advanced-types/car.ts",
+    "importStyle": "Car",
+    "description": "A car is a 4-wheeled vehicle",
+    "lineNumber": 6,
+    "interface": false,
+    "extends": [
+      "6-ts-advanced-types/vehicle.js~Vehicle"
+    ]
+  },
+  {
+    "__docId__": 50,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "6-ts-advanced-types/car.ts~Car",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "6-ts-advanced-types/car.ts~Car#constructor",
+    "access": "public",
+    "description": "Create a new car",
+    "lineNumber": 12
+  },
+  {
+    "__docId__": 51,
+    "kind": "file",
+    "name": "6-ts-advanced-types/cycles.ts",
+    "content": "import Vehicle from './vehicle';\n\n/**\n * A bike is a 2-wheeled vehicle\n */\nexport class Bike extends Vehicle {\n  constructor() {\n    super(2);\n  }\n}\n\n/**\n * A Unicycle is a 1-wheeled vehicle\n */\nexport class Unicycle extends Vehicle {\n  constructor() {\n    super(1);\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/mnorth/Development/oss/js-documentation-cases/cases/6-ts-advanced-types/cycles.ts",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 52,
+    "kind": "class",
+    "name": "Bike",
+    "memberof": "6-ts-advanced-types/cycles.ts",
+    "static": true,
+    "longname": "6-ts-advanced-types/cycles.ts~Bike",
+    "access": "public",
+    "export": true,
+    "importPath": "js-documentation-cases/6-ts-advanced-types/cycles.ts",
+    "importStyle": "{Bike}",
+    "description": "A bike is a 2-wheeled vehicle",
+    "lineNumber": 6,
+    "interface": false,
+    "extends": [
+      "6-ts-advanced-types/vehicle.js~Vehicle"
+    ]
+  },
+  {
+    "__docId__": 53,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "6-ts-advanced-types/cycles.ts~Bike",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "6-ts-advanced-types/cycles.ts~Bike#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true
+  },
+  {
+    "__docId__": 54,
+    "kind": "class",
+    "name": "Unicycle",
+    "memberof": "6-ts-advanced-types/cycles.ts",
+    "static": true,
+    "longname": "6-ts-advanced-types/cycles.ts~Unicycle",
+    "access": "public",
+    "export": true,
+    "importPath": "js-documentation-cases/6-ts-advanced-types/cycles.ts",
+    "importStyle": "{Unicycle}",
+    "description": "A Unicycle is a 1-wheeled vehicle",
+    "lineNumber": 15,
+    "interface": false,
+    "extends": [
+      "6-ts-advanced-types/vehicle.js~Vehicle"
+    ]
+  },
+  {
+    "__docId__": 55,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "6-ts-advanced-types/cycles.ts~Unicycle",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "6-ts-advanced-types/cycles.ts~Unicycle#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 20,
+    "undocument": true
+  },
+  {
+    "__docId__": 56,
+    "kind": "file",
+    "name": "6-ts-advanced-types/index.ts",
+    "content": "/// <reference types=\"lodash\"/>\n\nimport { Bike } from './cycles';\n\nexport function add(a, b) {\n  return a + b;\n}\n\nexport const SECRET_STRING = 'shhhhh!';\n\nexport { default as Car } from './car';\nexport { Unicycle, Bike } from './cycles';\nexport { VehicleLike } from './types';\n\nclass VehicleUtils {\n  /**\n   * Static things\n   */\n  static description: 'Utilities for vehicles';\n  /**\n   * Members\n   */\n  memberFn() {\n    return '';\n  }\n}\n\nnamespace VehicleUtils {\n  /**\n   * Create a new bike\n   */\n  export function createBike(): Bike {\n    return new Bike();\n  }\n}\n\n/**\n * The first bike\n */\nexport const firstBike = VehicleUtils.createBike();\n\nfunction timeout(n: number) {\n  return new Promise<void>(resolve => setTimeout(resolve, n));\n}\n\nexport const bikeSoon = timeout(3000).then(() => new Bike());\n",
+    "static": true,
+    "longname": "/Users/mnorth/Development/oss/js-documentation-cases/cases/6-ts-advanced-types/index.ts",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 57,
+    "kind": "function",
+    "name": "add",
+    "memberof": "6-ts-advanced-types/index.ts",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "6-ts-advanced-types/index.ts~add",
+    "access": "public",
+    "export": true,
+    "importPath": "js-documentation-cases/6-ts-advanced-types/index.ts",
+    "importStyle": "{add}",
+    "description": "",
+    "lineNumber": 5,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "undefined"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "a",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "undefined"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "b",
+        "description": ""
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 58,
+    "kind": "variable",
+    "name": "SECRET_STRING",
+    "memberof": "6-ts-advanced-types/index.ts",
+    "static": true,
+    "longname": "6-ts-advanced-types/index.ts~SECRET_STRING",
+    "access": "public",
+    "export": true,
+    "importPath": "js-documentation-cases/6-ts-advanced-types/index.ts",
+    "importStyle": "{SECRET_STRING}",
+    "description": null,
+    "lineNumber": 16,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 59,
+    "kind": "class",
+    "name": "VehicleUtils",
+    "memberof": "6-ts-advanced-types/index.ts",
+    "static": true,
+    "longname": "6-ts-advanced-types/index.ts~VehicleUtils",
+    "access": "public",
+    "export": false,
+    "importPath": "js-documentation-cases/6-ts-advanced-types/index.ts",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 15,
+    "interface": false,
+    "ignore": true
+  },
+  {
+    "__docId__": 60,
+    "kind": "method",
+    "name": "memberFn",
+    "memberof": "6-ts-advanced-types/index.ts~VehicleUtils",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "6-ts-advanced-types/index.ts~VehicleUtils#memberFn",
+    "access": "public",
+    "description": "Members",
+    "lineNumber": 23,
+    "params": [],
+    "return": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 61,
+    "kind": "variable",
+    "name": "firstBike",
+    "memberof": "6-ts-advanced-types/index.ts",
+    "static": true,
+    "longname": "6-ts-advanced-types/index.ts~firstBike",
+    "access": "public",
+    "export": true,
+    "importPath": "js-documentation-cases/6-ts-advanced-types/index.ts",
+    "importStyle": "{firstBike}",
+    "description": "The first bike",
+    "lineNumber": 54,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 62,
+    "kind": "function",
+    "name": "timeout",
+    "memberof": "6-ts-advanced-types/index.ts",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "6-ts-advanced-types/index.ts~timeout",
+    "access": "public",
+    "export": false,
+    "importPath": "js-documentation-cases/6-ts-advanced-types/index.ts",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 42,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "n",
+        "description": ""
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 63,
+    "kind": "variable",
+    "name": "bikeSoon",
+    "memberof": "6-ts-advanced-types/index.ts",
+    "static": true,
+    "longname": "6-ts-advanced-types/index.ts~bikeSoon",
+    "access": "public",
+    "export": true,
+    "importPath": "js-documentation-cases/6-ts-advanced-types/index.ts",
+    "importStyle": "{bikeSoon}",
+    "description": null,
+    "lineNumber": 66,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 64,
+    "kind": "file",
+    "name": "6-ts-advanced-types/types.ts",
+    "content": "/**\n * A vehicle-like thing\n */\nexport interface VehicleLike {\n  /**\n   * Start driving\n   */\n  drive(): void;\n}\n\n/**\n * A factory for vehicles\n */\nexport type VehicleFactory<N extends number> = new (\n  numWheels: N\n) => VehicleLike;\n",
+    "static": true,
+    "longname": "/Users/mnorth/Development/oss/js-documentation-cases/cases/6-ts-advanced-types/types.ts",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 65,
+    "kind": "file",
+    "name": "6-ts-advanced-types/vehicle.ts",
+    "content": "import { VehicleLike, VehicleFactory } from './types';\n\n/**\n * A vehicle is a thing that goes places\n */\nexport default class Vehicle implements VehicleLike {\n  /**\n   * Create a new vehicle\n   * @param {number} numWheels Number of wheels\n   */\n  constructor(protected numWheels: number) {}\n  /**\n   * Drive the vehicle\n   * @returns {string}\n   */\n  drive() {\n    return `Driving with all ${this.numWheels} wheels`;\n  }\n}\n\nexport const Factory4: VehicleFactory<4> = Vehicle;\n",
+    "static": true,
+    "longname": "/Users/mnorth/Development/oss/js-documentation-cases/cases/6-ts-advanced-types/vehicle.ts",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 66,
+    "kind": "class",
+    "name": "Vehicle",
+    "memberof": "6-ts-advanced-types/vehicle.ts",
+    "static": true,
+    "longname": "6-ts-advanced-types/vehicle.ts~Vehicle",
+    "access": "public",
+    "export": true,
+    "importPath": "js-documentation-cases/6-ts-advanced-types/vehicle.ts",
+    "importStyle": "Vehicle",
+    "description": "A vehicle is a thing that goes places",
+    "lineNumber": 6,
+    "interface": false
+  },
+  {
+    "__docId__": 67,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "6-ts-advanced-types/vehicle.ts~Vehicle",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "6-ts-advanced-types/vehicle.ts~Vehicle#constructor",
+    "access": "public",
+    "description": "Create a new vehicle",
+    "lineNumber": 12,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "numWheels",
+        "description": "Number of wheels"
+      }
+    ]
+  },
+  {
+    "__docId__": 68,
+    "kind": "member",
+    "name": "numWheels",
+    "memberof": "6-ts-advanced-types/vehicle.ts~Vehicle",
+    "static": false,
+    "longname": "6-ts-advanced-types/vehicle.ts~Vehicle#numWheels",
+    "access": "public",
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 69,
+    "kind": "method",
+    "name": "drive",
+    "memberof": "6-ts-advanced-types/vehicle.ts~Vehicle",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "6-ts-advanced-types/vehicle.ts~Vehicle#drive",
+    "access": "public",
+    "description": "Drive the vehicle",
+    "lineNumber": 16,
+    "params": [],
+    "return": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 70,
+    "kind": "variable",
+    "name": "Factory4",
+    "memberof": "6-ts-advanced-types/vehicle.ts",
+    "static": true,
+    "longname": "6-ts-advanced-types/vehicle.ts~Factory4",
+    "access": "public",
+    "export": true,
+    "importPath": "js-documentation-cases/6-ts-advanced-types/vehicle.ts",
+    "importStyle": "{Factory4}",
+    "description": null,
+    "lineNumber": 25,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "kind": "index",
+    "content": "# JS/TS Library Documentation Test Cases\n\nA set of test cases for evaluating the capabilities and support of documentation generation tools.\n\n## The Cases\n\nThe subfolders of `./cases` represent meaningful scenarios that are important for library doc generation. In theory, these are ordered in increasing level of difficulty for doc tooling to handle.\n\n### `1. Single-File JavaScript`\n\nA single JavaScript file, with some module-private (non-exported) values, and some exported ones\n\n### `2. Single-File TypeScript`\n\nA single TypeScript file, with some module-private (non-exported) values, and some exported ones\n\n### `3. Multi-File JavaScript`\n\nA single \"entry\" file, that consumes from multiple other JS files (which are not available directly to consumers for consumption).\n\n### `4. Multi-File TypeScript`\n\nA single \"entry\" file, that consumes from multiple other TS files (which are not available directly to consumers for consumption).\n\n### `5. TypeScript Exported Types`\n\nTypeScript code that exports Interfaces and Type Aliases in addition to values\n\n### `6. TypeScript Advanced Types`\n\nA couple of tricky TypeScript scenarios, including the merge of a `class` and `namespace`.\n\n### `7. JavaScript consumes TypeScript`\n\nA scenario involving a mix of JS and TS files, where the types provided by TS are consumed and used in JSDoc comments\n\n### `8. No TSConfig`\n\nA scenario where no local `tsconfig.json` is found, and a default one must be used for doc generation instead\n\n---\n\n(c) 2018 LinkedIn\n",
+    "longname": "/Users/mnorth/Development/oss/js-documentation-cases/README.md",
+    "name": "../../README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"js-documentation-cases\",\n  \"version\": \"0.0.0-development\",\n  \"description\": \"Test cases for JavaScript & TypeScript library documentation solutions\",\n  \"main\": \"index.js\",\n  \"repository\": \"https://github.com/mike-north/js-documentation-cases\",\n  \"author\": \"Mike North <michael.l.north@gmail.com> (https://mike.works)\",\n  \"license\": \"BSD-2-Clause\",\n  \"private\": false,\n  \"scripts\": {\n    \"build:typedoc\": \"scripty\",\n    \"build:esdoc\": \"scripty\",\n    \"build:index\": \"scripty\"\n  },\n  \"devDependencies\": {\n    \"@types/handlebars\": \"^4.0.39\",\n    \"@types/lodash\": \"^4.14.116\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"esdoc-typescript-plugin\": \"^1.0.1\",\n    \"handlebars\": \"^4.0.12\",\n    \"scripty\": \"^1.7.2\",\n    \"typedoc\": \"^0.12.0\"\n  }\n}\n",
+    "longname": "/Users/mnorth/Development/oss/js-documentation-cases/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]

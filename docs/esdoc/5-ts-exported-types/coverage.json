@@ -1,0 +1,35 @@
+{
+  "coverage": "61.53%",
+  "expectCount": 13,
+  "actualCount": 8,
+  "files": {
+    "5-ts-exported-types/car.ts": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "5-ts-exported-types/cycles.ts": {
+      "expectCount": 4,
+      "actualCount": 2,
+      "undocumentLines": [
+        9,
+        20
+      ]
+    },
+    "5-ts-exported-types/index.ts": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        14
+      ]
+    },
+    "5-ts-exported-types/vehicle.ts": {
+      "expectCount": 5,
+      "actualCount": 3,
+      "undocumentLines": [
+        13,
+        25
+      ]
+    }
+  }
+}

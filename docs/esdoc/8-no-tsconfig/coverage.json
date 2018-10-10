@@ -1,0 +1,34 @@
+{
+  "coverage": "69.23%",
+  "expectCount": 13,
+  "actualCount": 9,
+  "files": {
+    "8-no-tsconfig/car.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "8-no-tsconfig/cycles.js": {
+      "expectCount": 5,
+      "actualCount": 3,
+      "undocumentLines": [
+        7,
+        22
+      ]
+    },
+    "8-no-tsconfig/index.ts": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        14
+      ]
+    },
+    "8-no-tsconfig/vehicle.ts": {
+      "expectCount": 4,
+      "actualCount": 3,
+      "undocumentLines": [
+        13
+      ]
+    }
+  }
+}

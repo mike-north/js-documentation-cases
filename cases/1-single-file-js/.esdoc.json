@@ -1,0 +1,10 @@
+{
+  "source": ".",
+  "destination": "../../docs/esdoc/1-single-file-js",
+  "index": "../../README.md",
+  "package": "../../package.json",
+  "plugins": [
+    { "name": "esdoc-typescript-plugin" },
+    { "name": "esdoc-standard-plugin" }
+  ]
+}
