@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>index.ts</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+  <link rel="stylesheet" media="all" href="../docco.css" />
+</head>
+<body>
+  <div id="container">
+    <div id="background"></div>
+    
+      <ul id="jump_to">
+        <li>
+          <a class="large" href="javascript:void(0);">Jump To &hellip;</a>
+          <a class="small" href="javascript:void(0);">+</a>
+          <div id="jump_wrapper">
+          <div id="jump_page_wrapper">
+            <div id="jump_page">
+              
+                
+                <a class="source" href="car.html">
+                  src/car.ts
+                </a>
+              
+                
+                <a class="source" href="cycles.html">
+                  src/cycles.ts
+                </a>
+              
+                
+                <a class="source" href="index.html">
+                  src/index.ts
+                </a>
+              
+                
+                <a class="source" href="types.html">
+                  src/types.ts
+                </a>
+              
+                
+                <a class="source" href="vehicle.html">
+                  src/vehicle.ts
+                </a>
+              
+            </div>
+          </div>
+        </li>
+      </ul>
+    
+    <ul class="sections">
+        
+          <li id="title">
+              <div class="annotation">
+                  <h1>index.ts</h1>
+              </div>
+          </li>
+        
+        
+        
+        <li id="section-1">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-1">&#182;</a>
+              </div>
+              <p>/ <reference types="lodash"/></p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>
+<span class="hljs-keyword">import</span> { Bike } <span class="hljs-keyword">from</span> <span class="hljs-string">'./cycles'</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">add</span>(<span class="hljs-params">a: <span class="hljs-built_in">number</span>, b: <span class="hljs-built_in">number</span></span>): <span class="hljs-title">number</span></span>;
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">add</span>(<span class="hljs-params">a: <span class="hljs-built_in">string</span>, b: <span class="hljs-built_in">string</span></span>): <span class="hljs-title">string</span></span>;
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">add</span>(<span class="hljs-params">a: <span class="hljs-built_in">number</span> | <span class="hljs-built_in">string</span>, b: <span class="hljs-built_in">number</span> | <span class="hljs-built_in">string</span></span>): <span class="hljs-title">number</span> | <span class="hljs-title">string</span> </span>{
+  <span class="hljs-keyword">if</span> (<span class="hljs-keyword">typeof</span> a === <span class="hljs-string">'number'</span> &amp;&amp; <span class="hljs-keyword">typeof</span> b === <span class="hljs-string">'number'</span>) {
+    <span class="hljs-keyword">return</span> a + b;
+  } <span class="hljs-keyword">else</span> {
+    <span class="hljs-keyword">return</span> <span class="hljs-string">''</span> + a + b;
+  }
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> SECRET_STRING = <span class="hljs-string">'shhhhh!'</span>;
+
+<span class="hljs-keyword">export</span> { <span class="hljs-keyword">default</span> <span class="hljs-keyword">as</span> Car } <span class="hljs-keyword">from</span> <span class="hljs-string">'./car'</span>;
+<span class="hljs-keyword">export</span> { Unicycle, Bike } <span class="hljs-keyword">from</span> <span class="hljs-string">'./cycles'</span>;
+<span class="hljs-keyword">export</span> { VehicleLike } <span class="hljs-keyword">from</span> <span class="hljs-string">'./types'</span>;
+
+<span class="hljs-keyword">class</span> VehicleUtils {
+  <span class="hljs-comment">/**
+   * Static things
+   */</span>
+  <span class="hljs-keyword">static</span> description: <span class="hljs-string">'Utilities for vehicles'</span>;
+  <span class="hljs-comment">/**
+   * Members
+   */</span>
+  memberFn() {
+    <span class="hljs-keyword">return</span> <span class="hljs-string">''</span>;
+  }
+}
+
+<span class="hljs-keyword">namespace</span> VehicleUtils {
+  <span class="hljs-comment">/**
+   * Create a new bike
+   */</span>
+  <span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">createBike</span>(<span class="hljs-params"></span>): <span class="hljs-title">Bike</span> </span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> Bike();
+  }
+}
+
+<span class="hljs-comment">/**
+ * The first bike
+ */</span>
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> firstBike = VehicleUtils.createBike();
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">timeout</span>(<span class="hljs-params">n: <span class="hljs-built_in">number</span></span>) </span>{
+  <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>&lt;<span class="hljs-built_in">void</span>&gt;(<span class="hljs-function"><span class="hljs-params">resolve</span> =&gt;</span> setTimeout(resolve, n));
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> bikeSoon = timeout(<span class="hljs-number">3000</span>).then(<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> <span class="hljs-keyword">new</span> Bike());</pre></div></div>
+            
+        </li>
+        
+    </ul>
+  </div>
+</body>
+</html>

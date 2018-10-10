@@ -282,99 +282,99 @@ window.esdocSearchIndex = [
     "external"
   ],
   [
-    "3-multi-file-js/car.js",
-    "file/3-multi-file-js/car.js.html",
-    "3-multi-file-js/car.js",
+    "3-multi-file-js/src/car.js",
+    "file/3-multi-file-js/src/car.js.html",
+    "3-multi-file-js/src/car.js",
     "file"
   ],
   [
-    "3-multi-file-js/car.js~car#constructor",
-    "class/3-multi-file-js/car.js~Car.html#instance-constructor-constructor",
-    "3-multi-file-js/car.js~Car#constructor",
+    "3-multi-file-js/src/car.js~car#constructor",
+    "class/3-multi-file-js/src/car.js~Car.html#instance-constructor-constructor",
+    "3-multi-file-js/src/car.js~Car#constructor",
     "method"
   ],
   [
-    "3-multi-file-js/cycles.js",
-    "file/3-multi-file-js/cycles.js.html",
-    "3-multi-file-js/cycles.js",
+    "3-multi-file-js/src/cycles.js",
+    "file/3-multi-file-js/src/cycles.js.html",
+    "3-multi-file-js/src/cycles.js",
     "file"
   ],
   [
-    "3-multi-file-js/cycles.js~bike#constructor",
-    "class/3-multi-file-js/cycles.js~Bike.html#instance-constructor-constructor",
-    "3-multi-file-js/cycles.js~Bike#constructor",
+    "3-multi-file-js/src/cycles.js~bike#constructor",
+    "class/3-multi-file-js/src/cycles.js~Bike.html#instance-constructor-constructor",
+    "3-multi-file-js/src/cycles.js~Bike#constructor",
     "method"
   ],
   [
-    "3-multi-file-js/cycles.js~unicycle#constructor",
-    "class/3-multi-file-js/cycles.js~Unicycle.html#instance-constructor-constructor",
-    "3-multi-file-js/cycles.js~Unicycle#constructor",
+    "3-multi-file-js/src/cycles.js~unicycle#constructor",
+    "class/3-multi-file-js/src/cycles.js~Unicycle.html#instance-constructor-constructor",
+    "3-multi-file-js/src/cycles.js~Unicycle#constructor",
     "method"
   ],
   [
-    "3-multi-file-js/index.js",
-    "file/3-multi-file-js/index.js.html",
-    "3-multi-file-js/index.js",
+    "3-multi-file-js/src/index.js",
+    "file/3-multi-file-js/src/index.js.html",
+    "3-multi-file-js/src/index.js",
     "file"
   ],
   [
-    "3-multi-file-js/vehicle.js",
-    "file/3-multi-file-js/vehicle.js.html",
-    "3-multi-file-js/vehicle.js",
+    "3-multi-file-js/src/vehicle.js",
+    "file/3-multi-file-js/src/vehicle.js.html",
+    "3-multi-file-js/src/vehicle.js",
     "file"
   ],
   [
-    "3-multi-file-js/vehicle.js~vehicle#constructor",
-    "class/3-multi-file-js/vehicle.js~Vehicle.html#instance-constructor-constructor",
-    "3-multi-file-js/vehicle.js~Vehicle#constructor",
+    "3-multi-file-js/src/vehicle.js~vehicle#constructor",
+    "class/3-multi-file-js/src/vehicle.js~Vehicle.html#instance-constructor-constructor",
+    "3-multi-file-js/src/vehicle.js~Vehicle#constructor",
     "method"
   ],
   [
-    "3-multi-file-js/vehicle.js~vehicle#drive",
-    "class/3-multi-file-js/vehicle.js~Vehicle.html#instance-method-drive",
-    "3-multi-file-js/vehicle.js~Vehicle#drive",
+    "3-multi-file-js/src/vehicle.js~vehicle#drive",
+    "class/3-multi-file-js/src/vehicle.js~Vehicle.html#instance-method-drive",
+    "3-multi-file-js/src/vehicle.js~Vehicle#drive",
     "method"
   ],
   [
-    "3-multi-file-js/vehicle.js~vehicle#numwheels",
-    "class/3-multi-file-js/vehicle.js~Vehicle.html#instance-member-numWheels",
-    "3-multi-file-js/vehicle.js~Vehicle#numWheels",
+    "3-multi-file-js/src/vehicle.js~vehicle#numwheels",
+    "class/3-multi-file-js/src/vehicle.js~Vehicle.html#instance-member-numWheels",
+    "3-multi-file-js/src/vehicle.js~Vehicle#numWheels",
     "member"
   ],
   [
-    "js-documentation-cases/3-multi-file-js/cycles.js~bike",
-    "class/3-multi-file-js/cycles.js~Bike.html",
-    "<span>Bike</span> <span class=\"search-result-import-path\">js-documentation-cases/3-multi-file-js/cycles.js</span>",
+    "js-documentation-cases/3-multi-file-js/src/cycles.js~bike",
+    "class/3-multi-file-js/src/cycles.js~Bike.html",
+    "<span>Bike</span> <span class=\"search-result-import-path\">js-documentation-cases/3-multi-file-js/src/cycles.js</span>",
     "class"
   ],
   [
-    "js-documentation-cases/3-multi-file-js/car.js~car",
-    "class/3-multi-file-js/car.js~Car.html",
-    "<span>Car</span> <span class=\"search-result-import-path\">js-documentation-cases/3-multi-file-js/car.js</span>",
+    "js-documentation-cases/3-multi-file-js/src/car.js~car",
+    "class/3-multi-file-js/src/car.js~Car.html",
+    "<span>Car</span> <span class=\"search-result-import-path\">js-documentation-cases/3-multi-file-js/src/car.js</span>",
     "class"
   ],
   [
-    "js-documentation-cases/3-multi-file-js/index.js~secret_string",
+    "js-documentation-cases/3-multi-file-js/src/index.js~secret_string",
     "variable/index.html#static-variable-SECRET_STRING",
-    "<span>SECRET_STRING</span> <span class=\"search-result-import-path\">js-documentation-cases/3-multi-file-js/index.js</span>",
+    "<span>SECRET_STRING</span> <span class=\"search-result-import-path\">js-documentation-cases/3-multi-file-js/src/index.js</span>",
     "variable"
   ],
   [
-    "js-documentation-cases/3-multi-file-js/cycles.js~unicycle",
-    "class/3-multi-file-js/cycles.js~Unicycle.html",
-    "<span>Unicycle</span> <span class=\"search-result-import-path\">js-documentation-cases/3-multi-file-js/cycles.js</span>",
+    "js-documentation-cases/3-multi-file-js/src/cycles.js~unicycle",
+    "class/3-multi-file-js/src/cycles.js~Unicycle.html",
+    "<span>Unicycle</span> <span class=\"search-result-import-path\">js-documentation-cases/3-multi-file-js/src/cycles.js</span>",
     "class"
   ],
   [
-    "js-documentation-cases/3-multi-file-js/vehicle.js~vehicle",
-    "class/3-multi-file-js/vehicle.js~Vehicle.html",
-    "<span>Vehicle</span> <span class=\"search-result-import-path\">js-documentation-cases/3-multi-file-js/vehicle.js</span>",
+    "js-documentation-cases/3-multi-file-js/src/vehicle.js~vehicle",
+    "class/3-multi-file-js/src/vehicle.js~Vehicle.html",
+    "<span>Vehicle</span> <span class=\"search-result-import-path\">js-documentation-cases/3-multi-file-js/src/vehicle.js</span>",
     "class"
   ],
   [
-    "js-documentation-cases/3-multi-file-js/index.js~add",
+    "js-documentation-cases/3-multi-file-js/src/index.js~add",
     "function/index.html#static-function-add",
-    "<span>add</span> <span class=\"search-result-import-path\">js-documentation-cases/3-multi-file-js/index.js</span>",
+    "<span>add</span> <span class=\"search-result-import-path\">js-documentation-cases/3-multi-file-js/src/index.js</span>",
     "function"
   ]
 ]

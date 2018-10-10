@@ -1,0 +1,108 @@
+{
+    "project": {
+        "name": "2-single-file-ts",
+        "description": "2-single-file-ts",
+        "version": "0.0.1"
+    },
+    "files": {
+        "src/index.ts": {
+            "name": "src/index.ts",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {},
+    "classes": {},
+    "elements": {},
+    "classitems": [
+        {
+            "file": "src/index.ts",
+            "line": 13,
+            "description": "A vehicle is a thing that goes places",
+            "class": ""
+        },
+        {
+            "file": "src/index.ts",
+            "line": 17,
+            "description": "Create a new vehicle",
+            "params": [
+                {
+                    "name": "numWheels",
+                    "description": "Number of wheels",
+                    "type": "Number"
+                }
+            ],
+            "class": ""
+        },
+        {
+            "file": "src/index.ts",
+            "line": 22,
+            "description": "Drive the vehicle",
+            "return": {
+                "description": "",
+                "type": "String"
+            },
+            "class": ""
+        },
+        {
+            "file": "src/index.ts",
+            "line": 31,
+            "description": "A car is a 4-wheeled vehicle",
+            "class": ""
+        },
+        {
+            "file": "src/index.ts",
+            "line": 35,
+            "description": "Create a new car",
+            "class": ""
+        },
+        {
+            "file": "src/index.ts",
+            "line": 43,
+            "description": "A bike is a 2-wheeled vehicle",
+            "class": ""
+        },
+        {
+            "file": "src/index.ts",
+            "line": 52,
+            "description": "A Unicycle is a 1-wheeled vehicle",
+            "class": ""
+        }
+    ],
+    "warnings": [
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " src/index.ts:22"
+        },
+        {
+            "message": "Missing item type\nA vehicle is a thing that goes places",
+            "line": " src/index.ts:13"
+        },
+        {
+            "message": "Missing item type\nCreate a new vehicle",
+            "line": " src/index.ts:17"
+        },
+        {
+            "message": "Missing item type\nDrive the vehicle",
+            "line": " src/index.ts:22"
+        },
+        {
+            "message": "Missing item type\nA car is a 4-wheeled vehicle",
+            "line": " src/index.ts:31"
+        },
+        {
+            "message": "Missing item type\nCreate a new car",
+            "line": " src/index.ts:35"
+        },
+        {
+            "message": "Missing item type\nA bike is a 2-wheeled vehicle",
+            "line": " src/index.ts:43"
+        },
+        {
+            "message": "Missing item type\nA Unicycle is a 1-wheeled vehicle",
+            "line": " src/index.ts:52"
+        }
+    ]
+}

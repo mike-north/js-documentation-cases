@@ -3,12 +3,12 @@
   "expectCount": 18,
   "actualCount": 12,
   "files": {
-    "6-ts-advanced-types/car.ts": {
+    "6-ts-advanced-types/src/car.ts": {
       "expectCount": 2,
       "actualCount": 2,
       "undocumentLines": []
     },
-    "6-ts-advanced-types/cycles.ts": {
+    "6-ts-advanced-types/src/cycles.ts": {
       "expectCount": 4,
       "actualCount": 2,
       "undocumentLines": [
@@ -16,15 +16,15 @@
         20
       ]
     },
-    "6-ts-advanced-types/index.ts": {
+    "6-ts-advanced-types/src/index.ts": {
       "expectCount": 7,
       "actualCount": 5,
       "undocumentLines": [
-        16,
-        66
+        21,
+        71
       ]
     },
-    "6-ts-advanced-types/vehicle.ts": {
+    "6-ts-advanced-types/src/vehicle.ts": {
       "expectCount": 5,
       "actualCount": 3,
       "undocumentLines": [

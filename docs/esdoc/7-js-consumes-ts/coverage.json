@@ -3,12 +3,12 @@
   "expectCount": 13,
   "actualCount": 9,
   "files": {
-    "7-js-consumes-ts/car.js": {
+    "7-js-consumes-ts/src/car.js": {
       "expectCount": 2,
       "actualCount": 2,
       "undocumentLines": []
     },
-    "7-js-consumes-ts/cycles.js": {
+    "7-js-consumes-ts/src/cycles.js": {
       "expectCount": 5,
       "actualCount": 3,
       "undocumentLines": [
@@ -16,14 +16,14 @@
         22
       ]
     },
-    "7-js-consumes-ts/index.ts": {
+    "7-js-consumes-ts/src/index.ts": {
       "expectCount": 2,
       "actualCount": 1,
       "undocumentLines": [
-        14
+        19
       ]
     },
-    "7-js-consumes-ts/vehicle.ts": {
+    "7-js-consumes-ts/src/vehicle.ts": {
       "expectCount": 4,
       "actualCount": 3,
       "undocumentLines": [

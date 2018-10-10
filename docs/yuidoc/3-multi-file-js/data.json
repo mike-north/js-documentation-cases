@@ -1,0 +1,150 @@
+{
+    "project": {
+        "name": "3-multi-file-js",
+        "description": "3-multi-file-js",
+        "version": "0.0.1"
+    },
+    "files": {
+        "src/car.js": {
+            "name": "src/car.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/cycles.js": {
+            "name": "src/cycles.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/index.js": {
+            "name": "src/index.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/vehicle.js": {
+            "name": "src/vehicle.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {},
+    "classes": {},
+    "elements": {},
+    "classitems": [
+        {
+            "file": "src/car.js",
+            "line": 3,
+            "description": "A car is a 4-wheeled vehicle",
+            "class": ""
+        },
+        {
+            "file": "src/car.js",
+            "line": 7,
+            "description": "Create a new car",
+            "class": ""
+        },
+        {
+            "file": "src/cycles.js",
+            "line": 3,
+            "description": "A bike is a 2-wheeled vehicle",
+            "class": ""
+        },
+        {
+            "file": "src/cycles.js",
+            "line": 12,
+            "description": "A Unicycle is a 1-wheeled vehicle",
+            "class": ""
+        },
+        {
+            "file": "src/index.js",
+            "line": 1,
+            "params": [
+                {
+                    "name": "a",
+                    "description": "",
+                    "type": "Number"
+                },
+                {
+                    "name": "b",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "class": ""
+        },
+        {
+            "file": "src/vehicle.js",
+            "line": 1,
+            "description": "A vehicle is a thing that goes places",
+            "class": ""
+        },
+        {
+            "file": "src/vehicle.js",
+            "line": 5,
+            "description": "Create a new vehicle",
+            "params": [
+                {
+                    "name": "numWheels",
+                    "description": "Number of wheels",
+                    "type": "Number"
+                }
+            ],
+            "class": ""
+        },
+        {
+            "file": "src/vehicle.js",
+            "line": 12,
+            "description": "Drive the vehicle",
+            "return": {
+                "description": "",
+                "type": "String"
+            },
+            "class": ""
+        }
+    ],
+    "warnings": [
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " src/vehicle.js:12"
+        },
+        {
+            "message": "Missing item type\nA car is a 4-wheeled vehicle",
+            "line": " src/car.js:3"
+        },
+        {
+            "message": "Missing item type\nCreate a new car",
+            "line": " src/car.js:7"
+        },
+        {
+            "message": "Missing item type\nA bike is a 2-wheeled vehicle",
+            "line": " src/cycles.js:3"
+        },
+        {
+            "message": "Missing item type\nA Unicycle is a 1-wheeled vehicle",
+            "line": " src/cycles.js:12"
+        },
+        {
+            "message": "Missing item type",
+            "line": " src/index.js:1"
+        },
+        {
+            "message": "Missing item type\nA vehicle is a thing that goes places",
+            "line": " src/vehicle.js:1"
+        },
+        {
+            "message": "Missing item type\nCreate a new vehicle",
+            "line": " src/vehicle.js:5"
+        },
+        {
+            "message": "Missing item type\nDrive the vehicle",
+            "line": " src/vehicle.js:12"
+        }
+    ]
+}

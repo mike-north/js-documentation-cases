@@ -3,6 +3,8 @@
 * [index.ts][SourceFile-0]
     * Functions
         * [add][FunctionDeclaration-0]
+        * [add][FunctionDeclaration-1]
+        * [add][FunctionDeclaration-2]
     * Interfaces
         * [VehicleLike][InterfaceDeclaration-0]
     * Variables
@@ -17,19 +19,57 @@
 ### add
 
 ```typescript
-function add(a: any, b: any): any;
+function add(a: number, b: number): number;
 ```
 
 **Parameters**
 
-| Name | Type |
-| ---- | ---- |
-| a    | any  |
-| b    | any  |
+| Name | Type   |
+| ---- | ------ |
+| a    | number |
+| b    | number |
 
 **Return type**
 
-any
+number
+
+----------
+
+### add
+
+```typescript
+function add(a: string, b: string): string;
+```
+
+**Parameters**
+
+| Name | Type   |
+| ---- | ------ |
+| a    | string |
+| b    | string |
+
+**Return type**
+
+string
+
+----------
+
+### add
+
+```typescript
+function add(a: number | string, b: number | string): number | string;
+```
+
+**Parameters**
+
+| Name | Type                 |
+| ---- | -------------------- |
+| a    | number &#124; string |
+| b    | number &#124; string |
+
+**Return type**
+
+number | string
 
 ## Interfaces
 
@@ -114,6 +154,8 @@ Promise<[Bike][ClassDeclaration-3]>
 
 [SourceFile-0]: index.md#indexts
 [FunctionDeclaration-0]: index.md#add
+[FunctionDeclaration-1]: index.md#add
+[FunctionDeclaration-2]: index.md#add
 [InterfaceDeclaration-0]: index.md#vehiclelike
 [ClassDeclaration-0]: index/default.md#car
 [ClassDeclaration-2]: index/unicycle.md#unicycle

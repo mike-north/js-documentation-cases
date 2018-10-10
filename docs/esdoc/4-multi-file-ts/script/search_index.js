@@ -282,99 +282,99 @@ window.esdocSearchIndex = [
     "external"
   ],
   [
-    "4-multi-file-ts/car.ts",
-    "file/4-multi-file-ts/car.ts.html",
-    "4-multi-file-ts/car.ts",
+    "4-multi-file-ts/src/car.ts",
+    "file/4-multi-file-ts/src/car.ts.html",
+    "4-multi-file-ts/src/car.ts",
     "file"
   ],
   [
-    "4-multi-file-ts/car.ts~car#constructor",
-    "class/4-multi-file-ts/car.ts~Car.html#instance-constructor-constructor",
-    "4-multi-file-ts/car.ts~Car#constructor",
+    "4-multi-file-ts/src/car.ts~car#constructor",
+    "class/4-multi-file-ts/src/car.ts~Car.html#instance-constructor-constructor",
+    "4-multi-file-ts/src/car.ts~Car#constructor",
     "method"
   ],
   [
-    "4-multi-file-ts/cycles.ts",
-    "file/4-multi-file-ts/cycles.ts.html",
-    "4-multi-file-ts/cycles.ts",
+    "4-multi-file-ts/src/cycles.ts",
+    "file/4-multi-file-ts/src/cycles.ts.html",
+    "4-multi-file-ts/src/cycles.ts",
     "file"
   ],
   [
-    "4-multi-file-ts/cycles.ts~bike#constructor",
-    "class/4-multi-file-ts/cycles.ts~Bike.html#instance-constructor-constructor",
-    "4-multi-file-ts/cycles.ts~Bike#constructor",
+    "4-multi-file-ts/src/cycles.ts~bike#constructor",
+    "class/4-multi-file-ts/src/cycles.ts~Bike.html#instance-constructor-constructor",
+    "4-multi-file-ts/src/cycles.ts~Bike#constructor",
     "method"
   ],
   [
-    "4-multi-file-ts/cycles.ts~unicycle#constructor",
-    "class/4-multi-file-ts/cycles.ts~Unicycle.html#instance-constructor-constructor",
-    "4-multi-file-ts/cycles.ts~Unicycle#constructor",
+    "4-multi-file-ts/src/cycles.ts~unicycle#constructor",
+    "class/4-multi-file-ts/src/cycles.ts~Unicycle.html#instance-constructor-constructor",
+    "4-multi-file-ts/src/cycles.ts~Unicycle#constructor",
     "method"
   ],
   [
-    "4-multi-file-ts/index.ts",
-    "file/4-multi-file-ts/index.ts.html",
-    "4-multi-file-ts/index.ts",
+    "4-multi-file-ts/src/index.ts",
+    "file/4-multi-file-ts/src/index.ts.html",
+    "4-multi-file-ts/src/index.ts",
     "file"
   ],
   [
-    "4-multi-file-ts/vehicle.ts",
-    "file/4-multi-file-ts/vehicle.ts.html",
-    "4-multi-file-ts/vehicle.ts",
+    "4-multi-file-ts/src/vehicle.ts",
+    "file/4-multi-file-ts/src/vehicle.ts.html",
+    "4-multi-file-ts/src/vehicle.ts",
     "file"
   ],
   [
-    "4-multi-file-ts/vehicle.ts~vehicle#constructor",
-    "class/4-multi-file-ts/vehicle.ts~Vehicle.html#instance-constructor-constructor",
-    "4-multi-file-ts/vehicle.ts~Vehicle#constructor",
+    "4-multi-file-ts/src/vehicle.ts~vehicle#constructor",
+    "class/4-multi-file-ts/src/vehicle.ts~Vehicle.html#instance-constructor-constructor",
+    "4-multi-file-ts/src/vehicle.ts~Vehicle#constructor",
     "method"
   ],
   [
-    "4-multi-file-ts/vehicle.ts~vehicle#drive",
-    "class/4-multi-file-ts/vehicle.ts~Vehicle.html#instance-method-drive",
-    "4-multi-file-ts/vehicle.ts~Vehicle#drive",
+    "4-multi-file-ts/src/vehicle.ts~vehicle#drive",
+    "class/4-multi-file-ts/src/vehicle.ts~Vehicle.html#instance-method-drive",
+    "4-multi-file-ts/src/vehicle.ts~Vehicle#drive",
     "method"
   ],
   [
-    "4-multi-file-ts/vehicle.ts~vehicle#numwheels",
-    "class/4-multi-file-ts/vehicle.ts~Vehicle.html#instance-member-numWheels",
-    "4-multi-file-ts/vehicle.ts~Vehicle#numWheels",
+    "4-multi-file-ts/src/vehicle.ts~vehicle#numwheels",
+    "class/4-multi-file-ts/src/vehicle.ts~Vehicle.html#instance-member-numWheels",
+    "4-multi-file-ts/src/vehicle.ts~Vehicle#numWheels",
     "member"
   ],
   [
-    "js-documentation-cases/4-multi-file-ts/cycles.ts~bike",
-    "class/4-multi-file-ts/cycles.ts~Bike.html",
-    "<span>Bike</span> <span class=\"search-result-import-path\">js-documentation-cases/4-multi-file-ts/cycles.ts</span>",
+    "js-documentation-cases/4-multi-file-ts/src/cycles.ts~bike",
+    "class/4-multi-file-ts/src/cycles.ts~Bike.html",
+    "<span>Bike</span> <span class=\"search-result-import-path\">js-documentation-cases/4-multi-file-ts/src/cycles.ts</span>",
     "class"
   ],
   [
-    "js-documentation-cases/4-multi-file-ts/car.ts~car",
-    "class/4-multi-file-ts/car.ts~Car.html",
-    "<span>Car</span> <span class=\"search-result-import-path\">js-documentation-cases/4-multi-file-ts/car.ts</span>",
+    "js-documentation-cases/4-multi-file-ts/src/car.ts~car",
+    "class/4-multi-file-ts/src/car.ts~Car.html",
+    "<span>Car</span> <span class=\"search-result-import-path\">js-documentation-cases/4-multi-file-ts/src/car.ts</span>",
     "class"
   ],
   [
-    "js-documentation-cases/4-multi-file-ts/index.ts~secret_string",
+    "js-documentation-cases/4-multi-file-ts/src/index.ts~secret_string",
     "variable/index.html#static-variable-SECRET_STRING",
-    "<span>SECRET_STRING</span> <span class=\"search-result-import-path\">js-documentation-cases/4-multi-file-ts/index.ts</span>",
+    "<span>SECRET_STRING</span> <span class=\"search-result-import-path\">js-documentation-cases/4-multi-file-ts/src/index.ts</span>",
     "variable"
   ],
   [
-    "js-documentation-cases/4-multi-file-ts/cycles.ts~unicycle",
-    "class/4-multi-file-ts/cycles.ts~Unicycle.html",
-    "<span>Unicycle</span> <span class=\"search-result-import-path\">js-documentation-cases/4-multi-file-ts/cycles.ts</span>",
+    "js-documentation-cases/4-multi-file-ts/src/cycles.ts~unicycle",
+    "class/4-multi-file-ts/src/cycles.ts~Unicycle.html",
+    "<span>Unicycle</span> <span class=\"search-result-import-path\">js-documentation-cases/4-multi-file-ts/src/cycles.ts</span>",
     "class"
   ],
   [
-    "js-documentation-cases/4-multi-file-ts/vehicle.ts~vehicle",
-    "class/4-multi-file-ts/vehicle.ts~Vehicle.html",
-    "<span>Vehicle</span> <span class=\"search-result-import-path\">js-documentation-cases/4-multi-file-ts/vehicle.ts</span>",
+    "js-documentation-cases/4-multi-file-ts/src/vehicle.ts~vehicle",
+    "class/4-multi-file-ts/src/vehicle.ts~Vehicle.html",
+    "<span>Vehicle</span> <span class=\"search-result-import-path\">js-documentation-cases/4-multi-file-ts/src/vehicle.ts</span>",
     "class"
   ],
   [
-    "js-documentation-cases/4-multi-file-ts/index.ts~add",
+    "js-documentation-cases/4-multi-file-ts/src/index.ts~add",
     "function/index.html#static-function-add",
-    "<span>add</span> <span class=\"search-result-import-path\">js-documentation-cases/4-multi-file-ts/index.ts</span>",
+    "<span>add</span> <span class=\"search-result-import-path\">js-documentation-cases/4-multi-file-ts/src/index.ts</span>",
     "function"
   ]
 ]

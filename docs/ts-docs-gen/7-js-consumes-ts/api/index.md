@@ -3,6 +3,8 @@
 * [index.ts][SourceFile-0]
     * Functions
         * [add][FunctionDeclaration-0]
+        * [add][FunctionDeclaration-1]
+        * [add][FunctionDeclaration-2]
     * Variables
         * [SECRET_STRING][VariableDeclaration-0]
 
@@ -13,40 +15,57 @@
 ### add
 
 ```typescript
-function add(a: any, b: any): any;
+function add(a: number, b: number): number;
 ```
 
 **Parameters**
 
-| Name | Type |
-| ---- | ---- |
-| a    | any  |
-| b    | any  |
+| Name | Type   |
+| ---- | ------ |
+| a    | number |
+| b    | number |
 
 **Return type**
 
-any
-
-## Classes
-
-### [Car][ClassDeclaration-0]
-
-A car is a 4-wheeled vehicle
-
+number
 
 ----------
 
-### [Unicycle][ClassDeclaration-2]
+### add
 
-A Unicycle is a 1-wheeled vehicle
+```typescript
+function add(a: string, b: string): string;
+```
 
+**Parameters**
+
+| Name | Type   |
+| ---- | ------ |
+| a    | string |
+| b    | string |
+
+**Return type**
+
+string
 
 ----------
 
-### [Bike][ClassDeclaration-3]
+### add
 
-A bike is a 2-wheeled vehicle
+```typescript
+function add(a: number | string, b: number | string): number | string;
+```
 
+**Parameters**
+
+| Name | Type                 |
+| ---- | -------------------- |
+| a    | number &#124; string |
+| b    | number &#124; string |
+
+**Return type**
+
+number | string
 
 ## Variables
 
@@ -62,7 +81,6 @@ const SECRET_STRING: "shhhhh!";
 
 [SourceFile-0]: index.md#indexts
 [FunctionDeclaration-0]: index.md#add
-[ClassDeclaration-0]: index/default.md#car
-[ClassDeclaration-2]: index/unicycle.md#unicycle
-[ClassDeclaration-3]: index/bike.md#bike
+[FunctionDeclaration-1]: index.md#add
+[FunctionDeclaration-2]: index.md#add
 [VariableDeclaration-0]: index.md#secret_string

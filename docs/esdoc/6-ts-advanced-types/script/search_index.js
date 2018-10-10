@@ -282,123 +282,123 @@ window.esdocSearchIndex = [
     "external"
   ],
   [
-    "6-ts-advanced-types/car.ts",
-    "file/6-ts-advanced-types/car.ts.html",
-    "6-ts-advanced-types/car.ts",
+    "6-ts-advanced-types/src/car.ts",
+    "file/6-ts-advanced-types/src/car.ts.html",
+    "6-ts-advanced-types/src/car.ts",
     "file"
   ],
   [
-    "6-ts-advanced-types/car.ts~car#constructor",
-    "class/6-ts-advanced-types/car.ts~Car.html#instance-constructor-constructor",
-    "6-ts-advanced-types/car.ts~Car#constructor",
+    "6-ts-advanced-types/src/car.ts~car#constructor",
+    "class/6-ts-advanced-types/src/car.ts~Car.html#instance-constructor-constructor",
+    "6-ts-advanced-types/src/car.ts~Car#constructor",
     "method"
   ],
   [
-    "6-ts-advanced-types/cycles.ts",
-    "file/6-ts-advanced-types/cycles.ts.html",
-    "6-ts-advanced-types/cycles.ts",
+    "6-ts-advanced-types/src/cycles.ts",
+    "file/6-ts-advanced-types/src/cycles.ts.html",
+    "6-ts-advanced-types/src/cycles.ts",
     "file"
   ],
   [
-    "6-ts-advanced-types/cycles.ts~bike#constructor",
-    "class/6-ts-advanced-types/cycles.ts~Bike.html#instance-constructor-constructor",
-    "6-ts-advanced-types/cycles.ts~Bike#constructor",
+    "6-ts-advanced-types/src/cycles.ts~bike#constructor",
+    "class/6-ts-advanced-types/src/cycles.ts~Bike.html#instance-constructor-constructor",
+    "6-ts-advanced-types/src/cycles.ts~Bike#constructor",
     "method"
   ],
   [
-    "6-ts-advanced-types/cycles.ts~unicycle#constructor",
-    "class/6-ts-advanced-types/cycles.ts~Unicycle.html#instance-constructor-constructor",
-    "6-ts-advanced-types/cycles.ts~Unicycle#constructor",
+    "6-ts-advanced-types/src/cycles.ts~unicycle#constructor",
+    "class/6-ts-advanced-types/src/cycles.ts~Unicycle.html#instance-constructor-constructor",
+    "6-ts-advanced-types/src/cycles.ts~Unicycle#constructor",
     "method"
   ],
   [
-    "6-ts-advanced-types/index.ts",
-    "file/6-ts-advanced-types/index.ts.html",
-    "6-ts-advanced-types/index.ts",
+    "6-ts-advanced-types/src/index.ts",
+    "file/6-ts-advanced-types/src/index.ts.html",
+    "6-ts-advanced-types/src/index.ts",
     "file"
   ],
   [
-    "6-ts-advanced-types/types.ts",
-    "file/6-ts-advanced-types/types.ts.html",
-    "6-ts-advanced-types/types.ts",
+    "6-ts-advanced-types/src/types.ts",
+    "file/6-ts-advanced-types/src/types.ts.html",
+    "6-ts-advanced-types/src/types.ts",
     "file"
   ],
   [
-    "6-ts-advanced-types/vehicle.ts",
-    "file/6-ts-advanced-types/vehicle.ts.html",
-    "6-ts-advanced-types/vehicle.ts",
+    "6-ts-advanced-types/src/vehicle.ts",
+    "file/6-ts-advanced-types/src/vehicle.ts.html",
+    "6-ts-advanced-types/src/vehicle.ts",
     "file"
   ],
   [
-    "6-ts-advanced-types/vehicle.ts~vehicle#constructor",
-    "class/6-ts-advanced-types/vehicle.ts~Vehicle.html#instance-constructor-constructor",
-    "6-ts-advanced-types/vehicle.ts~Vehicle#constructor",
+    "6-ts-advanced-types/src/vehicle.ts~vehicle#constructor",
+    "class/6-ts-advanced-types/src/vehicle.ts~Vehicle.html#instance-constructor-constructor",
+    "6-ts-advanced-types/src/vehicle.ts~Vehicle#constructor",
     "method"
   ],
   [
-    "6-ts-advanced-types/vehicle.ts~vehicle#drive",
-    "class/6-ts-advanced-types/vehicle.ts~Vehicle.html#instance-method-drive",
-    "6-ts-advanced-types/vehicle.ts~Vehicle#drive",
+    "6-ts-advanced-types/src/vehicle.ts~vehicle#drive",
+    "class/6-ts-advanced-types/src/vehicle.ts~Vehicle.html#instance-method-drive",
+    "6-ts-advanced-types/src/vehicle.ts~Vehicle#drive",
     "method"
   ],
   [
-    "6-ts-advanced-types/vehicle.ts~vehicle#numwheels",
-    "class/6-ts-advanced-types/vehicle.ts~Vehicle.html#instance-member-numWheels",
-    "6-ts-advanced-types/vehicle.ts~Vehicle#numWheels",
+    "6-ts-advanced-types/src/vehicle.ts~vehicle#numwheels",
+    "class/6-ts-advanced-types/src/vehicle.ts~Vehicle.html#instance-member-numWheels",
+    "6-ts-advanced-types/src/vehicle.ts~Vehicle#numWheels",
     "member"
   ],
   [
-    "js-documentation-cases/6-ts-advanced-types/cycles.ts~bike",
-    "class/6-ts-advanced-types/cycles.ts~Bike.html",
-    "<span>Bike</span> <span class=\"search-result-import-path\">js-documentation-cases/6-ts-advanced-types/cycles.ts</span>",
+    "js-documentation-cases/6-ts-advanced-types/src/cycles.ts~bike",
+    "class/6-ts-advanced-types/src/cycles.ts~Bike.html",
+    "<span>Bike</span> <span class=\"search-result-import-path\">js-documentation-cases/6-ts-advanced-types/src/cycles.ts</span>",
     "class"
   ],
   [
-    "js-documentation-cases/6-ts-advanced-types/car.ts~car",
-    "class/6-ts-advanced-types/car.ts~Car.html",
-    "<span>Car</span> <span class=\"search-result-import-path\">js-documentation-cases/6-ts-advanced-types/car.ts</span>",
+    "js-documentation-cases/6-ts-advanced-types/src/car.ts~car",
+    "class/6-ts-advanced-types/src/car.ts~Car.html",
+    "<span>Car</span> <span class=\"search-result-import-path\">js-documentation-cases/6-ts-advanced-types/src/car.ts</span>",
     "class"
   ],
   [
-    "js-documentation-cases/6-ts-advanced-types/vehicle.ts~factory4",
+    "js-documentation-cases/6-ts-advanced-types/src/vehicle.ts~factory4",
     "variable/index.html#static-variable-Factory4",
-    "<span>Factory4</span> <span class=\"search-result-import-path\">js-documentation-cases/6-ts-advanced-types/vehicle.ts</span>",
+    "<span>Factory4</span> <span class=\"search-result-import-path\">js-documentation-cases/6-ts-advanced-types/src/vehicle.ts</span>",
     "variable"
   ],
   [
-    "js-documentation-cases/6-ts-advanced-types/index.ts~secret_string",
+    "js-documentation-cases/6-ts-advanced-types/src/index.ts~secret_string",
     "variable/index.html#static-variable-SECRET_STRING",
-    "<span>SECRET_STRING</span> <span class=\"search-result-import-path\">js-documentation-cases/6-ts-advanced-types/index.ts</span>",
+    "<span>SECRET_STRING</span> <span class=\"search-result-import-path\">js-documentation-cases/6-ts-advanced-types/src/index.ts</span>",
     "variable"
   ],
   [
-    "js-documentation-cases/6-ts-advanced-types/cycles.ts~unicycle",
-    "class/6-ts-advanced-types/cycles.ts~Unicycle.html",
-    "<span>Unicycle</span> <span class=\"search-result-import-path\">js-documentation-cases/6-ts-advanced-types/cycles.ts</span>",
+    "js-documentation-cases/6-ts-advanced-types/src/cycles.ts~unicycle",
+    "class/6-ts-advanced-types/src/cycles.ts~Unicycle.html",
+    "<span>Unicycle</span> <span class=\"search-result-import-path\">js-documentation-cases/6-ts-advanced-types/src/cycles.ts</span>",
     "class"
   ],
   [
-    "js-documentation-cases/6-ts-advanced-types/vehicle.ts~vehicle",
-    "class/6-ts-advanced-types/vehicle.ts~Vehicle.html",
-    "<span>Vehicle</span> <span class=\"search-result-import-path\">js-documentation-cases/6-ts-advanced-types/vehicle.ts</span>",
+    "js-documentation-cases/6-ts-advanced-types/src/vehicle.ts~vehicle",
+    "class/6-ts-advanced-types/src/vehicle.ts~Vehicle.html",
+    "<span>Vehicle</span> <span class=\"search-result-import-path\">js-documentation-cases/6-ts-advanced-types/src/vehicle.ts</span>",
     "class"
   ],
   [
-    "js-documentation-cases/6-ts-advanced-types/index.ts~add",
+    "js-documentation-cases/6-ts-advanced-types/src/index.ts~add",
     "function/index.html#static-function-add",
-    "<span>add</span> <span class=\"search-result-import-path\">js-documentation-cases/6-ts-advanced-types/index.ts</span>",
+    "<span>add</span> <span class=\"search-result-import-path\">js-documentation-cases/6-ts-advanced-types/src/index.ts</span>",
     "function"
   ],
   [
-    "js-documentation-cases/6-ts-advanced-types/index.ts~bikesoon",
+    "js-documentation-cases/6-ts-advanced-types/src/index.ts~bikesoon",
     "variable/index.html#static-variable-bikeSoon",
-    "<span>bikeSoon</span> <span class=\"search-result-import-path\">js-documentation-cases/6-ts-advanced-types/index.ts</span>",
+    "<span>bikeSoon</span> <span class=\"search-result-import-path\">js-documentation-cases/6-ts-advanced-types/src/index.ts</span>",
     "variable"
   ],
   [
-    "js-documentation-cases/6-ts-advanced-types/index.ts~firstbike",
+    "js-documentation-cases/6-ts-advanced-types/src/index.ts~firstbike",
     "variable/index.html#static-variable-firstBike",
-    "<span>firstBike</span> <span class=\"search-result-import-path\">js-documentation-cases/6-ts-advanced-types/index.ts</span>",
+    "<span>firstBike</span> <span class=\"search-result-import-path\">js-documentation-cases/6-ts-advanced-types/src/index.ts</span>",
     "variable"
   ]
 ]
