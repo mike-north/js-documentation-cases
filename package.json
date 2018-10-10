@@ -8,6 +8,7 @@
   "license": "BSD-2-Clause",
   "private": false,
   "scripts": {
+    "test": "yarn build",
     "build:typedoc": "scripty",
     "build:esdoc": "scripty",
     "build:jsdoc": "scripty",
