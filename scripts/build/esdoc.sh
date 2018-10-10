@@ -1,6 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 
-./node_modules/.bin/yarn run_for_each
+source ./scripts/run_for_each.sh
 
 esdoc_for_example() {
   cd cases/$1

@@ -1,4 +1,5 @@
-#!/bin/sh
+#!/bin/bash
+
 yarn build:esdoc
 yarn build:jsdoc
 yarn build:typedoc
