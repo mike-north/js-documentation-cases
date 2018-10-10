@@ -1,16 +1,10 @@
 {
-  "compilerOptions": {
-    "checkJs": true,
-    "allowJs": true,
-    "moduleResolution": "node",
-    "target": "es2017",
-    "lib": ["scripthost", "es2017"]
-  },
+  "extends": "../../tsconfig.json",
   "include": [
-    "./index.ts",
-    "./vehicle.ts",
-    "./car.ts",
-    "./cycles.ts",
-    "./types.ts"
+    "./src/index.ts",
+    "./src/vehicle.ts",
+    "./src/car.ts",
+    "./src/cycles.ts",
+    "./src/types.ts"
   ]
 }

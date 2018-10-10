@@ -14,6 +14,8 @@
     "build:jsdoc": "scripty",
     "build:ts-docs-gen": "scripty",
     "build:index": "scripty",
+    "build:ts": "scripty",
+    "build:docs": "scripty",
     "build": "scripty",
     "postinstall": "scripty",
     "travis-deploy-once": "travis-deploy-once",
@@ -24,6 +26,7 @@
     "@semantic-release/git": "^7.0.4",
     "@types/handlebars": "^4.0.39",
     "@types/lodash": "^4.14.116",
+    "@types/node": "^10.11.7",
     "esdoc": "^1.1.0",
     "esdoc-standard-plugin": "^1.0.0",
     "esdoc-typescript-plugin": "^1.0.1",
@@ -33,7 +36,9 @@
     "semantic-release": "^15.9.17",
     "travis-deploy-once": "^5.0.9",
     "ts-docs-gen": "^0.2.0",
-    "typedoc": "^0.12.0"
+    "ts-jsdoc": "^3.0.1",
+    "typedoc": "^0.12.0",
+    "typescript": "^3.1.2"
   },
   "release": {
     "verifyConditions": [

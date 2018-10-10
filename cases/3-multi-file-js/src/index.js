@@ -1,3 +1,8 @@
+/**
+ *
+ * @param {number} a
+ * @param {string} b
+ */
 export function add(a, b) {
   return a + b;
 }
