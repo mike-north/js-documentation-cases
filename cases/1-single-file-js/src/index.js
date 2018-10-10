@@ -1,5 +1,5 @@
 /**
- *
+ * Add two numbers
  * @param {number} a
  * @param {number} b
  */

@@ -1,3 +1,10 @@
+/**
+ * Add two numbers
+ * @param a a number
+ * @param b a number
+ *
+ * @public
+ */
 export function add(a: number, b: number): number;
 export function add(a: string, b: string): string;
 export function add(a: number | string, b: number | string): number | string {

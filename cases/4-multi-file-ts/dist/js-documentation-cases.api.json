@@ -1,0 +1,167 @@
+{
+  "kind": "package",
+  "name": "js-documentation-cases",
+  "summary": [],
+  "remarks": [],
+  "exports": {
+    "add": {
+      "kind": "function",
+      "signature": "export function add(a: number, b: number): number;",
+      "returnValue": {
+        "type": "number",
+        "description": []
+      },
+      "parameters": {
+        "a": {
+          "name": "a",
+          "description": [],
+          "isOptional": false,
+          "isSpread": false,
+          "type": "number"
+        },
+        "b": {
+          "name": "b",
+          "description": [],
+          "isOptional": false,
+          "isSpread": false,
+          "type": "number"
+        }
+      },
+      "deprecatedMessage": [],
+      "summary": [],
+      "remarks": [],
+      "isBeta": false
+    },
+    "Bike": {
+      "kind": "class",
+      "extends": "Vehicle",
+      "implements": "",
+      "typeParameters": [],
+      "deprecatedMessage": [],
+      "summary": [
+        {
+          "kind": "text",
+          "text": "A bike is a 2-wheeled vehicle"
+        }
+      ],
+      "remarks": [],
+      "isBeta": false,
+      "isSealed": false,
+      "members": {
+        "__constructor": {
+          "kind": "constructor",
+          "signature": "constructor();",
+          "parameters": {},
+          "deprecatedMessage": [],
+          "summary": [
+            {
+              "kind": "text",
+              "text": "Constructs a new instance of the "
+            },
+            {
+              "kind": "api-link",
+              "elements": [
+                {
+                  "kind": "text",
+                  "text": "Bike"
+                }
+              ],
+              "target": {
+                "scopeName": "",
+                "packageName": "js-documentation-cases",
+                "exportName": "Bike",
+                "memberName": ""
+              }
+            },
+            {
+              "kind": "text",
+              "text": " class"
+            }
+          ],
+          "remarks": []
+        }
+      }
+    },
+    "Car": {
+      "kind": "class",
+      "extends": "Vehicle",
+      "implements": "",
+      "typeParameters": [],
+      "deprecatedMessage": [],
+      "summary": [
+        {
+          "kind": "text",
+          "text": "A car is a 4-wheeled vehicle"
+        }
+      ],
+      "remarks": [],
+      "isBeta": false,
+      "isSealed": false,
+      "members": {
+        "__constructor": {
+          "kind": "constructor",
+          "signature": "constructor();",
+          "parameters": {},
+          "deprecatedMessage": [],
+          "summary": [
+            {
+              "kind": "text",
+              "text": "Create a new car"
+            }
+          ],
+          "remarks": []
+        }
+      }
+    },
+    "Unicycle": {
+      "kind": "class",
+      "extends": "Vehicle",
+      "implements": "",
+      "typeParameters": [],
+      "deprecatedMessage": [],
+      "summary": [
+        {
+          "kind": "text",
+          "text": "A Unicycle is a 1-wheeled vehicle"
+        }
+      ],
+      "remarks": [],
+      "isBeta": false,
+      "isSealed": false,
+      "members": {
+        "__constructor": {
+          "kind": "constructor",
+          "signature": "constructor();",
+          "parameters": {},
+          "deprecatedMessage": [],
+          "summary": [
+            {
+              "kind": "text",
+              "text": "Constructs a new instance of the "
+            },
+            {
+              "kind": "api-link",
+              "elements": [
+                {
+                  "kind": "text",
+                  "text": "Unicycle"
+                }
+              ],
+              "target": {
+                "scopeName": "",
+                "packageName": "js-documentation-cases",
+                "exportName": "Unicycle",
+                "memberName": ""
+              }
+            },
+            {
+              "kind": "text",
+              "text": " class"
+            }
+          ],
+          "remarks": []
+        }
+      }
+    }
+  }
+}

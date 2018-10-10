@@ -1,0 +1,36 @@
+{
+  "kind": "package",
+  "name": "js-documentation-cases",
+  "summary": [],
+  "remarks": [],
+  "exports": {
+    "add": {
+      "kind": "function",
+      "signature": "export function add(a: string, b: string): string;",
+      "returnValue": {
+        "type": "string",
+        "description": []
+      },
+      "parameters": {
+        "a": {
+          "name": "a",
+          "description": [],
+          "isOptional": false,
+          "isSpread": false,
+          "type": "string"
+        },
+        "b": {
+          "name": "b",
+          "description": [],
+          "isOptional": false,
+          "isSpread": false,
+          "type": "string"
+        }
+      },
+      "deprecatedMessage": [],
+      "summary": [],
+      "remarks": [],
+      "isBeta": false
+    }
+  }
+}

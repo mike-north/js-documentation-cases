@@ -16,6 +16,8 @@
     "build:ts-docs-gen": "scripty",
     "build:docco": "scripty",
     "build:yuidoc": "scripty",
+    "build:api-extractor": "scripty",
+    "build:api-extractor:create-config": "scripty",
     "build:yuidoc:create-config": "SCRIPTY_SILENT=true scripty",
     "build:index": "scripty",
     "build:ts": "scripty",
@@ -26,6 +28,7 @@
     "semantic-release": "semantic-release"
   },
   "devDependencies": {
+    "@microsoft/api-extractor": "^6.0.2",
     "@semantic-release/git": "^7.0.4",
     "@types/handlebars": "^4.0.39",
     "@types/lodash": "^4.14.116",
