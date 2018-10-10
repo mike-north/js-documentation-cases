@@ -1,5 +1,5 @@
 #!/bin/sh
-source ./scripts/run_for_each.sh
+source scripts/run_for_each.sh
 
 tsdocsgen_for_example() {
   if [ -e cases/$1/src/index.ts ]

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-source ./scripts/run_for_each.sh
+source scripts/run_for_each.sh
 
 yuidoc_for_example() {
   cd cases/$1

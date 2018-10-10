@@ -1,5 +1,5 @@
 #!/bin/sh
-source ./scripts/run_for_each.sh
+source scripts/run_for_each.sh
 
 jsdoc_for_example() {
   cd cases/$1
