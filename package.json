@@ -10,6 +10,7 @@
   "scripts": {
     "build:typedoc": "scripty",
     "build:esdoc": "scripty",
+    "build:jsdoc": "scripty",
     "build:index": "scripty"
   },
   "devDependencies": {
@@ -19,6 +20,7 @@
     "esdoc-standard-plugin": "^1.0.0",
     "esdoc-typescript-plugin": "^1.0.1",
     "handlebars": "^4.0.12",
+    "jsdoc": "^3.5.5",
     "scripty": "^1.7.2",
     "typedoc": "^0.12.0"
   }
