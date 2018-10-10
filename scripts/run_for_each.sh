@@ -6,7 +6,7 @@ run_for_each_example() {
   run_for_example "5-ts-exported-types" "$@"
   run_for_example "6-ts-advanced-types" "$@"
   run_for_example "7-js-consumes-ts" "$@"
-  run_for_example "8-no-tsconfig" "$@"
+  # run_for_example "8-no-tsconfig" "$@"
 }
 run_for_example() {
   proj=$1
