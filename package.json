@@ -8,10 +8,13 @@
   "license": "BSD-2-Clause",
   "private": false,
   "scripts": {
-    "build:typedoc": "scripty"
+    "build:typedoc": "scripty",
+    "build:index": "scripty"
   },
   "devDependencies": {
+    "@types/handlebars": "^4.0.39",
     "@types/lodash": "^4.14.116",
+    "handlebars": "^4.0.12",
     "scripty": "^1.7.2",
     "typedoc": "^0.12.0"
   }

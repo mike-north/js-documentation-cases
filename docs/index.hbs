@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<head>
+  <title>JS/TS Documentation Examples</title>
+</head>
+
+<body>
+
+  <ul>
+    {{#each examples as |ex|}}
+    <li>
+      <h4>{{ex.name}}</h4>
+      <a href="./typedoc/{{ex.name}}/">TypeDoc</a>
+    </li>
+    {{/each}}
+  </ul>
+</body>
