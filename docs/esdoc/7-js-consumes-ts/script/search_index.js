@@ -282,48 +282,6 @@ window.esdocSearchIndex = [
     "external"
   ],
   [
-    "7-js-consumes-ts/decl/index.d.ts",
-    "file/7-js-consumes-ts/decl/index.d.ts.html",
-    "7-js-consumes-ts/decl/index.d.ts",
-    "file"
-  ],
-  [
-    "7-js-consumes-ts/decl/index.js",
-    "file/7-js-consumes-ts/decl/index.js.html",
-    "7-js-consumes-ts/decl/index.js",
-    "file"
-  ],
-  [
-    "7-js-consumes-ts/decl/vehicle.d.ts",
-    "file/7-js-consumes-ts/decl/vehicle.d.ts.html",
-    "7-js-consumes-ts/decl/vehicle.d.ts",
-    "file"
-  ],
-  [
-    "7-js-consumes-ts/decl/vehicle.js",
-    "file/7-js-consumes-ts/decl/vehicle.js.html",
-    "7-js-consumes-ts/decl/vehicle.js",
-    "file"
-  ],
-  [
-    "7-js-consumes-ts/decl/vehicle.js~vehicle#constructor",
-    "class/7-js-consumes-ts/decl/vehicle.js~Vehicle.html#instance-constructor-constructor",
-    "7-js-consumes-ts/decl/vehicle.js~Vehicle#constructor",
-    "method"
-  ],
-  [
-    "7-js-consumes-ts/decl/vehicle.js~vehicle#drive",
-    "class/7-js-consumes-ts/decl/vehicle.js~Vehicle.html#instance-method-drive",
-    "7-js-consumes-ts/decl/vehicle.js~Vehicle#drive",
-    "method"
-  ],
-  [
-    "7-js-consumes-ts/decl/vehicle.js~vehicle#numwheels",
-    "class/7-js-consumes-ts/decl/vehicle.js~Vehicle.html#instance-member-numWheels",
-    "7-js-consumes-ts/decl/vehicle.js~Vehicle#numWheels",
-    "member"
-  ],
-  [
     "7-js-consumes-ts/etc/js-documentation-cases.api.ts",
     "file/7-js-consumes-ts/etc/js-documentation-cases.api.ts.html",
     "7-js-consumes-ts/etc/js-documentation-cases.api.ts",
@@ -414,12 +372,6 @@ window.esdocSearchIndex = [
     "class"
   ],
   [
-    "js-documentation-cases/7-js-consumes-ts/decl/index.js~secret_string",
-    "variable/index.html#static-variable-SECRET_STRING",
-    "<span>SECRET_STRING</span> <span class=\"search-result-import-path\">js-documentation-cases/7-js-consumes-ts/decl/index.js</span>",
-    "variable"
-  ],
-  [
     "js-documentation-cases/7-js-consumes-ts/src/index.ts~secret_string",
     "variable/index.html#static-variable-SECRET_STRING",
     "<span>SECRET_STRING</span> <span class=\"search-result-import-path\">js-documentation-cases/7-js-consumes-ts/src/index.ts</span>",
@@ -432,28 +384,10 @@ window.esdocSearchIndex = [
     "class"
   ],
   [
-    "js-documentation-cases/7-js-consumes-ts/decl/vehicle.d.ts~vehicle",
-    "class/7-js-consumes-ts/decl/vehicle.d.ts~Vehicle.html",
-    "<span>Vehicle</span> <span class=\"search-result-import-path\">js-documentation-cases/7-js-consumes-ts/decl/vehicle.d.ts</span>",
-    "class"
-  ],
-  [
-    "js-documentation-cases/7-js-consumes-ts/decl/vehicle.js~vehicle",
-    "class/7-js-consumes-ts/decl/vehicle.js~Vehicle.html",
-    "<span>Vehicle</span> <span class=\"search-result-import-path\">js-documentation-cases/7-js-consumes-ts/decl/vehicle.js</span>",
-    "class"
-  ],
-  [
     "js-documentation-cases/7-js-consumes-ts/src/vehicle.ts~vehicle",
     "class/7-js-consumes-ts/src/vehicle.ts~Vehicle.html",
     "<span>Vehicle</span> <span class=\"search-result-import-path\">js-documentation-cases/7-js-consumes-ts/src/vehicle.ts</span>",
     "class"
-  ],
-  [
-    "js-documentation-cases/7-js-consumes-ts/decl/index.js~add",
-    "function/index.html#static-function-add",
-    "<span>add</span> <span class=\"search-result-import-path\">js-documentation-cases/7-js-consumes-ts/decl/index.js</span>",
-    "function"
   ],
   [
     "js-documentation-cases/7-js-consumes-ts/src/index.ts~add",
