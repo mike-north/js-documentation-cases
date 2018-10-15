@@ -1,8 +1,28 @@
 {
-  "coverage": "69.23%",
-  "expectCount": 13,
-  "actualCount": 9,
+  "coverage": "65%",
+  "expectCount": 20,
+  "actualCount": 13,
   "files": {
+    "7-js-consumes-ts/decl/index.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        9
+      ]
+    },
+    "7-js-consumes-ts/decl/vehicle.d.ts": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "7-js-consumes-ts/decl/vehicle.js": {
+      "expectCount": 4,
+      "actualCount": 3,
+      "undocumentLines": [
+        10
+      ]
+    },
     "7-js-consumes-ts/src/car.js": {
       "expectCount": 2,
       "actualCount": 2,

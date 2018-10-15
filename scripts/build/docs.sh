@@ -7,4 +7,5 @@ yarn build:ts-docs-gen
 yarn build:yuidoc
 yarn build:docco
 yarn build:api-extractor
+yarn build:code-to-json
 yarn build:index
