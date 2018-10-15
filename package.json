@@ -6,7 +6,7 @@
   "repository": "https://github.com/mike-north/js-documentation-cases",
   "author": "Mike North <michael.l.north@gmail.com> (https://mike.works)",
   "license": "BSD-2-Clause",
-  "private": false,
+  "private": true,
   "scripts": {
     "test": "yarn build",
     "run_for_each": "scripty",
