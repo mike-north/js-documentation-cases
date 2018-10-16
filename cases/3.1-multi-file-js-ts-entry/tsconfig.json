@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "checkJs": true,
+    "allowJs": true
+  },
+  "include": [
+    "./src/index.js",
+    "./src/vehicle.js",
+    "./src/car.js",
+    "./src/cycles.js"
+  ]
+}
