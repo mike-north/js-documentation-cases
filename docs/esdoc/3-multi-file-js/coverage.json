@@ -20,7 +20,7 @@
       "expectCount": 2,
       "actualCount": 1,
       "undocumentLines": [
-        10
+        16
       ]
     },
     "3-multi-file-js/src/vehicle.js": {

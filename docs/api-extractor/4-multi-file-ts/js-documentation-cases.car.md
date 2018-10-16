@@ -2,7 +2,7 @@
 
 # Car class
 
-A car is a 4-wheeled vehicle
+A car is a 4-wheeled vehicle 
 
 ## Methods
 

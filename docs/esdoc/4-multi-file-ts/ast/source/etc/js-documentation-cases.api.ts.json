@@ -1,28 +1,28 @@
 {
   "type": "File",
   "start": 0,
-  "end": 352,
+  "end": 270,
   "loc": {
     "start": {
       "line": 1,
       "column": 0
     },
     "end": {
-      "line": 30,
+      "line": 21,
       "column": 0
     }
   },
   "program": {
     "type": "Program",
     "start": 0,
-    "end": 352,
+    "end": 270,
     "loc": {
       "start": {
         "line": 1,
         "column": 0
       },
       "end": {
-        "line": 30,
+        "line": 21,
         "column": 0
       }
     },
@@ -167,7 +167,7 @@
       {
         "type": "ClassDeclaration",
         "start": 134,
-        "end": 163,
+        "end": 168,
         "loc": {
           "start": {
             "line": 17,
@@ -181,7 +181,7 @@
         "id": {
           "type": "Identifier",
           "start": 140,
-          "end": 143,
+          "end": 148,
           "loc": {
             "start": {
               "line": 17,
@@ -189,25 +189,25 @@
             },
             "end": {
               "line": 17,
-              "column": 9
+              "column": 14
             },
-            "identifierName": "Car"
+            "identifierName": "Unicycle"
           },
-          "name": "Car",
+          "name": "Unicycle",
           "leadingComments": null
         },
         "superClass": {
           "type": "Identifier",
-          "start": 152,
-          "end": 159,
+          "start": 157,
+          "end": 164,
           "loc": {
             "start": {
               "line": 17,
-              "column": 18
+              "column": 23
             },
             "end": {
               "line": 17,
-              "column": 25
+              "column": 30
             },
             "identifierName": "Vehicle"
           },
@@ -215,12 +215,12 @@
         },
         "body": {
           "type": "ClassBody",
-          "start": 160,
-          "end": 163,
+          "start": 165,
+          "end": 168,
           "loc": {
             "start": {
               "line": 17,
-              "column": 26
+              "column": 31
             },
             "end": {
               "line": 18,
@@ -267,153 +267,17 @@
         ],
         "trailingComments": [
           {
-            "type": "CommentBlock",
-            "value": "*\n * @desc\n *\n * @lineNumber\n * 15\n ",
-            "start": 164,
-            "end": 204,
-            "loc": {
-              "start": {
-                "line": 19,
-                "column": 0
-              },
-              "end": {
-                "line": 24,
-                "column": 3
-              }
-            }
-          },
-          {
-            "type": "CommentLine",
-            "value": " @public",
-            "start": 205,
-            "end": 215,
-            "loc": {
-              "start": {
-                "line": 25,
-                "column": 0
-              },
-              "end": {
-                "line": 25,
-                "column": 10
-              }
-            }
-          }
-        ]
-      },
-      {
-        "type": "ClassDeclaration",
-        "start": 216,
-        "end": 250,
-        "loc": {
-          "start": {
-            "line": 26,
-            "column": 0
-          },
-          "end": {
-            "line": 27,
-            "column": 1
-          }
-        },
-        "id": {
-          "type": "Identifier",
-          "start": 222,
-          "end": 230,
-          "loc": {
-            "start": {
-              "line": 26,
-              "column": 6
-            },
-            "end": {
-              "line": 26,
-              "column": 14
-            },
-            "identifierName": "Unicycle"
-          },
-          "name": "Unicycle",
-          "leadingComments": null
-        },
-        "superClass": {
-          "type": "Identifier",
-          "start": 239,
-          "end": 246,
-          "loc": {
-            "start": {
-              "line": 26,
-              "column": 23
-            },
-            "end": {
-              "line": 26,
-              "column": 30
-            },
-            "identifierName": "Vehicle"
-          },
-          "name": "Vehicle"
-        },
-        "body": {
-          "type": "ClassBody",
-          "start": 247,
-          "end": 250,
-          "loc": {
-            "start": {
-              "line": 26,
-              "column": 31
-            },
-            "end": {
-              "line": 27,
-              "column": 1
-            }
-          },
-          "body": [],
-          "leadingComments": null,
-          "trailingComments": null
-        },
-        "leadingComments": [
-          {
-            "type": "CommentBlock",
-            "value": "*\n * @desc\n *\n * @lineNumber\n * 15\n ",
-            "start": 164,
-            "end": 204,
-            "loc": {
-              "start": {
-                "line": 19,
-                "column": 0
-              },
-              "end": {
-                "line": 24,
-                "column": 3
-              }
-            }
-          },
-          {
-            "type": "CommentLine",
-            "value": " @public",
-            "start": 205,
-            "end": 215,
-            "loc": {
-              "start": {
-                "line": 25,
-                "column": 0
-              },
-              "end": {
-                "line": 25,
-                "column": 10
-              }
-            }
-          }
-        ],
-        "trailingComments": [
-          {
             "type": "CommentLine",
             "value": " WARNING: Unsupported export: SECRET_STRING",
-            "start": 251,
-            "end": 296,
+            "start": 169,
+            "end": 214,
             "loc": {
               "start": {
-                "line": 28,
+                "line": 19,
                 "column": 0
               },
               "end": {
-                "line": 28,
+                "line": 19,
                 "column": 45
               }
             }
@@ -421,15 +285,15 @@
           {
             "type": "CommentLine",
             "value": " (No @packagedocumentation comment for this package)",
-            "start": 297,
-            "end": 351,
+            "start": 215,
+            "end": 269,
             "loc": {
               "start": {
-                "line": 29,
+                "line": 20,
                 "column": 0
               },
               "end": {
-                "line": 29,
+                "line": 20,
                 "column": 54
               }
             }
@@ -505,49 +369,17 @@
       }
     },
     {
-      "type": "CommentBlock",
-      "value": "*\n * @desc\n *\n * @lineNumber\n * 15\n ",
-      "start": 164,
-      "end": 204,
+      "type": "CommentLine",
+      "value": " WARNING: Unsupported export: SECRET_STRING",
+      "start": 169,
+      "end": 214,
       "loc": {
         "start": {
           "line": 19,
           "column": 0
         },
         "end": {
-          "line": 24,
-          "column": 3
-        }
-      }
-    },
-    {
-      "type": "CommentLine",
-      "value": " @public",
-      "start": 205,
-      "end": 215,
-      "loc": {
-        "start": {
-          "line": 25,
-          "column": 0
-        },
-        "end": {
-          "line": 25,
-          "column": 10
-        }
-      }
-    },
-    {
-      "type": "CommentLine",
-      "value": " WARNING: Unsupported export: SECRET_STRING",
-      "start": 251,
-      "end": 296,
-      "loc": {
-        "start": {
-          "line": 28,
-          "column": 0
-        },
-        "end": {
-          "line": 28,
+          "line": 19,
           "column": 45
         }
       }
@@ -555,15 +387,15 @@
     {
       "type": "CommentLine",
       "value": " (No @packagedocumentation comment for this package)",
-      "start": 297,
-      "end": 351,
+      "start": 215,
+      "end": 269,
       "loc": {
         "start": {
-          "line": 29,
+          "line": 20,
           "column": 0
         },
         "end": {
-          "line": 29,
+          "line": 20,
           "column": 54
         }
       }
@@ -832,206 +664,16 @@
         "postfix": false,
         "binop": null
       },
-      "value": "Car",
-      "start": 140,
-      "end": 143,
-      "loc": {
-        "start": {
-          "line": 17,
-          "column": 6
-        },
-        "end": {
-          "line": 17,
-          "column": 9
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "extends",
-        "keyword": "extends",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "extends",
-      "start": 144,
-      "end": 151,
-      "loc": {
-        "start": {
-          "line": 17,
-          "column": 10
-        },
-        "end": {
-          "line": 17,
-          "column": 17
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "Vehicle",
-      "start": 152,
-      "end": 159,
-      "loc": {
-        "start": {
-          "line": 17,
-          "column": 18
-        },
-        "end": {
-          "line": 17,
-          "column": 25
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "{",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 160,
-      "end": 161,
-      "loc": {
-        "start": {
-          "line": 17,
-          "column": 26
-        },
-        "end": {
-          "line": 17,
-          "column": 27
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "}",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 162,
-      "end": 163,
-      "loc": {
-        "start": {
-          "line": 18,
-          "column": 0
-        },
-        "end": {
-          "line": 18,
-          "column": 1
-        }
-      }
-    },
-    {
-      "type": "CommentBlock",
-      "value": "*\n * @desc\n *\n * @lineNumber\n * 15\n ",
-      "start": 164,
-      "end": 204,
-      "loc": {
-        "start": {
-          "line": 19,
-          "column": 0
-        },
-        "end": {
-          "line": 24,
-          "column": 3
-        }
-      }
-    },
-    {
-      "type": "CommentLine",
-      "value": " @public",
-      "start": 205,
-      "end": 215,
-      "loc": {
-        "start": {
-          "line": 25,
-          "column": 0
-        },
-        "end": {
-          "line": 25,
-          "column": 10
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "class",
-        "keyword": "class",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "class",
-      "start": 216,
-      "end": 221,
-      "loc": {
-        "start": {
-          "line": 26,
-          "column": 0
-        },
-        "end": {
-          "line": 26,
-          "column": 5
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
       "value": "Unicycle",
-      "start": 222,
-      "end": 230,
+      "start": 140,
+      "end": 148,
       "loc": {
         "start": {
-          "line": 26,
+          "line": 17,
           "column": 6
         },
         "end": {
-          "line": 26,
+          "line": 17,
           "column": 14
         }
       }
@@ -1051,15 +693,15 @@
         "updateContext": null
       },
       "value": "extends",
-      "start": 231,
-      "end": 238,
+      "start": 149,
+      "end": 156,
       "loc": {
         "start": {
-          "line": 26,
+          "line": 17,
           "column": 15
         },
         "end": {
-          "line": 26,
+          "line": 17,
           "column": 22
         }
       }
@@ -1077,15 +719,15 @@
         "binop": null
       },
       "value": "Vehicle",
-      "start": 239,
-      "end": 246,
+      "start": 157,
+      "end": 164,
       "loc": {
         "start": {
-          "line": 26,
+          "line": 17,
           "column": 23
         },
         "end": {
-          "line": 26,
+          "line": 17,
           "column": 30
         }
       }
@@ -1102,15 +744,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 247,
-      "end": 248,
+      "start": 165,
+      "end": 166,
       "loc": {
         "start": {
-          "line": 26,
+          "line": 17,
           "column": 31
         },
         "end": {
-          "line": 26,
+          "line": 17,
           "column": 32
         }
       }
@@ -1127,15 +769,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 249,
-      "end": 250,
+      "start": 167,
+      "end": 168,
       "loc": {
         "start": {
-          "line": 27,
+          "line": 18,
           "column": 0
         },
         "end": {
-          "line": 27,
+          "line": 18,
           "column": 1
         }
       }
@@ -1143,15 +785,15 @@
     {
       "type": "CommentLine",
       "value": " WARNING: Unsupported export: SECRET_STRING",
-      "start": 251,
-      "end": 296,
+      "start": 169,
+      "end": 214,
       "loc": {
         "start": {
-          "line": 28,
+          "line": 19,
           "column": 0
         },
         "end": {
-          "line": 28,
+          "line": 19,
           "column": 45
         }
       }
@@ -1159,15 +801,15 @@
     {
       "type": "CommentLine",
       "value": " (No @packagedocumentation comment for this package)",
-      "start": 297,
-      "end": 351,
+      "start": 215,
+      "end": 269,
       "loc": {
         "start": {
-          "line": 29,
+          "line": 20,
           "column": 0
         },
         "end": {
-          "line": 29,
+          "line": 20,
           "column": 54
         }
       }
@@ -1185,15 +827,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 352,
-      "end": 352,
+      "start": 270,
+      "end": 270,
       "loc": {
         "start": {
-          "line": 30,
+          "line": 21,
           "column": 0
         },
         "end": {
-          "line": 30,
+          "line": 21,
           "column": 0
         }
       }

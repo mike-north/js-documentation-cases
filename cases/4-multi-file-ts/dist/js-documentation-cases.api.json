@@ -28,7 +28,12 @@
         }
       },
       "deprecatedMessage": [],
-      "summary": [],
+      "summary": [
+        {
+          "kind": "text",
+          "text": "Add two numbers together"
+        }
+      ],
       "remarks": [],
       "isBeta": false
     },
@@ -41,7 +46,7 @@
       "summary": [
         {
           "kind": "text",
-          "text": "A bike is a 2-wheeled vehicle"
+          "text": "A 2-wheeled vehicle "
         }
       ],
       "remarks": [],
@@ -91,7 +96,7 @@
       "summary": [
         {
           "kind": "text",
-          "text": "A car is a 4-wheeled vehicle"
+          "text": "A car is a 4-wheeled vehicle "
         }
       ],
       "remarks": [],
@@ -122,7 +127,7 @@
       "summary": [
         {
           "kind": "text",
-          "text": "A Unicycle is a 1-wheeled vehicle"
+          "text": "A one-wheeled vehicle"
         }
       ],
       "remarks": [],

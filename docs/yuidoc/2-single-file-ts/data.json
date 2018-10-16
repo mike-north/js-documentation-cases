@@ -37,13 +37,21 @@
         },
         {
             "file": "src/index.ts",
-            "line": 20,
-            "description": "A vehicle is a thing that goes places",
+            "line": 18,
+            "description": "A super secret string",
+            "access": "public",
+            "tagname": "",
             "class": ""
         },
         {
             "file": "src/index.ts",
             "line": 24,
+            "description": "A vehicle is a thing that goes places",
+            "class": ""
+        },
+        {
+            "file": "src/index.ts",
+            "line": 28,
             "description": "Create a new vehicle",
             "params": [
                 {
@@ -56,7 +64,7 @@
         },
         {
             "file": "src/index.ts",
-            "line": 29,
+            "line": 33,
             "description": "Drive the vehicle",
             "return": {
                 "description": "",
@@ -66,25 +74,25 @@
         },
         {
             "file": "src/index.ts",
-            "line": 38,
+            "line": 42,
             "description": "A car is a 4-wheeled vehicle",
             "class": ""
         },
         {
             "file": "src/index.ts",
-            "line": 42,
+            "line": 47,
             "description": "Create a new car",
             "class": ""
         },
         {
             "file": "src/index.ts",
-            "line": 50,
+            "line": 55,
             "description": "A bike is a 2-wheeled vehicle",
             "class": ""
         },
         {
             "file": "src/index.ts",
-            "line": 59,
+            "line": 65,
             "description": "A Unicycle is a 1-wheeled vehicle",
             "class": ""
         }
@@ -92,39 +100,43 @@
     "warnings": [
         {
             "message": "replacing incorrect tag: returns with return",
-            "line": " src/index.ts:29"
+            "line": " src/index.ts:33"
         },
         {
             "message": "Missing item type\nAdd two numbers",
             "line": " src/index.ts:1"
         },
         {
-            "message": "Missing item type\nA vehicle is a thing that goes places",
-            "line": " src/index.ts:20"
+            "message": "Missing item type\nA super secret string",
+            "line": " src/index.ts:18"
         },
         {
-            "message": "Missing item type\nCreate a new vehicle",
+            "message": "Missing item type\nA vehicle is a thing that goes places",
             "line": " src/index.ts:24"
         },
         {
+            "message": "Missing item type\nCreate a new vehicle",
+            "line": " src/index.ts:28"
+        },
+        {
             "message": "Missing item type\nDrive the vehicle",
-            "line": " src/index.ts:29"
+            "line": " src/index.ts:33"
         },
         {
             "message": "Missing item type\nA car is a 4-wheeled vehicle",
-            "line": " src/index.ts:38"
-        },
-        {
-            "message": "Missing item type\nCreate a new car",
             "line": " src/index.ts:42"
         },
         {
+            "message": "Missing item type\nCreate a new car",
+            "line": " src/index.ts:47"
+        },
+        {
             "message": "Missing item type\nA bike is a 2-wheeled vehicle",
-            "line": " src/index.ts:50"
+            "line": " src/index.ts:55"
         },
         {
             "message": "Missing item type\nA Unicycle is a 1-wheeled vehicle",
-            "line": " src/index.ts:59"
+            "line": " src/index.ts:65"
         }
     ]
 }

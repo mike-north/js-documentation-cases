@@ -1,21 +1,30 @@
 {
-  "coverage": "77.77%",
-  "expectCount": 18,
-  "actualCount": 14,
+  "coverage": "75.86%",
+  "expectCount": 29,
+  "actualCount": 22,
   "files": {
+    "2-single-file-ts/decl/index.js": {
+      "expectCount": 12,
+      "actualCount": 8,
+      "undocumentLines": [
+        1,
+        23,
+        50,
+        59
+      ]
+    },
     "2-single-file-ts/etc/js-documentation-cases.api.ts": {
-      "expectCount": 3,
-      "actualCount": 3,
+      "expectCount": 2,
+      "actualCount": 2,
       "undocumentLines": []
     },
     "2-single-file-ts/src/index.ts": {
       "expectCount": 12,
-      "actualCount": 8,
+      "actualCount": 9,
       "undocumentLines": [
-        31,
-        44,
-        77,
-        88
+        48,
+        83,
+        95
       ]
     },
     "2-single-file-ts/temp/js-documentation-cases.api.ts": {

@@ -82,7 +82,8 @@
 import Vehicle from &#x27;./vehicle&#x27;;
 
 /**
- * A bike is a 2-wheeled vehicle
+ * A 2-wheeled vehicle
+ * @augments
  */
 export class Bike extends Vehicle {
   constructor() {
@@ -90,9 +91,8 @@ export class Bike extends Vehicle {
   }
 }
 
-/**
- * A Unicycle is a 1-wheeled vehicle
- */
+/** A one-wheeled vehicle */
+// tslint:disable-next-line:max-classes-per-file
 export class Unicycle extends Vehicle {
   constructor() {
     super(1);

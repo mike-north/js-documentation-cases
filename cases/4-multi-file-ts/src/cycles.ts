@@ -2,7 +2,7 @@ import Vehicle from './vehicle';
 
 /**
  * A 2-wheeled vehicle
- * @inheritdoc
+ * @augments
  */
 export class Bike extends Vehicle {
   constructor() {

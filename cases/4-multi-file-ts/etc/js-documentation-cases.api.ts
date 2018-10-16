@@ -7,11 +7,6 @@ class Bike extends Vehicle {
 }
 
 // @public
-class Car extends Vehicle {
-  constructor();
-}
-
-// @public
 class Unicycle extends Vehicle {
   constructor();
 }

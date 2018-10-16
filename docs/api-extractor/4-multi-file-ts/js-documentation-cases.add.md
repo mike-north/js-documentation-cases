@@ -2,6 +2,7 @@
 
 # add function
 
+Add two numbers together
 
 **Signature:**
 ```javascript

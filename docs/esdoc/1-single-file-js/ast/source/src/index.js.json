@@ -315,7 +315,7 @@
                 },
                 "extra": {
                   "rawValue": "shhhhh!",
-                  "raw": "'shhhhh!'"
+                  "raw": "\"shhhhh!\""
                 },
                 "value": "shhhhh!"
               }

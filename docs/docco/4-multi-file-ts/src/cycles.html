@@ -66,7 +66,8 @@
             <div class="content"><div class='highlight'><pre><span class="hljs-keyword">import</span> Vehicle <span class="hljs-keyword">from</span> <span class="hljs-string">'./vehicle'</span>;
 
 <span class="hljs-comment">/**
- * A bike is a 2-wheeled vehicle
+ * A 2-wheeled vehicle
+ * @augments
  */</span>
 <span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> Bike <span class="hljs-keyword">extends</span> Vehicle {
   <span class="hljs-keyword">constructor</span>(<span class="hljs-params"></span>) {
@@ -74,10 +75,22 @@
   }
 }
 
-<span class="hljs-comment">/**
- * A Unicycle is a 1-wheeled vehicle
- */</span>
-<span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> Unicycle <span class="hljs-keyword">extends</span> Vehicle {
+<span class="hljs-comment">/** A one-wheeled vehicle */</span></pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-2">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-2">&#182;</a>
+              </div>
+              <p>tslint:disable-next-line:max-classes-per-file</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre><span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> Unicycle <span class="hljs-keyword">extends</span> Vehicle {
   <span class="hljs-keyword">constructor</span>(<span class="hljs-params"></span>) {
     <span class="hljs-keyword">super</span>(<span class="hljs-number">1</span>);
   }

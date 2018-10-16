@@ -79,7 +79,7 @@
 
 <div class="file">
     <pre class="code prettyprint linenums">
-import { VehicleLike, VehicleFactory } from &#x27;./types&#x27;;
+import { VehicleFactory, VehicleLike } from &quot;./types&quot;;
 
 /**
  * A vehicle is a thing that goes places
@@ -94,7 +94,7 @@ export default class Vehicle implements VehicleLike {
    * Drive the vehicle
    * @returns {string}
    */
-  drive() {
+  public drive() {
     return &#x60;Driving with all ${this.numWheels} wheels&#x60;;
   }
 }

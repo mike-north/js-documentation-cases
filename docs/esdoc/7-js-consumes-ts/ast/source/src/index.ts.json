@@ -226,7 +226,7 @@
                       },
                       "extra": {
                         "rawValue": "number",
-                        "raw": "'number'"
+                        "raw": "\"number\""
                       },
                       "value": "number"
                     }
@@ -300,7 +300,7 @@
                       },
                       "extra": {
                         "rawValue": "number",
-                        "raw": "'number'"
+                        "raw": "\"number\""
                       },
                       "value": "number"
                     }
@@ -462,7 +462,7 @@
                             },
                             "extra": {
                               "rawValue": "",
-                              "raw": "''"
+                              "raw": "\"\""
                             },
                             "value": ""
                           },
@@ -661,7 +661,7 @@
                 },
                 "extra": {
                   "rawValue": "shhhhh!",
-                  "raw": "'shhhhh!'"
+                  "raw": "\"shhhhh!\""
                 },
                 "value": "shhhhh!"
               }
@@ -754,7 +754,7 @@
           },
           "extra": {
             "rawValue": "./car",
-            "raw": "'./car'"
+            "raw": "\"./car\""
           },
           "value": "./car"
         }
@@ -890,7 +890,7 @@
           },
           "extra": {
             "rawValue": "./cycles",
-            "raw": "'./cycles'"
+            "raw": "\"./cycles\""
           },
           "value": "./cycles"
         }

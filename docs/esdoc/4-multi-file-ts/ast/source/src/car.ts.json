@@ -92,14 +92,14 @@
           },
           "extra": {
             "rawValue": "./vehicle",
-            "raw": "'./vehicle'"
+            "raw": "\"./vehicle\""
           },
           "value": "./vehicle"
         },
         "trailingComments": [
           {
             "type": "CommentBlock",
-            "value": "*\n * @desc\n * A car is a 4-wheeled vehicle\n * @lineNumber\n * 6\n ",
+            "value": "*\n * @desc\n * A car is a 4-wheeled vehicle\n * @lineNumber\n * 7\n ",
             "start": 33,
             "end": 101,
             "loc": {
@@ -342,7 +342,7 @@
           "leadingComments": [
             {
               "type": "CommentBlock",
-              "value": "*\n * @desc\n * A car is a 4-wheeled vehicle\n * @lineNumber\n * 6\n ",
+              "value": "*\n * @desc\n * A car is a 4-wheeled vehicle\n * @lineNumber\n * 7\n ",
               "start": 33,
               "end": 101,
               "loc": {
@@ -362,7 +362,7 @@
         "leadingComments": [
           {
             "type": "CommentBlock",
-            "value": "*\n * @desc\n * A car is a 4-wheeled vehicle\n * @lineNumber\n * 6\n ",
+            "value": "*\n * @desc\n * A car is a 4-wheeled vehicle\n * @lineNumber\n * 7\n ",
             "start": 33,
             "end": 101,
             "loc": {
@@ -384,7 +384,7 @@
   "comments": [
     {
       "type": "CommentBlock",
-      "value": "*\n * @desc\n * A car is a 4-wheeled vehicle\n * @lineNumber\n * 6\n ",
+      "value": "*\n * @desc\n * A car is a 4-wheeled vehicle\n * @lineNumber\n * 7\n ",
       "start": 33,
       "end": 101,
       "loc": {
@@ -551,7 +551,7 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\n * @desc\n * A car is a 4-wheeled vehicle\n * @lineNumber\n * 6\n ",
+      "value": "*\n * @desc\n * A car is a 4-wheeled vehicle\n * @lineNumber\n * 7\n ",
       "start": 33,
       "end": 101,
       "loc": {

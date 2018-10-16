@@ -68,7 +68,7 @@
               
             </div>
             
-            <div class="content"><div class='highlight'><pre><span class="hljs-keyword">import</span> { VehicleLike, VehicleFactory } <span class="hljs-keyword">from</span> <span class="hljs-string">'./types'</span>;
+            <div class="content"><div class='highlight'><pre><span class="hljs-keyword">import</span> { VehicleFactory, VehicleLike } <span class="hljs-keyword">from</span> <span class="hljs-string">"./types"</span>;
 
 <span class="hljs-comment">/**
  * A vehicle is a thing that goes places
@@ -83,7 +83,7 @@
    * Drive the vehicle
    * @returns {string}
    */</span>
-  drive() {
+  <span class="hljs-keyword">public</span> drive() {
     <span class="hljs-keyword">return</span> <span class="hljs-string">`Driving with all <span class="hljs-subst">${this.numWheels}</span> wheels`</span>;
   }
 }

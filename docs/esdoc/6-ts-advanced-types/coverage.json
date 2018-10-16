@@ -1,8 +1,48 @@
 {
-  "coverage": "75%",
-  "expectCount": 24,
-  "actualCount": 18,
+  "coverage": "70.45%",
+  "expectCount": 44,
+  "actualCount": 31,
   "files": {
+    "6-ts-advanced-types/decl/car.d.ts": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "6-ts-advanced-types/decl/car.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "6-ts-advanced-types/decl/cycles.js": {
+      "expectCount": 4,
+      "actualCount": 2,
+      "undocumentLines": [
+        6,
+        15
+      ]
+    },
+    "6-ts-advanced-types/decl/index.js": {
+      "expectCount": 7,
+      "actualCount": 4,
+      "undocumentLines": [
+        3,
+        11,
+        46
+      ]
+    },
+    "6-ts-advanced-types/decl/vehicle.d.ts": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "6-ts-advanced-types/decl/vehicle.js": {
+      "expectCount": 5,
+      "actualCount": 3,
+      "undocumentLines": [
+        10,
+        20
+      ]
+    },
     "6-ts-advanced-types/etc/js-documentation-cases.api.ts": {
       "expectCount": 3,
       "actualCount": 3,
@@ -18,7 +58,7 @@
       "actualCount": 2,
       "undocumentLines": [
         9,
-        20
+        21
       ]
     },
     "6-ts-advanced-types/src/index.ts": {
@@ -26,7 +66,7 @@
       "actualCount": 5,
       "undocumentLines": [
         21,
-        71
+        72
       ]
     },
     "6-ts-advanced-types/src/vehicle.ts": {

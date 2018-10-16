@@ -71,26 +71,60 @@
         },
         {
             "file": "src/index.ts",
-            "line": 22,
-            "description": "Static things",
+            "line": 5,
+            "description": "Add two numbers together",
+            "params": [
+                {
+                    "name": "a",
+                    "description": "first number"
+                },
+                {
+                    "name": "b",
+                    "description": "second number"
+                }
+            ],
             "class": ""
         },
         {
             "file": "src/index.ts",
             "line": 26,
+            "description": "A class that helps with vehicle maintenance",
+            "class": ""
+        },
+        {
+            "file": "src/index.ts",
+            "line": 30,
+            "description": "Static things",
+            "class": ""
+        },
+        {
+            "file": "src/index.ts",
+            "line": 34,
             "description": "Members",
             "class": ""
         },
         {
             "file": "src/index.ts",
-            "line": 35,
+            "line": 44,
             "description": "Create a new bike",
             "class": ""
         },
         {
             "file": "src/index.ts",
-            "line": 43,
+            "line": 52,
             "description": "The first bike",
+            "class": ""
+        },
+        {
+            "file": "src/index.ts",
+            "line": 57,
+            "description": "Create a promise that resolves after a period of time has elapsed",
+            "params": [
+                {
+                    "name": "n",
+                    "description": "number of milliseconds to wait"
+                }
+            ],
             "class": ""
         },
         {
@@ -163,20 +197,32 @@
             "line": " src/cycles.ts:12"
         },
         {
-            "message": "Missing item type\nStatic things",
-            "line": " src/index.ts:22"
+            "message": "Missing item type\nAdd two numbers together",
+            "line": " src/index.ts:5"
         },
         {
-            "message": "Missing item type\nMembers",
+            "message": "Missing item type\nA class that helps with vehicle maintenance",
             "line": " src/index.ts:26"
         },
         {
+            "message": "Missing item type\nStatic things",
+            "line": " src/index.ts:30"
+        },
+        {
+            "message": "Missing item type\nMembers",
+            "line": " src/index.ts:34"
+        },
+        {
             "message": "Missing item type\nCreate a new bike",
-            "line": " src/index.ts:35"
+            "line": " src/index.ts:44"
         },
         {
             "message": "Missing item type\nThe first bike",
-            "line": " src/index.ts:43"
+            "line": " src/index.ts:52"
+        },
+        {
+            "message": "Missing item type\nCreate a promise that resolves after a period of time has elapsed",
+            "line": " src/index.ts:57"
         },
         {
             "message": "Missing item type\nA vehicle-like thing",

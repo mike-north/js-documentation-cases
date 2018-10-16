@@ -29,10 +29,15 @@
 <nav class="navigation" data-ice="nav"><div>
   <ul>
     
-  <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#src">src</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/2-single-file-ts/src/index.ts~Bike.html">Bike</a></span></span></li>
+  <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#decl">decl</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/2-single-file-ts/decl/index.js~Bike.html">Bike</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/2-single-file-ts/decl/index.js~Car.html">Car</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/2-single-file-ts/decl/index.js~Unicycle.html">Unicycle</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/2-single-file-ts/decl/index.js~Vehicle.html">Vehicle</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-add">add</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SECRET_STRING">SECRET_STRING</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#src">src</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/2-single-file-ts/src/index.ts~Bike.html">Bike</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/2-single-file-ts/src/index.ts~Car.html">Car</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/2-single-file-ts/src/index.ts~Unicycle.html">Unicycle</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/2-single-file-ts/src/index.ts~Vehicle.html">Vehicle</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-add">add</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SECRET_STRING">SECRET_STRING</a></span></span></li>
 </ul>
@@ -57,7 +62,11 @@ export function add(a: number | string, b: number | string): number | string {
   }
 }
 
-export const SECRET_STRING = &apos;shhhhh!&apos;;
+/**
+ * A super secret string
+ * @public
+ */
+export const SECRET_STRING: string = &apos;shhhhh!&apos;;
 
 /**
  * A vehicle is a thing that goes places
@@ -72,7 +81,7 @@ class Vehicle {
    * Drive the vehicle
    * @returns {string}
    */
-  drive() {
+  public drive() {
     return `Driving with all ${this.numWheels} wheels`;
   }
 }
@@ -80,6 +89,7 @@ class Vehicle {
 /**
  * A car is a 4-wheeled vehicle
  */
+// tslint:disable-next-line:max-classes-per-file
 export class Car extends Vehicle {
   /**
    * Create a new car
@@ -92,6 +102,7 @@ export class Car extends Vehicle {
 /**
  * A bike is a 2-wheeled vehicle
  */
+// tslint:disable-next-line:max-classes-per-file
 export class Bike extends Vehicle {
   constructor() {
     super(2);
@@ -101,6 +112,7 @@ export class Bike extends Vehicle {
 /**
  * A Unicycle is a 1-wheeled vehicle
  */
+// tslint:disable-next-line:max-classes-per-file
 export class Unicycle extends Vehicle {
   constructor() {
     super(1);

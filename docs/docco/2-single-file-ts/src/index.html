@@ -47,7 +47,11 @@
   }
 }
 
-<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> SECRET_STRING = <span class="hljs-string">'shhhhh!'</span>;
+<span class="hljs-comment">/**
+ * A super secret string
+ * @public
+ */</span>
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> SECRET_STRING: <span class="hljs-built_in">string</span> = <span class="hljs-string">'shhhhh!'</span>;
 
 <span class="hljs-comment">/**
  * A vehicle is a thing that goes places
@@ -62,15 +66,29 @@
    * Drive the vehicle
    * @returns {string}
    */</span>
-  drive() {
+  <span class="hljs-keyword">public</span> drive() {
     <span class="hljs-keyword">return</span> <span class="hljs-string">`Driving with all <span class="hljs-subst">${this.numWheels}</span> wheels`</span>;
   }
 }
 
 <span class="hljs-comment">/**
  * A car is a 4-wheeled vehicle
- */</span>
-<span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> Car <span class="hljs-keyword">extends</span> Vehicle {
+ */</span></pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-2">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-2">&#182;</a>
+              </div>
+              <p>tslint:disable-next-line:max-classes-per-file</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre><span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> Car <span class="hljs-keyword">extends</span> Vehicle {
   <span class="hljs-comment">/**
    * Create a new car
    */</span>
@@ -81,8 +99,22 @@
 
 <span class="hljs-comment">/**
  * A bike is a 2-wheeled vehicle
- */</span>
-<span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> Bike <span class="hljs-keyword">extends</span> Vehicle {
+ */</span></pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-3">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-3">&#182;</a>
+              </div>
+              <p>tslint:disable-next-line:max-classes-per-file</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre><span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> Bike <span class="hljs-keyword">extends</span> Vehicle {
   <span class="hljs-keyword">constructor</span>(<span class="hljs-params"></span>) {
     <span class="hljs-keyword">super</span>(<span class="hljs-number">2</span>);
   }
@@ -90,8 +122,22 @@
 
 <span class="hljs-comment">/**
  * A Unicycle is a 1-wheeled vehicle
- */</span>
-<span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> Unicycle <span class="hljs-keyword">extends</span> Vehicle {
+ */</span></pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-4">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-4">&#182;</a>
+              </div>
+              <p>tslint:disable-next-line:max-classes-per-file</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre><span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> Unicycle <span class="hljs-keyword">extends</span> Vehicle {
   <span class="hljs-keyword">constructor</span>(<span class="hljs-params"></span>) {
     <span class="hljs-keyword">super</span>(<span class="hljs-number">1</span>);
   }

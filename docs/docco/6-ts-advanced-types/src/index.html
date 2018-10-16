@@ -72,6 +72,11 @@
             <div class="content"><div class='highlight'><pre>
 <span class="hljs-keyword">import</span> { Bike } <span class="hljs-keyword">from</span> <span class="hljs-string">'./cycles'</span>;
 
+<span class="hljs-comment">/**
+ * Add two numbers together
+ * @param a first number
+ * @param b second number
+ */</span>
 <span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">add</span>(<span class="hljs-params">a: <span class="hljs-built_in">number</span>, b: <span class="hljs-built_in">number</span></span>): <span class="hljs-title">number</span></span>;
 <span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">add</span>(<span class="hljs-params">a: <span class="hljs-built_in">string</span>, b: <span class="hljs-built_in">string</span></span>): <span class="hljs-title">string</span></span>;
 <span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">add</span>(<span class="hljs-params">a: <span class="hljs-built_in">number</span> | <span class="hljs-built_in">string</span>, b: <span class="hljs-built_in">number</span> | <span class="hljs-built_in">string</span></span>): <span class="hljs-title">number</span> | <span class="hljs-title">string</span> </span>{
@@ -88,20 +93,36 @@
 <span class="hljs-keyword">export</span> { Unicycle, Bike } <span class="hljs-keyword">from</span> <span class="hljs-string">'./cycles'</span>;
 <span class="hljs-keyword">export</span> { VehicleLike } <span class="hljs-keyword">from</span> <span class="hljs-string">'./types'</span>;
 
+<span class="hljs-comment">/**
+ * A class that helps with vehicle maintenance
+ */</span>
 <span class="hljs-keyword">class</span> VehicleUtils {
   <span class="hljs-comment">/**
    * Static things
    */</span>
-  <span class="hljs-keyword">static</span> description: <span class="hljs-string">'Utilities for vehicles'</span>;
+  <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> description: <span class="hljs-string">'Utilities for vehicles'</span>;
   <span class="hljs-comment">/**
    * Members
    */</span>
-  memberFn() {
+  <span class="hljs-keyword">public</span> memberFn() {
     <span class="hljs-keyword">return</span> <span class="hljs-string">''</span>;
   }
-}
+}</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-2">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-2">&#182;</a>
+              </div>
+              <p>tslint:disable-next-line:no-namespace</p>
 
-<span class="hljs-keyword">namespace</span> VehicleUtils {
+            </div>
+            
+            <div class="content"><div class='highlight'><pre><span class="hljs-keyword">namespace</span> VehicleUtils {
   <span class="hljs-comment">/**
    * Create a new bike
    */</span>
@@ -115,6 +136,10 @@
  */</span>
 <span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> firstBike = VehicleUtils.createBike();
 
+<span class="hljs-comment">/**
+ * Create a promise that resolves after a period of time has elapsed
+ * @param n number of milliseconds to wait
+ */</span>
 <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">timeout</span>(<span class="hljs-params">n: <span class="hljs-built_in">number</span></span>) </span>{
   <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>&lt;<span class="hljs-built_in">void</span>&gt;(<span class="hljs-function"><span class="hljs-params">resolve</span> =&gt;</span> setTimeout(resolve, n));
 }

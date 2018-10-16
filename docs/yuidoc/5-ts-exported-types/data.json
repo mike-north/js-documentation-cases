@@ -19,6 +19,13 @@
             "fors": {},
             "namespaces": {}
         },
+        "src/index.ts": {
+            "name": "src/index.ts",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
         "src/types.ts": {
             "name": "src/types.ts",
             "modules": {},
@@ -60,6 +67,22 @@
             "file": "src/cycles.ts",
             "line": 12,
             "description": "A Unicycle is a 1-wheeled vehicle",
+            "class": ""
+        },
+        {
+            "file": "src/index.ts",
+            "line": 3,
+            "description": "Add Two numbers together",
+            "params": [
+                {
+                    "name": "a",
+                    "description": "first number"
+                },
+                {
+                    "name": "b",
+                    "description": "second number"
+                }
+            ],
             "class": ""
         },
         {
@@ -130,6 +153,10 @@
         {
             "message": "Missing item type\nA Unicycle is a 1-wheeled vehicle",
             "line": " src/cycles.ts:12"
+        },
+        {
+            "message": "Missing item type\nAdd Two numbers together",
+            "line": " src/index.ts:3"
         },
         {
             "message": "Missing item type\nA vehicle-like thing",

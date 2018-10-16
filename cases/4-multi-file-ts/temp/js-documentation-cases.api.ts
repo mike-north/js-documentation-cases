@@ -1,4 +1,4 @@
-// @public (undocumented)
+// @public
 export function add(a: number, b: number): number;
 
 // @public

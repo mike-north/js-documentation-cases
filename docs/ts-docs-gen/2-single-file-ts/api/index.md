@@ -98,13 +98,15 @@ A Unicycle is a 1-wheeled vehicle
 
 ### SECRET_STRING
 
+A super secret string
+
 ```typescript
-const SECRET_STRING: "shhhhh!";
+const SECRET_STRING: string;
 ```
 
 **Type**
 
-"shhhhh!"
+string
 
 [SourceFile-0]: index.md#indexts
 [FunctionDeclaration-0]: index.md#add

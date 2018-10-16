@@ -29,7 +29,11 @@
 <nav class="navigation" data-ice="nav"><div>
   <ul>
     
-  <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#src">src</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/7-js-consumes-ts/src/car.js~Car.html">Car</a></span></span></li>
+  <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#decl">decl</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/7-js-consumes-ts/decl/vehicle.d.ts~Vehicle.html">Vehicle</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/7-js-consumes-ts/decl/vehicle.js~Vehicle.html">Vehicle</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-add">add</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SECRET_STRING">SECRET_STRING</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#src">src</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/7-js-consumes-ts/src/car.js~Car.html">Car</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/7-js-consumes-ts/src/cycles.js~Bike.html">Bike</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/7-js-consumes-ts/src/cycles.js~Unicycle.html">Unicycle</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/7-js-consumes-ts/src/vehicle.ts~Vehicle.html">Vehicle</a></span></span></li>
@@ -49,17 +53,17 @@
 export function add(a: number, b: number): number;
 export function add(a: string, b: string): string;
 export function add(a: number | string, b: number | string): number | string {
-  if (typeof a === &apos;number&apos; &amp;&amp; typeof b === &apos;number&apos;) {
+  if (typeof a === &quot;number&quot; &amp;&amp; typeof b === &quot;number&quot;) {
     return a + b;
   } else {
-    return &apos;&apos; + a + b;
+    return &quot;&quot; + a + b;
   }
 }
 
-export const SECRET_STRING = &apos;shhhhh!&apos;;
+export const SECRET_STRING = &quot;shhhhh!&quot;;
 
-export { default as Car } from &apos;./car&apos;;
-export { Unicycle, Bike } from &apos;./cycles&apos;;
+export { default as Car } from &quot;./car&quot;;
+export { Unicycle, Bike } from &quot;./cycles&quot;;
 </code></pre>
 
 </div>

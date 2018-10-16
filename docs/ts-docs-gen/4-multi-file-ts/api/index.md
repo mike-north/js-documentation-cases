@@ -12,6 +12,8 @@
 
 ### add
 
+Add two numbers together
+
 ```typescript
 function add(a: number, b: number): number;
 ```
@@ -38,14 +40,14 @@ A car is a 4-wheeled vehicle
 
 ### [Unicycle][ClassDeclaration-2]
 
-A Unicycle is a 1-wheeled vehicle
+A one-wheeled vehicle 
 
 
 ----------
 
 ### [Bike][ClassDeclaration-3]
 
-A bike is a 2-wheeled vehicle
+A 2-wheeled vehicle
 
 
 ## Variables

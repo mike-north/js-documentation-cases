@@ -7,14 +7,6 @@ class Bike extends Vehicle {
 }
 
 // @public
-class Car extends Vehicle {
-  constructor();
-}
-
-// @public
 class Unicycle extends Vehicle {
   constructor();
 }
-
-// WARNING: Unsupported export: SECRET_STRING
-// (No @packagedocumentation comment for this package)

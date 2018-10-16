@@ -6,7 +6,7 @@
 
 # Bike
 
-A bike is a 2-wheeled vehicle
+A 2-wheeled vehicle
 
 ```typescript
 class Bike

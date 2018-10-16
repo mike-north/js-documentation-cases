@@ -19,6 +19,13 @@
             "fors": {},
             "namespaces": {}
         },
+        "src/index.ts": {
+            "name": "src/index.ts",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
         "src/vehicle.ts": {
             "name": "src/vehicle.ts",
             "modules": {},
@@ -35,24 +42,33 @@
             "file": "src/car.ts",
             "line": 3,
             "description": "A car is a 4-wheeled vehicle",
+            "inheritdoc": "",
             "class": ""
         },
         {
             "file": "src/car.ts",
-            "line": 7,
+            "line": 8,
             "description": "Create a new car",
             "class": ""
         },
         {
             "file": "src/cycles.ts",
             "line": 3,
-            "description": "A bike is a 2-wheeled vehicle",
+            "description": "A 2-wheeled vehicle",
+            "uses": [
+                ""
+            ],
             "class": ""
         },
         {
             "file": "src/cycles.ts",
-            "line": 12,
-            "description": "A Unicycle is a 1-wheeled vehicle",
+            "line": 13,
+            "class": ""
+        },
+        {
+            "file": "src/index.ts",
+            "line": 1,
+            "description": "Add two numbers together",
             "class": ""
         },
         {
@@ -68,8 +84,7 @@
             "params": [
                 {
                     "name": "numWheels",
-                    "description": "Number of wheels",
-                    "type": "Number"
+                    "description": "Number of wheels"
                 }
             ],
             "class": ""
@@ -87,6 +102,14 @@
     ],
     "warnings": [
         {
+            "message": "unknown tag: inheritdoc",
+            "line": " src/car.ts:3"
+        },
+        {
+            "message": "replacing incorrect tag: augments with uses",
+            "line": " src/cycles.ts:3"
+        },
+        {
             "message": "replacing incorrect tag: returns with return",
             "line": " src/vehicle.ts:10"
         },
@@ -96,15 +119,19 @@
         },
         {
             "message": "Missing item type\nCreate a new car",
-            "line": " src/car.ts:7"
+            "line": " src/car.ts:8"
         },
         {
-            "message": "Missing item type\nA bike is a 2-wheeled vehicle",
+            "message": "Missing item type\nA 2-wheeled vehicle",
             "line": " src/cycles.ts:3"
         },
         {
-            "message": "Missing item type\nA Unicycle is a 1-wheeled vehicle",
-            "line": " src/cycles.ts:12"
+            "message": "Missing item type",
+            "line": " src/cycles.ts:13"
+        },
+        {
+            "message": "Missing item type\nAdd two numbers together",
+            "line": " src/index.ts:1"
         },
         {
             "message": "Missing item type\nA vehicle is a thing that goes places",

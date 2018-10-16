@@ -15,7 +15,11 @@ export function add(a: number | string, b: number | string): number | string {
   }
 }
 
-export const SECRET_STRING = 'shhhhh!';
+/**
+ * A super secret string
+ * @public
+ */
+export const SECRET_STRING: string = 'shhhhh!';
 
 /**
  * A vehicle is a thing that goes places

@@ -92,7 +92,7 @@
           },
           "extra": {
             "rawValue": "./vehicle",
-            "raw": "'./vehicle'"
+            "raw": "\"./vehicle\""
           },
           "value": "./vehicle"
         },

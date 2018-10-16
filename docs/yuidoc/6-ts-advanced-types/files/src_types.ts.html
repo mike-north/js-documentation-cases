@@ -93,7 +93,7 @@ export interface VehicleLike {
  * A factory for vehicles
  */
 export type VehicleFactory&lt;N extends number&gt; = new (
-  numWheels: N
+  numWheels: N,
 ) =&gt; VehicleLike;
 
     </pre>

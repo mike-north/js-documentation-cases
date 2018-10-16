@@ -12,16 +12,18 @@
 
 ### add
 
+Add two numbers together
+
 ```typescript
 function add(a: number, b: string): string;
 ```
 
 **Parameters**
 
-| Name | Type   |
-| ---- | ------ |
-| a    | number |
-| b    | string |
+| Name | Type   | Description       |
+| ---- | ------ | ----------------- |
+| a    | number | the first number  |
+| b    | string | the second number |
 
 **Return type**
 

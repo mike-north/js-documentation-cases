@@ -65,17 +65,24 @@
         {
             "file": "src/index.js",
             "line": 1,
+            "description": "Add two numbers together",
             "params": [
                 {
                     "name": "a",
-                    "description": "",
+                    "description": "the first number",
                     "type": "Number"
                 },
                 {
                     "name": "b",
-                    "description": "",
+                    "description": "the second number",
                     "type": "String"
                 }
+            ],
+            "return": {
+                "description": "the sum of `a` and `b`"
+            },
+            "example": [
+                "\n```js\nadd(3, 4); // 7\n```"
             ],
             "class": ""
         },
@@ -112,6 +119,10 @@
     "warnings": [
         {
             "message": "replacing incorrect tag: returns with return",
+            "line": " src/index.js:1"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
             "line": " src/vehicle.js:12"
         },
         {
@@ -131,7 +142,7 @@
             "line": " src/cycles.js:12"
         },
         {
-            "message": "Missing item type",
+            "message": "Missing item type\nAdd two numbers together",
             "line": " src/index.js:1"
         },
         {

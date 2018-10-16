@@ -6,7 +6,7 @@
 
 # Unicycle
 
-A Unicycle is a 1-wheeled vehicle
+A one-wheeled vehicle 
 
 ```typescript
 class Unicycle

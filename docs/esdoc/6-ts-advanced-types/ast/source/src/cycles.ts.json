@@ -1,28 +1,28 @@
 {
   "type": "File",
   "start": 0,
-  "end": 346,
+  "end": 395,
   "loc": {
     "start": {
       "line": 1,
       "column": 0
     },
     "end": {
-      "line": 24,
+      "line": 25,
       "column": 0
     }
   },
   "program": {
     "type": "Program",
     "start": 0,
-    "end": 346,
+    "end": 395,
     "loc": {
       "start": {
         "line": 1,
         "column": 0
       },
       "end": {
-        "line": 24,
+        "line": 25,
         "column": 0
       }
     },
@@ -344,7 +344,7 @@
           "trailingComments": [
             {
               "type": "CommentBlock",
-              "value": "*\n * @desc\n * A Unicycle is a 1-wheeled vehicle\n * @lineNumber\n * 15\n ",
+              "value": "*\n * @desc\n * A Unicycle is a 1-wheeled vehicle\n * @lineNumber\n * 16\n ",
               "start": 185,
               "end": 259,
               "loc": {
@@ -355,6 +355,22 @@
                 "end": {
                   "line": 18,
                   "column": 3
+                }
+              }
+            },
+            {
+              "type": "CommentLine",
+              "value": " tslint:disable-next-line:max-classes-per-file",
+              "start": 260,
+              "end": 308,
+              "loc": {
+                "start": {
+                  "line": 19,
+                  "column": 0
+                },
+                "end": {
+                  "line": 19,
+                  "column": 48
                 }
               }
             }
@@ -381,7 +397,7 @@
         "trailingComments": [
           {
             "type": "CommentBlock",
-            "value": "*\n * @desc\n * A Unicycle is a 1-wheeled vehicle\n * @lineNumber\n * 15\n ",
+            "value": "*\n * @desc\n * A Unicycle is a 1-wheeled vehicle\n * @lineNumber\n * 16\n ",
             "start": 185,
             "end": 259,
             "loc": {
@@ -394,20 +410,36 @@
                 "column": 3
               }
             }
+          },
+          {
+            "type": "CommentLine",
+            "value": " tslint:disable-next-line:max-classes-per-file",
+            "start": 260,
+            "end": 308,
+            "loc": {
+              "start": {
+                "line": 19,
+                "column": 0
+              },
+              "end": {
+                "line": 19,
+                "column": 48
+              }
+            }
           }
         ]
       },
       {
         "type": "ExportNamedDeclaration",
-        "start": 260,
-        "end": 345,
+        "start": 309,
+        "end": 394,
         "loc": {
           "start": {
-            "line": 19,
+            "line": 20,
             "column": 0
           },
           "end": {
-            "line": 23,
+            "line": 24,
             "column": 1
           }
         },
@@ -415,29 +447,29 @@
         "source": null,
         "declaration": {
           "type": "ClassDeclaration",
-          "start": 267,
-          "end": 345,
+          "start": 316,
+          "end": 394,
           "loc": {
             "start": {
-              "line": 19,
+              "line": 20,
               "column": 7
             },
             "end": {
-              "line": 23,
+              "line": 24,
               "column": 1
             }
           },
           "id": {
             "type": "Identifier",
-            "start": 273,
-            "end": 281,
+            "start": 322,
+            "end": 330,
             "loc": {
               "start": {
-                "line": 19,
+                "line": 20,
                 "column": 13
               },
               "end": {
-                "line": 19,
+                "line": 20,
                 "column": 21
               },
               "identifierName": "Unicycle"
@@ -447,15 +479,15 @@
           },
           "superClass": {
             "type": "Identifier",
-            "start": 290,
-            "end": 297,
+            "start": 339,
+            "end": 346,
             "loc": {
               "start": {
-                "line": 19,
+                "line": 20,
                 "column": 30
               },
               "end": {
-                "line": 19,
+                "line": 20,
                 "column": 37
               },
               "identifierName": "Vehicle"
@@ -464,30 +496,30 @@
           },
           "body": {
             "type": "ClassBody",
-            "start": 298,
-            "end": 345,
+            "start": 347,
+            "end": 394,
             "loc": {
               "start": {
-                "line": 19,
+                "line": 20,
                 "column": 38
               },
               "end": {
-                "line": 23,
+                "line": 24,
                 "column": 1
               }
             },
             "body": [
               {
                 "type": "ClassMethod",
-                "start": 304,
-                "end": 343,
+                "start": 353,
+                "end": 392,
                 "loc": {
                   "start": {
-                    "line": 20,
+                    "line": 21,
                     "column": 4
                   },
                   "end": {
-                    "line": 22,
+                    "line": 23,
                     "column": 5
                   }
                 },
@@ -495,15 +527,15 @@
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 304,
-                  "end": 315,
+                  "start": 353,
+                  "end": 364,
                   "loc": {
                     "start": {
-                      "line": 20,
+                      "line": 21,
                       "column": 4
                     },
                     "end": {
-                      "line": 20,
+                      "line": 21,
                       "column": 15
                     },
                     "identifierName": "constructor"
@@ -518,58 +550,58 @@
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
-                  "start": 318,
-                  "end": 343,
+                  "start": 367,
+                  "end": 392,
                   "loc": {
                     "start": {
-                      "line": 20,
+                      "line": 21,
                       "column": 18
                     },
                     "end": {
-                      "line": 22,
+                      "line": 23,
                       "column": 5
                     }
                   },
                   "body": [
                     {
                       "type": "ExpressionStatement",
-                      "start": 328,
-                      "end": 337,
+                      "start": 377,
+                      "end": 386,
                       "loc": {
                         "start": {
-                          "line": 21,
+                          "line": 22,
                           "column": 8
                         },
                         "end": {
-                          "line": 21,
+                          "line": 22,
                           "column": 17
                         }
                       },
                       "expression": {
                         "type": "CallExpression",
-                        "start": 328,
-                        "end": 336,
+                        "start": 377,
+                        "end": 385,
                         "loc": {
                           "start": {
-                            "line": 21,
+                            "line": 22,
                             "column": 8
                           },
                           "end": {
-                            "line": 21,
+                            "line": 22,
                             "column": 16
                           }
                         },
                         "callee": {
                           "type": "Super",
-                          "start": 328,
-                          "end": 333,
+                          "start": 377,
+                          "end": 382,
                           "loc": {
                             "start": {
-                              "line": 21,
+                              "line": 22,
                               "column": 8
                             },
                             "end": {
-                              "line": 21,
+                              "line": 22,
                               "column": 13
                             }
                           }
@@ -577,15 +609,15 @@
                         "arguments": [
                           {
                             "type": "NumericLiteral",
-                            "start": 334,
-                            "end": 335,
+                            "start": 383,
+                            "end": 384,
                             "loc": {
                               "start": {
-                                "line": 21,
+                                "line": 22,
                                 "column": 14
                               },
                               "end": {
-                                "line": 21,
+                                "line": 22,
                                 "column": 15
                               }
                             },
@@ -607,7 +639,7 @@
           "leadingComments": [
             {
               "type": "CommentBlock",
-              "value": "*\n * @desc\n * A Unicycle is a 1-wheeled vehicle\n * @lineNumber\n * 15\n ",
+              "value": "*\n * @desc\n * A Unicycle is a 1-wheeled vehicle\n * @lineNumber\n * 16\n ",
               "start": 185,
               "end": 259,
               "loc": {
@@ -620,6 +652,22 @@
                   "column": 3
                 }
               }
+            },
+            {
+              "type": "CommentLine",
+              "value": " tslint:disable-next-line:max-classes-per-file",
+              "start": 260,
+              "end": 308,
+              "loc": {
+                "start": {
+                  "line": 19,
+                  "column": 0
+                },
+                "end": {
+                  "line": 19,
+                  "column": 48
+                }
+              }
             }
           ],
           "trailingComments": []
@@ -627,7 +675,7 @@
         "leadingComments": [
           {
             "type": "CommentBlock",
-            "value": "*\n * @desc\n * A Unicycle is a 1-wheeled vehicle\n * @lineNumber\n * 15\n ",
+            "value": "*\n * @desc\n * A Unicycle is a 1-wheeled vehicle\n * @lineNumber\n * 16\n ",
             "start": 185,
             "end": 259,
             "loc": {
@@ -638,6 +686,22 @@
               "end": {
                 "line": 18,
                 "column": 3
+              }
+            }
+          },
+          {
+            "type": "CommentLine",
+            "value": " tslint:disable-next-line:max-classes-per-file",
+            "start": 260,
+            "end": 308,
+            "loc": {
+              "start": {
+                "line": 19,
+                "column": 0
+              },
+              "end": {
+                "line": 19,
+                "column": 48
               }
             }
           }
@@ -665,7 +729,7 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\n * @desc\n * A Unicycle is a 1-wheeled vehicle\n * @lineNumber\n * 15\n ",
+      "value": "*\n * @desc\n * A Unicycle is a 1-wheeled vehicle\n * @lineNumber\n * 16\n ",
       "start": 185,
       "end": 259,
       "loc": {
@@ -676,6 +740,22 @@
         "end": {
           "line": 18,
           "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " tslint:disable-next-line:max-classes-per-file",
+      "start": 260,
+      "end": 308,
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 0
+        },
+        "end": {
+          "line": 19,
+          "column": 48
         }
       }
     }
@@ -1275,7 +1355,7 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\n * @desc\n * A Unicycle is a 1-wheeled vehicle\n * @lineNumber\n * 15\n ",
+      "value": "*\n * @desc\n * A Unicycle is a 1-wheeled vehicle\n * @lineNumber\n * 16\n ",
       "start": 185,
       "end": 259,
       "loc": {
@@ -1286,6 +1366,22 @@
         "end": {
           "line": 18,
           "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " tslint:disable-next-line:max-classes-per-file",
+      "start": 260,
+      "end": 308,
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 0
+        },
+        "end": {
+          "line": 19,
+          "column": 48
         }
       }
     },
@@ -1304,15 +1400,15 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 260,
-      "end": 266,
+      "start": 309,
+      "end": 315,
       "loc": {
         "start": {
-          "line": 19,
+          "line": 20,
           "column": 0
         },
         "end": {
-          "line": 19,
+          "line": 20,
           "column": 6
         }
       }
@@ -1332,15 +1428,15 @@
         "updateContext": null
       },
       "value": "class",
-      "start": 267,
-      "end": 272,
+      "start": 316,
+      "end": 321,
       "loc": {
         "start": {
-          "line": 19,
+          "line": 20,
           "column": 7
         },
         "end": {
-          "line": 19,
+          "line": 20,
           "column": 12
         }
       }
@@ -1358,15 +1454,15 @@
         "binop": null
       },
       "value": "Unicycle",
-      "start": 273,
-      "end": 281,
+      "start": 322,
+      "end": 330,
       "loc": {
         "start": {
-          "line": 19,
+          "line": 20,
           "column": 13
         },
         "end": {
-          "line": 19,
+          "line": 20,
           "column": 21
         }
       }
@@ -1386,15 +1482,15 @@
         "updateContext": null
       },
       "value": "extends",
-      "start": 282,
-      "end": 289,
+      "start": 331,
+      "end": 338,
       "loc": {
         "start": {
-          "line": 19,
+          "line": 20,
           "column": 22
         },
         "end": {
-          "line": 19,
+          "line": 20,
           "column": 29
         }
       }
@@ -1412,15 +1508,15 @@
         "binop": null
       },
       "value": "Vehicle",
-      "start": 290,
-      "end": 297,
+      "start": 339,
+      "end": 346,
       "loc": {
         "start": {
-          "line": 19,
+          "line": 20,
           "column": 30
         },
         "end": {
-          "line": 19,
+          "line": 20,
           "column": 37
         }
       }
@@ -1437,15 +1533,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 298,
-      "end": 299,
+      "start": 347,
+      "end": 348,
       "loc": {
         "start": {
-          "line": 19,
+          "line": 20,
           "column": 38
         },
         "end": {
-          "line": 19,
+          "line": 20,
           "column": 39
         }
       }
@@ -1463,15 +1559,15 @@
         "binop": null
       },
       "value": "constructor",
-      "start": 304,
-      "end": 315,
+      "start": 353,
+      "end": 364,
       "loc": {
         "start": {
-          "line": 20,
+          "line": 21,
           "column": 4
         },
         "end": {
-          "line": 20,
+          "line": 21,
           "column": 15
         }
       }
@@ -1488,15 +1584,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 315,
-      "end": 316,
+      "start": 364,
+      "end": 365,
       "loc": {
         "start": {
-          "line": 20,
+          "line": 21,
           "column": 15
         },
         "end": {
-          "line": 20,
+          "line": 21,
           "column": 16
         }
       }
@@ -1513,15 +1609,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 316,
-      "end": 317,
+      "start": 365,
+      "end": 366,
       "loc": {
         "start": {
-          "line": 20,
+          "line": 21,
           "column": 16
         },
         "end": {
-          "line": 20,
+          "line": 21,
           "column": 17
         }
       }
@@ -1538,15 +1634,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 318,
-      "end": 319,
+      "start": 367,
+      "end": 368,
       "loc": {
         "start": {
-          "line": 20,
+          "line": 21,
           "column": 18
         },
         "end": {
-          "line": 20,
+          "line": 21,
           "column": 19
         }
       }
@@ -1566,15 +1662,15 @@
         "updateContext": null
       },
       "value": "super",
-      "start": 328,
-      "end": 333,
+      "start": 377,
+      "end": 382,
       "loc": {
         "start": {
-          "line": 21,
+          "line": 22,
           "column": 8
         },
         "end": {
-          "line": 21,
+          "line": 22,
           "column": 13
         }
       }
@@ -1591,15 +1687,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 333,
-      "end": 334,
+      "start": 382,
+      "end": 383,
       "loc": {
         "start": {
-          "line": 21,
+          "line": 22,
           "column": 13
         },
         "end": {
-          "line": 21,
+          "line": 22,
           "column": 14
         }
       }
@@ -1618,15 +1714,15 @@
         "updateContext": null
       },
       "value": 1,
-      "start": 334,
-      "end": 335,
+      "start": 383,
+      "end": 384,
       "loc": {
         "start": {
-          "line": 21,
+          "line": 22,
           "column": 14
         },
         "end": {
-          "line": 21,
+          "line": 22,
           "column": 15
         }
       }
@@ -1643,15 +1739,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 335,
-      "end": 336,
+      "start": 384,
+      "end": 385,
       "loc": {
         "start": {
-          "line": 21,
+          "line": 22,
           "column": 15
         },
         "end": {
-          "line": 21,
+          "line": 22,
           "column": 16
         }
       }
@@ -1669,15 +1765,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 336,
-      "end": 337,
+      "start": 385,
+      "end": 386,
       "loc": {
         "start": {
-          "line": 21,
+          "line": 22,
           "column": 16
         },
         "end": {
-          "line": 21,
+          "line": 22,
           "column": 17
         }
       }
@@ -1694,15 +1790,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 342,
-      "end": 343,
+      "start": 391,
+      "end": 392,
       "loc": {
         "start": {
-          "line": 22,
+          "line": 23,
           "column": 4
         },
         "end": {
-          "line": 22,
+          "line": 23,
           "column": 5
         }
       }
@@ -1719,15 +1815,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 344,
-      "end": 345,
+      "start": 393,
+      "end": 394,
       "loc": {
         "start": {
-          "line": 23,
+          "line": 24,
           "column": 0
         },
         "end": {
-          "line": 23,
+          "line": 24,
           "column": 1
         }
       }
@@ -1745,15 +1841,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 346,
-      "end": 346,
+      "start": 395,
+      "end": 395,
       "loc": {
         "start": {
-          "line": 24,
+          "line": 25,
           "column": 0
         },
         "end": {
-          "line": 24,
+          "line": 25,
           "column": 0
         }
       }
