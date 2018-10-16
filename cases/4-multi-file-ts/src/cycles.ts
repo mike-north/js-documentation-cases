@@ -2,7 +2,7 @@ import Vehicle from './vehicle';
 
 /**
  * A 2-wheeled vehicle
- * @augments
+ * @augments Vehicle
  */
 export class Bike extends Vehicle {
   constructor() {
