@@ -3,12 +3,12 @@
   "expectCount": 12,
   "actualCount": 8,
   "files": {
-    "3-multi-file-js/src/car.js": {
+    "3.1-multi-file-js-ts-entry/src/car.js": {
       "expectCount": 2,
       "actualCount": 2,
       "undocumentLines": []
     },
-    "3-multi-file-js/src/cycles.js": {
+    "3.1-multi-file-js-ts-entry/src/cycles.js": {
       "expectCount": 4,
       "actualCount": 2,
       "undocumentLines": [
@@ -16,14 +16,14 @@
         16
       ]
     },
-    "3-multi-file-js/src/index.js": {
+    "3.1-multi-file-js-ts-entry/src/index.ts": {
       "expectCount": 2,
       "actualCount": 1,
       "undocumentLines": [
-        16
+        14
       ]
     },
-    "3-multi-file-js/src/vehicle.js": {
+    "3.1-multi-file-js-ts-entry/src/vehicle.js": {
       "expectCount": 4,
       "actualCount": 3,
       "undocumentLines": [
