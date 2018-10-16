@@ -62,4 +62,10 @@ function timeout(n: number) {
   return new Promise<void>(resolve => setTimeout(resolve, n));
 }
 
+export const bikeNow = timeout(0).then(() => new Bike());
+// Get a bike soon
 export const bikeSoon = timeout(3000).then(() => new Bike());
+/**
+ * Get a bike later
+ */
+export const bikeLater = timeout(10000).then(() => new Bike());
