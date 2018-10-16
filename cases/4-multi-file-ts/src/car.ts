@@ -1,8 +1,8 @@
-import Vehicle from "./vehicle";
+import Vehicle from './vehicle';
 
 /**
  * A car is a 4-wheeled vehicle
- * @inheritdoc
+ * @augments Vehicle
  */
 export default class Car extends Vehicle {
   /**
