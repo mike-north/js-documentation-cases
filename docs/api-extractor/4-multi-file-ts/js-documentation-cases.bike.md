@@ -2,7 +2,7 @@
 
 # Bike class
 
-A 2-wheeled vehicle 
+A 2-wheeled vehicle  Vehicle
 
 ## Methods
 

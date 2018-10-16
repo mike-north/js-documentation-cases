@@ -282,102 +282,6 @@ window.esdocSearchIndex = [
     "external"
   ],
   [
-    "6-ts-advanced-types/decl/car.d.ts",
-    "file/6-ts-advanced-types/decl/car.d.ts.html",
-    "6-ts-advanced-types/decl/car.d.ts",
-    "file"
-  ],
-  [
-    "6-ts-advanced-types/decl/car.js",
-    "file/6-ts-advanced-types/decl/car.js.html",
-    "6-ts-advanced-types/decl/car.js",
-    "file"
-  ],
-  [
-    "6-ts-advanced-types/decl/car.js~car#constructor",
-    "class/6-ts-advanced-types/decl/car.js~Car.html#instance-constructor-constructor",
-    "6-ts-advanced-types/decl/car.js~Car#constructor",
-    "method"
-  ],
-  [
-    "6-ts-advanced-types/decl/cycles.d.ts",
-    "file/6-ts-advanced-types/decl/cycles.d.ts.html",
-    "6-ts-advanced-types/decl/cycles.d.ts",
-    "file"
-  ],
-  [
-    "6-ts-advanced-types/decl/cycles.js",
-    "file/6-ts-advanced-types/decl/cycles.js.html",
-    "6-ts-advanced-types/decl/cycles.js",
-    "file"
-  ],
-  [
-    "6-ts-advanced-types/decl/cycles.js~bike#constructor",
-    "class/6-ts-advanced-types/decl/cycles.js~Bike.html#instance-constructor-constructor",
-    "6-ts-advanced-types/decl/cycles.js~Bike#constructor",
-    "method"
-  ],
-  [
-    "6-ts-advanced-types/decl/cycles.js~unicycle#constructor",
-    "class/6-ts-advanced-types/decl/cycles.js~Unicycle.html#instance-constructor-constructor",
-    "6-ts-advanced-types/decl/cycles.js~Unicycle#constructor",
-    "method"
-  ],
-  [
-    "6-ts-advanced-types/decl/index.d.ts",
-    "file/6-ts-advanced-types/decl/index.d.ts.html",
-    "6-ts-advanced-types/decl/index.d.ts",
-    "file"
-  ],
-  [
-    "6-ts-advanced-types/decl/index.js",
-    "file/6-ts-advanced-types/decl/index.js.html",
-    "6-ts-advanced-types/decl/index.js",
-    "file"
-  ],
-  [
-    "6-ts-advanced-types/decl/types.d.ts",
-    "file/6-ts-advanced-types/decl/types.d.ts.html",
-    "6-ts-advanced-types/decl/types.d.ts",
-    "file"
-  ],
-  [
-    "6-ts-advanced-types/decl/types.js",
-    "file/6-ts-advanced-types/decl/types.js.html",
-    "6-ts-advanced-types/decl/types.js",
-    "file"
-  ],
-  [
-    "6-ts-advanced-types/decl/vehicle.d.ts",
-    "file/6-ts-advanced-types/decl/vehicle.d.ts.html",
-    "6-ts-advanced-types/decl/vehicle.d.ts",
-    "file"
-  ],
-  [
-    "6-ts-advanced-types/decl/vehicle.js",
-    "file/6-ts-advanced-types/decl/vehicle.js.html",
-    "6-ts-advanced-types/decl/vehicle.js",
-    "file"
-  ],
-  [
-    "6-ts-advanced-types/decl/vehicle.js~vehicle#constructor",
-    "class/6-ts-advanced-types/decl/vehicle.js~Vehicle.html#instance-constructor-constructor",
-    "6-ts-advanced-types/decl/vehicle.js~Vehicle#constructor",
-    "method"
-  ],
-  [
-    "6-ts-advanced-types/decl/vehicle.js~vehicle#drive",
-    "class/6-ts-advanced-types/decl/vehicle.js~Vehicle.html#instance-method-drive",
-    "6-ts-advanced-types/decl/vehicle.js~Vehicle#drive",
-    "method"
-  ],
-  [
-    "6-ts-advanced-types/decl/vehicle.js~vehicle#numwheels",
-    "class/6-ts-advanced-types/decl/vehicle.js~Vehicle.html#instance-member-numWheels",
-    "6-ts-advanced-types/decl/vehicle.js~Vehicle#numWheels",
-    "member"
-  ],
-  [
     "6-ts-advanced-types/etc/js-documentation-cases.api.ts",
     "file/6-ts-advanced-types/etc/js-documentation-cases.api.ts.html",
     "6-ts-advanced-types/etc/js-documentation-cases.api.ts",
@@ -456,27 +360,9 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
-    "js-documentation-cases/6-ts-advanced-types/decl/cycles.js~bike",
-    "class/6-ts-advanced-types/decl/cycles.js~Bike.html",
-    "<span>Bike</span> <span class=\"search-result-import-path\">js-documentation-cases/6-ts-advanced-types/decl/cycles.js</span>",
-    "class"
-  ],
-  [
     "js-documentation-cases/6-ts-advanced-types/src/cycles.ts~bike",
     "class/6-ts-advanced-types/src/cycles.ts~Bike.html",
     "<span>Bike</span> <span class=\"search-result-import-path\">js-documentation-cases/6-ts-advanced-types/src/cycles.ts</span>",
-    "class"
-  ],
-  [
-    "js-documentation-cases/6-ts-advanced-types/decl/car.d.ts~car",
-    "class/6-ts-advanced-types/decl/car.d.ts~Car.html",
-    "<span>Car</span> <span class=\"search-result-import-path\">js-documentation-cases/6-ts-advanced-types/decl/car.d.ts</span>",
-    "class"
-  ],
-  [
-    "js-documentation-cases/6-ts-advanced-types/decl/car.js~car",
-    "class/6-ts-advanced-types/decl/car.js~Car.html",
-    "<span>Car</span> <span class=\"search-result-import-path\">js-documentation-cases/6-ts-advanced-types/decl/car.js</span>",
     "class"
   ],
   [
@@ -486,21 +372,9 @@ window.esdocSearchIndex = [
     "class"
   ],
   [
-    "js-documentation-cases/6-ts-advanced-types/decl/vehicle.js~factory4",
-    "variable/index.html#static-variable-Factory4",
-    "<span>Factory4</span> <span class=\"search-result-import-path\">js-documentation-cases/6-ts-advanced-types/decl/vehicle.js</span>",
-    "variable"
-  ],
-  [
     "js-documentation-cases/6-ts-advanced-types/src/vehicle.ts~factory4",
     "variable/index.html#static-variable-Factory4",
     "<span>Factory4</span> <span class=\"search-result-import-path\">js-documentation-cases/6-ts-advanced-types/src/vehicle.ts</span>",
-    "variable"
-  ],
-  [
-    "js-documentation-cases/6-ts-advanced-types/decl/index.js~secret_string",
-    "variable/index.html#static-variable-SECRET_STRING",
-    "<span>SECRET_STRING</span> <span class=\"search-result-import-path\">js-documentation-cases/6-ts-advanced-types/decl/index.js</span>",
     "variable"
   ],
   [
@@ -510,27 +384,9 @@ window.esdocSearchIndex = [
     "variable"
   ],
   [
-    "js-documentation-cases/6-ts-advanced-types/decl/cycles.js~unicycle",
-    "class/6-ts-advanced-types/decl/cycles.js~Unicycle.html",
-    "<span>Unicycle</span> <span class=\"search-result-import-path\">js-documentation-cases/6-ts-advanced-types/decl/cycles.js</span>",
-    "class"
-  ],
-  [
     "js-documentation-cases/6-ts-advanced-types/src/cycles.ts~unicycle",
     "class/6-ts-advanced-types/src/cycles.ts~Unicycle.html",
     "<span>Unicycle</span> <span class=\"search-result-import-path\">js-documentation-cases/6-ts-advanced-types/src/cycles.ts</span>",
-    "class"
-  ],
-  [
-    "js-documentation-cases/6-ts-advanced-types/decl/vehicle.d.ts~vehicle",
-    "class/6-ts-advanced-types/decl/vehicle.d.ts~Vehicle.html",
-    "<span>Vehicle</span> <span class=\"search-result-import-path\">js-documentation-cases/6-ts-advanced-types/decl/vehicle.d.ts</span>",
-    "class"
-  ],
-  [
-    "js-documentation-cases/6-ts-advanced-types/decl/vehicle.js~vehicle",
-    "class/6-ts-advanced-types/decl/vehicle.js~Vehicle.html",
-    "<span>Vehicle</span> <span class=\"search-result-import-path\">js-documentation-cases/6-ts-advanced-types/decl/vehicle.js</span>",
     "class"
   ],
   [
@@ -540,33 +396,15 @@ window.esdocSearchIndex = [
     "class"
   ],
   [
-    "js-documentation-cases/6-ts-advanced-types/decl/index.js~add",
-    "function/index.html#static-function-add",
-    "<span>add</span> <span class=\"search-result-import-path\">js-documentation-cases/6-ts-advanced-types/decl/index.js</span>",
-    "function"
-  ],
-  [
     "js-documentation-cases/6-ts-advanced-types/src/index.ts~add",
     "function/index.html#static-function-add",
     "<span>add</span> <span class=\"search-result-import-path\">js-documentation-cases/6-ts-advanced-types/src/index.ts</span>",
     "function"
   ],
   [
-    "js-documentation-cases/6-ts-advanced-types/decl/index.js~bikesoon",
-    "variable/index.html#static-variable-bikeSoon",
-    "<span>bikeSoon</span> <span class=\"search-result-import-path\">js-documentation-cases/6-ts-advanced-types/decl/index.js</span>",
-    "variable"
-  ],
-  [
     "js-documentation-cases/6-ts-advanced-types/src/index.ts~bikesoon",
     "variable/index.html#static-variable-bikeSoon",
     "<span>bikeSoon</span> <span class=\"search-result-import-path\">js-documentation-cases/6-ts-advanced-types/src/index.ts</span>",
-    "variable"
-  ],
-  [
-    "js-documentation-cases/6-ts-advanced-types/decl/index.js~firstbike",
-    "variable/index.html#static-variable-firstBike",
-    "<span>firstBike</span> <span class=\"search-result-import-path\">js-documentation-cases/6-ts-advanced-types/decl/index.js</span>",
     "variable"
   ],
   [

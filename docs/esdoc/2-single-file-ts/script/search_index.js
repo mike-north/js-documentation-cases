@@ -282,54 +282,6 @@ window.esdocSearchIndex = [
     "external"
   ],
   [
-    "2-single-file-ts/decl/index.d.ts",
-    "file/2-single-file-ts/decl/index.d.ts.html",
-    "2-single-file-ts/decl/index.d.ts",
-    "file"
-  ],
-  [
-    "2-single-file-ts/decl/index.js",
-    "file/2-single-file-ts/decl/index.js.html",
-    "2-single-file-ts/decl/index.js",
-    "file"
-  ],
-  [
-    "2-single-file-ts/decl/index.js~bike#constructor",
-    "class/2-single-file-ts/decl/index.js~Bike.html#instance-constructor-constructor",
-    "2-single-file-ts/decl/index.js~Bike#constructor",
-    "method"
-  ],
-  [
-    "2-single-file-ts/decl/index.js~car#constructor",
-    "class/2-single-file-ts/decl/index.js~Car.html#instance-constructor-constructor",
-    "2-single-file-ts/decl/index.js~Car#constructor",
-    "method"
-  ],
-  [
-    "2-single-file-ts/decl/index.js~unicycle#constructor",
-    "class/2-single-file-ts/decl/index.js~Unicycle.html#instance-constructor-constructor",
-    "2-single-file-ts/decl/index.js~Unicycle#constructor",
-    "method"
-  ],
-  [
-    "2-single-file-ts/decl/index.js~vehicle#constructor",
-    "class/2-single-file-ts/decl/index.js~Vehicle.html#instance-constructor-constructor",
-    "2-single-file-ts/decl/index.js~Vehicle#constructor",
-    "method"
-  ],
-  [
-    "2-single-file-ts/decl/index.js~vehicle#drive",
-    "class/2-single-file-ts/decl/index.js~Vehicle.html#instance-method-drive",
-    "2-single-file-ts/decl/index.js~Vehicle#drive",
-    "method"
-  ],
-  [
-    "2-single-file-ts/decl/index.js~vehicle#numwheels",
-    "class/2-single-file-ts/decl/index.js~Vehicle.html#instance-member-numWheels",
-    "2-single-file-ts/decl/index.js~Vehicle#numWheels",
-    "member"
-  ],
-  [
     "2-single-file-ts/etc/js-documentation-cases.api.ts",
     "file/2-single-file-ts/etc/js-documentation-cases.api.ts.html",
     "2-single-file-ts/etc/js-documentation-cases.api.ts",
@@ -360,27 +312,33 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
+    "2-single-file-ts/src/index.ts~vehicle#constructor",
+    "class/2-single-file-ts/src/index.ts~Vehicle.html#instance-constructor-constructor",
+    "2-single-file-ts/src/index.ts~Vehicle#constructor",
+    "method"
+  ],
+  [
+    "2-single-file-ts/src/index.ts~vehicle#drive",
+    "class/2-single-file-ts/src/index.ts~Vehicle.html#instance-method-drive",
+    "2-single-file-ts/src/index.ts~Vehicle#drive",
+    "method"
+  ],
+  [
+    "2-single-file-ts/src/index.ts~vehicle#numwheels",
+    "class/2-single-file-ts/src/index.ts~Vehicle.html#instance-member-numWheels",
+    "2-single-file-ts/src/index.ts~Vehicle#numWheels",
+    "member"
+  ],
+  [
     "2-single-file-ts/temp/js-documentation-cases.api.ts",
     "file/2-single-file-ts/temp/js-documentation-cases.api.ts.html",
     "2-single-file-ts/temp/js-documentation-cases.api.ts",
     "file"
   ],
   [
-    "js-documentation-cases/2-single-file-ts/decl/index.js~bike",
-    "class/2-single-file-ts/decl/index.js~Bike.html",
-    "<span>Bike</span> <span class=\"search-result-import-path\">js-documentation-cases/2-single-file-ts/decl/index.js</span>",
-    "class"
-  ],
-  [
     "js-documentation-cases/2-single-file-ts/src/index.ts~bike",
     "class/2-single-file-ts/src/index.ts~Bike.html",
     "<span>Bike</span> <span class=\"search-result-import-path\">js-documentation-cases/2-single-file-ts/src/index.ts</span>",
-    "class"
-  ],
-  [
-    "js-documentation-cases/2-single-file-ts/decl/index.js~car",
-    "class/2-single-file-ts/decl/index.js~Car.html",
-    "<span>Car</span> <span class=\"search-result-import-path\">js-documentation-cases/2-single-file-ts/decl/index.js</span>",
     "class"
   ],
   [
@@ -390,22 +348,10 @@ window.esdocSearchIndex = [
     "class"
   ],
   [
-    "js-documentation-cases/2-single-file-ts/decl/index.js~secret_string",
-    "variable/index.html#static-variable-SECRET_STRING",
-    "<span>SECRET_STRING</span> <span class=\"search-result-import-path\">js-documentation-cases/2-single-file-ts/decl/index.js</span>",
-    "variable"
-  ],
-  [
     "js-documentation-cases/2-single-file-ts/src/index.ts~secret_string",
     "variable/index.html#static-variable-SECRET_STRING",
     "<span>SECRET_STRING</span> <span class=\"search-result-import-path\">js-documentation-cases/2-single-file-ts/src/index.ts</span>",
     "variable"
-  ],
-  [
-    "js-documentation-cases/2-single-file-ts/decl/index.js~unicycle",
-    "class/2-single-file-ts/decl/index.js~Unicycle.html",
-    "<span>Unicycle</span> <span class=\"search-result-import-path\">js-documentation-cases/2-single-file-ts/decl/index.js</span>",
-    "class"
   ],
   [
     "js-documentation-cases/2-single-file-ts/src/index.ts~unicycle",
@@ -414,16 +360,10 @@ window.esdocSearchIndex = [
     "class"
   ],
   [
-    "js-documentation-cases/2-single-file-ts/decl/index.js~vehicle",
-    "class/2-single-file-ts/decl/index.js~Vehicle.html",
-    "<span>Vehicle</span> <span class=\"search-result-import-path\">js-documentation-cases/2-single-file-ts/decl/index.js</span>",
+    "js-documentation-cases/2-single-file-ts/src/index.ts~vehicle",
+    "class/2-single-file-ts/src/index.ts~Vehicle.html",
+    "<span>Vehicle</span> <span class=\"search-result-import-path\">js-documentation-cases/2-single-file-ts/src/index.ts</span>",
     "class"
-  ],
-  [
-    "js-documentation-cases/2-single-file-ts/decl/index.js~add",
-    "function/index.html#static-function-add",
-    "<span>add</span> <span class=\"search-result-import-path\">js-documentation-cases/2-single-file-ts/decl/index.js</span>",
-    "function"
   ],
   [
     "js-documentation-cases/2-single-file-ts/src/index.ts~add",
