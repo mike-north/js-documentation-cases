@@ -128,6 +128,12 @@
             "class": ""
         },
         {
+            "file": "src/index.ts",
+            "line": 68,
+            "description": "Get a bike later",
+            "class": ""
+        },
+        {
             "file": "src/types.ts",
             "line": 1,
             "description": "A vehicle-like thing",
@@ -223,6 +229,10 @@
         {
             "message": "Missing item type\nCreate a promise that resolves after a period of time has elapsed",
             "line": " src/index.ts:57"
+        },
+        {
+            "message": "Missing item type\nGet a bike later",
+            "line": " src/index.ts:68"
         },
         {
             "message": "Missing item type\nA vehicle-like thing",

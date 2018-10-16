@@ -80,6 +80,8 @@
 							<h3>Variables</h3>
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-variable tsd-parent-kind-external-module"><a href="_index_.html#secret_string" class="tsd-kind-icon">SECRET_<wbr>STRING</a></li>
+								<li class="tsd-kind-variable tsd-parent-kind-external-module"><a href="_index_.html#bikelater" class="tsd-kind-icon">bike<wbr>Later</a></li>
+								<li class="tsd-kind-variable tsd-parent-kind-external-module"><a href="_index_.html#bikenow" class="tsd-kind-icon">bike<wbr>Now</a></li>
 								<li class="tsd-kind-variable tsd-parent-kind-external-module"><a href="_index_.html#bikesoon" class="tsd-kind-icon">bike<wbr>Soon</a></li>
 								<li class="tsd-kind-variable tsd-parent-kind-external-module"><a href="_index_.html#firstbike" class="tsd-kind-icon">first<wbr>Bike</a></li>
 							</ul>
@@ -102,7 +104,32 @@
 					<div class="tsd-signature tsd-kind-icon">SECRET_<wbr>STRING<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"shhhhh!"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;shhhhh!&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mike-north/js-documentation-cases/blob/17ff0f5/cases/6-ts-advanced-types/src/index.ts#L20">index.ts:20</a></li>
+							<li>Defined in <a href="https://github.com/mike-north/js-documentation-cases/blob/5b90c0e/cases/6-ts-advanced-types/src/index.ts#L20">index.ts:20</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-external-module">
+					<a name="bikelater" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> bike<wbr>Later</h3>
+					<div class="tsd-signature tsd-kind-icon">bike<wbr>Later<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../classes/_cycles_.bike.html" class="tsd-signature-type">Bike</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> =&nbsp;timeout(10000).then(() &#x3D;&gt; new Bike())</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/mike-north/js-documentation-cases/blob/5b90c0e/cases/6-ts-advanced-types/src/index.ts#L71">index.ts:71</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Get a bike later</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-external-module">
+					<a name="bikenow" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> bike<wbr>Now</h3>
+					<div class="tsd-signature tsd-kind-icon">bike<wbr>Now<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../classes/_cycles_.bike.html" class="tsd-signature-type">Bike</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> =&nbsp;timeout(0).then(() &#x3D;&gt; new Bike())</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/mike-north/js-documentation-cases/blob/5b90c0e/cases/6-ts-advanced-types/src/index.ts#L65">index.ts:65</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -112,7 +139,7 @@
 					<div class="tsd-signature tsd-kind-icon">bike<wbr>Soon<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../classes/_cycles_.bike.html" class="tsd-signature-type">Bike</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> =&nbsp;timeout(3000).then(() &#x3D;&gt; new Bike())</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mike-north/js-documentation-cases/blob/17ff0f5/cases/6-ts-advanced-types/src/index.ts#L65">index.ts:65</a></li>
+							<li>Defined in <a href="https://github.com/mike-north/js-documentation-cases/blob/5b90c0e/cases/6-ts-advanced-types/src/index.ts#L67">index.ts:67</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -122,7 +149,7 @@
 					<div class="tsd-signature tsd-kind-icon">first<wbr>Bike<span class="tsd-signature-symbol">:</span> <a href="../classes/_cycles_.bike.html" class="tsd-signature-type">Bike</a><span class="tsd-signature-symbol"> =&nbsp;VehicleUtils.createBike()</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mike-north/js-documentation-cases/blob/17ff0f5/cases/6-ts-advanced-types/src/index.ts#L55">index.ts:55</a></li>
+							<li>Defined in <a href="https://github.com/mike-north/js-documentation-cases/blob/5b90c0e/cases/6-ts-advanced-types/src/index.ts#L55">index.ts:55</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -145,7 +172,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/mike-north/js-documentation-cases/blob/17ff0f5/cases/6-ts-advanced-types/src/index.ts#L10">index.ts:10</a></li>
+									<li>Defined in <a href="https://github.com/mike-north/js-documentation-cases/blob/5b90c0e/cases/6-ts-advanced-types/src/index.ts#L10">index.ts:10</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -173,7 +200,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/mike-north/js-documentation-cases/blob/17ff0f5/cases/6-ts-advanced-types/src/index.ts#L11">index.ts:11</a></li>
+									<li>Defined in <a href="https://github.com/mike-north/js-documentation-cases/blob/5b90c0e/cases/6-ts-advanced-types/src/index.ts#L11">index.ts:11</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -199,7 +226,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/mike-north/js-documentation-cases/blob/17ff0f5/cases/6-ts-advanced-types/src/index.ts#L61">index.ts:61</a></li>
+									<li>Defined in <a href="https://github.com/mike-north/js-documentation-cases/blob/5b90c0e/cases/6-ts-advanced-types/src/index.ts#L61">index.ts:61</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -252,6 +279,12 @@
 					</li>
 					<li class=" tsd-kind-variable tsd-parent-kind-external-module">
 						<a href="_index_.html#secret_string" class="tsd-kind-icon">SECRET_<wbr>STRING</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-parent-kind-external-module">
+						<a href="_index_.html#bikelater" class="tsd-kind-icon">bike<wbr>Later</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-parent-kind-external-module">
+						<a href="_index_.html#bikenow" class="tsd-kind-icon">bike<wbr>Now</a>
 					</li>
 					<li class=" tsd-kind-variable tsd-parent-kind-external-module">
 						<a href="_index_.html#bikesoon" class="tsd-kind-icon">bike<wbr>Soon</a>

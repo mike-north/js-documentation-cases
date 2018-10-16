@@ -143,7 +143,13 @@ function timeout(n: number) {
   return new Promise&lt;void&gt;(resolve =&gt; setTimeout(resolve, n));
 }
 
+export const bikeNow = timeout(0).then(() =&gt; new Bike());
+// Get a bike soon
 export const bikeSoon = timeout(3000).then(() =&gt; new Bike());
+/**
+ * Get a bike later
+ */
+export const bikeLater = timeout(10000).then(() =&gt; new Bike());
 
     </pre>
 </div>

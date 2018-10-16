@@ -10,7 +10,9 @@
     * Variables
         * [SECRET_STRING][VariableDeclaration-0]
         * [firstBike][VariableDeclaration-1]
-        * [bikeSoon][VariableDeclaration-2]
+        * [bikeNow][VariableDeclaration-2]
+        * [bikeSoon][VariableDeclaration-3]
+        * [bikeLater][VariableDeclaration-4]
 
 # index.ts
 
@@ -148,10 +150,36 @@ const firstBike: Bike;
 
 ----------
 
+### bikeNow
+
+```typescript
+const bikeNow: Promise<Bike>;
+```
+
+**Type**
+
+Promise<[Bike][ClassDeclaration-3]>
+
+----------
+
 ### bikeSoon
 
 ```typescript
 const bikeSoon: Promise<Bike>;
+```
+
+**Type**
+
+Promise<[Bike][ClassDeclaration-3]>
+
+----------
+
+### bikeLater
+
+Get a bike later
+
+```typescript
+const bikeLater: Promise<Bike>;
 ```
 
 **Type**
@@ -169,5 +197,9 @@ Promise<[Bike][ClassDeclaration-3]>
 [VariableDeclaration-0]: index.md#secret_string
 [VariableDeclaration-1]: index.md#firstbike
 [ClassDeclaration-3]: index/bike.md#bike
-[VariableDeclaration-2]: index.md#bikesoon
+[VariableDeclaration-2]: index.md#bikenow
+[ClassDeclaration-3]: index/bike.md#bike
+[VariableDeclaration-3]: index.md#bikesoon
+[ClassDeclaration-3]: index/bike.md#bike
+[VariableDeclaration-4]: index.md#bikelater
 [ClassDeclaration-3]: index/bike.md#bike
