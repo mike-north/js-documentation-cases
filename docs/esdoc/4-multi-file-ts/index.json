@@ -644,7 +644,7 @@
     "__docId__": 53,
     "kind": "file",
     "name": "4-multi-file-ts/decl/cycles.d.ts",
-    "content": "import Vehicle from './vehicle';\n/**\n * A 2-wheeled vehicle\n * @inheritdoc\n */\nexport declare class Bike extends Vehicle {\n    constructor();\n}\n/** A one-wheeled vehicle */\nexport declare class Unicycle extends Vehicle {\n    constructor();\n}\n",
+    "content": "import Vehicle from './vehicle';\n/**\n * A 2-wheeled vehicle\n * @augments\n */\nexport declare class Bike extends Vehicle {\n    constructor();\n}\n/** A one-wheeled vehicle */\nexport declare class Unicycle extends Vehicle {\n    constructor();\n}\n",
     "static": true,
     "longname": "/Users/mnorth/Development/oss/js-documentation-cases/cases/4-multi-file-ts/decl/cycles.d.ts",
     "access": "public",
@@ -655,7 +655,7 @@
     "__docId__": 54,
     "kind": "file",
     "name": "4-multi-file-ts/decl/cycles.js",
-    "content": "import Vehicle from './vehicle';\n/**\n * A 2-wheeled vehicle\n * @inheritdoc\n */\nexport class Bike extends Vehicle {\n    constructor() {\n        super(2);\n    }\n}\n/** A one-wheeled vehicle */\n// tslint:disable-next-line:max-classes-per-file\nexport class Unicycle extends Vehicle {\n    constructor() {\n        super(1);\n    }\n}\n",
+    "content": "import Vehicle from './vehicle';\n/**\n * A 2-wheeled vehicle\n * @augments\n */\nexport class Bike extends Vehicle {\n    constructor() {\n        super(2);\n    }\n}\n/** A one-wheeled vehicle */\n// tslint:disable-next-line:max-classes-per-file\nexport class Unicycle extends Vehicle {\n    constructor() {\n        super(1);\n    }\n}\n",
     "static": true,
     "longname": "/Users/mnorth/Development/oss/js-documentation-cases/cases/4-multi-file-ts/decl/cycles.js",
     "access": "public",
@@ -677,7 +677,7 @@
     "lineNumber": 6,
     "unknown": [
       {
-        "tagName": "@inheritdoc",
+        "tagName": "@augments",
         "tagValue": ""
       }
     ],
