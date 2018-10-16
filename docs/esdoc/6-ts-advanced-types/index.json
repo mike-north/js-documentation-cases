@@ -566,16 +566,523 @@
   {
     "__docId__": 48,
     "kind": "file",
-    "name": "6-ts-advanced-types/etc/js-documentation-cases.api.ts",
-    "content": "// @public (undocumented)\r\nexport function add(a: string, b: string): string;\r\n\r\n// @public\r\nclass Bike extends Vehicle {\r\n  constructor();\r\n}\r\n\r\n// @public\r\nclass Car extends Vehicle {\r\n  constructor();\r\n}\r\n\r\n// @public\r\nclass Unicycle extends Vehicle {\r\n  constructor();\r\n}\r\n\r\n// @public\r\ninterface VehicleLike {\r\n  drive(): void;\r\n}\r\n\r\n// WARNING: Unsupported export: SECRET_STRING\r\n// WARNING: Unsupported export: firstBike\r\n// WARNING: Unsupported export: bikeSoon\r\n// (No @packagedocumentation comment for this package)\r\n",
+    "name": "6-ts-advanced-types/decl/car.d.ts",
+    "content": "import Vehicle from \"./vehicle\";\n/**\n * A car is a 4-wheeled vehicle\n */\nexport default class Car extends Vehicle {\n    /**\n     * Create a new car\n     */\n    constructor();\n}\n",
     "static": true,
-    "longname": "/home/travis/build/mike-north/js-documentation-cases/cases/6-ts-advanced-types/etc/js-documentation-cases.api.ts",
+    "longname": "/Users/mnorth/Development/oss/js-documentation-cases/cases/6-ts-advanced-types/decl/car.d.ts",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
     "__docId__": 49,
+    "kind": "class",
+    "name": "Car",
+    "memberof": "6-ts-advanced-types/decl/car.d.ts",
+    "static": true,
+    "longname": "6-ts-advanced-types/decl/car.d.ts~Car",
+    "access": "public",
+    "export": true,
+    "importPath": "js-documentation-cases/6-ts-advanced-types/decl/car.d.ts",
+    "importStyle": "Car",
+    "description": "A car is a 4-wheeled vehicle",
+    "lineNumber": 5,
+    "interface": false,
+    "extends": [
+      "6-ts-advanced-types/decl/vehicle.js~Vehicle"
+    ]
+  },
+  {
+    "__docId__": 50,
+    "kind": "file",
+    "name": "6-ts-advanced-types/decl/car.js",
+    "content": "import Vehicle from \"./vehicle\";\n/**\n * A car is a 4-wheeled vehicle\n */\nexport default class Car extends Vehicle {\n    /**\n     * Create a new car\n     */\n    constructor() {\n        super(4);\n    }\n}\n",
+    "static": true,
+    "longname": "/Users/mnorth/Development/oss/js-documentation-cases/cases/6-ts-advanced-types/decl/car.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 51,
+    "kind": "class",
+    "name": "Car",
+    "memberof": "6-ts-advanced-types/decl/car.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/decl/car.js~Car",
+    "access": "public",
+    "export": true,
+    "importPath": "js-documentation-cases/6-ts-advanced-types/decl/car.js",
+    "importStyle": "Car",
+    "description": "A car is a 4-wheeled vehicle",
+    "lineNumber": 5,
+    "interface": false,
+    "extends": [
+      "6-ts-advanced-types/decl/vehicle.js~Vehicle"
+    ]
+  },
+  {
+    "__docId__": 52,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "6-ts-advanced-types/decl/car.js~Car",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "6-ts-advanced-types/decl/car.js~Car#constructor",
+    "access": "public",
+    "description": "Create a new car",
+    "lineNumber": 9
+  },
+  {
+    "__docId__": 53,
+    "kind": "file",
+    "name": "6-ts-advanced-types/decl/cycles.d.ts",
+    "content": "import Vehicle from './vehicle';\n/**\n * A bike is a 2-wheeled vehicle\n */\nexport declare class Bike extends Vehicle {\n    constructor();\n}\n/**\n * A Unicycle is a 1-wheeled vehicle\n */\nexport declare class Unicycle extends Vehicle {\n    constructor();\n}\n",
+    "static": true,
+    "longname": "/Users/mnorth/Development/oss/js-documentation-cases/cases/6-ts-advanced-types/decl/cycles.d.ts",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 54,
+    "kind": "file",
+    "name": "6-ts-advanced-types/decl/cycles.js",
+    "content": "import Vehicle from './vehicle';\n/**\n * A bike is a 2-wheeled vehicle\n */\nexport class Bike extends Vehicle {\n    constructor() {\n        super(2);\n    }\n}\n/**\n * A Unicycle is a 1-wheeled vehicle\n */\n// tslint:disable-next-line:max-classes-per-file\nexport class Unicycle extends Vehicle {\n    constructor() {\n        super(1);\n    }\n}\n",
+    "static": true,
+    "longname": "/Users/mnorth/Development/oss/js-documentation-cases/cases/6-ts-advanced-types/decl/cycles.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 55,
+    "kind": "class",
+    "name": "Bike",
+    "memberof": "6-ts-advanced-types/decl/cycles.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/decl/cycles.js~Bike",
+    "access": "public",
+    "export": true,
+    "importPath": "js-documentation-cases/6-ts-advanced-types/decl/cycles.js",
+    "importStyle": "{Bike}",
+    "description": "A bike is a 2-wheeled vehicle",
+    "lineNumber": 5,
+    "interface": false,
+    "extends": [
+      "6-ts-advanced-types/decl/vehicle.js~Vehicle"
+    ]
+  },
+  {
+    "__docId__": 56,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "6-ts-advanced-types/decl/cycles.js~Bike",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "6-ts-advanced-types/decl/cycles.js~Bike#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true
+  },
+  {
+    "__docId__": 57,
+    "kind": "class",
+    "name": "Unicycle",
+    "memberof": "6-ts-advanced-types/decl/cycles.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/decl/cycles.js~Unicycle",
+    "access": "public",
+    "export": true,
+    "importPath": "js-documentation-cases/6-ts-advanced-types/decl/cycles.js",
+    "importStyle": "{Unicycle}",
+    "description": "A Unicycle is a 1-wheeled vehicle",
+    "lineNumber": 14,
+    "interface": false,
+    "extends": [
+      "6-ts-advanced-types/decl/vehicle.js~Vehicle"
+    ]
+  },
+  {
+    "__docId__": 58,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "6-ts-advanced-types/decl/cycles.js~Unicycle",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "6-ts-advanced-types/decl/cycles.js~Unicycle#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true
+  },
+  {
+    "__docId__": 59,
+    "kind": "file",
+    "name": "6-ts-advanced-types/decl/index.d.ts",
+    "content": "import { Bike } from './cycles';\n/**\n * Add two numbers together\n * @param a first number\n * @param b second number\n */\nexport declare function add(a: number, b: number): number;\nexport declare function add(a: string, b: string): string;\nexport declare const SECRET_STRING = \"shhhhh!\";\nexport { default as Car } from './car';\nexport { Unicycle, Bike } from './cycles';\nexport { VehicleLike } from './types';\n/**\n * The first bike\n */\nexport declare const firstBike: Bike;\nexport declare const bikeSoon: Promise<Bike>;\n",
+    "static": true,
+    "longname": "/Users/mnorth/Development/oss/js-documentation-cases/cases/6-ts-advanced-types/decl/index.d.ts",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 60,
+    "kind": "file",
+    "name": "6-ts-advanced-types/decl/index.js",
+    "content": "/// <reference types=\"lodash\"/>\nimport { Bike } from './cycles';\nexport function add(a, b) {\n    if (typeof a === 'number' && typeof b === 'number') {\n        return a + b;\n    }\n    else {\n        return '' + a + b;\n    }\n}\nexport const SECRET_STRING = 'shhhhh!';\nexport { default as Car } from './car';\nexport { Unicycle, Bike } from './cycles';\n/**\n * A class that helps with vehicle maintenance\n */\nclass VehicleUtils {\n    /**\n     * Members\n     */\n    memberFn() {\n        return '';\n    }\n}\n// tslint:disable-next-line:no-namespace\n(function (VehicleUtils) {\n    /**\n     * Create a new bike\n     */\n    function createBike() {\n        return new Bike();\n    }\n    VehicleUtils.createBike = createBike;\n})(VehicleUtils || (VehicleUtils = {}));\n/**\n * The first bike\n */\nexport const firstBike = VehicleUtils.createBike();\n/**\n * Create a promise that resolves after a period of time has elapsed\n * @param n number of milliseconds to wait\n */\nfunction timeout(n) {\n    return new Promise(resolve => setTimeout(resolve, n));\n}\nexport const bikeSoon = timeout(3000).then(() => new Bike());\n",
+    "static": true,
+    "longname": "/Users/mnorth/Development/oss/js-documentation-cases/cases/6-ts-advanced-types/decl/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 61,
+    "kind": "function",
+    "name": "add",
+    "memberof": "6-ts-advanced-types/decl/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "6-ts-advanced-types/decl/index.js~add",
+    "access": "public",
+    "export": true,
+    "importPath": "js-documentation-cases/6-ts-advanced-types/decl/index.js",
+    "importStyle": "{add}",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "a",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "b",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 62,
+    "kind": "variable",
+    "name": "SECRET_STRING",
+    "memberof": "6-ts-advanced-types/decl/index.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/decl/index.js~SECRET_STRING",
+    "access": "public",
+    "export": true,
+    "importPath": "js-documentation-cases/6-ts-advanced-types/decl/index.js",
+    "importStyle": "{SECRET_STRING}",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 63,
+    "kind": "class",
+    "name": "VehicleUtils",
+    "memberof": "6-ts-advanced-types/decl/index.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/decl/index.js~VehicleUtils",
+    "access": "public",
+    "export": false,
+    "importPath": "js-documentation-cases/6-ts-advanced-types/decl/index.js",
+    "importStyle": null,
+    "description": "A class that helps with vehicle maintenance",
+    "lineNumber": 17,
+    "interface": false,
+    "ignore": true
+  },
+  {
+    "__docId__": 64,
+    "kind": "method",
+    "name": "memberFn",
+    "memberof": "6-ts-advanced-types/decl/index.js~VehicleUtils",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "6-ts-advanced-types/decl/index.js~VehicleUtils#memberFn",
+    "access": "public",
+    "description": "Members",
+    "lineNumber": 21,
+    "params": [],
+    "return": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 65,
+    "kind": "variable",
+    "name": "firstBike",
+    "memberof": "6-ts-advanced-types/decl/index.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/decl/index.js~firstBike",
+    "access": "public",
+    "export": true,
+    "importPath": "js-documentation-cases/6-ts-advanced-types/decl/index.js",
+    "importStyle": "{firstBike}",
+    "description": "The first bike",
+    "lineNumber": 38,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 66,
+    "kind": "function",
+    "name": "timeout",
+    "memberof": "6-ts-advanced-types/decl/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "6-ts-advanced-types/decl/index.js~timeout",
+    "access": "public",
+    "export": false,
+    "importPath": "js-documentation-cases/6-ts-advanced-types/decl/index.js",
+    "importStyle": null,
+    "description": "Create a promise that resolves after a period of time has elapsed",
+    "lineNumber": 43,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "n",
+        "description": "number of milliseconds to wait"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 67,
+    "kind": "variable",
+    "name": "bikeSoon",
+    "memberof": "6-ts-advanced-types/decl/index.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/decl/index.js~bikeSoon",
+    "access": "public",
+    "export": true,
+    "importPath": "js-documentation-cases/6-ts-advanced-types/decl/index.js",
+    "importStyle": "{bikeSoon}",
+    "description": null,
+    "lineNumber": 46,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 68,
+    "kind": "file",
+    "name": "6-ts-advanced-types/decl/types.d.ts",
+    "content": "/**\n * A vehicle-like thing\n */\nexport interface VehicleLike {\n    /**\n     * Start driving\n     */\n    drive(): void;\n}\n/**\n * A factory for vehicles\n */\nexport declare type VehicleFactory<N extends number> = new (numWheels: N) => VehicleLike;\n",
+    "static": true,
+    "longname": "/Users/mnorth/Development/oss/js-documentation-cases/cases/6-ts-advanced-types/decl/types.d.ts",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 69,
+    "kind": "file",
+    "name": "6-ts-advanced-types/decl/types.js",
+    "content": "",
+    "static": true,
+    "longname": "/Users/mnorth/Development/oss/js-documentation-cases/cases/6-ts-advanced-types/decl/types.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 70,
+    "kind": "file",
+    "name": "6-ts-advanced-types/decl/vehicle.d.ts",
+    "content": "import { VehicleFactory, VehicleLike } from \"./types\";\n/**\n * A vehicle is a thing that goes places\n */\nexport default class Vehicle implements VehicleLike {\n    protected numWheels: number;\n    /**\n     * Create a new vehicle\n     * @param {number} numWheels Number of wheels\n     */\n    constructor(numWheels: number);\n    /**\n     * Drive the vehicle\n     * @returns {string}\n     */\n    drive(): string;\n}\nexport declare const Factory4: VehicleFactory<4>;\n",
+    "static": true,
+    "longname": "/Users/mnorth/Development/oss/js-documentation-cases/cases/6-ts-advanced-types/decl/vehicle.d.ts",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 71,
+    "kind": "class",
+    "name": "Vehicle",
+    "memberof": "6-ts-advanced-types/decl/vehicle.d.ts",
+    "static": true,
+    "longname": "6-ts-advanced-types/decl/vehicle.d.ts~Vehicle",
+    "access": "public",
+    "export": true,
+    "importPath": "js-documentation-cases/6-ts-advanced-types/decl/vehicle.d.ts",
+    "importStyle": "Vehicle",
+    "description": "A vehicle is a thing that goes places",
+    "lineNumber": 5,
+    "interface": false
+  },
+  {
+    "__docId__": 72,
+    "kind": "file",
+    "name": "6-ts-advanced-types/decl/vehicle.js",
+    "content": "/**\n * A vehicle is a thing that goes places\n */\nexport default class Vehicle {\n    /**\n     * Create a new vehicle\n     * @param {number} numWheels Number of wheels\n     */\n    constructor(numWheels) {\n        this.numWheels = numWheels;\n    }\n    /**\n     * Drive the vehicle\n     * @returns {string}\n     */\n    drive() {\n        return `Driving with all ${this.numWheels} wheels`;\n    }\n}\nexport const Factory4 = Vehicle;\n",
+    "static": true,
+    "longname": "/Users/mnorth/Development/oss/js-documentation-cases/cases/6-ts-advanced-types/decl/vehicle.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 73,
+    "kind": "class",
+    "name": "Vehicle",
+    "memberof": "6-ts-advanced-types/decl/vehicle.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/decl/vehicle.js~Vehicle",
+    "access": "public",
+    "export": true,
+    "importPath": "js-documentation-cases/6-ts-advanced-types/decl/vehicle.js",
+    "importStyle": "Vehicle",
+    "description": "A vehicle is a thing that goes places",
+    "lineNumber": 4,
+    "interface": false
+  },
+  {
+    "__docId__": 74,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "6-ts-advanced-types/decl/vehicle.js~Vehicle",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "6-ts-advanced-types/decl/vehicle.js~Vehicle#constructor",
+    "access": "public",
+    "description": "Create a new vehicle",
+    "lineNumber": 9,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "numWheels",
+        "description": "Number of wheels"
+      }
+    ]
+  },
+  {
+    "__docId__": 75,
+    "kind": "member",
+    "name": "numWheels",
+    "memberof": "6-ts-advanced-types/decl/vehicle.js~Vehicle",
+    "static": false,
+    "longname": "6-ts-advanced-types/decl/vehicle.js~Vehicle#numWheels",
+    "access": "public",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 76,
+    "kind": "method",
+    "name": "drive",
+    "memberof": "6-ts-advanced-types/decl/vehicle.js~Vehicle",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "6-ts-advanced-types/decl/vehicle.js~Vehicle#drive",
+    "access": "public",
+    "description": "Drive the vehicle",
+    "lineNumber": 16,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{string}"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "params": []
+  },
+  {
+    "__docId__": 77,
+    "kind": "variable",
+    "name": "Factory4",
+    "memberof": "6-ts-advanced-types/decl/vehicle.js",
+    "static": true,
+    "longname": "6-ts-advanced-types/decl/vehicle.js~Factory4",
+    "access": "public",
+    "export": true,
+    "importPath": "js-documentation-cases/6-ts-advanced-types/decl/vehicle.js",
+    "importStyle": "{Factory4}",
+    "description": null,
+    "lineNumber": 20,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 78,
+    "kind": "file",
+    "name": "6-ts-advanced-types/etc/js-documentation-cases.api.ts",
+    "content": "// @public (undocumented)\r\nexport function add(a: string, b: string): string;\r\n\r\n// @public\r\nclass Bike extends Vehicle {\r\n  constructor();\r\n}\r\n\r\n// @public\r\nclass Car extends Vehicle {\r\n  constructor();\r\n}\r\n\r\n// @public\r\nclass Unicycle extends Vehicle {\r\n  constructor();\r\n}\r\n\r\n// @public\r\ninterface VehicleLike {\r\n  drive(): void;\r\n}\r\n\r\n// WARNING: Unsupported export: SECRET_STRING\r\n// WARNING: Unsupported export: firstBike\r\n// WARNING: Unsupported export: bikeSoon\r\n// (No @packagedocumentation comment for this package)\r\n",
+    "static": true,
+    "longname": "/Users/mnorth/Development/oss/js-documentation-cases/cases/6-ts-advanced-types/etc/js-documentation-cases.api.ts",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 79,
     "kind": "class",
     "name": "Bike",
     "memberof": "6-ts-advanced-types/etc/js-documentation-cases.api.ts",
@@ -594,7 +1101,7 @@
     "ignore": true
   },
   {
-    "__docId__": 50,
+    "__docId__": 80,
     "kind": "class",
     "name": "Car",
     "memberof": "6-ts-advanced-types/etc/js-documentation-cases.api.ts",
@@ -613,7 +1120,7 @@
     "ignore": true
   },
   {
-    "__docId__": 51,
+    "__docId__": 81,
     "kind": "class",
     "name": "Unicycle",
     "memberof": "6-ts-advanced-types/etc/js-documentation-cases.api.ts",
@@ -632,18 +1139,18 @@
     "ignore": true
   },
   {
-    "__docId__": 52,
+    "__docId__": 82,
     "kind": "file",
     "name": "6-ts-advanced-types/src/car.ts",
     "content": "import Vehicle from \"./vehicle\";\n\n/**\n * A car is a 4-wheeled vehicle\n */\nexport default class Car extends Vehicle {\n  /**\n   * Create a new car\n   */\n  constructor() {\n    super(4);\n  }\n}\n",
     "static": true,
-    "longname": "/home/travis/build/mike-north/js-documentation-cases/cases/6-ts-advanced-types/src/car.ts",
+    "longname": "/Users/mnorth/Development/oss/js-documentation-cases/cases/6-ts-advanced-types/src/car.ts",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 53,
+    "__docId__": 83,
     "kind": "class",
     "name": "Car",
     "memberof": "6-ts-advanced-types/src/car.ts",
@@ -661,7 +1168,7 @@
     ]
   },
   {
-    "__docId__": 54,
+    "__docId__": 84,
     "kind": "constructor",
     "name": "constructor",
     "memberof": "6-ts-advanced-types/src/car.ts~Car",
@@ -674,18 +1181,18 @@
     "lineNumber": 12
   },
   {
-    "__docId__": 55,
+    "__docId__": 85,
     "kind": "file",
     "name": "6-ts-advanced-types/src/cycles.ts",
     "content": "import Vehicle from './vehicle';\n\n/**\n * A bike is a 2-wheeled vehicle\n */\nexport class Bike extends Vehicle {\n  constructor() {\n    super(2);\n  }\n}\n\n/**\n * A Unicycle is a 1-wheeled vehicle\n */\n// tslint:disable-next-line:max-classes-per-file\nexport class Unicycle extends Vehicle {\n  constructor() {\n    super(1);\n  }\n}\n",
     "static": true,
-    "longname": "/home/travis/build/mike-north/js-documentation-cases/cases/6-ts-advanced-types/src/cycles.ts",
+    "longname": "/Users/mnorth/Development/oss/js-documentation-cases/cases/6-ts-advanced-types/src/cycles.ts",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 56,
+    "__docId__": 86,
     "kind": "class",
     "name": "Bike",
     "memberof": "6-ts-advanced-types/src/cycles.ts",
@@ -703,7 +1210,7 @@
     ]
   },
   {
-    "__docId__": 57,
+    "__docId__": 87,
     "kind": "constructor",
     "name": "constructor",
     "memberof": "6-ts-advanced-types/src/cycles.ts~Bike",
@@ -717,7 +1224,7 @@
     "undocument": true
   },
   {
-    "__docId__": 58,
+    "__docId__": 88,
     "kind": "class",
     "name": "Unicycle",
     "memberof": "6-ts-advanced-types/src/cycles.ts",
@@ -735,7 +1242,7 @@
     ]
   },
   {
-    "__docId__": 59,
+    "__docId__": 89,
     "kind": "constructor",
     "name": "constructor",
     "memberof": "6-ts-advanced-types/src/cycles.ts~Unicycle",
@@ -749,18 +1256,18 @@
     "undocument": true
   },
   {
-    "__docId__": 60,
+    "__docId__": 90,
     "kind": "file",
     "name": "6-ts-advanced-types/src/index.ts",
-    "content": "/// <reference types=\"lodash\"/>\n\nimport { Bike } from './cycles';\n\n/**\n * Add two numbers together\n * @param a first number\n * @param b second number\n */\nexport function add(a: number, b: number): number;\nexport function add(a: string, b: string): string;\nexport function add(a: number | string, b: number | string): number | string {\n  if (typeof a === 'number' && typeof b === 'number') {\n    return a + b;\n  } else {\n    return '' + a + b;\n  }\n}\n\nexport const SECRET_STRING = 'shhhhh!';\n\nexport { default as Car } from './car';\nexport { Unicycle, Bike } from './cycles';\nexport { VehicleLike } from './types';\n\n/**\n * A class that helps with vehicle maintenance\n */\nclass VehicleUtils {\n  /**\n   * Static things\n   */\n  public static description: 'Utilities for vehicles';\n  /**\n   * Members\n   */\n  public memberFn() {\n    return '';\n  }\n}\n\n// tslint:disable-next-line:no-namespace\nnamespace VehicleUtils {\n  /**\n   * Create a new bike\n   */\n  export function createBike(): Bike {\n    return new Bike();\n  }\n}\n\n/**\n * The first bike\n */\nexport const firstBike = VehicleUtils.createBike();\n\n/**\n * Create a promise that resolves after a period of time has elapsed\n * @param n number of milliseconds to wait\n */\nfunction timeout(n: number) {\n  return new Promise<void>(resolve => setTimeout(resolve, n));\n}\n\nexport const bikeSoon = timeout(3000).then(() => new Bike());\n",
+    "content": "/// <reference types=\"lodash\"/>\n\nimport { Bike } from './cycles';\n\n/**\n * Add two numbers together\n * @param a first number\n * @param b second number\n */\nexport function add(a: number, b: number): number;\nexport function add(a: string, b: string): string;\nexport function add(a: number | string, b: number | string): number | string {\n  if (typeof a === 'number' && typeof b === 'number') {\n    return a + b;\n  } else {\n    return '' + a + b;\n  }\n}\n\nexport const SECRET_STRING = 'shhhhh!';\n\nexport { default as Car } from './car';\nexport { Unicycle, Bike } from './cycles';\nexport { VehicleLike } from './types';\n\n/**\n * A class that helps with vehicle maintenance\n */\nclass VehicleUtils {\n  /**\n   * Static things\n   */\n  public static description: 'Utilities for vehicles';\n  /**\n   * Members\n   */\n  public memberFn() {\n    return '';\n  }\n}\n\n// tslint:disable-next-line:no-namespace\nnamespace VehicleUtils {\n  /**\n   * Create a new bike\n   */\n  export function createBike(): Bike {\n    return new Bike();\n  }\n}\n\n/**\n * The first bike\n */\nexport const firstBike = VehicleUtils.createBike();\n\n/**\n * Create a promise that resolves after a period of time has elapsed\n * @param n number of milliseconds to wait\n */\nfunction timeout(n: number) {\n  return new Promise<void>(resolve => setTimeout(resolve, n));\n}\n\nexport const bikeNow = timeout(0).then(() => new Bike());\n// Get a bike soon\nexport const bikeSoon = timeout(3000).then(() => new Bike());\n/**\n * Get a bike later\n */\nexport const bikeLater = timeout(10000).then(() => new Bike());\n",
     "static": true,
-    "longname": "/home/travis/build/mike-north/js-documentation-cases/cases/6-ts-advanced-types/src/index.ts",
+    "longname": "/Users/mnorth/Development/oss/js-documentation-cases/cases/6-ts-advanced-types/src/index.ts",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 61,
+    "__docId__": 91,
     "kind": "function",
     "name": "add",
     "memberof": "6-ts-advanced-types/src/index.ts",
@@ -803,7 +1310,7 @@
     }
   },
   {
-    "__docId__": 62,
+    "__docId__": 92,
     "kind": "variable",
     "name": "SECRET_STRING",
     "memberof": "6-ts-advanced-types/src/index.ts",
@@ -823,7 +1330,7 @@
     }
   },
   {
-    "__docId__": 63,
+    "__docId__": 93,
     "kind": "class",
     "name": "VehicleUtils",
     "memberof": "6-ts-advanced-types/src/index.ts",
@@ -839,7 +1346,7 @@
     "ignore": true
   },
   {
-    "__docId__": 64,
+    "__docId__": 94,
     "kind": "method",
     "name": "memberFn",
     "memberof": "6-ts-advanced-types/src/index.ts~VehicleUtils",
@@ -858,7 +1365,7 @@
     }
   },
   {
-    "__docId__": 65,
+    "__docId__": 95,
     "kind": "variable",
     "name": "firstBike",
     "memberof": "6-ts-advanced-types/src/index.ts",
@@ -877,7 +1384,7 @@
     }
   },
   {
-    "__docId__": 66,
+    "__docId__": 96,
     "kind": "function",
     "name": "timeout",
     "memberof": "6-ts-advanced-types/src/index.ts",
@@ -911,16 +1418,16 @@
     "ignore": true
   },
   {
-    "__docId__": 67,
+    "__docId__": 97,
     "kind": "variable",
-    "name": "bikeSoon",
+    "name": "bikeNow",
     "memberof": "6-ts-advanced-types/src/index.ts",
     "static": true,
-    "longname": "6-ts-advanced-types/src/index.ts~bikeSoon",
+    "longname": "6-ts-advanced-types/src/index.ts~bikeNow",
     "access": "public",
     "export": true,
     "importPath": "js-documentation-cases/6-ts-advanced-types/src/index.ts",
-    "importStyle": "{bikeSoon}",
+    "importStyle": "{bikeNow}",
     "description": null,
     "lineNumber": 72,
     "undocument": true,
@@ -931,29 +1438,68 @@
     }
   },
   {
-    "__docId__": 68,
+    "__docId__": 98,
+    "kind": "variable",
+    "name": "bikeSoon",
+    "memberof": "6-ts-advanced-types/src/index.ts",
+    "static": true,
+    "longname": "6-ts-advanced-types/src/index.ts~bikeSoon",
+    "access": "public",
+    "export": true,
+    "importPath": "js-documentation-cases/6-ts-advanced-types/src/index.ts",
+    "importStyle": "{bikeSoon}",
+    "description": null,
+    "lineNumber": 74,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 99,
+    "kind": "variable",
+    "name": "bikeLater",
+    "memberof": "6-ts-advanced-types/src/index.ts",
+    "static": true,
+    "longname": "6-ts-advanced-types/src/index.ts~bikeLater",
+    "access": "public",
+    "export": true,
+    "importPath": "js-documentation-cases/6-ts-advanced-types/src/index.ts",
+    "importStyle": "{bikeLater}",
+    "description": "Get a bike later",
+    "lineNumber": 78,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 100,
     "kind": "file",
     "name": "6-ts-advanced-types/src/types.ts",
     "content": "/**\n * A vehicle-like thing\n */\nexport interface VehicleLike {\n  /**\n   * Start driving\n   */\n  drive(): void;\n}\n\n/**\n * A factory for vehicles\n */\nexport type VehicleFactory<N extends number> = new (\n  numWheels: N,\n) => VehicleLike;\n",
     "static": true,
-    "longname": "/home/travis/build/mike-north/js-documentation-cases/cases/6-ts-advanced-types/src/types.ts",
+    "longname": "/Users/mnorth/Development/oss/js-documentation-cases/cases/6-ts-advanced-types/src/types.ts",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 69,
+    "__docId__": 101,
     "kind": "file",
     "name": "6-ts-advanced-types/src/vehicle.ts",
     "content": "import { VehicleFactory, VehicleLike } from \"./types\";\n\n/**\n * A vehicle is a thing that goes places\n */\nexport default class Vehicle implements VehicleLike {\n  /**\n   * Create a new vehicle\n   * @param {number} numWheels Number of wheels\n   */\n  constructor(protected numWheels: number) {}\n  /**\n   * Drive the vehicle\n   * @returns {string}\n   */\n  public drive() {\n    return `Driving with all ${this.numWheels} wheels`;\n  }\n}\n\nexport const Factory4: VehicleFactory<4> = Vehicle;\n",
     "static": true,
-    "longname": "/home/travis/build/mike-north/js-documentation-cases/cases/6-ts-advanced-types/src/vehicle.ts",
+    "longname": "/Users/mnorth/Development/oss/js-documentation-cases/cases/6-ts-advanced-types/src/vehicle.ts",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 70,
+    "__docId__": 102,
     "kind": "class",
     "name": "Vehicle",
     "memberof": "6-ts-advanced-types/src/vehicle.ts",
@@ -968,7 +1514,7 @@
     "interface": false
   },
   {
-    "__docId__": 71,
+    "__docId__": 103,
     "kind": "constructor",
     "name": "constructor",
     "memberof": "6-ts-advanced-types/src/vehicle.ts~Vehicle",
@@ -993,7 +1539,7 @@
     ]
   },
   {
-    "__docId__": 72,
+    "__docId__": 104,
     "kind": "member",
     "name": "numWheels",
     "memberof": "6-ts-advanced-types/src/vehicle.ts~Vehicle",
@@ -1010,7 +1556,7 @@
     }
   },
   {
-    "__docId__": 73,
+    "__docId__": 105,
     "kind": "method",
     "name": "drive",
     "memberof": "6-ts-advanced-types/src/vehicle.ts~Vehicle",
@@ -1029,7 +1575,7 @@
     }
   },
   {
-    "__docId__": 74,
+    "__docId__": 106,
     "kind": "variable",
     "name": "Factory4",
     "memberof": "6-ts-advanced-types/src/vehicle.ts",
@@ -1049,18 +1595,18 @@
     }
   },
   {
-    "__docId__": 75,
+    "__docId__": 107,
     "kind": "file",
     "name": "6-ts-advanced-types/temp/js-documentation-cases.api.ts",
     "content": "// @public (undocumented)\r\nexport function add(a: string, b: string): string;\r\n\r\n// @public\r\nclass Bike extends Vehicle {\r\n  constructor();\r\n}\r\n\r\n// @public\r\nclass Car extends Vehicle {\r\n  constructor();\r\n}\r\n\r\n// @public\r\nclass Unicycle extends Vehicle {\r\n  constructor();\r\n}\r\n\r\n// @public\r\ninterface VehicleLike {\r\n  drive(): void;\r\n}\r\n\r\n// WARNING: Unsupported export: SECRET_STRING\r\n// WARNING: Unsupported export: firstBike\r\n// WARNING: Unsupported export: bikeSoon\r\n// (No @packagedocumentation comment for this package)\r\n",
     "static": true,
-    "longname": "/home/travis/build/mike-north/js-documentation-cases/cases/6-ts-advanced-types/temp/js-documentation-cases.api.ts",
+    "longname": "/Users/mnorth/Development/oss/js-documentation-cases/cases/6-ts-advanced-types/temp/js-documentation-cases.api.ts",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 76,
+    "__docId__": 108,
     "kind": "class",
     "name": "Bike",
     "memberof": "6-ts-advanced-types/temp/js-documentation-cases.api.ts",
@@ -1079,7 +1625,7 @@
     "ignore": true
   },
   {
-    "__docId__": 77,
+    "__docId__": 109,
     "kind": "class",
     "name": "Car",
     "memberof": "6-ts-advanced-types/temp/js-documentation-cases.api.ts",
@@ -1098,7 +1644,7 @@
     "ignore": true
   },
   {
-    "__docId__": 78,
+    "__docId__": 110,
     "kind": "class",
     "name": "Unicycle",
     "memberof": "6-ts-advanced-types/temp/js-documentation-cases.api.ts",
@@ -1119,7 +1665,7 @@
   {
     "kind": "index",
     "content": "# JS/TS Library Documentation Test Cases\n\n[![Build Status](https://travis-ci.org/mike-north/js-documentation-cases.svg?branch=master)](https://travis-ci.org/mike-north/js-documentation-cases)\n\nA set of test cases for evaluating the capabilities and support of documentation generation tools.\n\n## The Cases\n\nThe subfolders of `./cases` represent meaningful scenarios that are important for library doc generation. In theory, these are ordered in increasing level of difficulty for doc tooling to handle.\n\n### `1. Single-File JavaScript`\n\nA single JavaScript file, with some module-private (non-exported) values, and some exported ones\n\n### `2. Single-File TypeScript`\n\nA single TypeScript file, with some module-private (non-exported) values, and some exported ones\n\n### `3. Multi-File JavaScript`\n\nA single \"entry\" file, that consumes from multiple other JS files (which are not available directly to consumers for consumption).\n\n### `4. Multi-File TypeScript`\n\nA single \"entry\" file, that consumes from multiple other TS files (which are not available directly to consumers for consumption).\n\n### `5. TypeScript Exported Types`\n\nTypeScript code that exports Interfaces and Type Aliases in addition to values\n\n### `6. TypeScript Advanced Types`\n\nA couple of tricky TypeScript scenarios, including the merge of a `class` and `namespace`.\n\n### `7. JavaScript consumes TypeScript`\n\nA scenario involving a mix of JS and TS files, where the types provided by TS are consumed and used in JSDoc comments\n\n### `8. No TSConfig`\n\nA scenario where no local `tsconfig.json` is found, and a default one must be used for doc generation instead\n\n---\n\n(c) 2018 LinkedIn\n",
-    "longname": "/home/travis/build/mike-north/js-documentation-cases/README.md",
+    "longname": "/Users/mnorth/Development/oss/js-documentation-cases/README.md",
     "name": "../../README.md",
     "static": true,
     "access": "public"
@@ -1127,7 +1673,7 @@
   {
     "kind": "packageJSON",
     "content": "{\n  \"name\": \"js-documentation-cases\",\n  \"version\": \"0.0.0-development\",\n  \"description\": \"Test cases for JavaScript & TypeScript library documentation solutions\",\n  \"main\": \"index.js\",\n  \"repository\": \"https://github.com/mike-north/js-documentation-cases\",\n  \"author\": \"Mike North <michael.l.north@gmail.com> (https://mike.works)\",\n  \"license\": \"BSD-2-Clause\",\n  \"private\": true,\n  \"scripts\": {\n    \"test\": \"yarn build\",\n    \"run_for_each\": \"scripty\",\n    \"build:typedoc\": \"scripty\",\n    \"build:esdoc\": \"scripty\",\n    \"build:jsdoc\": \"scripty\",\n    \"build:ts-docs-gen\": \"scripty\",\n    \"build:docco\": \"scripty\",\n    \"build:yuidoc\": \"scripty\",\n    \"build:api-extractor\": \"scripty\",\n    \"build:code-to-json\": \"scripty\",\n    \"build:api-extractor:create-config\": \"scripty\",\n    \"build:yuidoc:create-config\": \"SCRIPTY_SILENT=true scripty\",\n    \"build:index\": \"scripty\",\n    \"build:ts\": \"scripty\",\n    \"build:docs\": \"scripty\",\n    \"build\": \"scripty\",\n    \"postinstall\": \"scripty\",\n    \"travis-deploy-once\": \"travis-deploy-once\",\n    \"semantic-release\": \"semantic-release\"\n  },\n  \"devDependencies\": {\n    \"@code-to-json/cli\": \"^0.1.9\",\n    \"@microsoft/api-documenter\": \"^1.5.33\",\n    \"@microsoft/api-extractor\": \"^6.0.2\",\n    \"@microsoft/tsdoc\": \"^0.8.1\",\n    \"@semantic-release/git\": \"^7.0.4\",\n    \"@types/commander\": \"^2.12.2\",\n    \"@types/fs-extra\": \"^5.0.4\",\n    \"@types/handlebars\": \"^4.0.39\",\n    \"@types/lodash\": \"^4.14.116\",\n    \"@types/node\": \"^10.11.7\",\n    \"commander\": \"^2.19.0\",\n    \"docco\": \"^0.8.0\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"esdoc-typescript-plugin\": \"^1.0.1\",\n    \"fs-extra\": \"^7.0.0\",\n    \"handlebars\": \"^4.0.12\",\n    \"jsdoc\": \"^3.5.5\",\n    \"scripty\": \"^1.7.2\",\n    \"semantic-release\": \"^15.9.17\",\n    \"travis-deploy-once\": \"^5.0.9\",\n    \"ts-docs-gen\": \"^0.2.0\",\n    \"ts-jsdoc\": \"^3.0.1\",\n    \"ts-node\": \"^7.0.1\",\n    \"tslint\": \"^5.11.0\",\n    \"typedoc\": \"^0.12.0\",\n    \"typescript\": \"^3.1.2\",\n    \"yuidocjs\": \"^0.10.2\"\n  },\n  \"release\": {\n    \"verifyConditions\": [\n      \"@semantic-release/github\"\n    ],\n    \"analyzeCommits\": [\n      \"@semantic-release/commit-analyzer\"\n    ],\n    \"prepare\": [\n      {\n        \"path\": \"@semantic-release/git\",\n        \"assets\": [\n          \"docs\"\n        ],\n        \"message\": \"chore(release): ${nextRelease.version} [skip ci]\\n\\n${nextRelease.notes}\"\n      }\n    ],\n    \"publish\": [\n      \"@semantic-release/github\"\n    ],\n    \"success\": [\n      \"@semantic-release/github\"\n    ],\n    \"fail\": [\n      \"@semantic-release/github\"\n    ]\n  }\n}\n",
-    "longname": "/home/travis/build/mike-north/js-documentation-cases/package.json",
+    "longname": "/Users/mnorth/Development/oss/js-documentation-cases/package.json",
     "name": "package.json",
     "static": true,
     "access": "public"

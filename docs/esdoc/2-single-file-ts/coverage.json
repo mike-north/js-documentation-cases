@@ -1,8 +1,18 @@
 {
-  "coverage": "82.35%",
-  "expectCount": 17,
-  "actualCount": 14,
+  "coverage": "75.86%",
+  "expectCount": 29,
+  "actualCount": 22,
   "files": {
+    "2-single-file-ts/decl/index.js": {
+      "expectCount": 12,
+      "actualCount": 8,
+      "undocumentLines": [
+        1,
+        23,
+        50,
+        59
+      ]
+    },
     "2-single-file-ts/etc/js-documentation-cases.api.ts": {
       "expectCount": 2,
       "actualCount": 2,

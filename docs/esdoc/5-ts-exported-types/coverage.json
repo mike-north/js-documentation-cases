@@ -1,8 +1,47 @@
 {
-  "coverage": "73.68%",
-  "expectCount": 19,
-  "actualCount": 14,
+  "coverage": "67.64%",
+  "expectCount": 34,
+  "actualCount": 23,
   "files": {
+    "5-ts-exported-types/decl/car.d.ts": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "5-ts-exported-types/decl/car.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "5-ts-exported-types/decl/cycles.js": {
+      "expectCount": 4,
+      "actualCount": 2,
+      "undocumentLines": [
+        6,
+        15
+      ]
+    },
+    "5-ts-exported-types/decl/index.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        9
+      ]
+    },
+    "5-ts-exported-types/decl/vehicle.d.ts": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "5-ts-exported-types/decl/vehicle.js": {
+      "expectCount": 5,
+      "actualCount": 3,
+      "undocumentLines": [
+        10,
+        20
+      ]
+    },
     "5-ts-exported-types/etc/js-documentation-cases.api.ts": {
       "expectCount": 3,
       "actualCount": 3,
