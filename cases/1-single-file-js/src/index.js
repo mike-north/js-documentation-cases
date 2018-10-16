@@ -7,7 +7,11 @@ export function add(a, b) {
   return a + b;
 }
 
-export const SECRET_STRING = "shhhhh!";
+/**
+ * A super secret string
+ * @public
+ */
+export const SECRET_STRING = 'shhhhh!';
 
 /**
  * A vehicle is a thing that goes places
