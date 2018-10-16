@@ -6,7 +6,7 @@
         "text": "SourceFile"
       },
       "pos": 0,
-      "end": 891,
+      "end": 935,
       "symbolFlags": "ValueModule",
       "flags": "JavaScriptFile",
       "fileName": "cases/1-single-file-js/src/index.js",
@@ -34,7 +34,7 @@
             "text": "VariableStatement"
           },
           "pos": 114,
-          "end": 155,
+          "end": 199,
           "symbolFlags": null,
           "flags": "JavaScriptFile",
           "modifiers": [
@@ -46,8 +46,8 @@
                 "value": 235,
                 "text": "VariableDeclaration"
               },
-              "pos": 128,
-              "end": 154,
+              "pos": 172,
+              "end": 198,
               "symbolFlags": null,
               "flags": "JavaScriptFile",
               "name": "SECRET_STRING",
@@ -60,8 +60,8 @@
             "value": 238,
             "text": "ClassDeclaration"
           },
-          "pos": 155,
-          "end": 502,
+          "pos": 199,
+          "end": 546,
           "symbolFlags": null,
           "flags": "JavaScriptFile",
           "name": "Vehicle",
@@ -72,8 +72,8 @@
             "value": 238,
             "text": "ClassDeclaration"
           },
-          "pos": 502,
-          "end": 650,
+          "pos": 546,
+          "end": 694,
           "symbolFlags": null,
           "flags": "JavaScriptFile",
           "modifiers": [
@@ -87,8 +87,8 @@
             "value": 238,
             "text": "ClassDeclaration"
           },
-          "pos": 650,
-          "end": 766,
+          "pos": 694,
+          "end": 810,
           "symbolFlags": null,
           "flags": "JavaScriptFile",
           "modifiers": [
@@ -102,8 +102,8 @@
             "value": 238,
             "text": "ClassDeclaration"
           },
-          "pos": 766,
-          "end": 890,
+          "pos": 810,
+          "end": 934,
           "symbolFlags": null,
           "flags": "JavaScriptFile",
           "modifiers": [

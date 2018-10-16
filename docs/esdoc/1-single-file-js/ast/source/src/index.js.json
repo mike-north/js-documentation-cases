@@ -1,28 +1,28 @@
 {
   "type": "File",
   "start": 0,
-  "end": 891,
+  "end": 935,
   "loc": {
     "start": {
       "line": 1,
       "column": 0
     },
     "end": {
-      "line": 61,
+      "line": 65,
       "column": 0
     }
   },
   "program": {
     "type": "Program",
     "start": 0,
-    "end": 891,
+    "end": 935,
     "loc": {
       "start": {
         "line": 1,
         "column": 0
       },
       "end": {
-        "line": 61,
+        "line": 65,
         "column": 0
       }
     },
@@ -196,7 +196,8 @@
                 }
               }
             ],
-            "directives": []
+            "directives": [],
+            "trailingComments": null
           },
           "leadingComments": [
             {
@@ -216,7 +217,24 @@
               }
             }
           ],
-          "trailingComments": []
+          "trailingComments": [
+            {
+              "type": "CommentBlock",
+              "value": "*\n * A super secret string\n * @public\n ",
+              "start": 116,
+              "end": 159,
+              "loc": {
+                "start": {
+                  "line": 10,
+                  "column": 0
+                },
+                "end": {
+                  "line": 13,
+                  "column": 3
+                }
+              }
+            }
+          ]
         },
         "leadingComments": [
           {
@@ -235,19 +253,37 @@
               }
             }
           }
+        ],
+        "trailingComments": [
+          {
+            "type": "CommentBlock",
+            "value": "*\n * A super secret string\n * @public\n ",
+            "start": 116,
+            "end": 159,
+            "loc": {
+              "start": {
+                "line": 10,
+                "column": 0
+              },
+              "end": {
+                "line": 13,
+                "column": 3
+              }
+            }
+          }
         ]
       },
       {
         "type": "ExportNamedDeclaration",
-        "start": 116,
-        "end": 155,
+        "start": 160,
+        "end": 199,
         "loc": {
           "start": {
-            "line": 10,
+            "line": 14,
             "column": 0
           },
           "end": {
-            "line": 10,
+            "line": 14,
             "column": 39
           }
         },
@@ -255,106 +291,143 @@
         "source": null,
         "declaration": {
           "type": "VariableDeclaration",
-          "start": 123,
-          "end": 155,
+          "start": 167,
+          "end": 199,
           "loc": {
             "start": {
-              "line": 10,
+              "line": 14,
               "column": 7
             },
             "end": {
-              "line": 10,
+              "line": 14,
               "column": 39
             }
           },
           "declarations": [
             {
               "type": "VariableDeclarator",
-              "start": 129,
-              "end": 154,
+              "start": 173,
+              "end": 198,
               "loc": {
                 "start": {
-                  "line": 10,
+                  "line": 14,
                   "column": 13
                 },
                 "end": {
-                  "line": 10,
+                  "line": 14,
                   "column": 38
                 }
               },
               "id": {
                 "type": "Identifier",
-                "start": 129,
-                "end": 142,
+                "start": 173,
+                "end": 186,
                 "loc": {
                   "start": {
-                    "line": 10,
+                    "line": 14,
                     "column": 13
                   },
                   "end": {
-                    "line": 10,
+                    "line": 14,
                     "column": 26
                   },
                   "identifierName": "SECRET_STRING"
                 },
-                "name": "SECRET_STRING"
+                "name": "SECRET_STRING",
+                "leadingComments": null
               },
               "init": {
                 "type": "StringLiteral",
-                "start": 145,
-                "end": 154,
+                "start": 189,
+                "end": 198,
                 "loc": {
                   "start": {
-                    "line": 10,
+                    "line": 14,
                     "column": 29
                   },
                   "end": {
-                    "line": 10,
+                    "line": 14,
                     "column": 38
                   }
                 },
                 "extra": {
                   "rawValue": "shhhhh!",
-                  "raw": "\"shhhhh!\""
+                  "raw": "'shhhhh!'"
                 },
                 "value": "shhhhh!"
-              }
+              },
+              "leadingComments": null
             }
           ],
           "kind": "const",
-          "trailingComments": [
+          "leadingComments": [
             {
               "type": "CommentBlock",
-              "value": "*\n * A vehicle is a thing that goes places\n ",
-              "start": 157,
-              "end": 205,
+              "value": "*\n * A super secret string\n * @public\n ",
+              "start": 116,
+              "end": 159,
               "loc": {
                 "start": {
-                  "line": 12,
+                  "line": 10,
                   "column": 0
                 },
                 "end": {
-                  "line": 14,
+                  "line": 13,
                   "column": 3
                 }
               }
             }
           ],
-          "leadingComments": []
+          "trailingComments": [
+            {
+              "type": "CommentBlock",
+              "value": "*\n * A vehicle is a thing that goes places\n ",
+              "start": 201,
+              "end": 249,
+              "loc": {
+                "start": {
+                  "line": 16,
+                  "column": 0
+                },
+                "end": {
+                  "line": 18,
+                  "column": 3
+                }
+              }
+            }
+          ]
         },
+        "leadingComments": [
+          {
+            "type": "CommentBlock",
+            "value": "*\n * A super secret string\n * @public\n ",
+            "start": 116,
+            "end": 159,
+            "loc": {
+              "start": {
+                "line": 10,
+                "column": 0
+              },
+              "end": {
+                "line": 13,
+                "column": 3
+              }
+            }
+          }
+        ],
         "trailingComments": [
           {
             "type": "CommentBlock",
             "value": "*\n * A vehicle is a thing that goes places\n ",
-            "start": 157,
-            "end": 205,
+            "start": 201,
+            "end": 249,
             "loc": {
               "start": {
-                "line": 12,
+                "line": 16,
                 "column": 0
               },
               "end": {
-                "line": 14,
+                "line": 18,
                 "column": 3
               }
             }
@@ -363,29 +436,29 @@
       },
       {
         "type": "ClassDeclaration",
-        "start": 206,
-        "end": 502,
+        "start": 250,
+        "end": 546,
         "loc": {
           "start": {
-            "line": 15,
+            "line": 19,
             "column": 0
           },
           "end": {
-            "line": 30,
+            "line": 34,
             "column": 1
           }
         },
         "id": {
           "type": "Identifier",
-          "start": 212,
-          "end": 219,
+          "start": 256,
+          "end": 263,
           "loc": {
             "start": {
-              "line": 15,
+              "line": 19,
               "column": 6
             },
             "end": {
-              "line": 15,
+              "line": 19,
               "column": 13
             },
             "identifierName": "Vehicle"
@@ -396,30 +469,30 @@
         "superClass": null,
         "body": {
           "type": "ClassBody",
-          "start": 220,
-          "end": 502,
+          "start": 264,
+          "end": 546,
           "loc": {
             "start": {
-              "line": 15,
+              "line": 19,
               "column": 14
             },
             "end": {
-              "line": 30,
+              "line": 34,
               "column": 1
             }
           },
           "body": [
             {
               "type": "ClassMethod",
-              "start": 310,
-              "end": 370,
+              "start": 354,
+              "end": 414,
               "loc": {
                 "start": {
-                  "line": 20,
+                  "line": 24,
                   "column": 2
                 },
                 "end": {
-                  "line": 22,
+                  "line": 26,
                   "column": 3
                 }
               },
@@ -427,15 +500,15 @@
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 310,
-                "end": 321,
+                "start": 354,
+                "end": 365,
                 "loc": {
                   "start": {
-                    "line": 20,
+                    "line": 24,
                     "column": 2
                   },
                   "end": {
-                    "line": 20,
+                    "line": 24,
                     "column": 13
                   },
                   "identifierName": "constructor"
@@ -451,15 +524,15 @@
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 322,
-                  "end": 331,
+                  "start": 366,
+                  "end": 375,
                   "loc": {
                     "start": {
-                      "line": 20,
+                      "line": 24,
                       "column": 14
                     },
                     "end": {
-                      "line": 20,
+                      "line": 24,
                       "column": 23
                     },
                     "identifierName": "numWheels"
@@ -469,88 +542,88 @@
               ],
               "body": {
                 "type": "BlockStatement",
-                "start": 333,
-                "end": 370,
+                "start": 377,
+                "end": 414,
                 "loc": {
                   "start": {
-                    "line": 20,
+                    "line": 24,
                     "column": 25
                   },
                   "end": {
-                    "line": 22,
+                    "line": 26,
                     "column": 3
                   }
                 },
                 "body": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 339,
-                    "end": 366,
+                    "start": 383,
+                    "end": 410,
                     "loc": {
                       "start": {
-                        "line": 21,
+                        "line": 25,
                         "column": 4
                       },
                       "end": {
-                        "line": 21,
+                        "line": 25,
                         "column": 31
                       }
                     },
                     "expression": {
                       "type": "AssignmentExpression",
-                      "start": 339,
-                      "end": 365,
+                      "start": 383,
+                      "end": 409,
                       "loc": {
                         "start": {
-                          "line": 21,
+                          "line": 25,
                           "column": 4
                         },
                         "end": {
-                          "line": 21,
+                          "line": 25,
                           "column": 30
                         }
                       },
                       "operator": "=",
                       "left": {
                         "type": "MemberExpression",
-                        "start": 339,
-                        "end": 353,
+                        "start": 383,
+                        "end": 397,
                         "loc": {
                           "start": {
-                            "line": 21,
+                            "line": 25,
                             "column": 4
                           },
                           "end": {
-                            "line": 21,
+                            "line": 25,
                             "column": 18
                           }
                         },
                         "object": {
                           "type": "ThisExpression",
-                          "start": 339,
-                          "end": 343,
+                          "start": 383,
+                          "end": 387,
                           "loc": {
                             "start": {
-                              "line": 21,
+                              "line": 25,
                               "column": 4
                             },
                             "end": {
-                              "line": 21,
+                              "line": 25,
                               "column": 8
                             }
                           }
                         },
                         "property": {
                           "type": "Identifier",
-                          "start": 344,
-                          "end": 353,
+                          "start": 388,
+                          "end": 397,
                           "loc": {
                             "start": {
-                              "line": 21,
+                              "line": 25,
                               "column": 9
                             },
                             "end": {
-                              "line": 21,
+                              "line": 25,
                               "column": 18
                             },
                             "identifierName": "numWheels"
@@ -561,15 +634,15 @@
                       },
                       "right": {
                         "type": "Identifier",
-                        "start": 356,
-                        "end": 365,
+                        "start": 400,
+                        "end": 409,
                         "loc": {
                           "start": {
-                            "line": 21,
+                            "line": 25,
                             "column": 21
                           },
                           "end": {
-                            "line": 21,
+                            "line": 25,
                             "column": 30
                           },
                           "identifierName": "numWheels"
@@ -586,15 +659,15 @@
                 {
                   "type": "CommentBlock",
                   "value": "*\n   * Create a new vehicle\n   * @param {number} numWheels Number of wheels\n   ",
-                  "start": 224,
-                  "end": 307,
+                  "start": 268,
+                  "end": 351,
                   "loc": {
                     "start": {
-                      "line": 16,
+                      "line": 20,
                       "column": 2
                     },
                     "end": {
-                      "line": 19,
+                      "line": 23,
                       "column": 5
                     }
                   }
@@ -604,15 +677,15 @@
                 {
                   "type": "CommentBlock",
                   "value": "*\n   * Drive the vehicle\n   * @returns {string}\n   ",
-                  "start": 373,
-                  "end": 428,
+                  "start": 417,
+                  "end": 472,
                   "loc": {
                     "start": {
-                      "line": 23,
+                      "line": 27,
                       "column": 2
                     },
                     "end": {
-                      "line": 26,
+                      "line": 30,
                       "column": 5
                     }
                   }
@@ -621,15 +694,15 @@
             },
             {
               "type": "ClassMethod",
-              "start": 431,
-              "end": 500,
+              "start": 475,
+              "end": 544,
               "loc": {
                 "start": {
-                  "line": 27,
+                  "line": 31,
                   "column": 2
                 },
                 "end": {
-                  "line": 29,
+                  "line": 33,
                   "column": 3
                 }
               },
@@ -637,15 +710,15 @@
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 431,
-                "end": 436,
+                "start": 475,
+                "end": 480,
                 "loc": {
                   "start": {
-                    "line": 27,
+                    "line": 31,
                     "column": 2
                   },
                   "end": {
-                    "line": 27,
+                    "line": 31,
                     "column": 7
                   },
                   "identifierName": "drive"
@@ -661,88 +734,88 @@
               "params": [],
               "body": {
                 "type": "BlockStatement",
-                "start": 439,
-                "end": 500,
+                "start": 483,
+                "end": 544,
                 "loc": {
                   "start": {
-                    "line": 27,
+                    "line": 31,
                     "column": 10
                   },
                   "end": {
-                    "line": 29,
+                    "line": 33,
                     "column": 3
                   }
                 },
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 445,
-                    "end": 496,
+                    "start": 489,
+                    "end": 540,
                     "loc": {
                       "start": {
-                        "line": 28,
+                        "line": 32,
                         "column": 4
                       },
                       "end": {
-                        "line": 28,
+                        "line": 32,
                         "column": 55
                       }
                     },
                     "argument": {
                       "type": "TemplateLiteral",
-                      "start": 452,
-                      "end": 495,
+                      "start": 496,
+                      "end": 539,
                       "loc": {
                         "start": {
-                          "line": 28,
+                          "line": 32,
                           "column": 11
                         },
                         "end": {
-                          "line": 28,
+                          "line": 32,
                           "column": 54
                         }
                       },
                       "expressions": [
                         {
                           "type": "MemberExpression",
-                          "start": 472,
-                          "end": 486,
+                          "start": 516,
+                          "end": 530,
                           "loc": {
                             "start": {
-                              "line": 28,
+                              "line": 32,
                               "column": 31
                             },
                             "end": {
-                              "line": 28,
+                              "line": 32,
                               "column": 45
                             }
                           },
                           "object": {
                             "type": "ThisExpression",
-                            "start": 472,
-                            "end": 476,
+                            "start": 516,
+                            "end": 520,
                             "loc": {
                               "start": {
-                                "line": 28,
+                                "line": 32,
                                 "column": 31
                               },
                               "end": {
-                                "line": 28,
+                                "line": 32,
                                 "column": 35
                               }
                             }
                           },
                           "property": {
                             "type": "Identifier",
-                            "start": 477,
-                            "end": 486,
+                            "start": 521,
+                            "end": 530,
                             "loc": {
                               "start": {
-                                "line": 28,
+                                "line": 32,
                                 "column": 36
                               },
                               "end": {
-                                "line": 28,
+                                "line": 32,
                                 "column": 45
                               },
                               "identifierName": "numWheels"
@@ -755,15 +828,15 @@
                       "quasis": [
                         {
                           "type": "TemplateElement",
-                          "start": 453,
-                          "end": 470,
+                          "start": 497,
+                          "end": 514,
                           "loc": {
                             "start": {
-                              "line": 28,
+                              "line": 32,
                               "column": 12
                             },
                             "end": {
-                              "line": 28,
+                              "line": 32,
                               "column": 29
                             }
                           },
@@ -775,15 +848,15 @@
                         },
                         {
                           "type": "TemplateElement",
-                          "start": 487,
-                          "end": 494,
+                          "start": 531,
+                          "end": 538,
                           "loc": {
                             "start": {
-                              "line": 28,
+                              "line": 32,
                               "column": 46
                             },
                             "end": {
-                              "line": 28,
+                              "line": 32,
                               "column": 53
                             }
                           },
@@ -803,15 +876,15 @@
                 {
                   "type": "CommentBlock",
                   "value": "*\n   * Drive the vehicle\n   * @returns {string}\n   ",
-                  "start": 373,
-                  "end": 428,
+                  "start": 417,
+                  "end": 472,
                   "loc": {
                     "start": {
-                      "line": 23,
+                      "line": 27,
                       "column": 2
                     },
                     "end": {
-                      "line": 26,
+                      "line": 30,
                       "column": 5
                     }
                   }
@@ -825,15 +898,15 @@
           {
             "type": "CommentBlock",
             "value": "*\n * A vehicle is a thing that goes places\n ",
-            "start": 157,
-            "end": 205,
+            "start": 201,
+            "end": 249,
             "loc": {
               "start": {
-                "line": 12,
+                "line": 16,
                 "column": 0
               },
               "end": {
-                "line": 14,
+                "line": 18,
                 "column": 3
               }
             }
@@ -843,15 +916,15 @@
           {
             "type": "CommentBlock",
             "value": "*\n * A car is a 4-wheeled vehicle\n ",
-            "start": 504,
-            "end": 543,
+            "start": 548,
+            "end": 587,
             "loc": {
               "start": {
-                "line": 32,
+                "line": 36,
                 "column": 0
               },
               "end": {
-                "line": 34,
+                "line": 38,
                 "column": 3
               }
             }
@@ -860,15 +933,15 @@
       },
       {
         "type": "ExportNamedDeclaration",
-        "start": 544,
-        "end": 650,
+        "start": 588,
+        "end": 694,
         "loc": {
           "start": {
-            "line": 35,
+            "line": 39,
             "column": 0
           },
           "end": {
-            "line": 42,
+            "line": 46,
             "column": 1
           }
         },
@@ -876,29 +949,29 @@
         "source": null,
         "declaration": {
           "type": "ClassDeclaration",
-          "start": 551,
-          "end": 650,
+          "start": 595,
+          "end": 694,
           "loc": {
             "start": {
-              "line": 35,
+              "line": 39,
               "column": 7
             },
             "end": {
-              "line": 42,
+              "line": 46,
               "column": 1
             }
           },
           "id": {
             "type": "Identifier",
-            "start": 557,
-            "end": 560,
+            "start": 601,
+            "end": 604,
             "loc": {
               "start": {
-                "line": 35,
+                "line": 39,
                 "column": 13
               },
               "end": {
-                "line": 35,
+                "line": 39,
                 "column": 16
               },
               "identifierName": "Car"
@@ -908,15 +981,15 @@
           },
           "superClass": {
             "type": "Identifier",
-            "start": 569,
-            "end": 576,
+            "start": 613,
+            "end": 620,
             "loc": {
               "start": {
-                "line": 35,
+                "line": 39,
                 "column": 25
               },
               "end": {
-                "line": 35,
+                "line": 39,
                 "column": 32
               },
               "identifierName": "Vehicle"
@@ -925,30 +998,30 @@
           },
           "body": {
             "type": "ClassBody",
-            "start": 577,
-            "end": 650,
+            "start": 621,
+            "end": 694,
             "loc": {
               "start": {
-                "line": 35,
+                "line": 39,
                 "column": 33
               },
               "end": {
-                "line": 42,
+                "line": 46,
                 "column": 1
               }
             },
             "body": [
               {
                 "type": "ClassMethod",
-                "start": 615,
-                "end": 648,
+                "start": 659,
+                "end": 692,
                 "loc": {
                   "start": {
-                    "line": 39,
+                    "line": 43,
                     "column": 2
                   },
                   "end": {
-                    "line": 41,
+                    "line": 45,
                     "column": 3
                   }
                 },
@@ -956,15 +1029,15 @@
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 615,
-                  "end": 626,
+                  "start": 659,
+                  "end": 670,
                   "loc": {
                     "start": {
-                      "line": 39,
+                      "line": 43,
                       "column": 2
                     },
                     "end": {
-                      "line": 39,
+                      "line": 43,
                       "column": 13
                     },
                     "identifierName": "constructor"
@@ -980,58 +1053,58 @@
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
-                  "start": 629,
-                  "end": 648,
+                  "start": 673,
+                  "end": 692,
                   "loc": {
                     "start": {
-                      "line": 39,
+                      "line": 43,
                       "column": 16
                     },
                     "end": {
-                      "line": 41,
+                      "line": 45,
                       "column": 3
                     }
                   },
                   "body": [
                     {
                       "type": "ExpressionStatement",
-                      "start": 635,
-                      "end": 644,
+                      "start": 679,
+                      "end": 688,
                       "loc": {
                         "start": {
-                          "line": 40,
+                          "line": 44,
                           "column": 4
                         },
                         "end": {
-                          "line": 40,
+                          "line": 44,
                           "column": 13
                         }
                       },
                       "expression": {
                         "type": "CallExpression",
-                        "start": 635,
-                        "end": 643,
+                        "start": 679,
+                        "end": 687,
                         "loc": {
                           "start": {
-                            "line": 40,
+                            "line": 44,
                             "column": 4
                           },
                           "end": {
-                            "line": 40,
+                            "line": 44,
                             "column": 12
                           }
                         },
                         "callee": {
                           "type": "Super",
-                          "start": 635,
-                          "end": 640,
+                          "start": 679,
+                          "end": 684,
                           "loc": {
                             "start": {
-                              "line": 40,
+                              "line": 44,
                               "column": 4
                             },
                             "end": {
-                              "line": 40,
+                              "line": 44,
                               "column": 9
                             }
                           }
@@ -1039,15 +1112,15 @@
                         "arguments": [
                           {
                             "type": "NumericLiteral",
-                            "start": 641,
-                            "end": 642,
+                            "start": 685,
+                            "end": 686,
                             "loc": {
                               "start": {
-                                "line": 40,
+                                "line": 44,
                                 "column": 10
                               },
                               "end": {
-                                "line": 40,
+                                "line": 44,
                                 "column": 11
                               }
                             },
@@ -1067,15 +1140,15 @@
                   {
                     "type": "CommentBlock",
                     "value": "*\n   * Create a new car\n   ",
-                    "start": 581,
-                    "end": 612,
+                    "start": 625,
+                    "end": 656,
                     "loc": {
                       "start": {
-                        "line": 36,
+                        "line": 40,
                         "column": 2
                       },
                       "end": {
-                        "line": 38,
+                        "line": 42,
                         "column": 5
                       }
                     }
@@ -1089,15 +1162,15 @@
             {
               "type": "CommentBlock",
               "value": "*\n * A car is a 4-wheeled vehicle\n ",
-              "start": 504,
-              "end": 543,
+              "start": 548,
+              "end": 587,
               "loc": {
                 "start": {
-                  "line": 32,
+                  "line": 36,
                   "column": 0
                 },
                 "end": {
-                  "line": 34,
+                  "line": 38,
                   "column": 3
                 }
               }
@@ -1107,15 +1180,15 @@
             {
               "type": "CommentBlock",
               "value": "*\n * A bike is a 2-wheeled vehicle\n ",
-              "start": 652,
-              "end": 692,
+              "start": 696,
+              "end": 736,
               "loc": {
                 "start": {
-                  "line": 44,
+                  "line": 48,
                   "column": 0
                 },
                 "end": {
-                  "line": 46,
+                  "line": 50,
                   "column": 3
                 }
               }
@@ -1126,15 +1199,15 @@
           {
             "type": "CommentBlock",
             "value": "*\n * A car is a 4-wheeled vehicle\n ",
-            "start": 504,
-            "end": 543,
+            "start": 548,
+            "end": 587,
             "loc": {
               "start": {
-                "line": 32,
+                "line": 36,
                 "column": 0
               },
               "end": {
-                "line": 34,
+                "line": 38,
                 "column": 3
               }
             }
@@ -1144,15 +1217,15 @@
           {
             "type": "CommentBlock",
             "value": "*\n * A bike is a 2-wheeled vehicle\n ",
-            "start": 652,
-            "end": 692,
+            "start": 696,
+            "end": 736,
             "loc": {
               "start": {
-                "line": 44,
+                "line": 48,
                 "column": 0
               },
               "end": {
-                "line": 46,
+                "line": 50,
                 "column": 3
               }
             }
@@ -1161,15 +1234,15 @@
       },
       {
         "type": "ExportNamedDeclaration",
-        "start": 693,
-        "end": 766,
+        "start": 737,
+        "end": 810,
         "loc": {
           "start": {
-            "line": 47,
+            "line": 51,
             "column": 0
           },
           "end": {
-            "line": 51,
+            "line": 55,
             "column": 1
           }
         },
@@ -1177,29 +1250,29 @@
         "source": null,
         "declaration": {
           "type": "ClassDeclaration",
-          "start": 700,
-          "end": 766,
+          "start": 744,
+          "end": 810,
           "loc": {
             "start": {
-              "line": 47,
+              "line": 51,
               "column": 7
             },
             "end": {
-              "line": 51,
+              "line": 55,
               "column": 1
             }
           },
           "id": {
             "type": "Identifier",
-            "start": 706,
-            "end": 710,
+            "start": 750,
+            "end": 754,
             "loc": {
               "start": {
-                "line": 47,
+                "line": 51,
                 "column": 13
               },
               "end": {
-                "line": 47,
+                "line": 51,
                 "column": 17
               },
               "identifierName": "Bike"
@@ -1209,15 +1282,15 @@
           },
           "superClass": {
             "type": "Identifier",
-            "start": 719,
-            "end": 726,
+            "start": 763,
+            "end": 770,
             "loc": {
               "start": {
-                "line": 47,
+                "line": 51,
                 "column": 26
               },
               "end": {
-                "line": 47,
+                "line": 51,
                 "column": 33
               },
               "identifierName": "Vehicle"
@@ -1226,30 +1299,30 @@
           },
           "body": {
             "type": "ClassBody",
-            "start": 727,
-            "end": 766,
+            "start": 771,
+            "end": 810,
             "loc": {
               "start": {
-                "line": 47,
+                "line": 51,
                 "column": 34
               },
               "end": {
-                "line": 51,
+                "line": 55,
                 "column": 1
               }
             },
             "body": [
               {
                 "type": "ClassMethod",
-                "start": 731,
-                "end": 764,
+                "start": 775,
+                "end": 808,
                 "loc": {
                   "start": {
-                    "line": 48,
+                    "line": 52,
                     "column": 2
                   },
                   "end": {
-                    "line": 50,
+                    "line": 54,
                     "column": 3
                   }
                 },
@@ -1257,15 +1330,15 @@
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 731,
-                  "end": 742,
+                  "start": 775,
+                  "end": 786,
                   "loc": {
                     "start": {
-                      "line": 48,
+                      "line": 52,
                       "column": 2
                     },
                     "end": {
-                      "line": 48,
+                      "line": 52,
                       "column": 13
                     },
                     "identifierName": "constructor"
@@ -1280,58 +1353,58 @@
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
-                  "start": 745,
-                  "end": 764,
+                  "start": 789,
+                  "end": 808,
                   "loc": {
                     "start": {
-                      "line": 48,
+                      "line": 52,
                       "column": 16
                     },
                     "end": {
-                      "line": 50,
+                      "line": 54,
                       "column": 3
                     }
                   },
                   "body": [
                     {
                       "type": "ExpressionStatement",
-                      "start": 751,
-                      "end": 760,
+                      "start": 795,
+                      "end": 804,
                       "loc": {
                         "start": {
-                          "line": 49,
+                          "line": 53,
                           "column": 4
                         },
                         "end": {
-                          "line": 49,
+                          "line": 53,
                           "column": 13
                         }
                       },
                       "expression": {
                         "type": "CallExpression",
-                        "start": 751,
-                        "end": 759,
+                        "start": 795,
+                        "end": 803,
                         "loc": {
                           "start": {
-                            "line": 49,
+                            "line": 53,
                             "column": 4
                           },
                           "end": {
-                            "line": 49,
+                            "line": 53,
                             "column": 12
                           }
                         },
                         "callee": {
                           "type": "Super",
-                          "start": 751,
-                          "end": 756,
+                          "start": 795,
+                          "end": 800,
                           "loc": {
                             "start": {
-                              "line": 49,
+                              "line": 53,
                               "column": 4
                             },
                             "end": {
-                              "line": 49,
+                              "line": 53,
                               "column": 9
                             }
                           }
@@ -1339,15 +1412,15 @@
                         "arguments": [
                           {
                             "type": "NumericLiteral",
-                            "start": 757,
-                            "end": 758,
+                            "start": 801,
+                            "end": 802,
                             "loc": {
                               "start": {
-                                "line": 49,
+                                "line": 53,
                                 "column": 10
                               },
                               "end": {
-                                "line": 49,
+                                "line": 53,
                                 "column": 11
                               }
                             },
@@ -1371,15 +1444,15 @@
             {
               "type": "CommentBlock",
               "value": "*\n * A bike is a 2-wheeled vehicle\n ",
-              "start": 652,
-              "end": 692,
+              "start": 696,
+              "end": 736,
               "loc": {
                 "start": {
-                  "line": 44,
+                  "line": 48,
                   "column": 0
                 },
                 "end": {
-                  "line": 46,
+                  "line": 50,
                   "column": 3
                 }
               }
@@ -1389,15 +1462,15 @@
             {
               "type": "CommentBlock",
               "value": "*\n * A Unicycle is a 1-wheeled vehicle\n ",
-              "start": 768,
-              "end": 812,
+              "start": 812,
+              "end": 856,
               "loc": {
                 "start": {
-                  "line": 53,
+                  "line": 57,
                   "column": 0
                 },
                 "end": {
-                  "line": 55,
+                  "line": 59,
                   "column": 3
                 }
               }
@@ -1408,15 +1481,15 @@
           {
             "type": "CommentBlock",
             "value": "*\n * A bike is a 2-wheeled vehicle\n ",
-            "start": 652,
-            "end": 692,
+            "start": 696,
+            "end": 736,
             "loc": {
               "start": {
-                "line": 44,
+                "line": 48,
                 "column": 0
               },
               "end": {
-                "line": 46,
+                "line": 50,
                 "column": 3
               }
             }
@@ -1426,15 +1499,15 @@
           {
             "type": "CommentBlock",
             "value": "*\n * A Unicycle is a 1-wheeled vehicle\n ",
-            "start": 768,
-            "end": 812,
+            "start": 812,
+            "end": 856,
             "loc": {
               "start": {
-                "line": 53,
+                "line": 57,
                 "column": 0
               },
               "end": {
-                "line": 55,
+                "line": 59,
                 "column": 3
               }
             }
@@ -1443,15 +1516,15 @@
       },
       {
         "type": "ExportNamedDeclaration",
-        "start": 813,
-        "end": 890,
+        "start": 857,
+        "end": 934,
         "loc": {
           "start": {
-            "line": 56,
+            "line": 60,
             "column": 0
           },
           "end": {
-            "line": 60,
+            "line": 64,
             "column": 1
           }
         },
@@ -1459,29 +1532,29 @@
         "source": null,
         "declaration": {
           "type": "ClassDeclaration",
-          "start": 820,
-          "end": 890,
+          "start": 864,
+          "end": 934,
           "loc": {
             "start": {
-              "line": 56,
+              "line": 60,
               "column": 7
             },
             "end": {
-              "line": 60,
+              "line": 64,
               "column": 1
             }
           },
           "id": {
             "type": "Identifier",
-            "start": 826,
-            "end": 834,
+            "start": 870,
+            "end": 878,
             "loc": {
               "start": {
-                "line": 56,
+                "line": 60,
                 "column": 13
               },
               "end": {
-                "line": 56,
+                "line": 60,
                 "column": 21
               },
               "identifierName": "Unicycle"
@@ -1491,15 +1564,15 @@
           },
           "superClass": {
             "type": "Identifier",
-            "start": 843,
-            "end": 850,
+            "start": 887,
+            "end": 894,
             "loc": {
               "start": {
-                "line": 56,
+                "line": 60,
                 "column": 30
               },
               "end": {
-                "line": 56,
+                "line": 60,
                 "column": 37
               },
               "identifierName": "Vehicle"
@@ -1508,30 +1581,30 @@
           },
           "body": {
             "type": "ClassBody",
-            "start": 851,
-            "end": 890,
+            "start": 895,
+            "end": 934,
             "loc": {
               "start": {
-                "line": 56,
+                "line": 60,
                 "column": 38
               },
               "end": {
-                "line": 60,
+                "line": 64,
                 "column": 1
               }
             },
             "body": [
               {
                 "type": "ClassMethod",
-                "start": 855,
-                "end": 888,
+                "start": 899,
+                "end": 932,
                 "loc": {
                   "start": {
-                    "line": 57,
+                    "line": 61,
                     "column": 2
                   },
                   "end": {
-                    "line": 59,
+                    "line": 63,
                     "column": 3
                   }
                 },
@@ -1539,15 +1612,15 @@
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 855,
-                  "end": 866,
+                  "start": 899,
+                  "end": 910,
                   "loc": {
                     "start": {
-                      "line": 57,
+                      "line": 61,
                       "column": 2
                     },
                     "end": {
-                      "line": 57,
+                      "line": 61,
                       "column": 13
                     },
                     "identifierName": "constructor"
@@ -1562,58 +1635,58 @@
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
-                  "start": 869,
-                  "end": 888,
+                  "start": 913,
+                  "end": 932,
                   "loc": {
                     "start": {
-                      "line": 57,
+                      "line": 61,
                       "column": 16
                     },
                     "end": {
-                      "line": 59,
+                      "line": 63,
                       "column": 3
                     }
                   },
                   "body": [
                     {
                       "type": "ExpressionStatement",
-                      "start": 875,
-                      "end": 884,
+                      "start": 919,
+                      "end": 928,
                       "loc": {
                         "start": {
-                          "line": 58,
+                          "line": 62,
                           "column": 4
                         },
                         "end": {
-                          "line": 58,
+                          "line": 62,
                           "column": 13
                         }
                       },
                       "expression": {
                         "type": "CallExpression",
-                        "start": 875,
-                        "end": 883,
+                        "start": 919,
+                        "end": 927,
                         "loc": {
                           "start": {
-                            "line": 58,
+                            "line": 62,
                             "column": 4
                           },
                           "end": {
-                            "line": 58,
+                            "line": 62,
                             "column": 12
                           }
                         },
                         "callee": {
                           "type": "Super",
-                          "start": 875,
-                          "end": 880,
+                          "start": 919,
+                          "end": 924,
                           "loc": {
                             "start": {
-                              "line": 58,
+                              "line": 62,
                               "column": 4
                             },
                             "end": {
-                              "line": 58,
+                              "line": 62,
                               "column": 9
                             }
                           }
@@ -1621,15 +1694,15 @@
                         "arguments": [
                           {
                             "type": "NumericLiteral",
-                            "start": 881,
-                            "end": 882,
+                            "start": 925,
+                            "end": 926,
                             "loc": {
                               "start": {
-                                "line": 58,
+                                "line": 62,
                                 "column": 10
                               },
                               "end": {
-                                "line": 58,
+                                "line": 62,
                                 "column": 11
                               }
                             },
@@ -1652,15 +1725,15 @@
             {
               "type": "CommentBlock",
               "value": "*\n * A Unicycle is a 1-wheeled vehicle\n ",
-              "start": 768,
-              "end": 812,
+              "start": 812,
+              "end": 856,
               "loc": {
                 "start": {
-                  "line": 53,
+                  "line": 57,
                   "column": 0
                 },
                 "end": {
-                  "line": 55,
+                  "line": 59,
                   "column": 3
                 }
               }
@@ -1672,15 +1745,15 @@
           {
             "type": "CommentBlock",
             "value": "*\n * A Unicycle is a 1-wheeled vehicle\n ",
-            "start": 768,
-            "end": 812,
+            "start": 812,
+            "end": 856,
             "loc": {
               "start": {
-                "line": 53,
+                "line": 57,
                 "column": 0
               },
               "end": {
-                "line": 55,
+                "line": 59,
                 "column": 3
               }
             }
@@ -1709,16 +1782,32 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\n * A vehicle is a thing that goes places\n ",
-      "start": 157,
-      "end": 205,
+      "value": "*\n * A super secret string\n * @public\n ",
+      "start": 116,
+      "end": 159,
       "loc": {
         "start": {
-          "line": 12,
+          "line": 10,
           "column": 0
         },
         "end": {
-          "line": 14,
+          "line": 13,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * A vehicle is a thing that goes places\n ",
+      "start": 201,
+      "end": 249,
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 0
+        },
+        "end": {
+          "line": 18,
           "column": 3
         }
       }
@@ -1726,15 +1815,15 @@
     {
       "type": "CommentBlock",
       "value": "*\n   * Create a new vehicle\n   * @param {number} numWheels Number of wheels\n   ",
-      "start": 224,
-      "end": 307,
+      "start": 268,
+      "end": 351,
       "loc": {
         "start": {
-          "line": 16,
+          "line": 20,
           "column": 2
         },
         "end": {
-          "line": 19,
+          "line": 23,
           "column": 5
         }
       }
@@ -1742,15 +1831,15 @@
     {
       "type": "CommentBlock",
       "value": "*\n   * Drive the vehicle\n   * @returns {string}\n   ",
-      "start": 373,
-      "end": 428,
+      "start": 417,
+      "end": 472,
       "loc": {
         "start": {
-          "line": 23,
+          "line": 27,
           "column": 2
         },
         "end": {
-          "line": 26,
+          "line": 30,
           "column": 5
         }
       }
@@ -1758,15 +1847,15 @@
     {
       "type": "CommentBlock",
       "value": "*\n * A car is a 4-wheeled vehicle\n ",
-      "start": 504,
-      "end": 543,
+      "start": 548,
+      "end": 587,
       "loc": {
         "start": {
-          "line": 32,
+          "line": 36,
           "column": 0
         },
         "end": {
-          "line": 34,
+          "line": 38,
           "column": 3
         }
       }
@@ -1774,15 +1863,15 @@
     {
       "type": "CommentBlock",
       "value": "*\n   * Create a new car\n   ",
-      "start": 581,
-      "end": 612,
+      "start": 625,
+      "end": 656,
       "loc": {
         "start": {
-          "line": 36,
+          "line": 40,
           "column": 2
         },
         "end": {
-          "line": 38,
+          "line": 42,
           "column": 5
         }
       }
@@ -1790,15 +1879,15 @@
     {
       "type": "CommentBlock",
       "value": "*\n * A bike is a 2-wheeled vehicle\n ",
-      "start": 652,
-      "end": 692,
+      "start": 696,
+      "end": 736,
       "loc": {
         "start": {
-          "line": 44,
+          "line": 48,
           "column": 0
         },
         "end": {
-          "line": 46,
+          "line": 50,
           "column": 3
         }
       }
@@ -1806,15 +1895,15 @@
     {
       "type": "CommentBlock",
       "value": "*\n * A Unicycle is a 1-wheeled vehicle\n ",
-      "start": 768,
-      "end": 812,
+      "start": 812,
+      "end": 856,
       "loc": {
         "start": {
-          "line": 53,
+          "line": 57,
           "column": 0
         },
         "end": {
-          "line": 55,
+          "line": 59,
           "column": 3
         }
       }
@@ -2230,6 +2319,22 @@
       }
     },
     {
+      "type": "CommentBlock",
+      "value": "*\n * A super secret string\n * @public\n ",
+      "start": 116,
+      "end": 159,
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 0
+        },
+        "end": {
+          "line": 13,
+          "column": 3
+        }
+      }
+    },
+    {
       "type": {
         "label": "export",
         "keyword": "export",
@@ -2244,15 +2349,15 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 116,
-      "end": 122,
+      "start": 160,
+      "end": 166,
       "loc": {
         "start": {
-          "line": 10,
+          "line": 14,
           "column": 0
         },
         "end": {
-          "line": 10,
+          "line": 14,
           "column": 6
         }
       }
@@ -2272,15 +2377,15 @@
         "updateContext": null
       },
       "value": "const",
-      "start": 123,
-      "end": 128,
+      "start": 167,
+      "end": 172,
       "loc": {
         "start": {
-          "line": 10,
+          "line": 14,
           "column": 7
         },
         "end": {
-          "line": 10,
+          "line": 14,
           "column": 12
         }
       }
@@ -2298,15 +2403,15 @@
         "binop": null
       },
       "value": "SECRET_STRING",
-      "start": 129,
-      "end": 142,
+      "start": 173,
+      "end": 186,
       "loc": {
         "start": {
-          "line": 10,
+          "line": 14,
           "column": 13
         },
         "end": {
-          "line": 10,
+          "line": 14,
           "column": 26
         }
       }
@@ -2325,15 +2430,15 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 143,
-      "end": 144,
+      "start": 187,
+      "end": 188,
       "loc": {
         "start": {
-          "line": 10,
+          "line": 14,
           "column": 27
         },
         "end": {
-          "line": 10,
+          "line": 14,
           "column": 28
         }
       }
@@ -2352,15 +2457,15 @@
         "updateContext": null
       },
       "value": "shhhhh!",
-      "start": 145,
-      "end": 154,
+      "start": 189,
+      "end": 198,
       "loc": {
         "start": {
-          "line": 10,
+          "line": 14,
           "column": 29
         },
         "end": {
-          "line": 10,
+          "line": 14,
           "column": 38
         }
       }
@@ -2378,15 +2483,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 154,
-      "end": 155,
+      "start": 198,
+      "end": 199,
       "loc": {
         "start": {
-          "line": 10,
+          "line": 14,
           "column": 38
         },
         "end": {
-          "line": 10,
+          "line": 14,
           "column": 39
         }
       }
@@ -2394,15 +2499,15 @@
     {
       "type": "CommentBlock",
       "value": "*\n * A vehicle is a thing that goes places\n ",
-      "start": 157,
-      "end": 205,
+      "start": 201,
+      "end": 249,
       "loc": {
         "start": {
-          "line": 12,
+          "line": 16,
           "column": 0
         },
         "end": {
-          "line": 14,
+          "line": 18,
           "column": 3
         }
       }
@@ -2422,79 +2527,12 @@
         "updateContext": null
       },
       "value": "class",
-      "start": 206,
-      "end": 211,
+      "start": 250,
+      "end": 255,
       "loc": {
         "start": {
-          "line": 15,
+          "line": 19,
           "column": 0
-        },
-        "end": {
-          "line": 15,
-          "column": 5
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "Vehicle",
-      "start": 212,
-      "end": 219,
-      "loc": {
-        "start": {
-          "line": 15,
-          "column": 6
-        },
-        "end": {
-          "line": 15,
-          "column": 13
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "{",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 220,
-      "end": 221,
-      "loc": {
-        "start": {
-          "line": 15,
-          "column": 14
-        },
-        "end": {
-          "line": 15,
-          "column": 15
-        }
-      }
-    },
-    {
-      "type": "CommentBlock",
-      "value": "*\n   * Create a new vehicle\n   * @param {number} numWheels Number of wheels\n   ",
-      "start": 224,
-      "end": 307,
-      "loc": {
-        "start": {
-          "line": 16,
-          "column": 2
         },
         "end": {
           "line": 19,
@@ -2514,16 +2552,83 @@
         "postfix": false,
         "binop": null
       },
-      "value": "constructor",
-      "start": 310,
-      "end": 321,
+      "value": "Vehicle",
+      "start": 256,
+      "end": 263,
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 6
+        },
+        "end": {
+          "line": 19,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 264,
+      "end": 265,
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 14
+        },
+        "end": {
+          "line": 19,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n   * Create a new vehicle\n   * @param {number} numWheels Number of wheels\n   ",
+      "start": 268,
+      "end": 351,
       "loc": {
         "start": {
           "line": 20,
           "column": 2
         },
         "end": {
-          "line": 20,
+          "line": 23,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "constructor",
+      "start": 354,
+      "end": 365,
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 2
+        },
+        "end": {
+          "line": 24,
           "column": 13
         }
       }
@@ -2540,15 +2645,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 321,
-      "end": 322,
+      "start": 365,
+      "end": 366,
       "loc": {
         "start": {
-          "line": 20,
+          "line": 24,
           "column": 13
         },
         "end": {
-          "line": 20,
+          "line": 24,
           "column": 14
         }
       }
@@ -2566,15 +2671,15 @@
         "binop": null
       },
       "value": "numWheels",
-      "start": 322,
-      "end": 331,
+      "start": 366,
+      "end": 375,
       "loc": {
         "start": {
-          "line": 20,
+          "line": 24,
           "column": 14
         },
         "end": {
-          "line": 20,
+          "line": 24,
           "column": 23
         }
       }
@@ -2591,15 +2696,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 331,
-      "end": 332,
+      "start": 375,
+      "end": 376,
       "loc": {
         "start": {
-          "line": 20,
+          "line": 24,
           "column": 23
         },
         "end": {
-          "line": 20,
+          "line": 24,
           "column": 24
         }
       }
@@ -2616,15 +2721,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 333,
-      "end": 334,
+      "start": 377,
+      "end": 378,
       "loc": {
         "start": {
-          "line": 20,
+          "line": 24,
           "column": 25
         },
         "end": {
-          "line": 20,
+          "line": 24,
           "column": 26
         }
       }
@@ -2644,15 +2749,15 @@
         "updateContext": null
       },
       "value": "this",
-      "start": 339,
-      "end": 343,
+      "start": 383,
+      "end": 387,
       "loc": {
         "start": {
-          "line": 21,
+          "line": 25,
           "column": 4
         },
         "end": {
-          "line": 21,
+          "line": 25,
           "column": 8
         }
       }
@@ -2670,15 +2775,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 343,
-      "end": 344,
+      "start": 387,
+      "end": 388,
       "loc": {
         "start": {
-          "line": 21,
+          "line": 25,
           "column": 8
         },
         "end": {
-          "line": 21,
+          "line": 25,
           "column": 9
         }
       }
@@ -2696,15 +2801,15 @@
         "binop": null
       },
       "value": "numWheels",
-      "start": 344,
-      "end": 353,
+      "start": 388,
+      "end": 397,
       "loc": {
         "start": {
-          "line": 21,
+          "line": 25,
           "column": 9
         },
         "end": {
-          "line": 21,
+          "line": 25,
           "column": 18
         }
       }
@@ -2723,15 +2828,15 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 354,
-      "end": 355,
+      "start": 398,
+      "end": 399,
       "loc": {
         "start": {
-          "line": 21,
+          "line": 25,
           "column": 19
         },
         "end": {
-          "line": 21,
+          "line": 25,
           "column": 20
         }
       }
@@ -2749,15 +2854,15 @@
         "binop": null
       },
       "value": "numWheels",
-      "start": 356,
-      "end": 365,
+      "start": 400,
+      "end": 409,
       "loc": {
         "start": {
-          "line": 21,
+          "line": 25,
           "column": 21
         },
         "end": {
-          "line": 21,
+          "line": 25,
           "column": 30
         }
       }
@@ -2775,15 +2880,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 365,
-      "end": 366,
+      "start": 409,
+      "end": 410,
       "loc": {
         "start": {
-          "line": 21,
+          "line": 25,
           "column": 30
         },
         "end": {
-          "line": 21,
+          "line": 25,
           "column": 31
         }
       }
@@ -2800,15 +2905,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 369,
-      "end": 370,
+      "start": 413,
+      "end": 414,
       "loc": {
         "start": {
-          "line": 22,
+          "line": 26,
           "column": 2
         },
         "end": {
-          "line": 22,
+          "line": 26,
           "column": 3
         }
       }
@@ -2816,15 +2921,15 @@
     {
       "type": "CommentBlock",
       "value": "*\n   * Drive the vehicle\n   * @returns {string}\n   ",
-      "start": 373,
-      "end": 428,
+      "start": 417,
+      "end": 472,
       "loc": {
         "start": {
-          "line": 23,
+          "line": 27,
           "column": 2
         },
         "end": {
-          "line": 26,
+          "line": 30,
           "column": 5
         }
       }
@@ -2842,15 +2947,15 @@
         "binop": null
       },
       "value": "drive",
-      "start": 431,
-      "end": 436,
+      "start": 475,
+      "end": 480,
       "loc": {
         "start": {
-          "line": 27,
+          "line": 31,
           "column": 2
         },
         "end": {
-          "line": 27,
+          "line": 31,
           "column": 7
         }
       }
@@ -2867,15 +2972,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 436,
-      "end": 437,
+      "start": 480,
+      "end": 481,
       "loc": {
         "start": {
-          "line": 27,
+          "line": 31,
           "column": 7
         },
         "end": {
-          "line": 27,
+          "line": 31,
           "column": 8
         }
       }
@@ -2892,15 +2997,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 437,
-      "end": 438,
+      "start": 481,
+      "end": 482,
       "loc": {
         "start": {
-          "line": 27,
+          "line": 31,
           "column": 8
         },
         "end": {
-          "line": 27,
+          "line": 31,
           "column": 9
         }
       }
@@ -2917,15 +3022,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 439,
-      "end": 440,
+      "start": 483,
+      "end": 484,
       "loc": {
         "start": {
-          "line": 27,
+          "line": 31,
           "column": 10
         },
         "end": {
-          "line": 27,
+          "line": 31,
           "column": 11
         }
       }
@@ -2945,15 +3050,15 @@
         "updateContext": null
       },
       "value": "return",
-      "start": 445,
-      "end": 451,
+      "start": 489,
+      "end": 495,
       "loc": {
         "start": {
-          "line": 28,
+          "line": 32,
           "column": 4
         },
         "end": {
-          "line": 28,
+          "line": 32,
           "column": 10
         }
       }
@@ -2970,15 +3075,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 452,
-      "end": 453,
+      "start": 496,
+      "end": 497,
       "loc": {
         "start": {
-          "line": 28,
+          "line": 32,
           "column": 11
         },
         "end": {
-          "line": 28,
+          "line": 32,
           "column": 12
         }
       }
@@ -2997,15 +3102,15 @@
         "updateContext": null
       },
       "value": "Driving with all ",
-      "start": 453,
-      "end": 470,
+      "start": 497,
+      "end": 514,
       "loc": {
         "start": {
-          "line": 28,
+          "line": 32,
           "column": 12
         },
         "end": {
-          "line": 28,
+          "line": 32,
           "column": 29
         }
       }
@@ -3022,15 +3127,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 470,
-      "end": 472,
+      "start": 514,
+      "end": 516,
       "loc": {
         "start": {
-          "line": 28,
+          "line": 32,
           "column": 29
         },
         "end": {
-          "line": 28,
+          "line": 32,
           "column": 31
         }
       }
@@ -3050,15 +3155,15 @@
         "updateContext": null
       },
       "value": "this",
-      "start": 472,
-      "end": 476,
+      "start": 516,
+      "end": 520,
       "loc": {
         "start": {
-          "line": 28,
+          "line": 32,
           "column": 31
         },
         "end": {
-          "line": 28,
+          "line": 32,
           "column": 35
         }
       }
@@ -3076,15 +3181,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 476,
-      "end": 477,
+      "start": 520,
+      "end": 521,
       "loc": {
         "start": {
-          "line": 28,
+          "line": 32,
           "column": 35
         },
         "end": {
-          "line": 28,
+          "line": 32,
           "column": 36
         }
       }
@@ -3102,15 +3207,15 @@
         "binop": null
       },
       "value": "numWheels",
-      "start": 477,
-      "end": 486,
+      "start": 521,
+      "end": 530,
       "loc": {
         "start": {
-          "line": 28,
+          "line": 32,
           "column": 36
         },
         "end": {
-          "line": 28,
+          "line": 32,
           "column": 45
         }
       }
@@ -3127,15 +3232,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 486,
-      "end": 487,
+      "start": 530,
+      "end": 531,
       "loc": {
         "start": {
-          "line": 28,
+          "line": 32,
           "column": 45
         },
         "end": {
-          "line": 28,
+          "line": 32,
           "column": 46
         }
       }
@@ -3154,15 +3259,15 @@
         "updateContext": null
       },
       "value": " wheels",
-      "start": 487,
-      "end": 494,
+      "start": 531,
+      "end": 538,
       "loc": {
         "start": {
-          "line": 28,
+          "line": 32,
           "column": 46
         },
         "end": {
-          "line": 28,
+          "line": 32,
           "column": 53
         }
       }
@@ -3179,15 +3284,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 494,
-      "end": 495,
+      "start": 538,
+      "end": 539,
       "loc": {
         "start": {
-          "line": 28,
+          "line": 32,
           "column": 53
         },
         "end": {
-          "line": 28,
+          "line": 32,
           "column": 54
         }
       }
@@ -3205,15 +3310,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 495,
-      "end": 496,
+      "start": 539,
+      "end": 540,
       "loc": {
         "start": {
-          "line": 28,
+          "line": 32,
           "column": 54
         },
         "end": {
-          "line": 28,
+          "line": 32,
           "column": 55
         }
       }
@@ -3230,15 +3335,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 499,
-      "end": 500,
+      "start": 543,
+      "end": 544,
       "loc": {
         "start": {
-          "line": 29,
+          "line": 33,
           "column": 2
         },
         "end": {
-          "line": 29,
+          "line": 33,
           "column": 3
         }
       }
@@ -3255,15 +3360,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 501,
-      "end": 502,
+      "start": 545,
+      "end": 546,
       "loc": {
         "start": {
-          "line": 30,
+          "line": 34,
           "column": 0
         },
         "end": {
-          "line": 30,
+          "line": 34,
           "column": 1
         }
       }
@@ -3271,15 +3376,15 @@
     {
       "type": "CommentBlock",
       "value": "*\n * A car is a 4-wheeled vehicle\n ",
-      "start": 504,
-      "end": 543,
+      "start": 548,
+      "end": 587,
       "loc": {
         "start": {
-          "line": 32,
+          "line": 36,
           "column": 0
         },
         "end": {
-          "line": 34,
+          "line": 38,
           "column": 3
         }
       }
@@ -3299,15 +3404,15 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 544,
-      "end": 550,
+      "start": 588,
+      "end": 594,
       "loc": {
         "start": {
-          "line": 35,
+          "line": 39,
           "column": 0
         },
         "end": {
-          "line": 35,
+          "line": 39,
           "column": 6
         }
       }
@@ -3327,15 +3432,15 @@
         "updateContext": null
       },
       "value": "class",
-      "start": 551,
-      "end": 556,
+      "start": 595,
+      "end": 600,
       "loc": {
         "start": {
-          "line": 35,
+          "line": 39,
           "column": 7
         },
         "end": {
-          "line": 35,
+          "line": 39,
           "column": 12
         }
       }
@@ -3353,15 +3458,15 @@
         "binop": null
       },
       "value": "Car",
-      "start": 557,
-      "end": 560,
+      "start": 601,
+      "end": 604,
       "loc": {
         "start": {
-          "line": 35,
+          "line": 39,
           "column": 13
         },
         "end": {
-          "line": 35,
+          "line": 39,
           "column": 16
         }
       }
@@ -3381,15 +3486,15 @@
         "updateContext": null
       },
       "value": "extends",
-      "start": 561,
-      "end": 568,
+      "start": 605,
+      "end": 612,
       "loc": {
         "start": {
-          "line": 35,
+          "line": 39,
           "column": 17
         },
         "end": {
-          "line": 35,
+          "line": 39,
           "column": 24
         }
       }
@@ -3407,15 +3512,15 @@
         "binop": null
       },
       "value": "Vehicle",
-      "start": 569,
-      "end": 576,
+      "start": 613,
+      "end": 620,
       "loc": {
         "start": {
-          "line": 35,
+          "line": 39,
           "column": 25
         },
         "end": {
-          "line": 35,
+          "line": 39,
           "column": 32
         }
       }
@@ -3432,15 +3537,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 577,
-      "end": 578,
+      "start": 621,
+      "end": 622,
       "loc": {
         "start": {
-          "line": 35,
+          "line": 39,
           "column": 33
         },
         "end": {
-          "line": 35,
+          "line": 39,
           "column": 34
         }
       }
@@ -3448,15 +3553,15 @@
     {
       "type": "CommentBlock",
       "value": "*\n   * Create a new car\n   ",
-      "start": 581,
-      "end": 612,
+      "start": 625,
+      "end": 656,
       "loc": {
         "start": {
-          "line": 36,
+          "line": 40,
           "column": 2
         },
         "end": {
-          "line": 38,
+          "line": 42,
           "column": 5
         }
       }
@@ -3474,15 +3579,15 @@
         "binop": null
       },
       "value": "constructor",
-      "start": 615,
-      "end": 626,
+      "start": 659,
+      "end": 670,
       "loc": {
         "start": {
-          "line": 39,
+          "line": 43,
           "column": 2
         },
         "end": {
-          "line": 39,
+          "line": 43,
           "column": 13
         }
       }
@@ -3499,15 +3604,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 626,
-      "end": 627,
+      "start": 670,
+      "end": 671,
       "loc": {
         "start": {
-          "line": 39,
+          "line": 43,
           "column": 13
         },
         "end": {
-          "line": 39,
+          "line": 43,
           "column": 14
         }
       }
@@ -3524,15 +3629,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 627,
-      "end": 628,
+      "start": 671,
+      "end": 672,
       "loc": {
         "start": {
-          "line": 39,
+          "line": 43,
           "column": 14
         },
         "end": {
-          "line": 39,
+          "line": 43,
           "column": 15
         }
       }
@@ -3549,15 +3654,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 629,
-      "end": 630,
+      "start": 673,
+      "end": 674,
       "loc": {
         "start": {
-          "line": 39,
+          "line": 43,
           "column": 16
         },
         "end": {
-          "line": 39,
+          "line": 43,
           "column": 17
         }
       }
@@ -3577,15 +3682,15 @@
         "updateContext": null
       },
       "value": "super",
-      "start": 635,
-      "end": 640,
+      "start": 679,
+      "end": 684,
       "loc": {
         "start": {
-          "line": 40,
+          "line": 44,
           "column": 4
         },
         "end": {
-          "line": 40,
+          "line": 44,
           "column": 9
         }
       }
@@ -3602,15 +3707,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 640,
-      "end": 641,
+      "start": 684,
+      "end": 685,
       "loc": {
         "start": {
-          "line": 40,
+          "line": 44,
           "column": 9
         },
         "end": {
-          "line": 40,
+          "line": 44,
           "column": 10
         }
       }
@@ -3629,15 +3734,15 @@
         "updateContext": null
       },
       "value": 4,
-      "start": 641,
-      "end": 642,
+      "start": 685,
+      "end": 686,
       "loc": {
         "start": {
-          "line": 40,
+          "line": 44,
           "column": 10
         },
         "end": {
-          "line": 40,
+          "line": 44,
           "column": 11
         }
       }
@@ -3654,15 +3759,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 642,
-      "end": 643,
+      "start": 686,
+      "end": 687,
       "loc": {
         "start": {
-          "line": 40,
+          "line": 44,
           "column": 11
         },
         "end": {
-          "line": 40,
+          "line": 44,
           "column": 12
         }
       }
@@ -3680,15 +3785,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 643,
-      "end": 644,
+      "start": 687,
+      "end": 688,
       "loc": {
         "start": {
-          "line": 40,
+          "line": 44,
           "column": 12
         },
         "end": {
-          "line": 40,
+          "line": 44,
           "column": 13
         }
       }
@@ -3705,15 +3810,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 647,
-      "end": 648,
+      "start": 691,
+      "end": 692,
       "loc": {
         "start": {
-          "line": 41,
+          "line": 45,
           "column": 2
         },
         "end": {
-          "line": 41,
+          "line": 45,
           "column": 3
         }
       }
@@ -3730,15 +3835,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 649,
-      "end": 650,
+      "start": 693,
+      "end": 694,
       "loc": {
         "start": {
-          "line": 42,
+          "line": 46,
           "column": 0
         },
         "end": {
-          "line": 42,
+          "line": 46,
           "column": 1
         }
       }
@@ -3746,15 +3851,15 @@
     {
       "type": "CommentBlock",
       "value": "*\n * A bike is a 2-wheeled vehicle\n ",
-      "start": 652,
-      "end": 692,
+      "start": 696,
+      "end": 736,
       "loc": {
         "start": {
-          "line": 44,
+          "line": 48,
           "column": 0
         },
         "end": {
-          "line": 46,
+          "line": 50,
           "column": 3
         }
       }
@@ -3774,15 +3879,15 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 693,
-      "end": 699,
+      "start": 737,
+      "end": 743,
       "loc": {
         "start": {
-          "line": 47,
+          "line": 51,
           "column": 0
         },
         "end": {
-          "line": 47,
+          "line": 51,
           "column": 6
         }
       }
@@ -3802,15 +3907,15 @@
         "updateContext": null
       },
       "value": "class",
-      "start": 700,
-      "end": 705,
+      "start": 744,
+      "end": 749,
       "loc": {
         "start": {
-          "line": 47,
+          "line": 51,
           "column": 7
         },
         "end": {
-          "line": 47,
+          "line": 51,
           "column": 12
         }
       }
@@ -3828,15 +3933,15 @@
         "binop": null
       },
       "value": "Bike",
-      "start": 706,
-      "end": 710,
+      "start": 750,
+      "end": 754,
       "loc": {
         "start": {
-          "line": 47,
+          "line": 51,
           "column": 13
         },
         "end": {
-          "line": 47,
+          "line": 51,
           "column": 17
         }
       }
@@ -3856,15 +3961,15 @@
         "updateContext": null
       },
       "value": "extends",
-      "start": 711,
-      "end": 718,
+      "start": 755,
+      "end": 762,
       "loc": {
         "start": {
-          "line": 47,
+          "line": 51,
           "column": 18
         },
         "end": {
-          "line": 47,
+          "line": 51,
           "column": 25
         }
       }
@@ -3882,15 +3987,15 @@
         "binop": null
       },
       "value": "Vehicle",
-      "start": 719,
-      "end": 726,
+      "start": 763,
+      "end": 770,
       "loc": {
         "start": {
-          "line": 47,
+          "line": 51,
           "column": 26
         },
         "end": {
-          "line": 47,
+          "line": 51,
           "column": 33
         }
       }
@@ -3907,15 +4012,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 727,
-      "end": 728,
+      "start": 771,
+      "end": 772,
       "loc": {
         "start": {
-          "line": 47,
+          "line": 51,
           "column": 34
         },
         "end": {
-          "line": 47,
+          "line": 51,
           "column": 35
         }
       }
@@ -3933,15 +4038,15 @@
         "binop": null
       },
       "value": "constructor",
-      "start": 731,
-      "end": 742,
+      "start": 775,
+      "end": 786,
       "loc": {
         "start": {
-          "line": 48,
+          "line": 52,
           "column": 2
         },
         "end": {
-          "line": 48,
+          "line": 52,
           "column": 13
         }
       }
@@ -3958,15 +4063,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 742,
-      "end": 743,
+      "start": 786,
+      "end": 787,
       "loc": {
         "start": {
-          "line": 48,
+          "line": 52,
           "column": 13
         },
         "end": {
-          "line": 48,
+          "line": 52,
           "column": 14
         }
       }
@@ -3983,15 +4088,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 743,
-      "end": 744,
+      "start": 787,
+      "end": 788,
       "loc": {
         "start": {
-          "line": 48,
+          "line": 52,
           "column": 14
         },
         "end": {
-          "line": 48,
+          "line": 52,
           "column": 15
         }
       }
@@ -4008,15 +4113,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 745,
-      "end": 746,
+      "start": 789,
+      "end": 790,
       "loc": {
         "start": {
-          "line": 48,
+          "line": 52,
           "column": 16
         },
         "end": {
-          "line": 48,
+          "line": 52,
           "column": 17
         }
       }
@@ -4036,15 +4141,15 @@
         "updateContext": null
       },
       "value": "super",
-      "start": 751,
-      "end": 756,
+      "start": 795,
+      "end": 800,
       "loc": {
         "start": {
-          "line": 49,
+          "line": 53,
           "column": 4
         },
         "end": {
-          "line": 49,
+          "line": 53,
           "column": 9
         }
       }
@@ -4061,15 +4166,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 756,
-      "end": 757,
+      "start": 800,
+      "end": 801,
       "loc": {
         "start": {
-          "line": 49,
+          "line": 53,
           "column": 9
         },
         "end": {
-          "line": 49,
+          "line": 53,
           "column": 10
         }
       }
@@ -4088,15 +4193,15 @@
         "updateContext": null
       },
       "value": 2,
-      "start": 757,
-      "end": 758,
+      "start": 801,
+      "end": 802,
       "loc": {
         "start": {
-          "line": 49,
+          "line": 53,
           "column": 10
         },
         "end": {
-          "line": 49,
+          "line": 53,
           "column": 11
         }
       }
@@ -4113,15 +4218,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 758,
-      "end": 759,
+      "start": 802,
+      "end": 803,
       "loc": {
         "start": {
-          "line": 49,
+          "line": 53,
           "column": 11
         },
         "end": {
-          "line": 49,
+          "line": 53,
           "column": 12
         }
       }
@@ -4139,15 +4244,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 759,
-      "end": 760,
+      "start": 803,
+      "end": 804,
       "loc": {
         "start": {
-          "line": 49,
+          "line": 53,
           "column": 12
         },
         "end": {
-          "line": 49,
+          "line": 53,
           "column": 13
         }
       }
@@ -4164,15 +4269,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 763,
-      "end": 764,
+      "start": 807,
+      "end": 808,
       "loc": {
         "start": {
-          "line": 50,
+          "line": 54,
           "column": 2
         },
         "end": {
-          "line": 50,
+          "line": 54,
           "column": 3
         }
       }
@@ -4189,15 +4294,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 765,
-      "end": 766,
+      "start": 809,
+      "end": 810,
       "loc": {
         "start": {
-          "line": 51,
+          "line": 55,
           "column": 0
         },
         "end": {
-          "line": 51,
+          "line": 55,
           "column": 1
         }
       }
@@ -4205,15 +4310,15 @@
     {
       "type": "CommentBlock",
       "value": "*\n * A Unicycle is a 1-wheeled vehicle\n ",
-      "start": 768,
-      "end": 812,
+      "start": 812,
+      "end": 856,
       "loc": {
         "start": {
-          "line": 53,
+          "line": 57,
           "column": 0
         },
         "end": {
-          "line": 55,
+          "line": 59,
           "column": 3
         }
       }
@@ -4233,15 +4338,15 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 813,
-      "end": 819,
+      "start": 857,
+      "end": 863,
       "loc": {
         "start": {
-          "line": 56,
+          "line": 60,
           "column": 0
         },
         "end": {
-          "line": 56,
+          "line": 60,
           "column": 6
         }
       }
@@ -4261,15 +4366,15 @@
         "updateContext": null
       },
       "value": "class",
-      "start": 820,
-      "end": 825,
+      "start": 864,
+      "end": 869,
       "loc": {
         "start": {
-          "line": 56,
+          "line": 60,
           "column": 7
         },
         "end": {
-          "line": 56,
+          "line": 60,
           "column": 12
         }
       }
@@ -4287,15 +4392,15 @@
         "binop": null
       },
       "value": "Unicycle",
-      "start": 826,
-      "end": 834,
+      "start": 870,
+      "end": 878,
       "loc": {
         "start": {
-          "line": 56,
+          "line": 60,
           "column": 13
         },
         "end": {
-          "line": 56,
+          "line": 60,
           "column": 21
         }
       }
@@ -4315,15 +4420,15 @@
         "updateContext": null
       },
       "value": "extends",
-      "start": 835,
-      "end": 842,
+      "start": 879,
+      "end": 886,
       "loc": {
         "start": {
-          "line": 56,
+          "line": 60,
           "column": 22
         },
         "end": {
-          "line": 56,
+          "line": 60,
           "column": 29
         }
       }
@@ -4341,15 +4446,15 @@
         "binop": null
       },
       "value": "Vehicle",
-      "start": 843,
-      "end": 850,
+      "start": 887,
+      "end": 894,
       "loc": {
         "start": {
-          "line": 56,
+          "line": 60,
           "column": 30
         },
         "end": {
-          "line": 56,
+          "line": 60,
           "column": 37
         }
       }
@@ -4366,15 +4471,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 851,
-      "end": 852,
+      "start": 895,
+      "end": 896,
       "loc": {
         "start": {
-          "line": 56,
+          "line": 60,
           "column": 38
         },
         "end": {
-          "line": 56,
+          "line": 60,
           "column": 39
         }
       }
@@ -4392,15 +4497,15 @@
         "binop": null
       },
       "value": "constructor",
-      "start": 855,
-      "end": 866,
+      "start": 899,
+      "end": 910,
       "loc": {
         "start": {
-          "line": 57,
+          "line": 61,
           "column": 2
         },
         "end": {
-          "line": 57,
+          "line": 61,
           "column": 13
         }
       }
@@ -4417,15 +4522,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 866,
-      "end": 867,
+      "start": 910,
+      "end": 911,
       "loc": {
         "start": {
-          "line": 57,
+          "line": 61,
           "column": 13
         },
         "end": {
-          "line": 57,
+          "line": 61,
           "column": 14
         }
       }
@@ -4442,15 +4547,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 867,
-      "end": 868,
+      "start": 911,
+      "end": 912,
       "loc": {
         "start": {
-          "line": 57,
+          "line": 61,
           "column": 14
         },
         "end": {
-          "line": 57,
+          "line": 61,
           "column": 15
         }
       }
@@ -4467,15 +4572,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 869,
-      "end": 870,
+      "start": 913,
+      "end": 914,
       "loc": {
         "start": {
-          "line": 57,
+          "line": 61,
           "column": 16
         },
         "end": {
-          "line": 57,
+          "line": 61,
           "column": 17
         }
       }
@@ -4495,15 +4600,15 @@
         "updateContext": null
       },
       "value": "super",
-      "start": 875,
-      "end": 880,
+      "start": 919,
+      "end": 924,
       "loc": {
         "start": {
-          "line": 58,
+          "line": 62,
           "column": 4
         },
         "end": {
-          "line": 58,
+          "line": 62,
           "column": 9
         }
       }
@@ -4520,15 +4625,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 880,
-      "end": 881,
+      "start": 924,
+      "end": 925,
       "loc": {
         "start": {
-          "line": 58,
+          "line": 62,
           "column": 9
         },
         "end": {
-          "line": 58,
+          "line": 62,
           "column": 10
         }
       }
@@ -4547,15 +4652,15 @@
         "updateContext": null
       },
       "value": 1,
-      "start": 881,
-      "end": 882,
+      "start": 925,
+      "end": 926,
       "loc": {
         "start": {
-          "line": 58,
+          "line": 62,
           "column": 10
         },
         "end": {
-          "line": 58,
+          "line": 62,
           "column": 11
         }
       }
@@ -4572,15 +4677,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 882,
-      "end": 883,
+      "start": 926,
+      "end": 927,
       "loc": {
         "start": {
-          "line": 58,
+          "line": 62,
           "column": 11
         },
         "end": {
-          "line": 58,
+          "line": 62,
           "column": 12
         }
       }
@@ -4598,15 +4703,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 883,
-      "end": 884,
+      "start": 927,
+      "end": 928,
       "loc": {
         "start": {
-          "line": 58,
+          "line": 62,
           "column": 12
         },
         "end": {
-          "line": 58,
+          "line": 62,
           "column": 13
         }
       }
@@ -4623,15 +4728,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 887,
-      "end": 888,
+      "start": 931,
+      "end": 932,
       "loc": {
         "start": {
-          "line": 59,
+          "line": 63,
           "column": 2
         },
         "end": {
-          "line": 59,
+          "line": 63,
           "column": 3
         }
       }
@@ -4648,15 +4753,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 889,
-      "end": 890,
+      "start": 933,
+      "end": 934,
       "loc": {
         "start": {
-          "line": 60,
+          "line": 64,
           "column": 0
         },
         "end": {
-          "line": 60,
+          "line": 64,
           "column": 1
         }
       }
@@ -4674,15 +4779,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 891,
-      "end": 891,
+      "start": 935,
+      "end": 935,
       "loc": {
         "start": {
-          "line": 61,
+          "line": 65,
           "column": 0
         },
         "end": {
-          "line": 61,
+          "line": 65,
           "column": 0
         }
       }

@@ -54,6 +54,8 @@ A Unicycle is a 1-wheeled vehicle
 
 ### SECRET_STRING
 
+A super secret string
+
 ```typescript
 var SECRET_STRING: "shhhhh!";
 ```

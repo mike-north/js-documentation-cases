@@ -567,7 +567,7 @@
     "__docId__": 48,
     "kind": "file",
     "name": "1-single-file-js/src/index.js",
-    "content": "/**\n * Add two numbers\n * @param {number} a\n * @param {number} b\n */\nexport function add(a, b) {\n  return a + b;\n}\n\nexport const SECRET_STRING = \"shhhhh!\";\n\n/**\n * A vehicle is a thing that goes places\n */\nclass Vehicle {\n  /**\n   * Create a new vehicle\n   * @param {number} numWheels Number of wheels\n   */\n  constructor(numWheels) {\n    this.numWheels = numWheels;\n  }\n  /**\n   * Drive the vehicle\n   * @returns {string}\n   */\n  drive() {\n    return `Driving with all ${this.numWheels} wheels`;\n  }\n}\n\n/**\n * A car is a 4-wheeled vehicle\n */\nexport class Car extends Vehicle {\n  /**\n   * Create a new car\n   */\n  constructor() {\n    super(4);\n  }\n}\n\n/**\n * A bike is a 2-wheeled vehicle\n */\nexport class Bike extends Vehicle {\n  constructor() {\n    super(2);\n  }\n}\n\n/**\n * A Unicycle is a 1-wheeled vehicle\n */\nexport class Unicycle extends Vehicle {\n  constructor() {\n    super(1);\n  }\n}\n",
+    "content": "/**\n * Add two numbers\n * @param {number} a\n * @param {number} b\n */\nexport function add(a, b) {\n  return a + b;\n}\n\n/**\n * A super secret string\n * @public\n */\nexport const SECRET_STRING = 'shhhhh!';\n\n/**\n * A vehicle is a thing that goes places\n */\nclass Vehicle {\n  /**\n   * Create a new vehicle\n   * @param {number} numWheels Number of wheels\n   */\n  constructor(numWheels) {\n    this.numWheels = numWheels;\n  }\n  /**\n   * Drive the vehicle\n   * @returns {string}\n   */\n  drive() {\n    return `Driving with all ${this.numWheels} wheels`;\n  }\n}\n\n/**\n * A car is a 4-wheeled vehicle\n */\nexport class Car extends Vehicle {\n  /**\n   * Create a new car\n   */\n  constructor() {\n    super(4);\n  }\n}\n\n/**\n * A bike is a 2-wheeled vehicle\n */\nexport class Bike extends Vehicle {\n  constructor() {\n    super(2);\n  }\n}\n\n/**\n * A Unicycle is a 1-wheeled vehicle\n */\nexport class Unicycle extends Vehicle {\n  constructor() {\n    super(1);\n  }\n}\n",
     "static": true,
     "longname": "/home/travis/build/mike-north/js-documentation-cases/cases/1-single-file-js/src/index.js",
     "access": "public",
@@ -628,9 +628,8 @@
     "export": true,
     "importPath": "js-documentation-cases/1-single-file-js/src/index.js",
     "importStyle": "{SECRET_STRING}",
-    "description": null,
-    "lineNumber": 10,
-    "undocument": true,
+    "description": "A super secret string",
+    "lineNumber": 14,
     "type": {
       "types": [
         "string"
@@ -649,7 +648,7 @@
     "importPath": "js-documentation-cases/1-single-file-js/src/index.js",
     "importStyle": null,
     "description": "A vehicle is a thing that goes places",
-    "lineNumber": 15,
+    "lineNumber": 19,
     "interface": false,
     "ignore": true
   },
@@ -664,7 +663,7 @@
     "longname": "1-single-file-js/src/index.js~Vehicle#constructor",
     "access": "public",
     "description": "Create a new vehicle",
-    "lineNumber": 20,
+    "lineNumber": 24,
     "params": [
       {
         "nullable": null,
@@ -687,7 +686,7 @@
     "longname": "1-single-file-js/src/index.js~Vehicle#numWheels",
     "access": "public",
     "description": null,
-    "lineNumber": 21,
+    "lineNumber": 25,
     "undocument": true,
     "type": {
       "types": [
@@ -706,7 +705,7 @@
     "longname": "1-single-file-js/src/index.js~Vehicle#drive",
     "access": "public",
     "description": "Drive the vehicle",
-    "lineNumber": 27,
+    "lineNumber": 31,
     "unknown": [
       {
         "tagName": "@returns",
@@ -735,7 +734,7 @@
     "importPath": "js-documentation-cases/1-single-file-js/src/index.js",
     "importStyle": "{Car}",
     "description": "A car is a 4-wheeled vehicle",
-    "lineNumber": 35,
+    "lineNumber": 39,
     "interface": false,
     "extends": [
       "Vehicle"
@@ -752,7 +751,7 @@
     "longname": "1-single-file-js/src/index.js~Car#constructor",
     "access": "public",
     "description": "Create a new car",
-    "lineNumber": 39
+    "lineNumber": 43
   },
   {
     "__docId__": 57,
@@ -766,7 +765,7 @@
     "importPath": "js-documentation-cases/1-single-file-js/src/index.js",
     "importStyle": "{Bike}",
     "description": "A bike is a 2-wheeled vehicle",
-    "lineNumber": 47,
+    "lineNumber": 51,
     "interface": false,
     "extends": [
       "Vehicle"
@@ -783,7 +782,7 @@
     "longname": "1-single-file-js/src/index.js~Bike#constructor",
     "access": "public",
     "description": null,
-    "lineNumber": 48,
+    "lineNumber": 52,
     "undocument": true
   },
   {
@@ -798,7 +797,7 @@
     "importPath": "js-documentation-cases/1-single-file-js/src/index.js",
     "importStyle": "{Unicycle}",
     "description": "A Unicycle is a 1-wheeled vehicle",
-    "lineNumber": 56,
+    "lineNumber": 60,
     "interface": false,
     "extends": [
       "Vehicle"
@@ -815,7 +814,7 @@
     "longname": "1-single-file-js/src/index.js~Unicycle#constructor",
     "access": "public",
     "description": null,
-    "lineNumber": 57,
+    "lineNumber": 61,
     "undocument": true
   },
   {
