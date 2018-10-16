@@ -7,7 +7,7 @@ export function add(a, b) {
   return a + b;
 }
 
-export const SECRET_STRING = 'shhhhh!';
+export const SECRET_STRING = "shhhhh!";
 
 /**
  * A vehicle is a thing that goes places

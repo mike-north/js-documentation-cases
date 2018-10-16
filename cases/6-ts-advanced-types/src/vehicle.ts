@@ -1,4 +1,4 @@
-import { VehicleLike, VehicleFactory } from './types';
+import { VehicleFactory, VehicleLike } from "./types";
 
 /**
  * A vehicle is a thing that goes places
@@ -13,7 +13,7 @@ export default class Vehicle implements VehicleLike {
    * Drive the vehicle
    * @returns {string}
    */
-  drive() {
+  public drive() {
     return `Driving with all ${this.numWheels} wheels`;
   }
 }

@@ -11,7 +11,7 @@ export default class Vehicle {
    * Drive the vehicle
    * @returns {string}
    */
-  drive() {
+  public drive() {
     return `Driving with all ${this.numWheels} wheels`;
   }
 }

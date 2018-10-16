@@ -30,7 +30,7 @@ class Vehicle {
    * Drive the vehicle
    * @returns {string}
    */
-  drive() {
+  public drive() {
     return `Driving with all ${this.numWheels} wheels`;
   }
 }
@@ -38,6 +38,7 @@ class Vehicle {
 /**
  * A car is a 4-wheeled vehicle
  */
+// tslint:disable-next-line:max-classes-per-file
 export class Car extends Vehicle {
   /**
    * Create a new car
@@ -50,6 +51,7 @@ export class Car extends Vehicle {
 /**
  * A bike is a 2-wheeled vehicle
  */
+// tslint:disable-next-line:max-classes-per-file
 export class Bike extends Vehicle {
   constructor() {
     super(2);
@@ -59,6 +61,7 @@ export class Bike extends Vehicle {
 /**
  * A Unicycle is a 1-wheeled vehicle
  */
+// tslint:disable-next-line:max-classes-per-file
 export class Unicycle extends Vehicle {
   constructor() {
     super(1);

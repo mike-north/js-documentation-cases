@@ -11,4 +11,4 @@ jsdoc_for_example() {
 rm -rf jsdoc-out
 rm -rf docs/jsdoc
 run_for_each_example jsdoc_for_example
-rm -rf jsdoc-out
+# rm -rf jsdoc-out

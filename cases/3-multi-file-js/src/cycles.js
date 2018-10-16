@@ -1,4 +1,4 @@
-import Vehicle from './vehicle';
+import Vehicle from "./vehicle";
 
 /**
  * A bike is a 2-wheeled vehicle

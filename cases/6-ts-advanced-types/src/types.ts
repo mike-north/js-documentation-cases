@@ -12,5 +12,5 @@ export interface VehicleLike {
  * A factory for vehicles
  */
 export type VehicleFactory<N extends number> = new (
-  numWheels: N
+  numWheels: N,
 ) => VehicleLike;

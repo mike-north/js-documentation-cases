@@ -2,6 +2,11 @@
 
 import { Bike } from './cycles';
 
+/**
+ * Add two numbers together
+ * @param a first number
+ * @param b second number
+ */
 export function add(a: number, b: number): number;
 export function add(a: string, b: string): string;
 export function add(a: number | string, b: number | string): number | string {
@@ -18,19 +23,23 @@ export { default as Car } from './car';
 export { Unicycle, Bike } from './cycles';
 export { VehicleLike } from './types';
 
+/**
+ * A class that helps with vehicle maintenance
+ */
 class VehicleUtils {
   /**
    * Static things
    */
-  static description: 'Utilities for vehicles';
+  public static description: 'Utilities for vehicles';
   /**
    * Members
    */
-  memberFn() {
+  public memberFn() {
     return '';
   }
 }
 
+// tslint:disable-next-line:no-namespace
 namespace VehicleUtils {
   /**
    * Create a new bike
@@ -45,6 +54,10 @@ namespace VehicleUtils {
  */
 export const firstBike = VehicleUtils.createBike();
 
+/**
+ * Create a promise that resolves after a period of time has elapsed
+ * @param n number of milliseconds to wait
+ */
 function timeout(n: number) {
   return new Promise<void>(resolve => setTimeout(resolve, n));
 }

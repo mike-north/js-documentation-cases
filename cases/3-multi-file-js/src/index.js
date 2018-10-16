@@ -1,7 +1,13 @@
 /**
+ * Add two numbers together
+ * @param {number} a the first number
+ * @param {string} b the second number
+ * @returns the sum of `a` and `b`
  *
- * @param {number} a
- * @param {string} b
+ * @example
+ * ```js
+ * add(3, 4); // 7
+ * ```
  */
 export function add(a, b) {
   return a + b;
