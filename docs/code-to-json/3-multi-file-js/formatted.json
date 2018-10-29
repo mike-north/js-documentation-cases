@@ -1,0 +1,340 @@
+{
+  "sourceFiles": [
+    {
+      "fileName": "/home/travis/build/mike-north/js-documentation-cases/cases/3-multi-file-js/src/vehicle.js",
+      "isDeclarationFile": false,
+      "name": "\"/home/travis/build/mike-north/js-documentation-cases/cases/3-multi-file-js/src/vehicle\"",
+      "flags": [
+        "module"
+      ],
+      "documentation": "",
+      "exports": [
+        {
+          "name": "default",
+          "flags": [
+            "class"
+          ],
+          "documentation": "A vehicle is a thing that goes places",
+          "exports": [
+            {
+              "name": "prototype",
+              "flags": [
+                "property",
+                "prototype"
+              ],
+              "documentation": ""
+            }
+          ],
+          "members": [
+            {
+              "name": "__constructor",
+              "flags": [
+                "constructor"
+              ],
+              "documentation": ""
+            },
+            {
+              "name": "numWheels",
+              "flags": [
+                "property"
+              ],
+              "documentation": ""
+            },
+            {
+              "name": "drive",
+              "flags": [
+                "method"
+              ],
+              "documentation": "Drive the vehicle",
+              "jsDocTags": [
+                {
+                  "name": "returns"
+                }
+              ],
+              "callSignatures": [
+                {
+                  "parameters": [],
+                  "returnType": {
+                    "text": "string",
+                    "flags": [
+                      "string"
+                    ],
+                    "objectFlags": []
+                  }
+                }
+              ]
+            }
+          ],
+          "constructorSignatures": [
+            {
+              "parameters": [
+                {
+                  "name": "numWheels",
+                  "type": {
+                    "text": "number",
+                    "flags": [
+                      "number"
+                    ],
+                    "objectFlags": []
+                  }
+                }
+              ],
+              "returnType": {
+                "text": "Vehicle",
+                "flags": [
+                  "object"
+                ],
+                "objectFlags": [
+                  "class",
+                  "reference"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fileName": "/home/travis/build/mike-north/js-documentation-cases/cases/3-multi-file-js/src/car.js",
+      "isDeclarationFile": false,
+      "name": "\"/home/travis/build/mike-north/js-documentation-cases/cases/3-multi-file-js/src/car\"",
+      "flags": [
+        "module"
+      ],
+      "documentation": "",
+      "exports": [
+        {
+          "name": "default",
+          "flags": [
+            "class"
+          ],
+          "documentation": "A car is a 4-wheeled vehicle",
+          "exports": [
+            {
+              "name": "prototype",
+              "flags": [
+                "property",
+                "prototype"
+              ],
+              "documentation": ""
+            }
+          ],
+          "members": [
+            {
+              "name": "__constructor",
+              "flags": [
+                "constructor"
+              ],
+              "documentation": ""
+            }
+          ],
+          "constructorSignatures": [
+            {
+              "parameters": [],
+              "returnType": {
+                "text": "Car",
+                "flags": [
+                  "object"
+                ],
+                "objectFlags": [
+                  "class",
+                  "reference"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fileName": "/home/travis/build/mike-north/js-documentation-cases/cases/3-multi-file-js/src/cycles.js",
+      "isDeclarationFile": false,
+      "name": "\"/home/travis/build/mike-north/js-documentation-cases/cases/3-multi-file-js/src/cycles\"",
+      "flags": [
+        "module"
+      ],
+      "documentation": "",
+      "exports": [
+        {
+          "name": "Bike",
+          "flags": [
+            "class"
+          ],
+          "documentation": "A bike is a 2-wheeled vehicle",
+          "exports": [
+            {
+              "name": "prototype",
+              "flags": [
+                "property",
+                "prototype"
+              ],
+              "documentation": ""
+            }
+          ],
+          "members": [
+            {
+              "name": "__constructor",
+              "flags": [
+                "constructor"
+              ],
+              "documentation": ""
+            }
+          ],
+          "constructorSignatures": [
+            {
+              "parameters": [],
+              "returnType": {
+                "text": "Bike",
+                "flags": [
+                  "object"
+                ],
+                "objectFlags": [
+                  "class",
+                  "reference"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Unicycle",
+          "flags": [
+            "class"
+          ],
+          "documentation": "A Unicycle is a 1-wheeled vehicle",
+          "exports": [
+            {
+              "name": "prototype",
+              "flags": [
+                "property",
+                "prototype"
+              ],
+              "documentation": ""
+            }
+          ],
+          "members": [
+            {
+              "name": "__constructor",
+              "flags": [
+                "constructor"
+              ],
+              "documentation": ""
+            }
+          ],
+          "constructorSignatures": [
+            {
+              "parameters": [],
+              "returnType": {
+                "text": "Unicycle",
+                "flags": [
+                  "object"
+                ],
+                "objectFlags": [
+                  "class",
+                  "reference"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fileName": "cases/3-multi-file-js/src/index.js",
+      "isDeclarationFile": false,
+      "name": "\"cases/3-multi-file-js/src/index\"",
+      "flags": [
+        "module"
+      ],
+      "documentation": "",
+      "exports": [
+        {
+          "name": "add",
+          "flags": [
+            "function"
+          ],
+          "documentation": "Add two numbers together",
+          "jsDocTags": [
+            {
+              "name": "param",
+              "text": "a the first number"
+            },
+            {
+              "name": "param",
+              "text": "b the second number"
+            },
+            {
+              "name": "returns",
+              "text": "the sum of `a` and `b`"
+            },
+            {
+              "name": "example",
+              "text": "```js\n * add(3, 4); // 7\n * ```"
+            }
+          ],
+          "callSignatures": [
+            {
+              "parameters": [
+                {
+                  "name": "a",
+                  "type": {
+                    "text": "number",
+                    "flags": [
+                      "number"
+                    ],
+                    "objectFlags": []
+                  }
+                },
+                {
+                  "name": "b",
+                  "type": {
+                    "text": "string",
+                    "flags": [
+                      "string"
+                    ],
+                    "objectFlags": []
+                  }
+                }
+              ],
+              "returnType": {
+                "text": "string",
+                "flags": [
+                  "string"
+                ],
+                "objectFlags": []
+              }
+            }
+          ]
+        },
+        {
+          "name": "SECRET_STRING",
+          "flags": [
+            "variable"
+          ],
+          "documentation": ""
+        },
+        {
+          "name": "Car",
+          "flags": [
+            "alias"
+          ],
+          "documentation": ""
+        },
+        {
+          "name": "Unicycle",
+          "flags": [
+            "alias"
+          ],
+          "documentation": ""
+        },
+        {
+          "name": "Bike",
+          "flags": [
+            "alias"
+          ],
+          "documentation": ""
+        }
+      ]
+    }
+  ]
+}

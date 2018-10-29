@@ -1,0 +1,1028 @@
+{
+  "declaration": {
+    "01m4wlldmjpe": {
+      "id": "01m4wlldmjpe",
+      "pos": 0,
+      "end": 133,
+      "text": "export function add(a: number, b: number): number;",
+      "sourceFile": [
+        "sourceFile",
+        "01m4wnmkeq1o"
+      ],
+      "thing": "declaration",
+      "kind": "FunctionDeclaration",
+      "modifiers": [
+        "ExportKeyword"
+      ],
+      "parent": [
+        "node",
+        "01m4wnmkeq1o"
+      ],
+      "name": "add",
+      "type": [
+        "type",
+        68
+      ]
+    },
+    "01m4wna76n7c": {
+      "id": "01m4wna76n7c",
+      "pos": 133,
+      "end": 184,
+      "text": "export function add(a: string, b: string): string;",
+      "sourceFile": [
+        "sourceFile",
+        "01m4wnmkeq1o"
+      ],
+      "thing": "declaration",
+      "kind": "FunctionDeclaration",
+      "modifiers": [
+        "ExportKeyword"
+      ],
+      "parent": [
+        "node",
+        "01m4wnmkeq1o"
+      ],
+      "name": "add",
+      "type": [
+        "type",
+        68
+      ]
+    },
+    "01m4wn3wrayb": {
+      "id": "01m4wn3wrayb",
+      "pos": 932,
+      "end": 1002,
+      "text": "constructor() {\n    super(4);\n  }",
+      "sourceFile": [
+        "sourceFile",
+        "01m4wnmkeq1o"
+      ],
+      "thing": "declaration",
+      "kind": "Constructor",
+      "flags": "HasImplicitReturn",
+      "parent": [
+        "node",
+        "01m4wm4451vw"
+      ]
+    },
+    "01m4wndtcqy6": {
+      "id": "01m4wndtcqy6",
+      "pos": 1131,
+      "end": 1167,
+      "text": "constructor() {\n    super(2);\n  }",
+      "sourceFile": [
+        "sourceFile",
+        "01m4wnmkeq1o"
+      ],
+      "thing": "declaration",
+      "kind": "Constructor",
+      "flags": "HasImplicitReturn",
+      "parent": [
+        "node",
+        "01m4wmi39lyf"
+      ]
+    },
+    "01m4wne2q8pw": {
+      "id": "01m4wne2q8pw",
+      "pos": 1304,
+      "end": 1340,
+      "text": "constructor() {\n    super(1);\n  }",
+      "sourceFile": [
+        "sourceFile",
+        "01m4wnmkeq1o"
+      ],
+      "thing": "declaration",
+      "kind": "Constructor",
+      "flags": "HasImplicitReturn",
+      "parent": [
+        "node",
+        "01m4wmxuabg6"
+      ]
+    },
+    "01m4wlvblxmn": {
+      "id": "01m4wlvblxmn",
+      "pos": 536,
+      "end": 668,
+      "text": "constructor(protected numWheels: number) {}",
+      "sourceFile": [
+        "sourceFile",
+        "01m4wnmkeq1o"
+      ],
+      "thing": "declaration",
+      "kind": "Constructor",
+      "flags": "HasImplicitReturn",
+      "parent": [
+        "node",
+        "01m4wndgriou"
+      ]
+    },
+    "01m4wmqi5ass": {
+      "id": "01m4wmqi5ass",
+      "pos": 668,
+      "end": 805,
+      "text": "public drive() {\n    return `Driving with all ${this.numWheels} wheels`;\n  }",
+      "sourceFile": [
+        "sourceFile",
+        "01m4wnmkeq1o"
+      ],
+      "thing": "declaration",
+      "kind": "MethodDeclaration",
+      "modifiers": [
+        "PublicKeyword"
+      ],
+      "parent": [
+        "node",
+        "01m4wndgriou"
+      ],
+      "name": "drive",
+      "type": [
+        "type",
+        87
+      ]
+    }
+  },
+  "symbol": {
+    "01m4wmr2p2ys": {
+      "id": "01m4wmr2p2ys",
+      "thing": "symbol",
+      "name": "\"cases/2-single-file-ts/src/index\"",
+      "documentation": "",
+      "flags": "ValueModule",
+      "type": [
+        "type",
+        67
+      ],
+      "exports": [
+        [
+          "symbol",
+          "01m4wngt68lx"
+        ],
+        [
+          "symbol",
+          "01m4wlo52k8t"
+        ],
+        [
+          "symbol",
+          "01m4wm08kfc2"
+        ],
+        [
+          "symbol",
+          "01m4wmv12h30"
+        ],
+        [
+          "symbol",
+          "01m4wlxmnvvd"
+        ]
+      ],
+      "constructorSignatures": [],
+      "callSignatures": []
+    },
+    "01m4wngt68lx": {
+      "id": "01m4wngt68lx",
+      "thing": "symbol",
+      "name": "add",
+      "documentation": "Add two numbers",
+      "flags": "Function",
+      "type": [
+        "type",
+        68
+      ],
+      "constructorSignatures": [],
+      "callSignatures": [
+        {
+          "parameters": [
+            [
+              "symbol",
+              "01m4wltk4qx1"
+            ],
+            [
+              "symbol",
+              "01m4wltej43i"
+            ]
+          ],
+          "declaration": [
+            "declaration",
+            "01m4wlldmjpe"
+          ],
+          "returnType": [
+            "type",
+            11
+          ],
+          "documentation": "Add two numbers"
+        },
+        {
+          "parameters": [
+            [
+              "symbol",
+              "01m4wlulghw5"
+            ],
+            [
+              "symbol",
+              "01m4wlufuu2m"
+            ]
+          ],
+          "declaration": [
+            "declaration",
+            "01m4wna76n7c"
+          ],
+          "returnType": [
+            "type",
+            10
+          ],
+          "documentation": ""
+        }
+      ],
+      "jsDocTags": [
+        {
+          "name": "param",
+          "text": "a a number"
+        },
+        {
+          "name": "param",
+          "text": "b a number"
+        },
+        {
+          "name": "public"
+        }
+      ]
+    },
+    "01m4wlo52k8t": {
+      "id": "01m4wlo52k8t",
+      "thing": "symbol",
+      "name": "SECRET_STRING",
+      "documentation": "A super secret string",
+      "flags": "BlockScopedVariable",
+      "type": [
+        "type",
+        10
+      ],
+      "exports": [],
+      "constructorSignatures": [],
+      "callSignatures": [],
+      "jsDocTags": [
+        {
+          "name": "public"
+        }
+      ]
+    },
+    "01m4wm08kfc2": {
+      "id": "01m4wm08kfc2",
+      "thing": "symbol",
+      "name": "Car",
+      "documentation": "A car is a 4-wheeled vehicle",
+      "flags": "Class",
+      "type": [
+        "type",
+        70
+      ],
+      "members": [
+        [
+          "symbol",
+          "01m4wnrabhh9"
+        ]
+      ],
+      "exports": [
+        [
+          "symbol",
+          "01m4wnv1obsd"
+        ]
+      ],
+      "constructorSignatures": [
+        {
+          "parameters": [],
+          "declaration": [
+            "declaration",
+            "01m4wn3wrayb"
+          ],
+          "returnType": [
+            "type",
+            71
+          ],
+          "documentation": "Create a new car"
+        }
+      ],
+      "callSignatures": []
+    },
+    "01m4wmv12h30": {
+      "id": "01m4wmv12h30",
+      "thing": "symbol",
+      "name": "Bike",
+      "documentation": "A bike is a 2-wheeled vehicle",
+      "flags": "Class",
+      "type": [
+        "type",
+        76
+      ],
+      "members": [
+        [
+          "symbol",
+          "01m4wnrabhh9"
+        ]
+      ],
+      "exports": [
+        [
+          "symbol",
+          "01m4wnv1obsd"
+        ]
+      ],
+      "constructorSignatures": [
+        {
+          "parameters": [],
+          "declaration": [
+            "declaration",
+            "01m4wndtcqy6"
+          ],
+          "returnType": [
+            "type",
+            77
+          ],
+          "documentation": ""
+        }
+      ],
+      "callSignatures": []
+    },
+    "01m4wlxmnvvd": {
+      "id": "01m4wlxmnvvd",
+      "thing": "symbol",
+      "name": "Unicycle",
+      "documentation": "A Unicycle is a 1-wheeled vehicle",
+      "flags": "Class",
+      "type": [
+        "type",
+        80
+      ],
+      "members": [
+        [
+          "symbol",
+          "01m4wnrabhh9"
+        ]
+      ],
+      "exports": [
+        [
+          "symbol",
+          "01m4wnv1obsd"
+        ]
+      ],
+      "constructorSignatures": [
+        {
+          "parameters": [],
+          "declaration": [
+            "declaration",
+            "01m4wne2q8pw"
+          ],
+          "returnType": [
+            "type",
+            81
+          ],
+          "documentation": ""
+        }
+      ],
+      "callSignatures": []
+    },
+    "01m4wltk4qx1": {
+      "id": "01m4wltk4qx1",
+      "thing": "symbol",
+      "name": "a",
+      "documentation": "a number",
+      "flags": "FunctionScopedVariable",
+      "type": [
+        "type",
+        11
+      ],
+      "exports": [],
+      "constructorSignatures": [],
+      "callSignatures": [],
+      "jsDocTags": [
+        {
+          "name": "param",
+          "text": "a a number"
+        }
+      ]
+    },
+    "01m4wltej43i": {
+      "id": "01m4wltej43i",
+      "thing": "symbol",
+      "name": "b",
+      "documentation": "a number",
+      "flags": "FunctionScopedVariable",
+      "type": [
+        "type",
+        11
+      ],
+      "exports": [],
+      "constructorSignatures": [],
+      "callSignatures": [],
+      "jsDocTags": [
+        {
+          "name": "param",
+          "text": "b a number"
+        }
+      ]
+    },
+    "01m4wlulghw5": {
+      "id": "01m4wlulghw5",
+      "thing": "symbol",
+      "name": "a",
+      "documentation": "",
+      "flags": "FunctionScopedVariable",
+      "type": [
+        "type",
+        10
+      ],
+      "exports": [],
+      "constructorSignatures": [],
+      "callSignatures": []
+    },
+    "01m4wlufuu2m": {
+      "id": "01m4wlufuu2m",
+      "thing": "symbol",
+      "name": "b",
+      "documentation": "",
+      "flags": "FunctionScopedVariable",
+      "type": [
+        "type",
+        10
+      ],
+      "exports": [],
+      "constructorSignatures": [],
+      "callSignatures": []
+    },
+    "01m4wnrabhh9": {
+      "id": "01m4wnrabhh9",
+      "thing": "symbol",
+      "name": "__constructor",
+      "documentation": "Create a new vehicle",
+      "flags": "Constructor",
+      "type": [
+        "type",
+        4
+      ],
+      "jsDocTags": [
+        {
+          "name": "param",
+          "text": "numWheels Number of wheels"
+        }
+      ]
+    },
+    "01m4wnv1obsd": {
+      "id": "01m4wnv1obsd",
+      "thing": "symbol",
+      "name": "prototype",
+      "documentation": "",
+      "flags": [
+        "Property",
+        "Prototype"
+      ],
+      "type": [
+        "type",
+        4
+      ]
+    },
+    "01m4wno6b9ff": {
+      "id": "01m4wno6b9ff",
+      "thing": "symbol",
+      "name": "Vehicle",
+      "documentation": "A vehicle is a thing that goes places",
+      "flags": "Class",
+      "type": [
+        "type",
+        73
+      ],
+      "members": [
+        [
+          "symbol",
+          "01m4wnrabhh9"
+        ],
+        [
+          "symbol",
+          "01m4wn7wilid"
+        ],
+        [
+          "symbol",
+          "01m4wnsr19wn"
+        ]
+      ],
+      "exports": [
+        [
+          "symbol",
+          "01m4wnv1obsd"
+        ]
+      ],
+      "constructorSignatures": [
+        {
+          "parameters": [
+            [
+              "symbol",
+              "01m4wn8v2ikd"
+            ]
+          ],
+          "declaration": [
+            "declaration",
+            "01m4wlvblxmn"
+          ],
+          "returnType": [
+            "type",
+            74
+          ],
+          "documentation": "Create a new vehicle"
+        }
+      ],
+      "callSignatures": []
+    },
+    "01m4wn7wilid": {
+      "id": "01m4wn7wilid",
+      "thing": "symbol",
+      "name": "numWheels",
+      "documentation": "Number of wheels",
+      "flags": "Property",
+      "type": [
+        "type",
+        11
+      ],
+      "constructorSignatures": [],
+      "callSignatures": [],
+      "jsDocTags": [
+        {
+          "name": "param",
+          "text": "numWheels Number of wheels"
+        }
+      ]
+    },
+    "01m4wnsr19wn": {
+      "id": "01m4wnsr19wn",
+      "thing": "symbol",
+      "name": "drive",
+      "documentation": "Drive the vehicle",
+      "flags": "Method",
+      "type": [
+        "type",
+        87
+      ],
+      "constructorSignatures": [],
+      "callSignatures": [
+        {
+          "parameters": [],
+          "declaration": [
+            "declaration",
+            "01m4wmqi5ass"
+          ],
+          "returnType": [
+            "type",
+            10
+          ],
+          "documentation": "Drive the vehicle"
+        }
+      ],
+      "jsDocTags": [
+        {
+          "name": "returns"
+        }
+      ]
+    },
+    "01m4wn8v2ikd": {
+      "id": "01m4wn8v2ikd",
+      "thing": "symbol",
+      "name": "numWheels",
+      "documentation": "Number of wheels",
+      "flags": "FunctionScopedVariable",
+      "type": [
+        "type",
+        11
+      ],
+      "exports": [],
+      "constructorSignatures": [],
+      "callSignatures": [],
+      "jsDocTags": [
+        {
+          "name": "param",
+          "text": "numWheels Number of wheels"
+        }
+      ]
+    }
+  },
+  "type": {
+    "4": {
+      "id": 4,
+      "thing": "type",
+      "typeString": "any",
+      "flags": "Any"
+    },
+    "10": {
+      "id": 10,
+      "thing": "type",
+      "typeString": "string",
+      "flags": "String",
+      "numberIndexType": [
+        "type",
+        10
+      ],
+      "stringIndexType": [
+        "type",
+        10
+      ]
+    },
+    "11": {
+      "id": 11,
+      "thing": "type",
+      "typeString": "number",
+      "flags": "Number"
+    },
+    "67": {
+      "id": 67,
+      "thing": "type",
+      "symbol": [
+        "symbol",
+        "01m4wmr2p2ys"
+      ],
+      "typeString": "typeof import(\"cases/2-single-file-ts/src/index\")",
+      "flags": "Object",
+      "objectFlags": "Anonymous"
+    },
+    "68": {
+      "id": 68,
+      "thing": "type",
+      "symbol": [
+        "symbol",
+        "01m4wngt68lx"
+      ],
+      "typeString": "{ (a: number, b: number): number; (a: string, b: string): string; }",
+      "flags": "Object",
+      "objectFlags": "Anonymous"
+    },
+    "70": {
+      "id": 70,
+      "thing": "type",
+      "symbol": [
+        "symbol",
+        "01m4wm08kfc2"
+      ],
+      "typeString": "typeof Car",
+      "flags": "Object",
+      "objectFlags": "Anonymous"
+    },
+    "71": {
+      "id": 71,
+      "thing": "type",
+      "symbol": [
+        "symbol",
+        "01m4wm08kfc2"
+      ],
+      "typeString": "Car",
+      "flags": "Object",
+      "objectFlags": [
+        "Class",
+        "Reference"
+      ],
+      "baseTypes": []
+    },
+    "73": {
+      "id": 73,
+      "thing": "type",
+      "symbol": [
+        "symbol",
+        "01m4wno6b9ff"
+      ],
+      "typeString": "typeof Vehicle",
+      "flags": "Object",
+      "objectFlags": "Anonymous"
+    },
+    "74": {
+      "id": 74,
+      "thing": "type",
+      "symbol": [
+        "symbol",
+        "01m4wno6b9ff"
+      ],
+      "typeString": "Vehicle",
+      "flags": "Object",
+      "objectFlags": [
+        "Class",
+        "Reference"
+      ],
+      "baseTypes": []
+    },
+    "76": {
+      "id": 76,
+      "thing": "type",
+      "symbol": [
+        "symbol",
+        "01m4wmv12h30"
+      ],
+      "typeString": "typeof Bike",
+      "flags": "Object",
+      "objectFlags": "Anonymous"
+    },
+    "77": {
+      "id": 77,
+      "thing": "type",
+      "symbol": [
+        "symbol",
+        "01m4wmv12h30"
+      ],
+      "typeString": "Bike",
+      "flags": "Object",
+      "objectFlags": [
+        "Class",
+        "Reference"
+      ],
+      "baseTypes": []
+    },
+    "80": {
+      "id": 80,
+      "thing": "type",
+      "symbol": [
+        "symbol",
+        "01m4wlxmnvvd"
+      ],
+      "typeString": "typeof Unicycle",
+      "flags": "Object",
+      "objectFlags": "Anonymous"
+    },
+    "81": {
+      "id": 81,
+      "thing": "type",
+      "symbol": [
+        "symbol",
+        "01m4wlxmnvvd"
+      ],
+      "typeString": "Unicycle",
+      "flags": "Object",
+      "objectFlags": [
+        "Class",
+        "Reference"
+      ],
+      "baseTypes": []
+    },
+    "87": {
+      "id": 87,
+      "thing": "type",
+      "symbol": [
+        "symbol",
+        "01m4wnsr19wn"
+      ],
+      "typeString": "() => string",
+      "flags": "Object",
+      "objectFlags": "Anonymous"
+    }
+  },
+  "node": {
+    "01m4wlldmjpe": {
+      "id": "01m4wlldmjpe",
+      "pos": 0,
+      "end": 133,
+      "text": "export function add(a: number, b: number): number;",
+      "sourceFile": [
+        "sourceFile",
+        "01m4wnmkeq1o"
+      ],
+      "thing": "node",
+      "kind": "FunctionDeclaration",
+      "modifiers": [
+        "ExportKeyword"
+      ],
+      "parent": [
+        "node",
+        "01m4wnmkeq1o"
+      ],
+      "name": "add",
+      "type": [
+        "type",
+        68
+      ]
+    },
+    "01m4wna76n7c": {
+      "id": "01m4wna76n7c",
+      "pos": 133,
+      "end": 184,
+      "text": "export function add(a: string, b: string): string;",
+      "sourceFile": [
+        "sourceFile",
+        "01m4wnmkeq1o"
+      ],
+      "thing": "node",
+      "kind": "FunctionDeclaration",
+      "modifiers": [
+        "ExportKeyword"
+      ],
+      "parent": [
+        "node",
+        "01m4wnmkeq1o"
+      ],
+      "name": "add",
+      "type": [
+        "type",
+        68
+      ]
+    },
+    "01m4wnso8fts": {
+      "id": "01m4wnso8fts",
+      "pos": 184,
+      "end": 377,
+      "text": "export function add(a: number | string, b: number | string): number | string {\n  if (typeof a === 'number' && typeof b === 'number') {\n    return a + b;\n  } else {\n    return '' + a + b;\n  }\n}",
+      "sourceFile": [
+        "sourceFile",
+        "01m4wnmkeq1o"
+      ],
+      "thing": "node",
+      "kind": "FunctionDeclaration",
+      "modifiers": [
+        "ExportKeyword"
+      ],
+      "parent": [
+        "node",
+        "01m4wnmkeq1o"
+      ],
+      "name": "add",
+      "type": [
+        "type",
+        68
+      ]
+    },
+    "01m4wndgriou": {
+      "id": "01m4wndgriou",
+      "pos": 470,
+      "end": 807,
+      "text": "class Vehicle {\n  /**\n   * Create a new vehicle\n   * @param {number} numWheels Number of wheels\n   */\n  constructor(protected numWheels: number) {}\n  /**\n   * Drive the vehicle\n   * @returns {string}\n   */\n  public drive() {\n    return `Driving with all ${this.numWheels} wheels`;\n  }\n}",
+      "sourceFile": [
+        "sourceFile",
+        "01m4wnmkeq1o"
+      ],
+      "thing": "node",
+      "kind": "ClassDeclaration",
+      "parent": [
+        "node",
+        "01m4wnmkeq1o"
+      ],
+      "name": "Vehicle",
+      "type": [
+        "type",
+        73
+      ]
+    },
+    "01m4wm4451vw": {
+      "id": "01m4wm4451vw",
+      "pos": 807,
+      "end": 1004,
+      "text": "export class Car extends Vehicle {\n  /**\n   * Create a new car\n   */\n  constructor() {\n    super(4);\n  }\n}",
+      "sourceFile": [
+        "sourceFile",
+        "01m4wnmkeq1o"
+      ],
+      "thing": "node",
+      "kind": "ClassDeclaration",
+      "modifiers": [
+        "ExportKeyword"
+      ],
+      "parent": [
+        "node",
+        "01m4wnmkeq1o"
+      ],
+      "name": "Car",
+      "type": [
+        "type",
+        70
+      ]
+    },
+    "01m4wmi39lyf": {
+      "id": "01m4wmi39lyf",
+      "pos": 1004,
+      "end": 1169,
+      "text": "export class Bike extends Vehicle {\n  constructor() {\n    super(2);\n  }\n}",
+      "sourceFile": [
+        "sourceFile",
+        "01m4wnmkeq1o"
+      ],
+      "thing": "node",
+      "kind": "ClassDeclaration",
+      "modifiers": [
+        "ExportKeyword"
+      ],
+      "parent": [
+        "node",
+        "01m4wnmkeq1o"
+      ],
+      "name": "Bike",
+      "type": [
+        "type",
+        76
+      ]
+    },
+    "01m4wmxuabg6": {
+      "id": "01m4wmxuabg6",
+      "pos": 1169,
+      "end": 1342,
+      "text": "export class Unicycle extends Vehicle {\n  constructor() {\n    super(1);\n  }\n}",
+      "sourceFile": [
+        "sourceFile",
+        "01m4wnmkeq1o"
+      ],
+      "thing": "node",
+      "kind": "ClassDeclaration",
+      "modifiers": [
+        "ExportKeyword"
+      ],
+      "parent": [
+        "node",
+        "01m4wnmkeq1o"
+      ],
+      "name": "Unicycle",
+      "type": [
+        "type",
+        80
+      ]
+    },
+    "01m4wnmkeq1o": {
+      "id": "01m4wnmkeq1o",
+      "pos": 0,
+      "end": 1343,
+      "text": "export function add(a: number, b: number): number;\nexport function add(a: string, b: string): string;\nexport function add(a: number | string, b: number | string): number | string {\n  if (typeof a === 'number' && typeof b === 'number') {\n    return a + b;\n  } else {\n    return '' + a + b;\n  }\n}\n\n/**\n * A super secret string\n * @public\n */\nexport const SECRET_STRING: string = 'shhhhh!';\n\n/**\n * A vehicle is a thing that goes places\n */\nclass Vehicle {\n  /**\n   * Create a new vehicle\n   * @param {number} numWheels Number of wheels\n   */\n  constructor(protected numWheels: number) {}\n  /**\n   * Drive the vehicle\n   * @returns {string}\n   */\n  public drive() {\n    return `Driving with all ${this.numWheels} wheels`;\n  }\n}\n\n/**\n * A car is a 4-wheeled vehicle\n */\n// tslint:disable-next-line:max-classes-per-file\nexport class Car extends Vehicle {\n  /**\n   * Create a new car\n   */\n  constructor() {\n    super(4);\n  }\n}\n\n/**\n * A bike is a 2-wheeled vehicle\n */\n// tslint:disable-next-line:max-classes-per-file\nexport class Bike extends Vehicle {\n  constructor() {\n    super(2);\n  }\n}\n\n/**\n * A Unicycle is a 1-wheeled vehicle\n */\n// tslint:disable-next-line:max-classes-per-file\nexport class Unicycle extends Vehicle {\n  constructor() {\n    super(1);\n  }\n}\n",
+      "sourceFile": [
+        "sourceFile",
+        "01m4wnmkeq1o"
+      ],
+      "thing": "node",
+      "kind": "SourceFile",
+      "children": [
+        [
+          "node",
+          "01m4wlldmjpe"
+        ],
+        [
+          "node",
+          "01m4wna76n7c"
+        ],
+        [
+          "node",
+          "01m4wnso8fts"
+        ],
+        [
+          "node",
+          "01m4wndgriou"
+        ],
+        [
+          "node",
+          "01m4wm4451vw"
+        ],
+        [
+          "node",
+          "01m4wmi39lyf"
+        ],
+        [
+          "node",
+          "01m4wmxuabg6"
+        ]
+      ]
+    }
+  },
+  "sourceFile": {
+    "01m4wnmkeq1o": {
+      "id": "01m4wnmkeq1o",
+      "pos": 0,
+      "end": 1343,
+      "text": "export function add(a: number, b: number): number;\nexport function add(a: string, b: string): string;\nexport function add(a: number | string, b: number | string): number | string {\n  if (typeof a === 'number' && typeof b === 'number') {\n    return a + b;\n  } else {\n    return '' + a + b;\n  }\n}\n\n/**\n * A super secret string\n * @public\n */\nexport const SECRET_STRING: string = 'shhhhh!';\n\n/**\n * A vehicle is a thing that goes places\n */\nclass Vehicle {\n  /**\n   * Create a new vehicle\n   * @param {number} numWheels Number of wheels\n   */\n  constructor(protected numWheels: number) {}\n  /**\n   * Drive the vehicle\n   * @returns {string}\n   */\n  public drive() {\n    return `Driving with all ${this.numWheels} wheels`;\n  }\n}\n\n/**\n * A car is a 4-wheeled vehicle\n */\n// tslint:disable-next-line:max-classes-per-file\nexport class Car extends Vehicle {\n  /**\n   * Create a new car\n   */\n  constructor() {\n    super(4);\n  }\n}\n\n/**\n * A bike is a 2-wheeled vehicle\n */\n// tslint:disable-next-line:max-classes-per-file\nexport class Bike extends Vehicle {\n  constructor() {\n    super(2);\n  }\n}\n\n/**\n * A Unicycle is a 1-wheeled vehicle\n */\n// tslint:disable-next-line:max-classes-per-file\nexport class Unicycle extends Vehicle {\n  constructor() {\n    super(1);\n  }\n}\n",
+      "sourceFile": [
+        "sourceFile",
+        "01m4wnmkeq1o"
+      ],
+      "thing": "sourceFile",
+      "kind": "SourceFile",
+      "children": [
+        [
+          "node",
+          "01m4wlldmjpe"
+        ],
+        [
+          "node",
+          "01m4wna76n7c"
+        ],
+        [
+          "node",
+          "01m4wnso8fts"
+        ],
+        [
+          "node",
+          "01m4wndgriou"
+        ],
+        [
+          "node",
+          "01m4wm4451vw"
+        ],
+        [
+          "node",
+          "01m4wmi39lyf"
+        ],
+        [
+          "node",
+          "01m4wmxuabg6"
+        ]
+      ],
+      "fileName": "cases/2-single-file-ts/src/index.ts",
+      "isDeclarationFile": false,
+      "amdDependencies": [],
+      "symbol": [
+        "symbol",
+        "01m4wmr2p2ys"
+      ]
+    }
+  }
+}

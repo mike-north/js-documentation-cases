@@ -1,0 +1,218 @@
+{
+  "sourceFiles": [
+    {
+      "fileName": "cases/1-single-file-js/src/index.js",
+      "isDeclarationFile": false,
+      "name": "\"cases/1-single-file-js/src/index\"",
+      "flags": [
+        "module"
+      ],
+      "documentation": "",
+      "exports": [
+        {
+          "name": "add",
+          "flags": [
+            "function"
+          ],
+          "documentation": "Add two numbers",
+          "jsDocTags": [
+            {
+              "name": "param",
+              "text": "a"
+            },
+            {
+              "name": "param",
+              "text": "b"
+            }
+          ],
+          "callSignatures": [
+            {
+              "parameters": [
+                {
+                  "name": "a",
+                  "type": {
+                    "text": "number",
+                    "flags": [
+                      "number"
+                    ],
+                    "objectFlags": []
+                  }
+                },
+                {
+                  "name": "b",
+                  "type": {
+                    "text": "number",
+                    "flags": [
+                      "number"
+                    ],
+                    "objectFlags": []
+                  }
+                }
+              ],
+              "returnType": {
+                "text": "number",
+                "flags": [
+                  "number"
+                ],
+                "objectFlags": []
+              }
+            }
+          ]
+        },
+        {
+          "name": "SECRET_STRING",
+          "flags": [
+            "variable"
+          ],
+          "documentation": "A super secret string",
+          "jsDocTags": [
+            {
+              "name": "public"
+            }
+          ]
+        },
+        {
+          "name": "Car",
+          "flags": [
+            "class"
+          ],
+          "documentation": "A car is a 4-wheeled vehicle",
+          "exports": [
+            {
+              "name": "prototype",
+              "flags": [
+                "property",
+                "prototype"
+              ],
+              "documentation": ""
+            }
+          ],
+          "members": [
+            {
+              "name": "__constructor",
+              "flags": [
+                "constructor"
+              ],
+              "documentation": "Create a new vehicle",
+              "jsDocTags": [
+                {
+                  "name": "param",
+                  "text": "numWheels Number of wheels"
+                }
+              ]
+            }
+          ],
+          "constructorSignatures": [
+            {
+              "parameters": [],
+              "returnType": {
+                "text": "Car",
+                "flags": [
+                  "object"
+                ],
+                "objectFlags": [
+                  "class",
+                  "reference"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Bike",
+          "flags": [
+            "class"
+          ],
+          "documentation": "A bike is a 2-wheeled vehicle",
+          "exports": [
+            {
+              "name": "prototype",
+              "flags": [
+                "property",
+                "prototype"
+              ],
+              "documentation": ""
+            }
+          ],
+          "members": [
+            {
+              "name": "__constructor",
+              "flags": [
+                "constructor"
+              ],
+              "documentation": "Create a new vehicle",
+              "jsDocTags": [
+                {
+                  "name": "param",
+                  "text": "numWheels Number of wheels"
+                }
+              ]
+            }
+          ],
+          "constructorSignatures": [
+            {
+              "parameters": [],
+              "returnType": {
+                "text": "Bike",
+                "flags": [
+                  "object"
+                ],
+                "objectFlags": [
+                  "class",
+                  "reference"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Unicycle",
+          "flags": [
+            "class"
+          ],
+          "documentation": "A Unicycle is a 1-wheeled vehicle",
+          "exports": [
+            {
+              "name": "prototype",
+              "flags": [
+                "property",
+                "prototype"
+              ],
+              "documentation": ""
+            }
+          ],
+          "members": [
+            {
+              "name": "__constructor",
+              "flags": [
+                "constructor"
+              ],
+              "documentation": "Create a new vehicle",
+              "jsDocTags": [
+                {
+                  "name": "param",
+                  "text": "numWheels Number of wheels"
+                }
+              ]
+            }
+          ],
+          "constructorSignatures": [
+            {
+              "parameters": [],
+              "returnType": {
+                "text": "Unicycle",
+                "flags": [
+                  "object"
+                ],
+                "objectFlags": [
+                  "class",
+                  "reference"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,454 @@
+{
+  "sourceFiles": [
+    {
+      "fileName": "/home/travis/build/mike-north/js-documentation-cases/cases/5-ts-exported-types/src/types.ts",
+      "isDeclarationFile": false,
+      "name": "\"/home/travis/build/mike-north/js-documentation-cases/cases/5-ts-exported-types/src/types\"",
+      "flags": [
+        "module"
+      ],
+      "documentation": "",
+      "exports": [
+        {
+          "name": "VehicleLike",
+          "flags": [
+            "interface"
+          ],
+          "documentation": "A vehicle-like thing",
+          "members": [
+            {
+              "name": "drive",
+              "flags": [
+                "method"
+              ],
+              "documentation": "Start driving",
+              "callSignatures": [
+                {
+                  "parameters": [],
+                  "returnType": {
+                    "text": "void",
+                    "flags": [
+                      "void"
+                    ],
+                    "objectFlags": []
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "VehicleFactory",
+          "flags": [
+            "typeAlias"
+          ],
+          "documentation": "A factory for vehicles"
+        }
+      ]
+    },
+    {
+      "fileName": "/home/travis/build/mike-north/js-documentation-cases/cases/5-ts-exported-types/src/vehicle.ts",
+      "isDeclarationFile": false,
+      "name": "\"/home/travis/build/mike-north/js-documentation-cases/cases/5-ts-exported-types/src/vehicle\"",
+      "flags": [
+        "module"
+      ],
+      "documentation": "",
+      "exports": [
+        {
+          "name": "default",
+          "flags": [
+            "class"
+          ],
+          "documentation": "A vehicle is a thing that goes places",
+          "exports": [
+            {
+              "name": "prototype",
+              "flags": [
+                "property",
+                "prototype"
+              ],
+              "documentation": ""
+            }
+          ],
+          "members": [
+            {
+              "name": "__constructor",
+              "flags": [
+                "constructor"
+              ],
+              "documentation": "Create a new car"
+            },
+            {
+              "name": "numWheels",
+              "flags": [
+                "property"
+              ],
+              "documentation": "Number of wheels",
+              "jsDocTags": [
+                {
+                  "name": "param",
+                  "text": "numWheels Number of wheels"
+                }
+              ]
+            },
+            {
+              "name": "drive",
+              "flags": [
+                "method"
+              ],
+              "documentation": "Drive the vehicle",
+              "jsDocTags": [
+                {
+                  "name": "returns"
+                }
+              ],
+              "callSignatures": [
+                {
+                  "parameters": [],
+                  "returnType": {
+                    "text": "string",
+                    "flags": [
+                      "string"
+                    ],
+                    "objectFlags": []
+                  }
+                }
+              ]
+            }
+          ],
+          "constructorSignatures": [
+            {
+              "parameters": [
+                {
+                  "name": "numWheels",
+                  "type": {
+                    "text": "number",
+                    "flags": [
+                      "number"
+                    ],
+                    "objectFlags": []
+                  }
+                }
+              ],
+              "returnType": {
+                "text": "Vehicle",
+                "flags": [
+                  "object"
+                ],
+                "objectFlags": [
+                  "class",
+                  "reference"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Factory4",
+          "flags": [
+            "variable"
+          ],
+          "documentation": "",
+          "constructorSignatures": [
+            {
+              "parameters": [
+                {
+                  "name": "numWheels",
+                  "type": {
+                    "text": "4",
+                    "flags": [
+                      "numberLiteral"
+                    ],
+                    "objectFlags": []
+                  }
+                }
+              ],
+              "returnType": {
+                "text": "VehicleLike",
+                "flags": [
+                  "object"
+                ],
+                "objectFlags": [
+                  "interface"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fileName": "/home/travis/build/mike-north/js-documentation-cases/cases/5-ts-exported-types/src/cycles.ts",
+      "isDeclarationFile": false,
+      "name": "\"/home/travis/build/mike-north/js-documentation-cases/cases/5-ts-exported-types/src/cycles\"",
+      "flags": [
+        "module"
+      ],
+      "documentation": "",
+      "exports": [
+        {
+          "name": "Bike",
+          "flags": [
+            "class"
+          ],
+          "documentation": "A bike is a 2-wheeled vehicle",
+          "exports": [
+            {
+              "name": "prototype",
+              "flags": [
+                "property",
+                "prototype"
+              ],
+              "documentation": ""
+            }
+          ],
+          "members": [
+            {
+              "name": "__constructor",
+              "flags": [
+                "constructor"
+              ],
+              "documentation": "Create a new car"
+            }
+          ],
+          "constructorSignatures": [
+            {
+              "parameters": [],
+              "returnType": {
+                "text": "Bike",
+                "flags": [
+                  "object"
+                ],
+                "objectFlags": [
+                  "class",
+                  "reference"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Unicycle",
+          "flags": [
+            "class"
+          ],
+          "documentation": "A Unicycle is a 1-wheeled vehicle",
+          "exports": [
+            {
+              "name": "prototype",
+              "flags": [
+                "property",
+                "prototype"
+              ],
+              "documentation": ""
+            }
+          ],
+          "members": [
+            {
+              "name": "__constructor",
+              "flags": [
+                "constructor"
+              ],
+              "documentation": "Create a new car"
+            }
+          ],
+          "constructorSignatures": [
+            {
+              "parameters": [],
+              "returnType": {
+                "text": "Unicycle",
+                "flags": [
+                  "object"
+                ],
+                "objectFlags": [
+                  "class",
+                  "reference"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fileName": "/home/travis/build/mike-north/js-documentation-cases/cases/5-ts-exported-types/src/car.ts",
+      "isDeclarationFile": false,
+      "name": "\"/home/travis/build/mike-north/js-documentation-cases/cases/5-ts-exported-types/src/car\"",
+      "flags": [
+        "module"
+      ],
+      "documentation": "",
+      "exports": [
+        {
+          "name": "default",
+          "flags": [
+            "class"
+          ],
+          "documentation": "A car is a 4-wheeled vehicle",
+          "exports": [
+            {
+              "name": "prototype",
+              "flags": [
+                "property",
+                "prototype"
+              ],
+              "documentation": ""
+            }
+          ],
+          "members": [
+            {
+              "name": "__constructor",
+              "flags": [
+                "constructor"
+              ],
+              "documentation": "Create a new car"
+            }
+          ],
+          "constructorSignatures": [
+            {
+              "parameters": [],
+              "returnType": {
+                "text": "Car",
+                "flags": [
+                  "object"
+                ],
+                "objectFlags": [
+                  "class",
+                  "reference"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fileName": "cases/5-ts-exported-types/src/index.ts",
+      "isDeclarationFile": false,
+      "name": "\"cases/5-ts-exported-types/src/index\"",
+      "flags": [
+        "module"
+      ],
+      "documentation": "",
+      "exports": [
+        {
+          "name": "add",
+          "flags": [
+            "function"
+          ],
+          "documentation": "Add Two numbers together",
+          "jsDocTags": [
+            {
+              "name": "param",
+              "text": "a first number"
+            },
+            {
+              "name": "param",
+              "text": "b second number"
+            }
+          ],
+          "callSignatures": [
+            {
+              "parameters": [
+                {
+                  "name": "a",
+                  "type": {
+                    "text": "number",
+                    "flags": [
+                      "number"
+                    ],
+                    "objectFlags": []
+                  }
+                },
+                {
+                  "name": "b",
+                  "type": {
+                    "text": "number",
+                    "flags": [
+                      "number"
+                    ],
+                    "objectFlags": []
+                  }
+                }
+              ],
+              "returnType": {
+                "text": "number",
+                "flags": [
+                  "number"
+                ],
+                "objectFlags": []
+              }
+            },
+            {
+              "parameters": [
+                {
+                  "name": "a",
+                  "type": {
+                    "text": "string",
+                    "flags": [
+                      "string"
+                    ],
+                    "objectFlags": []
+                  }
+                },
+                {
+                  "name": "b",
+                  "type": {
+                    "text": "string",
+                    "flags": [
+                      "string"
+                    ],
+                    "objectFlags": []
+                  }
+                }
+              ],
+              "returnType": {
+                "text": "string",
+                "flags": [
+                  "string"
+                ],
+                "objectFlags": []
+              }
+            }
+          ]
+        },
+        {
+          "name": "SECRET_STRING",
+          "flags": [
+            "variable"
+          ],
+          "documentation": ""
+        },
+        {
+          "name": "Car",
+          "flags": [
+            "alias"
+          ],
+          "documentation": ""
+        },
+        {
+          "name": "Unicycle",
+          "flags": [
+            "alias"
+          ],
+          "documentation": ""
+        },
+        {
+          "name": "Bike",
+          "flags": [
+            "alias"
+          ],
+          "documentation": ""
+        },
+        {
+          "name": "VehicleLike",
+          "flags": [
+            "alias"
+          ],
+          "documentation": ""
+        }
+      ]
+    }
+  ]
+}
