@@ -29,7 +29,7 @@
     "semantic-release": "semantic-release"
   },
   "devDependencies": {
-    "@code-to-json/cli": "^0.1.9",
+    "@code-to-json/cli": "^0.4.4",
     "@microsoft/api-documenter": "^1.5.33",
     "@microsoft/api-extractor": "^6.0.2",
     "@microsoft/tsdoc": "^0.8.1",

@@ -6,9 +6,9 @@ code_to_json_for_example() {
   mkdir docs/code-to-json/$1
   if [ -e cases/$1/src/index.ts ]
   then
-    ./node_modules/.bin/code-to-json -o docs/code-to-json/$1/out.json cases/$1/src/index.ts
+    ./node_modules/.bin/code-to-json -o docs/code-to-json/$1 cases/$1/src/index.ts
   else
-    ./node_modules/.bin/code-to-json -o docs/code-to-json/$1/out.json cases/$1/src/index.js
+    ./node_modules/.bin/code-to-json -o docs/code-to-json/$1 cases/$1/src/index.js
   fi
 }
 if [ -e docs/code-to-json ]
