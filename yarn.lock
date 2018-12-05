@@ -91,7 +91,7 @@
   resolved "https://registry.yarnpkg.com/@microsoft/tsdoc/-/tsdoc-0.8.1.tgz#ad6cdf2cb41f57c2ae29baed2904b5338ab6421f"
   integrity sha512-WxaPrxTdUTA0Td4Fg+0Fdxf/DvWiwYWpmrPYPtSJ6k6kFKi9vfDQAUd7DsLwNH4tjdZpwiexF4n7Dk3uFz+PDg==
 
-"@mike-north/js-lib-renovate-config@^1.1.4":
+"@mike-north/js-lib-renovate-config@1.1.4":
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/@mike-north/js-lib-renovate-config/-/js-lib-renovate-config-1.1.4.tgz#94171654fcad24c30400527a24d9c85c443771ca"
   integrity sha512-VEGdZMPFrBltKCtIKWUXN7K5XvNy9Q09hZGSk1ZEX1n/+4QcqWNI22HxZMbUFJ/IVXTwilr8UL1ZPCsOayEybA==
