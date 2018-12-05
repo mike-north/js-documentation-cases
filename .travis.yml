@@ -9,12 +9,12 @@ stages:
   - 'Tests'
   - name: 'Deploy'
     if: branch = master AND type = push
+node_js: '10'
 
 jobs:
   fail_fast: true
   include:
     - stage: 'Tests'
-      node_js: '10'
     - stage: 'Deploy'
       script: yarn semantic-release
 
