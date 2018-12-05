@@ -86,6 +86,11 @@
     argparse "~1.0.9"
     colors "~1.2.1"
 
+"@microsoft/tsdoc@0.12.4":
+  version "0.12.4"
+  resolved "https://registry.yarnpkg.com/@microsoft/tsdoc/-/tsdoc-0.12.4.tgz#42159590f2b12e23f6028c70aed41dd5b11275c3"
+  integrity sha512-nQZVQg3fXygj+9JT/FSPZOz3vqAIVAAR3ZuAuUdU4DSM/ubJq5lbl1hpLtl+REFmEq1rkvDmmPoJAbSoqjcmZQ==
+
 "@microsoft/tsdoc@0.8.1":
   version "0.8.1"
   resolved "https://registry.yarnpkg.com/@microsoft/tsdoc/-/tsdoc-0.8.1.tgz#ad6cdf2cb41f57c2ae29baed2904b5338ab6421f"
