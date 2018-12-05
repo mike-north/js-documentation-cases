@@ -2,14 +2,14 @@
 # yarn lockfile v1
 
 
-"@code-to-json/cli@0.4.4":
-  version "0.4.4"
-  resolved "https://registry.yarnpkg.com/@code-to-json/cli/-/cli-0.4.4.tgz#c74424141f0dbe35246bc0a090c5b179c72b3cd6"
-  integrity sha512-M898kCoypBWOTnoXiB7GGejH4P9JEh0e8fmdAcOtWBI/4TCGV5G3Z0PjQvmrNW5O4M1NZ0PiRAmjXQe3+vo5Xw==
+"@code-to-json/cli@0.4.28":
+  version "0.4.28"
+  resolved "https://registry.yarnpkg.com/@code-to-json/cli/-/cli-0.4.28.tgz#44fcce77ca64180e9d8ea3c3d9bf4465e5ae9584"
+  integrity sha512-YRTXpaZ0E0jzMPD47W290yjdI4WU1ZbI036zO4N6cq4bpvBtkCMgAPVXdIDjEsrud3Leb2G4Sd40GZR7hNGd2w==
   dependencies:
-    "@code-to-json/core" "^0.5.4"
-    "@code-to-json/formatter" "^0.4.12"
-    "@code-to-json/utils" "^0.4.4"
+    "@code-to-json/core" "^0.5.28"
+    "@code-to-json/formatter" "^0.4.36"
+    "@code-to-json/utils" "^0.4.28"
     chalk "^2.4.1"
     commander "^2.19.0"
     debug "^4.1.0"
@@ -17,25 +17,25 @@
     import-local "^2.0.0"
     left-pad "^1.3.0"
 
-"@code-to-json/core@^0.5.4":
-  version "0.5.4"
-  resolved "https://registry.yarnpkg.com/@code-to-json/core/-/core-0.5.4.tgz#263da3da7160883daa8e5c9ab13eba156ca2bbca"
-  integrity sha512-+ZioKeflY3TIQ8oXJ8MPHzhiSiuewQn83Ohunyv6wYeRQeGMsPKjuOb7dSOMf1r8Eg97vzvvcu/J0DVKngOgKg==
+"@code-to-json/core@^0.5.28":
+  version "0.5.28"
+  resolved "https://registry.yarnpkg.com/@code-to-json/core/-/core-0.5.28.tgz#fd4a02086526faeed267af48f356b225fc0d017a"
+  integrity sha512-PCP+22vQv3ysT+7Q3n+8iJEimHhCpNNaAW6/FfvPug7w1UM6hZA7UseXg28Dtu+QCMzjAurbS/h4QmeJpUYeBQ==
   dependencies:
-    "@code-to-json/utils" "^0.4.4"
+    "@code-to-json/utils" "^0.4.28"
 
-"@code-to-json/formatter@^0.4.12":
-  version "0.4.12"
-  resolved "https://registry.yarnpkg.com/@code-to-json/formatter/-/formatter-0.4.12.tgz#40554d5b7484c06cf3453626ceb30ec7b410c5a7"
-  integrity sha512-phmHlXd0aKoX0WpbW7Ax1Pj28NR4ov+DOIdknPf9V6L/LDyIsFw3U2Y9ui8QIj8uznW5p0jvy3WKT0OOmJIung==
+"@code-to-json/formatter@^0.4.36":
+  version "0.4.36"
+  resolved "https://registry.yarnpkg.com/@code-to-json/formatter/-/formatter-0.4.36.tgz#bbde36c1bb1eac02e04f870d0d76bae55209d21b"
+  integrity sha512-wr37oTP012jgrGVtNf0cWhXQ0/pLJW4Cw8kcwY5MxKPx0o327WIev//+z9RYgAKsavWP3k2S62B2INQNHGQVWw==
   dependencies:
-    "@code-to-json/core" "^0.5.4"
-    "@code-to-json/utils" "^0.4.4"
+    "@code-to-json/core" "^0.5.28"
+    "@code-to-json/utils" "^0.4.28"
 
-"@code-to-json/utils@^0.4.4":
-  version "0.4.4"
-  resolved "https://registry.yarnpkg.com/@code-to-json/utils/-/utils-0.4.4.tgz#9e4b721f7a65cbbee9ca26f7fb71b0d269bf0333"
-  integrity sha512-YfGci7P1rSvLc+C4Lc6PvlYvoCpNIljg8814QD14KfIITdaP+U8bi/+6maRzRlXzbf0kRQwFZxISblHSGC8bxA==
+"@code-to-json/utils@^0.4.28":
+  version "0.4.28"
+  resolved "https://registry.yarnpkg.com/@code-to-json/utils/-/utils-0.4.28.tgz#8d9b349a478c16851dfb31fb34e212061a493d4a"
+  integrity sha512-HkcgWeCuuf0jrQl+AAKlSN+Uctm5wxwegOsWL1JUHuO2qZyCakIDwvyEBV3zz9FegsDKPx5+lybNyzNrlpxkMw==
 
 "@microsoft/api-documenter@1.5.33":
   version "1.5.33"
