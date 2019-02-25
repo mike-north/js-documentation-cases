@@ -2863,9 +2863,9 @@ hawk@1.1.1:
     sntp "0.2.x"
 
 "highlight.js@>= 8.0.x", highlight.js@^9.13.1:
-  version "9.15.1"
-  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.15.1.tgz#50b0c53af227382c38bd7a8da3a83deef0432509"
-  integrity sha512-1HoaAgru0m46Wc+VDoORzGYy3H988tFz8ePE9U0GvCHt91go8qTQl7AS/Yo/rnslhgojVDf1QJZsYHO+K1f0UQ==
+  version "9.15.2"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.15.2.tgz#1a431ba49d6141389d31731fdfbf3f9961a36521"
+  integrity sha512-NmjkWYiCDZ8EB8EkowsL+6/qhBFi2Gah6Ptmj0ET6Ut1qBUSZ4l76VqQ4oQhjMbkW1SIrXNDfmV5qvbBwoAb9g==
   dependencies:
     bluebird "^3.5.3"
     commander "^2.19.0"
