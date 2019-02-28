@@ -135,7 +135,12 @@
   resolved "https://registry.yarnpkg.com/@microsoft/tsdoc/-/tsdoc-0.12.2.tgz#e3540be2e021ee0427a64ad10468ead90a758867"
   integrity sha512-L/srhENhBtbZLUD9FfJ2ZQdnYv3A3MT3UI2EMbC06fHUzIxLjjbkomD6o42UrbsRMwlS9p1BtxExeaCdX73q2Q==
 
-"@microsoft/tsdoc@0.12.5", "@microsoft/tsdoc@^0.12.4":
+"@microsoft/tsdoc@0.12.6":
+  version "0.12.6"
+  resolved "https://registry.yarnpkg.com/@microsoft/tsdoc/-/tsdoc-0.12.6.tgz#d08ab2deafdd2c7e5bb663fcee26efb06a7cd44e"
+  integrity sha512-Bx19qLtmYL54BWN0uOAyiSKuGrCywNO2YTYYtfsphB9hH1dAHYmfgt3k0KeDdWzmox6VIV2TuQiW56RPZciq5w==
+
+"@microsoft/tsdoc@^0.12.4":
   version "0.12.5"
   resolved "https://registry.yarnpkg.com/@microsoft/tsdoc/-/tsdoc-0.12.5.tgz#c448a38902ccb5601c1b2ef3b1a105012ef7712c"
   integrity sha512-xEAyvLXo4Cter/b0EMCWUZTgXOfLOPJ/Xr52WdjVclPx9eDmNTGFtZl8Pn/nqSnZsQBNcHL0eHk/YyRyyXXpiQ==
