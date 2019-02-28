@@ -31,7 +31,7 @@
     "@code-to-json/cli": "1.0.0-rc.42",
     "@microsoft/api-documenter": "1.5.59",
     "@microsoft/api-extractor": "6.3.0",
-    "@microsoft/tsdoc": "0.12.5",
+    "@microsoft/tsdoc": "0.12.6",
     "@mike-north/js-lib-renovate-config": "1.2.0",
     "@semantic-release/git": "7.0.8",
     "@types/commander": "2.12.2",
