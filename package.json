@@ -37,7 +37,7 @@
     "@types/commander": "2.12.2",
     "@types/fs-extra": "5.0.5",
     "@types/handlebars": "4.0.40",
-    "@types/lodash": "4.14.121",
+    "@types/lodash": "4.14.122",
     "@types/node": "10.12.29",
     "commander": "2.19.0",
     "docco": "0.8.0",
