@@ -3257,10 +3257,10 @@ jsbn@~0.1.0:
   resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
   integrity sha1-peZUwuWi3rXyAdls77yoDA7y9RM=
 
-jsdoc@3.6.0:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/jsdoc/-/jsdoc-3.6.0.tgz#a2753f3db8aa200516b17bed3823438fe4d79484"
-  integrity sha512-klRPzXUsbNSjXfzfzFMMYRMdYTn/0cjdysCGiiI8rCmm2KEtY5i9gmtC7Sn3jxTgxmeObetQAlepDoYarprzsQ==
+jsdoc@3.6.1:
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/jsdoc/-/jsdoc-3.6.1.tgz#f60276a1033feaf20191965605383f75d9166279"
+  integrity sha512-mMMsst31b8c7/Z6ewnO6ORIdVMwsobg1enX9b/2XAzW8mM3KuMANRWcMD1KMBq91IAUMOIhC5NsXu7xvNQrRyQ==
   dependencies:
     "@babel/parser" "^7.4.4"
     bluebird "^3.5.4"
