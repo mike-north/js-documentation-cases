@@ -44,7 +44,7 @@
     "esdoc": "1.1.0",
     "esdoc-standard-plugin": "1.0.0",
     "esdoc-typescript-plugin": "1.0.1",
-    "fs-extra": "7.0.1",
+    "fs-extra": "8.0.1",
     "handlebars": "4.1.2",
     "jsdoc": "3.6.1",
     "scripty": "1.8.0",
