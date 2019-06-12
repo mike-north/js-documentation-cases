@@ -100,14 +100,14 @@
   dependencies:
     "@mike-north/types" "^1.0.7"
 
-"@microsoft/api-documenter@7.3.2":
-  version "7.3.2"
-  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-7.3.2.tgz#66f697a7caa83b3947f19a618094519f1fdd4acf"
-  integrity sha512-tIaTf5SETfAeV3pNIN1VZk2MfxmLUX2fAo1Cedseuk4rw936LTQUSWxwTBJDYOzaF5G5E6p6Q/B+tKa4kIlCAw==
+"@microsoft/api-documenter@7.3.3":
+  version "7.3.3"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-7.3.3.tgz#535fb54b543a8801c844c75baf4590abdfac92ef"
+  integrity sha512-JggVadZIdu0lQCdFqc1Jy3cEjksVz57g2aqkwNQRBcEyRVlZK5tpibftEFVwacK13uKbV22jNljg8+JOqqUGKg==
   dependencies:
     "@microsoft/api-extractor-model" "7.2.0"
     "@microsoft/node-core-library" "3.13.0"
-    "@microsoft/ts-command-line" "4.2.5"
+    "@microsoft/ts-command-line" "4.2.6"
     "@microsoft/tsdoc" "0.12.9"
     colors "~1.2.1"
     js-yaml "~3.13.1"
@@ -121,14 +121,14 @@
     "@microsoft/tsdoc" "0.12.9"
     "@types/node" "8.5.8"
 
-"@microsoft/api-extractor@7.2.0":
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/@microsoft/api-extractor/-/api-extractor-7.2.0.tgz#601572ddd05674c1b818432f2395be7836f83c30"
-  integrity sha512-buZdMq/4HOWizrOMb/SNiq1sPwP9GBDbWrz2AoI+4bnZfyH77LKtmuWhQsow9X0Hlysc+wdyDoVLphM1C4DbYQ==
+"@microsoft/api-extractor@7.2.1":
+  version "7.2.1"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-extractor/-/api-extractor-7.2.1.tgz#4aaf807a7bd63d2c8867cea1758b1de2ed88db81"
+  integrity sha512-ClUKSplAoeVMQntRR+bydS+MziJ8EK44RzELVvNpjtV7L2+1SalafsOw5qo4kL1qcsSh1ZFB2NoO9EzfDSP7/g==
   dependencies:
     "@microsoft/api-extractor-model" "7.2.0"
     "@microsoft/node-core-library" "3.13.0"
-    "@microsoft/ts-command-line" "4.2.5"
+    "@microsoft/ts-command-line" "4.2.6"
     "@microsoft/tsdoc" "0.12.9"
     colors "~1.2.1"
     lodash "~4.17.5"
@@ -150,10 +150,10 @@
     jju "~1.4.0"
     z-schema "~3.18.3"
 
-"@microsoft/ts-command-line@4.2.5":
-  version "4.2.5"
-  resolved "https://registry.yarnpkg.com/@microsoft/ts-command-line/-/ts-command-line-4.2.5.tgz#ef5060c841e2e604c1e51c68f1b890a9b75ec6ff"
-  integrity sha512-QyTfbfpx6o+1cnjx5GubqKSRMDxBBMXABSa8wmqRa/A1K99FEBZfLIO6GmaY0s7rNYEchfR1VcVS/hV2VW+6hw==
+"@microsoft/ts-command-line@4.2.6":
+  version "4.2.6"
+  resolved "https://registry.yarnpkg.com/@microsoft/ts-command-line/-/ts-command-line-4.2.6.tgz#c88a5d474f8c4f411598cdf17d23c1b6090e8fe9"
+  integrity sha512-GFLPg9Z5yiNca3di/V6Zt3tAvj1de9EK0eL88tE+1eckQSH405UQcm7D+H8LbEhRpqpG+ZqN9LXCAEw4L5uchg==
   dependencies:
     "@types/argparse" "1.0.33"
     "@types/node" "8.5.8"
