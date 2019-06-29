@@ -100,10 +100,10 @@
   dependencies:
     "@mike-north/types" "^1.0.7"
 
-"@microsoft/api-documenter@7.3.3":
-  version "7.3.3"
-  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-7.3.3.tgz#535fb54b543a8801c844c75baf4590abdfac92ef"
-  integrity sha512-JggVadZIdu0lQCdFqc1Jy3cEjksVz57g2aqkwNQRBcEyRVlZK5tpibftEFVwacK13uKbV22jNljg8+JOqqUGKg==
+"@microsoft/api-documenter@7.3.4":
+  version "7.3.4"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-7.3.4.tgz#5815d4573595311ddba4f0f4565a1f01e3ab6d9a"
+  integrity sha512-d5EnoRLlFW8B3DakgS6DUb5R0BKzxOncerH/3g9b7Fk9Z2GBDaVgsYGHMkP6E70TExnItbs2YPTFTcz7fgKbGg==
   dependencies:
     "@microsoft/api-extractor-model" "7.2.0"
     "@microsoft/node-core-library" "3.13.0"
@@ -121,10 +121,10 @@
     "@microsoft/tsdoc" "0.12.9"
     "@types/node" "8.5.8"
 
-"@microsoft/api-extractor@7.2.1":
-  version "7.2.1"
-  resolved "https://registry.yarnpkg.com/@microsoft/api-extractor/-/api-extractor-7.2.1.tgz#4aaf807a7bd63d2c8867cea1758b1de2ed88db81"
-  integrity sha512-ClUKSplAoeVMQntRR+bydS+MziJ8EK44RzELVvNpjtV7L2+1SalafsOw5qo4kL1qcsSh1ZFB2NoO9EzfDSP7/g==
+"@microsoft/api-extractor@7.2.2":
+  version "7.2.2"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-extractor/-/api-extractor-7.2.2.tgz#bb4c61ae3d99950952339075fe6861685b20dfbf"
+  integrity sha512-hSE60reobyp6hpk7MfqCRXUCDeXAYyfbCM1tyZxfT5kSsHuQRQhpFrRh+YvoKIFlo9DDw90GOlcMQBxspp6RAg==
   dependencies:
     "@microsoft/api-extractor-model" "7.2.0"
     "@microsoft/node-core-library" "3.13.0"
