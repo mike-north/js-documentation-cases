@@ -100,10 +100,10 @@
   dependencies:
     "@mike-north/types" "^1.0.7"
 
-"@microsoft/api-documenter@7.3.5":
-  version "7.3.5"
-  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-7.3.5.tgz#21ddc5f3fcc22b6741df27eee3cdace7c0f41b95"
-  integrity sha512-RtU8stkOtAhZ1DqWMe1cNH8VpW1LqwNkiUDDyPjUYEyimcSmCj/qWUmOwNsg8zJ60iy/3LEHuwzKTJNfoRa31A==
+"@microsoft/api-documenter@7.3.6":
+  version "7.3.6"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-7.3.6.tgz#c3071fb99a8fddf8e3697e4d50176f69a2b0d0d4"
+  integrity sha512-qtxHEgYJj3WoVq0x7AY8vgvUwEUKg4kAs7+La6Z7+XtuA5exr7gAApZqfTgA3nQhdN45azuzikwO8n3mthgoog==
   dependencies:
     "@microsoft/api-extractor-model" "7.2.0"
     "@microsoft/node-core-library" "3.13.0"
