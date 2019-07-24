@@ -100,15 +100,15 @@
   dependencies:
     "@mike-north/types" "^1.0.7"
 
-"@microsoft/api-documenter@7.3.8":
-  version "7.3.8"
-  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-7.3.8.tgz#5c66a4950488c1b8a89e517fda8b61bc5129fdf7"
-  integrity sha512-MlkOfqt4TYnccj49IXpsEp2ECx59n1hpPblwOrBJww8ImxPqXvScssu3g9VgtVaB0kxHm0NvR6n82CYmahc0aQ==
+"@microsoft/api-documenter@7.3.11":
+  version "7.3.11"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-7.3.11.tgz#9007aafb18e03306eaf9a869cf32d84ba3e45b8e"
+  integrity sha512-fXRabmeCZO4pe3qT479jDv+6dH7gTRw1dB9uMdHlYiCoTUyH67Ab0rkM1h6jvMG74KjDWSbsrltoveO2qyzxig==
   dependencies:
-    "@microsoft/api-extractor-model" "7.2.0"
+    "@microsoft/api-extractor-model" "7.3.0"
     "@microsoft/node-core-library" "3.13.0"
     "@microsoft/ts-command-line" "4.2.6"
-    "@microsoft/tsdoc" "0.12.9"
+    "@microsoft/tsdoc" "0.12.10"
     colors "~1.2.1"
     js-yaml "~3.13.1"
 
@@ -119,6 +119,15 @@
   dependencies:
     "@microsoft/node-core-library" "3.13.0"
     "@microsoft/tsdoc" "0.12.9"
+    "@types/node" "8.5.8"
+
+"@microsoft/api-extractor-model@7.3.0":
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-extractor-model/-/api-extractor-model-7.3.0.tgz#2eab0a3272f40821f1b81deffdca5f6e311b2451"
+  integrity sha512-GfRaGz6d8fPhMOG70l2zS1s6Z8rCxcTHnwfVjb+6ln25eB4fN/jeDRlLKot+HOsVcbxvVseoeB0ZQL9nIsfbXw==
+  dependencies:
+    "@microsoft/node-core-library" "3.13.0"
+    "@microsoft/tsdoc" "0.12.10"
     "@types/node" "8.5.8"
 
 "@microsoft/api-extractor@7.2.3":
@@ -164,6 +173,11 @@
   version "0.12.10"
   resolved "https://registry.yarnpkg.com/@microsoft/tsdoc/-/tsdoc-0.12.10.tgz#c0e2c875c24a21da6d345d09189f5df4a1801d82"
   integrity sha512-tsog/HTdM88/WyR0Jz7XWTI0ghbJkt9soFXnQJrINDyaTGzbCoJjRttaW/IY5eAp4eqDyfg++jq6o+byEDOkIQ==
+
+"@microsoft/tsdoc@0.12.11":
+  version "0.12.11"
+  resolved "https://registry.yarnpkg.com/@microsoft/tsdoc/-/tsdoc-0.12.11.tgz#b1384eb544f39e37c4fd5a68b9cbaf5e70739ca9"
+  integrity sha512-CXAEl/mTBkr+KcX/+Xi7wbNBnofZ1p2UwYbaJ+zwcVMCWQTMsheqkOwPM3BQ7J6uOacxwxO6rBRDjQqBdfe8dQ==
 
 "@microsoft/tsdoc@0.12.9":
   version "0.12.9"
