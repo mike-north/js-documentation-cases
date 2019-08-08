@@ -100,15 +100,15 @@
   dependencies:
     "@mike-north/types" "^1.0.7"
 
-"@microsoft/api-documenter@7.3.11":
-  version "7.3.11"
-  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-7.3.11.tgz#9007aafb18e03306eaf9a869cf32d84ba3e45b8e"
-  integrity sha512-fXRabmeCZO4pe3qT479jDv+6dH7gTRw1dB9uMdHlYiCoTUyH67Ab0rkM1h6jvMG74KjDWSbsrltoveO2qyzxig==
+"@microsoft/api-documenter@7.3.13":
+  version "7.3.13"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-7.3.13.tgz#f0bb3a595e8e0939b03e4545731f6d977b2f17f9"
+  integrity sha512-f3lFKHwYdHtDjs3ufK6m0GLJPxYZbNHuSB+gJ7H4tjdaxLTjywtBsG6uJsPH6aKQfA0fn0BFO92v85OzPmmtPQ==
   dependencies:
-    "@microsoft/api-extractor-model" "7.3.0"
+    "@microsoft/api-extractor-model" "7.3.1"
     "@microsoft/node-core-library" "3.13.0"
     "@microsoft/ts-command-line" "4.2.6"
-    "@microsoft/tsdoc" "0.12.10"
+    "@microsoft/tsdoc" "0.12.12"
     colors "~1.2.1"
     js-yaml "~3.13.1"
 
@@ -121,13 +121,13 @@
     "@microsoft/tsdoc" "0.12.9"
     "@types/node" "8.5.8"
 
-"@microsoft/api-extractor-model@7.3.0":
-  version "7.3.0"
-  resolved "https://registry.yarnpkg.com/@microsoft/api-extractor-model/-/api-extractor-model-7.3.0.tgz#2eab0a3272f40821f1b81deffdca5f6e311b2451"
-  integrity sha512-GfRaGz6d8fPhMOG70l2zS1s6Z8rCxcTHnwfVjb+6ln25eB4fN/jeDRlLKot+HOsVcbxvVseoeB0ZQL9nIsfbXw==
+"@microsoft/api-extractor-model@7.3.1":
+  version "7.3.1"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-extractor-model/-/api-extractor-model-7.3.1.tgz#60da6b1aa1515881e63204e6417c09a13a44d30f"
+  integrity sha512-1HlhnAYCkc7tPrDFq7s5WpZGEn/NPhpchep6761BMhshN7HIVWKJrmnsEIsjGh6wMOgCF/l9a0q1k4xWRyVgZQ==
   dependencies:
     "@microsoft/node-core-library" "3.13.0"
-    "@microsoft/tsdoc" "0.12.10"
+    "@microsoft/tsdoc" "0.12.12"
     "@types/node" "8.5.8"
 
 "@microsoft/api-extractor@7.2.3":
@@ -169,20 +169,20 @@
     argparse "~1.0.9"
     colors "~1.2.1"
 
-"@microsoft/tsdoc@0.12.10":
-  version "0.12.10"
-  resolved "https://registry.yarnpkg.com/@microsoft/tsdoc/-/tsdoc-0.12.10.tgz#c0e2c875c24a21da6d345d09189f5df4a1801d82"
-  integrity sha512-tsog/HTdM88/WyR0Jz7XWTI0ghbJkt9soFXnQJrINDyaTGzbCoJjRttaW/IY5eAp4eqDyfg++jq6o+byEDOkIQ==
-
-"@microsoft/tsdoc@0.12.11", "@microsoft/tsdoc@^0.12.4":
-  version "0.12.11"
-  resolved "https://registry.yarnpkg.com/@microsoft/tsdoc/-/tsdoc-0.12.11.tgz#b1384eb544f39e37c4fd5a68b9cbaf5e70739ca9"
-  integrity sha512-CXAEl/mTBkr+KcX/+Xi7wbNBnofZ1p2UwYbaJ+zwcVMCWQTMsheqkOwPM3BQ7J6uOacxwxO6rBRDjQqBdfe8dQ==
+"@microsoft/tsdoc@0.12.12":
+  version "0.12.12"
+  resolved "https://registry.yarnpkg.com/@microsoft/tsdoc/-/tsdoc-0.12.12.tgz#6692f1cbca664f68abbc62f9a26459fba8b9ff28"
+  integrity sha512-5EzH1gHIonvvgA/xWRmVAJmRkTQj/yayUXyr66hFwNZiFE4j7lP8is9YQeXhwxGZEjO1PVMblAmFF0CyjNtPGw==
 
 "@microsoft/tsdoc@0.12.9":
   version "0.12.9"
   resolved "https://registry.yarnpkg.com/@microsoft/tsdoc/-/tsdoc-0.12.9.tgz#f92538bebf649b1b9d00bdd34a9c9971aef17d01"
   integrity sha512-sDhulvuVk65eMppYOE6fr6mMI6RUqs53KUg9deYzNCBpP+2FhR0OFB5innEfdtSedk0LK+1Ppu6MxkfiNjS/Cw==
+
+"@microsoft/tsdoc@^0.12.4":
+  version "0.12.11"
+  resolved "https://registry.yarnpkg.com/@microsoft/tsdoc/-/tsdoc-0.12.11.tgz#b1384eb544f39e37c4fd5a68b9cbaf5e70739ca9"
+  integrity sha512-CXAEl/mTBkr+KcX/+Xi7wbNBnofZ1p2UwYbaJ+zwcVMCWQTMsheqkOwPM3BQ7J6uOacxwxO6rBRDjQqBdfe8dQ==
 
 "@mike-north/js-lib-renovate-config@1.2.0":
   version "1.2.0"
