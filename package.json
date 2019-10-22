@@ -29,8 +29,8 @@
   },
   "devDependencies": {
     "@code-to-json/cli": "1.0.0-rc.42",
-    "@microsoft/api-documenter": "7.5.2",
-    "@microsoft/api-extractor": "7.5.1",
+    "@microsoft/api-documenter": "7.5.3",
+    "@microsoft/api-extractor": "7.5.2",
     "@microsoft/tsdoc": "0.12.14",
     "@mike-north/js-lib-renovate-config": "1.2.0",
     "@semantic-release/git": "7.0.16",
