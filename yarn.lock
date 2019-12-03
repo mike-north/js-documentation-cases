@@ -107,12 +107,12 @@
   dependencies:
     "@mike-north/types" "^1.0.7"
 
-"@microsoft/api-documenter@7.7.0":
-  version "7.7.0"
-  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-7.7.0.tgz#79ec968de74bf4cbbbc89fba07b2b2b0b48164eb"
-  integrity sha512-iSrwXku3/65Qo+DvfGpS0sBbi0g0gHxjucWLjBIEXpfK3qucV2al/mcj0RR6kTHRf9LOJrnRmvOoXgjzj85OAQ==
+"@microsoft/api-documenter@7.7.1":
+  version "7.7.1"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-7.7.1.tgz#b1e7c66b4fdcac744429125421e3fd1a3e904616"
+  integrity sha512-vywudwHOrix7mGAwiluRnV2X8zjIFtduZbaEarhrZfFWhZx6uR9503YrEr9x+B6jW84oeRtdSkjyXvSoDfeBLg==
   dependencies:
-    "@microsoft/api-extractor-model" "7.6.0"
+    "@microsoft/api-extractor-model" "7.7.0"
     "@microsoft/node-core-library" "3.18.0"
     "@microsoft/ts-command-line" "4.3.5"
     "@microsoft/tsdoc" "0.12.14"
@@ -124,6 +124,14 @@
   version "7.6.0"
   resolved "https://registry.yarnpkg.com/@microsoft/api-extractor-model/-/api-extractor-model-7.6.0.tgz#0cac9ae4fc94f168166e9383f18b39b6aa0826f8"
   integrity sha512-7gtxCxUMLDv3k1NE7MCaUaQeAwH5dEt/vjnq22cOUiCfiYOxdrvolab+WIXSNKV6rhe+AnIovR9tkxtxw5OiYA==
+  dependencies:
+    "@microsoft/node-core-library" "3.18.0"
+    "@microsoft/tsdoc" "0.12.14"
+
+"@microsoft/api-extractor-model@7.7.0":
+  version "7.7.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-extractor-model/-/api-extractor-model-7.7.0.tgz#a5e86a638fa3fea283aeebc4785d8150652f30c6"
+  integrity sha512-9yrSr9LpdNnx7X8bXVb/YbcQopizsr43McAG7Xno5CMNFzbSkmIr8FJL0L+WGfrSWSTms9Bngfz7d1ScP6zbWQ==
   dependencies:
     "@microsoft/node-core-library" "3.18.0"
     "@microsoft/tsdoc" "0.12.14"
@@ -170,12 +178,7 @@
   resolved "https://registry.yarnpkg.com/@microsoft/tsdoc/-/tsdoc-0.12.14.tgz#0e0810a0a174e50e22dfe8edb30599840712f22d"
   integrity sha512-518yewjSga1jLdiLrcmpMFlaba5P+50b0TWNFUpC+SL9Yzf0kMi57qw+bMl+rQ08cGqH1vLx4eg9YFUbZXgZ0Q==
 
-"@microsoft/tsdoc@0.12.15":
-  version "0.12.15"
-  resolved "https://registry.yarnpkg.com/@microsoft/tsdoc/-/tsdoc-0.12.15.tgz#1e4d4d133e49f527e0fdeb01c50d3b5e6196c1b9"
-  integrity sha512-m5lmb/xFsWXyXZzWGps6HR+4itbmEBecr8ec/PO/N68mLgyAOo2TPgSKgz4DV6WHhrQxflWzReNpDA6DIupdxQ==
-
-"@microsoft/tsdoc@^0.12.4":
+"@microsoft/tsdoc@0.12.16", "@microsoft/tsdoc@^0.12.4":
   version "0.12.16"
   resolved "https://registry.yarnpkg.com/@microsoft/tsdoc/-/tsdoc-0.12.16.tgz#13869988581fddbdfdbcb92e26edc955fc6e00ca"
   integrity sha512-SX8JNEVy6U5+56aQnQB8A2XK+WSF//b0kBa6KqxE48pcccqVuIu1ePAR/EWd1cQB6zWv26QIY5uv/++qm+Z3Mw==
