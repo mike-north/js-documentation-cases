@@ -47,7 +47,7 @@
     "fs-extra": "8.0.1",
     "handlebars": "4.1.2",
     "jsdoc": "3.6.1",
-    "scripty": "1.8.0",
+    "scripty": "1.9.1",
     "semantic-release": "15.13.30",
     "ts-docs-gen": "0.2.0",
     "ts-jsdoc": "3.1.1",
