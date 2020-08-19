@@ -33,7 +33,7 @@
     "@microsoft/api-extractor": "7.8.15",
     "@microsoft/tsdoc": "0.12.20",
     "@mike-north/js-lib-renovate-config": "1.2.0",
-    "@semantic-release/git": "7.0.18",
+    "@semantic-release/git": "9.0.0",
     "@types/commander": "2.12.2",
     "@types/fs-extra": "7.0.0",
     "@types/handlebars": "4.0.40",
