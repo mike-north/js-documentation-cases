@@ -28,15 +28,15 @@
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.11.3.tgz#9e1eae46738bcd08e23e867bab43e7b95299a8f9"
   integrity sha512-REo8xv7+sDxkKvoxEywIdsNFiZLybwdI7hcT5uEPyQrSMB4YQ973BfC9OOrD/81MaIjh6UxdulIQXkjmiH3PcA==
 
-"@code-to-json/cli@1.0.0-rc.42":
-  version "1.0.0-rc.42"
-  resolved "https://registry.yarnpkg.com/@code-to-json/cli/-/cli-1.0.0-rc.42.tgz#3ba8161dc4d68eeed509f5aec2dd9be00d47fd40"
-  integrity sha512-XZZto+CQS/mzkBWCyUtTVhlizU7ZLK0eEnybW/fshyPS9mQkx5xDS4l5/LACJhZUkKEn2TeE3ENyMkcYP87evA==
+"@code-to-json/cli@1.0.0-rc.60":
+  version "1.0.0-rc.60"
+  resolved "https://registry.yarnpkg.com/@code-to-json/cli/-/cli-1.0.0-rc.60.tgz#6ea740b3c14feafcd6f05a91c47f9985ae32dc75"
+  integrity sha512-o5LwF8ix+41mm6UbYIi9ee0GbWx+SljmIqfKSwDRqn/h0sYdJ8SaKa8LMCE9hocGhEtVzXsHvFdTytjtatNw3A==
   dependencies:
-    "@code-to-json/core" "^1.0.0-rc.39"
-    "@code-to-json/formatter" "^1.0.0-rc.41"
-    "@code-to-json/utils" "^1.0.0-rc.26"
-    "@code-to-json/utils-node" "^1.0.0-rc.34"
+    "@code-to-json/core" "^1.0.0-rc.57"
+    "@code-to-json/formatter" "^1.0.0-rc.59"
+    "@code-to-json/utils" "^1.0.0-rc.41"
+    "@code-to-json/utils-node" "^1.0.0-rc.52"
     "@mike-north/types" "^1.0.7"
     chalk "^2.4.1"
     commander "^2.19.0"
@@ -44,7 +44,7 @@
     glob "^7.1.3"
     import-local "^2.0.0"
     left-pad "^1.3.0"
-    typescript "^3.1.0"
+    typescript "^3.4.3"
 
 "@code-to-json/comments@^1.0.0-rc.47":
   version "1.0.0-rc.47"
@@ -56,7 +56,7 @@
     "@mike-north/types" "^1.0.7"
     debug "^4.1.0"
 
-"@code-to-json/core@^1.0.0-rc.39", "@code-to-json/core@^1.0.0-rc.57":
+"@code-to-json/core@^1.0.0-rc.57":
   version "1.0.0-rc.57"
   resolved "https://registry.yarnpkg.com/@code-to-json/core/-/core-1.0.0-rc.57.tgz#35c6d7d366b8d74f4611a52b4cfd522f6b91c4a0"
   integrity sha512-qLo5M4eaWWrsSJdxqCsjgFo26Fzk1E4AhlzT50aFrRCYiF02KYhaucLpm/yWTwG1wp2wyHIMah5VXAG2K2TJlg==
@@ -68,7 +68,7 @@
     debug "^4.0.0"
     typescript "^3.4.3"
 
-"@code-to-json/formatter@^1.0.0-rc.41":
+"@code-to-json/formatter@^1.0.0-rc.59":
   version "1.0.0-rc.59"
   resolved "https://registry.yarnpkg.com/@code-to-json/formatter/-/formatter-1.0.0-rc.59.tgz#fea7e0e3da2bb55f6668cf5d87a75a6619381a95"
   integrity sha512-U6eHU++QaxLQZGLxLHjmbw5KKqlNxVJPtSn+X2F2/Oe1m2Llxrylm8/4lsVL1XB9Nvq8uvucn75hHml6w6J5xg==
@@ -77,7 +77,7 @@
     "@code-to-json/utils" "^1.0.0-rc.41"
     "@mike-north/types" "^1.0.7"
 
-"@code-to-json/utils-node@^1.0.0-rc.34":
+"@code-to-json/utils-node@^1.0.0-rc.52":
   version "1.0.0-rc.52"
   resolved "https://registry.yarnpkg.com/@code-to-json/utils-node/-/utils-node-1.0.0-rc.52.tgz#824d24db169b84bf77c5aae5b075dba62bb96596"
   integrity sha512-hkwUPX/e25G85mXp9itv4iV3qRsWz7PuYULLthIqmHLX3Ef0xpd0wa5HwLVBrpqs9dXgjJp9RGG2S09AnGlakg==
@@ -98,7 +98,7 @@
     "@mike-north/types" "^1.0.7"
     typescript "^3.4.3"
 
-"@code-to-json/utils@^1.0.0-rc.26", "@code-to-json/utils@^1.0.0-rc.41":
+"@code-to-json/utils@^1.0.0-rc.41":
   version "1.0.0-rc.41"
   resolved "https://registry.yarnpkg.com/@code-to-json/utils/-/utils-1.0.0-rc.41.tgz#45c0ff73066d01d1a8fb1d4dc4d2c33af0307339"
   integrity sha512-qNYS2wnbaMr12uAtkEoxrG/LAVdoerpZ6SlAzNDykUP9zK/4kx5ji983FmVRWZsFua5KG1oBUMAiZ3gLHOoDIg==
@@ -6840,7 +6840,7 @@ typescript@^2.7.1, typescript@^2.8.3:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.9.2.tgz#1cbf61d05d6b96269244eb6a3bce4bd914e0f00c"
   integrity sha512-Gr4p6nFNaoufRIY4NMdpQRNmgxVIGMs4Fcu/ujdYk3nAZqk7supzBE9idmvfZIlH/Cuj//dvi+019qEue9lV0w==
 
-typescript@^3.1.0, typescript@^3.4.3:
+typescript@^3.4.3:
   version "3.9.7"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.7.tgz#98d600a5ebdc38f40cb277522f12dc800e9e25fa"
   integrity sha512-BLbiRkiBzAwsjut4x/dsibSTB6yWpwT5qWmC2OfuCg3GgVQCSgMs4vEctYPhsaGtd0AeuuHMkjZ2h2WG8MSzRw==
