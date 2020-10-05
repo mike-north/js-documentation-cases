@@ -253,10 +253,10 @@
     mkdirp "^0.5.1"
     rimraf "^2.5.2"
 
-"@microsoft/api-documenter@7.9.2":
-  version "7.9.2"
-  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-7.9.2.tgz#575832d0452b3ac09cba1f361a7c737e26f9eba6"
-  integrity sha512-RoS9BPoFMTtITWwbDBJFC3Zq6QW4Nnjb04JjXEU25YSiuukXaa1s6Gyb1jfqv5Qq490vDmrUFDjpceYkLVZXwA==
+"@microsoft/api-documenter@7.9.5":
+  version "7.9.5"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-7.9.5.tgz#5453ad087da19aaff1a9c570643924be59ea26c8"
+  integrity sha512-Ki3RLMlKYRal2llFJq7KV0yx+wU1dYd4D918smUAdvEA+KAU/6dWHmDLEUroRKrhvZVrHYP7YHl3yG8URDXSVQ==
   dependencies:
     "@microsoft/api-extractor-model" "7.10.1"
     "@microsoft/tsdoc" "0.12.19"
@@ -274,15 +274,15 @@
     "@microsoft/tsdoc" "0.12.19"
     "@rushstack/node-core-library" "3.34.1"
 
-"@microsoft/api-extractor@7.10.1":
-  version "7.10.1"
-  resolved "https://registry.yarnpkg.com/@microsoft/api-extractor/-/api-extractor-7.10.1.tgz#6b5b293c59a94b5b4516a8e3c8fb8ac31fb0e4fd"
-  integrity sha512-hJfwdaLXI/Crq4gH9yzLFwOY/uCwdXerqp3cBq27zxb773LXv88mhnhCehnce7eHMqhKXgPSPgVBf/Zfla9skw==
+"@microsoft/api-extractor@7.10.2":
+  version "7.10.2"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-extractor/-/api-extractor-7.10.2.tgz#3879f0308685eb9304b7b38d3bbba551bd2d7d13"
+  integrity sha512-qxJnC0NRmOnEeWNVtcnmL9PjHcC9TwbWGTRx+q8cSA4+oldN6hgY62NuozwDbwnUgYug/37w+/8gT7dD6IjmRg==
   dependencies:
     "@microsoft/api-extractor-model" "7.10.1"
     "@microsoft/tsdoc" "0.12.19"
     "@rushstack/node-core-library" "3.34.1"
-    "@rushstack/rig-package" "0.2.1"
+    "@rushstack/rig-package" "0.2.2"
     "@rushstack/ts-command-line" "4.7.1"
     colors "~1.2.1"
     lodash "~4.17.15"
@@ -461,10 +461,10 @@
     timsort "~0.3.0"
     z-schema "~3.18.3"
 
-"@rushstack/rig-package@0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@rushstack/rig-package/-/rig-package-0.2.1.tgz#45437a88444eb65a825f9cc93f3cd228d4b47934"
-  integrity sha512-B1JQ6lF8mg8MfRCki8XML6bs2qPCS0AX83enEZ3lSZdI8nVdFe7PumS03dpN3MXElbNiuqlJpECXo9sSKEzcyg==
+"@rushstack/rig-package@0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@rushstack/rig-package/-/rig-package-0.2.2.tgz#acd838935176585341f6054ceb553e89f60051f3"
+  integrity sha512-PHq+Q+iLKPGTsBB5Fp3OHOjl5Nd/t2NwJy8z1HtLRP4AiWR/57MiEXterFuGVQYG8xBWQDx+DhYHDbO26lteBQ==
   dependencies:
     "@types/node" "10.17.13"
     resolve "~1.17.0"
