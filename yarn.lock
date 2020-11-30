@@ -253,10 +253,10 @@
     mkdirp "^0.5.1"
     rimraf "^2.5.2"
 
-"@microsoft/api-documenter@7.11.0":
-  version "7.11.0"
-  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-7.11.0.tgz#ea09d22647a7585be9fc396cd707043f8ab1fa77"
-  integrity sha512-PT2cg5Lii7v7WJC/Xlm+4onpwT5NL2rj6dXuBOJzDLd5YO6QvEEoFZWPkdrMfcR3OWwrRZ9PaCxQ/nF3SSkaIA==
+"@microsoft/api-documenter@7.11.1":
+  version "7.11.1"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-7.11.1.tgz#6660c9559d013a8b56b441af9914db455c6f89d3"
+  integrity sha512-M+1RAJgOH1EUzie+98siHwdzF/eSA9EYHbIxHrCBMV+opUv7J2iMob1DVF2cX6JrjXoIMyNjepOZiq8FsjHn/g==
   dependencies:
     "@microsoft/api-extractor-model" "7.12.0"
     "@microsoft/tsdoc" "0.12.19"
@@ -296,12 +296,7 @@
   resolved "https://registry.yarnpkg.com/@microsoft/tsdoc/-/tsdoc-0.12.19.tgz#2173ccb92469aaf62031fa9499d21b16d07f9b57"
   integrity sha512-IpgPxHrNxZiMNUSXqR1l/gePKPkfAmIKoDRP9hp7OwjU29ZR8WCJsOJ8iBKgw0Qk+pFwR+8Y1cy8ImLY6e9m4A==
 
-"@microsoft/tsdoc@0.12.21":
-  version "0.12.21"
-  resolved "https://registry.yarnpkg.com/@microsoft/tsdoc/-/tsdoc-0.12.21.tgz#1098c393634826ed47386862a1241ce8b7c0cf0d"
-  integrity sha512-j+9OJ0A0buZZaUn6NxeHUVpoa05tY2PgVs7kXJhJQiKRB0G1zQqbJxer3T7jWtzpqQWP89OBDluyIeyTsMk8Sg==
-
-"@microsoft/tsdoc@^0.12.4":
+"@microsoft/tsdoc@0.12.22", "@microsoft/tsdoc@^0.12.4":
   version "0.12.22"
   resolved "https://registry.yarnpkg.com/@microsoft/tsdoc/-/tsdoc-0.12.22.tgz#dfd3b739d87d4f59d3d7b5b5a593705c1c1e91e4"
   integrity sha512-CAHpI8CR0SaoIxDqw4BydOW9odti6AWfYYADil6/0h1TjUBNpMTrcbSVo96Kr4aiyGDHsDPmn7VRU+jfN9e7ow==
