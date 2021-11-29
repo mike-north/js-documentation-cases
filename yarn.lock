@@ -524,9 +524,9 @@
   integrity sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==
 
 "@types/node@*", "@types/node@>= 8":
-  version "16.11.9"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.9.tgz#879be3ad7af29f4c1a5c433421bf99fab7047185"
-  integrity sha512-MKmdASMf3LtPzwLyRrFjtFFZ48cMf8jmX5VRYrDQiJa8Ybu5VAmkqBWqKU8fdCwD8ysw4mQ9nrEHvzg6gunR7A==
+  version "16.11.10"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.10.tgz#2e3ad0a680d96367103d3e670d41c2fed3da61ae"
+  integrity sha512-3aRnHa1KlOEEhJ6+CvyHKK5vE9BcLGjtUpwvqYLRvYNQKMfabu3BwfJaA/SLW8dxe28LsNDjtHwePTuzn3gmOA==
 
 "@types/node@10.14.22":
   version "10.14.22"
@@ -1249,9 +1249,9 @@ cli-table3@^0.5.0, cli-table3@^0.5.1:
     colors "^1.1.2"
 
 cli-table@^0.3.1:
-  version "0.3.8"
-  resolved "https://registry.yarnpkg.com/cli-table/-/cli-table-0.3.8.tgz#d3629cbf893459a8ad99671554e702a1c6d48a01"
-  integrity sha512-5IO15fJRzgM+hHZjvQlqD6UPRuVGWR4Ny5ZzaM5VJxJEQqSIEVyVh9dMAUN6CBAVfMc4/6CFEzbhnRftLRCyug==
+  version "0.3.9"
+  resolved "https://registry.yarnpkg.com/cli-table/-/cli-table-0.3.9.tgz#c0570b079296608a31761a67d9af9841dbee8300"
+  integrity sha512-7eA6hFtAZwVx3dWAGoaBqTrzWko5jRUFKpHT64ZHkJpaA3y5wf5NlLjguqTRmqycatJZiwftODYYyGNLbQ7MuA==
   dependencies:
     colors "1.0.3"
     strip-ansi "^6.0.1"
@@ -1639,9 +1639,9 @@ debug@3.1.0:
     ms "2.0.0"
 
 debug@4, debug@^4.0.0, debug@^4.1.0:
-  version "4.3.2"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.2.tgz#f0a49c18ac8779e31d4a0c6029dfb76873c7428b"
-  integrity sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==
+  version "4.3.3"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.3.tgz#04266e0b70a98d4462e6e288e38259213332b664"
+  integrity sha512-/zxw5+vh1Tfv+4Qn7a5nsbcJKPaSvCDhojn6FEl9vupwK2VCSDtEiEtqr8DFtzYFOdz63LBkxec7DYuc2jon6Q==
   dependencies:
     ms "2.1.2"
 
@@ -4143,9 +4143,9 @@ marked@^0.7.0:
   integrity sha512-c+yYdCZJQrsRjTPhUx7VKkApw9bwDkNbHUKo1ovgcfDjb2kc8rLuRbIFyXL5WOEUwzSSKo3IXpph2K6DqB/KZg==
 
 "marked@~ 4.0.3":
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-4.0.4.tgz#d7cb16adaa474291307c521824c5716d32b95c36"
-  integrity sha512-d8v7SensuOj+gxi0TGbqb2WtS60ycZfZuqtmAB9yz0JLotKerTob/47Qk9oLCDmn5G1dcdn3d5ydR+ih9dvS0A==
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-4.0.5.tgz#85f46937f6a4616de7cbe0e1433e1640c320c729"
+  integrity sha512-eUToMA5d5lunnipkCN7zFD0RiunCF2Uo6bImEt/Qx8LZMW7oPXTw7R+f+M5V3eS7164HjEDPfW8/TrefuFhDfw==
 
 mdn-links@^0.1.0:
   version "0.1.0"
