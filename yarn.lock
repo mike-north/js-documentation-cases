@@ -794,10 +794,10 @@ assert-plus@^0.1.5:
   resolved "https://registry.yarnpkg.com/assert-plus/-/assert-plus-0.1.5.tgz#ee74009413002d84cec7219c6ac811812e723160"
   integrity sha1-7nQAlBMALYTOxyGcasgRgS5yMWA=
 
-async@^2.6.1:
-  version "2.6.3"
-  resolved "https://registry.yarnpkg.com/async/-/async-2.6.3.tgz#d72625e2344a3656e3a3ad4fa749fa83299d82ff"
-  integrity sha512-zflvls11DCy+dQWzTW2dzuilv8Z5X/pjfmZOWba6TNIVDm+2UDaJmXSOXlasHKfNBs8oo3M0aT50fDEWfKZjXg==
+async@^2.6.4:
+  version "2.6.4"
+  resolved "https://registry.yarnpkg.com/async/-/async-2.6.4.tgz#706b7ff6084664cd7eae713f6f965433b5504221"
+  integrity sha512-mzo5dfJYwAn29PeiJ0zvwTo04zj8HDJj0Mn8TD7sno7q12prdbnasKJHhkm2c1LgrhlJ0teaea8860oxi51mGA==
   dependencies:
     lodash "^4.17.14"
 
@@ -5731,12 +5731,12 @@ sax@^1.1.4:
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
 
-scripty@1.9.1:
-  version "1.9.1"
-  resolved "https://registry.yarnpkg.com/scripty/-/scripty-1.9.1.tgz#538d12ad816b564584b4b787800f6567bb97c84a"
-  integrity sha512-zsQlz4mxQz7EqvoWTobcNsVS8uv1nrk5IME62QHDSwazxclNUqjGdMF4ZI7nWgKSBFQFWCKGwRFJjfzSJj9ERQ==
+scripty@2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/scripty/-/scripty-2.1.1.tgz#41a9fb1472c042a4a631780df81dff079cdf8b15"
+  integrity sha512-yAutoO7+MfJcc7UAjAOp1CNbAI6GhxXYB63yFLEJe80BY1VkKQWrJ2xrdd57rh/UBnUIKmO31hzKUHWGxIupbA==
   dependencies:
-    async "^2.6.1"
+    async "^2.6.4"
     glob "^7.0.3"
     lodash "^4.17.11"
     resolve-pkg "^1.0.0"
