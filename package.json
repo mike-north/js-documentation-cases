@@ -46,7 +46,7 @@
     "esdoc-typescript-plugin": "1.0.1",
     "fs-extra": "8.1.0",
     "handlebars": "4.7.7",
-    "jsdoc": "3.6.1",
+    "jsdoc": "4.0.4",
     "scripty": "1.9.1",
     "semantic-release": "15.13.30",
     "ts-docs-gen": "0.2.0",
